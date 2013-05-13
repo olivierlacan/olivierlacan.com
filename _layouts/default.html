@@ -9,8 +9,13 @@
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
 
+        <!-- Fonts CSS -->
+        <link rel="stylesheet" href="/css/fonts.css">
+
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
+
+        <link rel="stylesheet" href="/css/pygments.css">
 
     </head>
     <body>
@@ -19,29 +24,23 @@
           <div class="site">
             <div class="header">
               <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-              <a href="/talks.html">talks</a>
+              <nav>
+                <ul>
+                    <li><a class="extra" href="/">home</a></li>
+                    <li><a href="/talks.html">talks</a></li>
+                    <li><a href="/tools.html">tools</a></li>
+                </ul>
+              </nav>
             </div>
      
                 {{ content }}
 
             <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
-              </div>
             </div>
           </div>
         </div> <!-- /container -->
 
+    <script type="text/javascript" src="//use.typekit.net/acy8jpd.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     </body>
 </html>
