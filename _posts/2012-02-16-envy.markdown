@@ -1,0 +1,45 @@
+---
+layout: post
+title: "Envy"
+date: 2012-02-16 14:27
+comments: true
+categories: life
+---
+
+I joined Envy Labs a month ago today. It has been the most fulfilling four weeks of my professional life. So forgive me while I reflect on how I got there. Maybe this can be an example of what reaching outside of your comfort zone can result in for people who aspire to make things for a living.
+
+## Seeds
+The first time I ever heard of Envy was through a young social game called Gowalla. I lived in East Orlando at the time and since very few spots had been "created" in the area, I took it upon myself to correct that, hoping that it would allow me to amass riches of badges, icons and other virtual carrots.
+
+There were a few people I regularly saw in the list of recently checked-in at some popular spots in the area, and then there was Gregg Pollack. With his double set of double consonants, this guy seemed to be everywhere. I discovered by snooping his profile that he was in possession of badges (or pins) I had never heard of before. One of them -- "Code Monkey" -- was awarded to people who had checked in at an impressive amount of startups or tech company headquarters. Color me intrigued and envious.
+
+One click on the URL listed under his profile and I discovered a colorful website with tons of personality describing a then young web development consultancy. From what I could gather, these guys were actually from Orlando. I was impressed. I had no idea – at the time – that there even was the semblance of a serious tech scene in central Florida, let alone Orlando.
+
+## Happenstance
+A few months passed and after thousands of drive-by checkins and an ever increasing addiction to Gowalla and the virtual copies of Zeldman & Vaynerchuk books it awarded me, I found myself in Miami for the Future of Web Apps conference put on by Carsonified. While I was strolling around with friends from Full Sail trying to creep up on Dan Benjamin – whose [5by5 network](http://5by5.tv) was barely blossoming at the time – I noticed a bunch of guys [sitting nearby](http://www.flickr.com/photos/brupm-photos/4386430710/in/photostream/). One of them looked a little too much like my Gowalla Nemesis for it to be a coincidence, and I therefore decided to introduce myself to him by using that very moniker: 
+
+> "Hi, I believe you're my nemesis on Gowalla...".
+
+He looked at me like I was insane for a second, paused, and then giggled after – I assume – remembering that he had seen my mug around East Orlando's Gowalla Elite as well. I doubt Gregg realized it at the time, but I had been trying to break the ice with some of the shut-in types at the conference for a while, with very little success until then. And while I was still glowing in the satisfaction of my ballsy self-introduction, I forgot to foresee that this was to be one of the key moments of my life.
+
+The conference went on, things were learned, bladders were maimed, and deep conversations were exchanged on the invaded roof lounge of an overly loud South Beach bar. I then came back to Orlando and failed an introduction to programming class for the second time because I chose much needed sleep over cramming for the following day's final exam. And even that proved worthwhile.
+
+## Opportunity
+[BarCamp Orlando](http://barcamporlando.org) was scheduled several weeks later and Gregg was interested in getting some Full Sail students to attend so we met over lunch to discuss that and he gave us – cleverCode, a little company I had co-founded with my friend Zach Nicoll from Full Sail – the opportunity to revamp a site called [Ruby Heroes](http://rubyheroes.com) which had been used the previous year to reward the unsung contributors of the Ruby community at [RailsConf](http://railsconf.com/). More surprisingly, he offered to pay us, bringing our contingent of paid clients to the whooping number of two. We did a pretty good job for the amount of skills we had at the time and kept in touch over the following year, collaborating on another project with cleverCode later that year.
+
+Ruby Heroes was the first Rails project I ever participated in, as a web designer at the time. I had very little experience with back-end development and even front-end development. When Envy Labs presented the first version of Rails for Zombies in August or September of 2010, I jumped on the occasion to start learning Rails inside and out since the Ruby and Rails community had impressed me deeply with design standards that were much higher than most developer-centric communities I had encountered. But there was something deeper than that. Through a collective focus on educating new users, practicing test-driven development, allowing fast iteration through simple library dependency management, there was just something more sane and thoughtful about that community.
+
+This comes from a science-minded skeptical guy. I had been weary of joining groups and clubs for years and my strong opinions on design and user experience often put me at odds with developers and engineers who often forgot about human beings and ended up caring more about the systems they built than the people they were building them for. 
+
+## Envious
+The group of people that makes up Envy Labs represents to me some of the finest qualities you can look for in builders. Despite my early reservations regarding Code School's potential, they have regularly impressed me by not just doing what's sufficient, but what's best. Screencasts are nice, you can be introduced to a high quantity of concepts in a short amount of time. Practice is better because it's the only true way to hone in a skill. The problem is that while screencasts get you pumped up about a specific topic, there are always good excuses to delay the practice of those newly acquired concepts. Code School meshed those together in a very successful way, honoring its  "Learn by Doing" motto. Doing it this way wasn't the easy way.
+
+Coming from a school like Full Sail, where instructors and course directors are encouraged to practice freelance work in order to maintain their proficiency in modern development skills, an environment like Code School seems like a perfect transition. Full-time designers and developers, some of the best in their field, regularly churning out dense educational content for people who already are in the web industry with some basic knowledge, but who are looking to discover the best practices and techniques used by thoughtful craftspeople.
+
+The working environment at Envy Labs is unlike anything I've ever imagined before I joined the web world a few years ago. I'm familiar with the well documented excesses of trendy startups, but this is no startup. It's a profitable business that was gradually built on hard work. And it focuses on being the best place for a developer or designer to work in –- or out.
+
+What this environment results in is some of the best work I feel I've ever produced. And I'm saying that after a mere four weeks where I haven't produced that many significant things. But a good team isn't necessarily defined by the complete things you work on individually, it's defined by the cumulative efforts of people who feel the confidence of deeply investing themselves into what they do. It's not that easy to trust that if you raise your hand to say something isn't right, somebody will listen and agree to let you fix it. And when this someone responds by fixing that problem themselves because they recognize the value of what you brought up, there is no better token of trust and respect. Which in turns motivates you to pay it forward.
+
+I could fill pages with the thoughtful and enlightening conversations I've had with Thomas, Nate, Chris, Dray, Eric, Gregg, Adam, Aimee, Drew, Mark, Josh, Nick, Violette, Caike, Jennifer, Jason, Matt, Jacob, Tim and Adam. 
+
+And it's only been four weeks. I can't wait to write about the next forty.

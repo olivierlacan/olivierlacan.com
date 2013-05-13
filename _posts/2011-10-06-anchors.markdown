@@ -1,0 +1,51 @@
+---
+layout: post
+title: "Anchors"
+date: 2011-10-06 11:08
+comments: true
+categories: life
+---
+
+Three years ago my grandfather died while I was 7000 kilometers away from him. My friends and I were getting ready for a day of fun. It was my first summer in Florida, my second in the United States.
+
+I had last seen my grandfather in a small hospital not far from where he lived with my grandmother in a very rural part of central France. I say that I saw him but in truth what I saw wasn't anything like him, his eyes were lost, he had lost a considerable amount of weight for a man who never seemed to have an ounce of fat on his bones.
+
+He used to be tall and proud. He was a working man. He was a farmer and a wood carver.
+
+When the phone rang and my mom told me that her dad had died, she sounded broken. That got to me even more than the news did. She's an anchor, and she was loose.
+
+I don't know whether it was a concern for ruining everyone's day or the fact that I was stunned, but it seemed like I felt nothing when I hung up the phone. My friends asked me about the call and I misdirected to avoid telling them what had happened. It was time for us to leave and I was the driver. I decided to go to the bathroom. I opened the door, intent on actually using the bathroom. I closed the door, sat down. Facing me was a mirror projecting my face. In it I saw my mom's pain and despair. I started crying uncontrollably. I was loosing it. I turned on the restroom fan to cover the sound of my whimpers and I starred myself blank in the eye. 
+
+I let the pain take its stab at me. I thought about my grandma and the loneliness she would now have to face living in a hamlet with a population of less than 20. She didn't know how to drive, only he did. She lost her anchor too.
+
+Yesterday, I left work frustrated over something trivial. It had mostly been a good day, but that little thing angered me enough that I needed some fresh air and stimulating company. I drove to my alma mater and sent a few messages around to see if any of my old classmates who currently work in the Web degree there were on campus. 
+
+Adam replied, we had dinner together and talked about my frustration, his fruitful discovery of Ruby on Rails, and he told me he was in charge of a lab at 9PM. I told him I would stick around until then.
+
+After dinner we got back to the faculty offices, he went away for a second and I went to see if some of my favorite instructors and mentors were in the office. I was hoping Edward Almeida – who's in charge in Final Projects – would be there. He was. I could see light emanating from his desk. I put my head above the separator of his workspace and made a silly joke about being "ahead". He didn't smile, he looked weary. He nodded toward his computer screen.
+
+Black on white, the words read:
+
+    Steve Jobs   1955 – 2011
+    
+"Fuck me.", I uttered, and walked away.
+
+Adam came back and asked me if I had heard. I said yes, and made some banal comment about the night being ruined.
+
+Then without agreeing to it, we fell silent. Some people around the office discovered the news in the minutes that followed and were in disbelief. I saw a message from my friend Andrew telling me he was crying and his mother didn't understand why. It was his birthday.
+
+As I am now, I told him I was holding back tears. I felt an overwhelming need for privacy and headed to the office restrooms. I locked the door, sat down, and let the pain have at it once again.
+
+That summer when my grandpa died I bought my first Mac, it was a refurbished MacBook Pro I ordered for a little cheaper online. Half of me had been swayed by the first iPod I bought in 2006 at the 5th Avenue Apple Store in New York City with my friend Clément. The other half wanted to prove all those Mac jerks wrong. I also felt I was at a turning point in my life. I was done with college in Paris and I harbored the foolish hope that I could find a good excuse to work or study in Florida, with which I fell in love the year before.
+
+I was using computers regularly before I was even 10 years old. In 1995 that was still a huge deal, no one at my school owned a computer. My dad bought a beige Compaq anvil for Christmas, sometime before 1994. Since then every computer we had owned was powered by a Microsoft operating system.
+
+We were tinkerers, we made our own machines. Despite the fact that they barely ever worked properly, we were proud of that. I regularly laughed at and had arguments with Mac owners during my teenage years when I became an amateur web designer. They were overly expensive, slower than cheaper Windows machines.
+
+Somewere along the line we didn't realize that what most of those weird Mac people were saying was that they loved their computers. We didn't. We hated our computers. Despised them for crashing constantly and being the antithesis of what a tool should be. Tools should help us make things.
+
+Since that summer of 2008, I've been a proud Mac owner. I own a professional DSLR camera, yet my favorite camera is my iPhone. Most importantly, at the begining of 2009 I moved to the US to design and build things I love. I took the reins. I would not have enrolled to Full Sail University and left my friends and family 7000 kilometers away if it weren't for [these words](http://www.youtube.com/watch?v=D1R-jKKp3NA).
+
+Yesterday I lost another anchor.
+
+![Here's to the Crazy Ones](/images/crazy_ones.png)
