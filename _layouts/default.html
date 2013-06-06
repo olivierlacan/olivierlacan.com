@@ -1,48 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="author" content="{{ site.name }}" />
-        <meta name="description" content="{{ site.description }}" />
-        <meta name="viewport" content="width=device-width">
-        <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.uri.lv/olivierlacan" />
-        {% css_asset_tag global %}
-        - /_assets/stylesheets/main.sass
-        - /_assets/stylesheets/fonts.sass
-        - /_assets/stylesheets/syntax.sass
-        - /_assets/stylesheets/styles.sass
-        {% endcss_asset_tag %}
-    </head>
-    <body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="author" content="{{ site.name }}" />
+    <meta name="description" content="{{ site.description }}" />
+    <meta name="viewport" content="width=device-width">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.uri.lv/olivierlacan" />
+    {% css_asset_tag global %}
+    - /_assets/stylesheets/main.sass
+    - /_assets/stylesheets/fonts.sass
+    - /_assets/stylesheets/syntax.sass
+    - /_assets/stylesheets/styles.sass
+    {% endcss_asset_tag %}
+  </head>
+  <body>
 
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <nav>
-                <ul>
-                    <li><a class="extra" href="/about.html">about</a></li>
-                    <li><a href="/talks.html">talks</a></li>
-                    <li><a href="/tools.html">tools</a></li>
-                </ul>
-              </nav>
-            </div>
-     
-                {{ content }}
+    <div class="container">
+      <div class="site">
+        <div class="header">
+          <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+          <nav>
+            <ul>
+              <li><a class="extra" href="/about.html">about</a></li>
+              <li><a href="/talks.html">talks</a></li>
+              <li><a href="/tools.html">tools</a></li>
+            </ul>
+          </nav>
+        </div>
+ 
+            {{ content }}
 
-            <div class="footer">
-            </div>
-          </div>
-        </div> <!-- /container -->
+        <div class="footer">
+          <p>Don't be shy, come say <a href="mailto:hi@olivierlacan.com">hi@olivierlacan.com</a>.</p>
+        </div>
+      </div>
+    </div> <!-- /container -->
 
-    <!-- Custom JavaScript -->
-    {% javascript_asset_tag global %}
-    - /_assets/scripts/script.coffee
-    {% endjavascript_asset_tag %}
-    <script src="http://embedtweet.com/javascripts/embed_v2.js"></script>
-    <script type="text/javascript" src="//use.typekit.net/acy8jpd.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    </body>
+  {% javascript_asset_tag global %}
+  - /_assets/scripts/script.coffee
+  {% endjavascript_asset_tag %}
+  <script src="http://embedtweet.com/javascripts/embed_v2.js"></script>
+  <script type="text/javascript" src="//use.typekit.net/acy8jpd.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </body>
 </html>
