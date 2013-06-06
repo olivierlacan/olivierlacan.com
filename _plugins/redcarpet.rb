@@ -5,13 +5,14 @@ require 'digest/md5'
 require 'redcarpet'
 require 'albino'
 
-PYGMENTS_CACHE_DIR = File.expand_path('../../_cache', __FILE__)
-FileUtils.mkdir_p(PYGMENTS_CACHE_DIR)
+# already defined in pygments_code.rb
+# Jekyll::PYGMENTS_CACHE_DIR = File.expand_path('../../_cache', __FILE__)
+FileUtils.mkdir_p(Jekyll::PYGMENTS_CACHE_DIR)
 
 class Redcarpet2Markdown < Redcarpet::Render::HTML
   def block_code(code, lang)
     lang = lang || "text"
-    path = File.join(PYGMENTS_CACHE_DIR, "#{lang}-#{Digest::MD5.hexdigest code}.html")
+    path = File.join(Jekyll::PYGMENTS_CACHE_DIR, "#{lang}-#{Digest::MD5.hexdigest code}.html")
     cache(path) do
       colorized = Albino.colorize(code, lang.downcase)
       add_code_tags(colorized, lang)
