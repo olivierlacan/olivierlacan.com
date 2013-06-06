@@ -1,7 +1,7 @@
 class Deploy < Thor
   include Thor::Actions
 
-  desc "deploy", "deploy to GitHub Pages"
+  desc "github", "deploy to GitHub Pages"
   def github
     original_path = Dir.pwd
     deploy_path = "/Users/olivierlacan/Development/perso/olivierlacan.github.com"

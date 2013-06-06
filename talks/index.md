@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: page
 title: Talks
 ---
 
-# Talks
 I now spend [way too much time at conferences](http://lanyrd.com/profile/olivierlacan/) where I occasionally talk about the scientific method applied to development and how to benefit from the incredible tools created by the open source community.
 
 ## [Essential Rails Tool](http://speakerdeck.com/olivierlacan/essential-rails-tools)
