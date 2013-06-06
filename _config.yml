@@ -1,5 +1,5 @@
 name: Bricoleur
-permalink: :title
+permalink: /posts/:title
 pygments: true
 markdown: redcarpet
 redcarpet:
