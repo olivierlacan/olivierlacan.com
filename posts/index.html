@@ -1,0 +1,12 @@
+---
+layout: default
+title: Olivier Lacan - Posts
+---
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a> <time>{{ post.date | date_to_string }}</time></li>
+    {% endfor %}
+  </ul>
+</div>
