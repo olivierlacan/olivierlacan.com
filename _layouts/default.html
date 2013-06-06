@@ -5,17 +5,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
-
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
-        <!-- Fonts CSS -->
-        <link rel="stylesheet" href="/css/fonts.css">
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.uri.lv/olivierlacan" />
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-
-        <link rel="stylesheet" href="/css/pygments.css">
+        {% css_asset_tag global %}
+        - /_assets/stylesheets/main.sass
+        - /_assets/stylesheets/fonts.sass
+        - /_assets/stylesheets/syntax.sass
+        - /_assets/stylesheets/styles.sass
+        {% endcss_asset_tag %}
 
     </head>
     <body>
@@ -40,6 +38,11 @@
           </div>
         </div> <!-- /container -->
 
+    <!-- Custom JavaScript -->
+    {% javascript_asset_tag global %}
+    - /_assets/scripts/script.coffee
+    {% endjavascript_asset_tag %}
+    <script src="http://embedtweet.com/javascripts/embed_v2.js"></script>
     <script type="text/javascript" src="//use.typekit.net/acy8jpd.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     </body>
