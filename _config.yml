@@ -1,4 +1,5 @@
-name: Bricoleur
+name: Olivier Lacan
+description: "Unfettered thoughts of Olivier Lacan. Developer at Code School."
 permalink: /posts/:title
 pygments: true
 markdown: redcarpet
@@ -14,3 +15,8 @@ redcarpet:
     "lax_html_blocks",
     "tables"
   ]
+exclude: [
+    "Gemfile", 
+    "Gemfile.lock", 
+    "deploy.thor"
+]
