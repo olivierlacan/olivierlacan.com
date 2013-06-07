@@ -14,7 +14,7 @@ html
 body
   height: 100%
   background-color: #FFF
-  font: 13.34px "AvenirNextLTPro-Regular", Helvetica, Arial, sans-serif
+  font: 13.34px "AvenirNextLTPro", Helvetica, Arial, sans-serif
   font-size: small
   text-align: center
 
@@ -72,20 +72,30 @@ ul.posts
   .header
     a
       font-weight: bold
-      text-decoration: none
+      border-bottom-width: 0
+
+      &:hover, &:active
+        color: olive
+
     h1.title
       display: inline-block
-      margin-bottom: 2em
+      margin-bottom: 0
       a
-        &:hover
-          color: #000
+        vertical-align: bottom
+        font-size: 1.7em
+        font-style: italic
+        font-weight: bold
+        font-family: "AvenirNextLTPro", Helvetica, Arial, sans-serif
+
   h2
     font-size: 1.6em
     margin-bottom: .5em
+
   .header
     nav
       display: inline-block
       ul
+        margin-bottom: 0
         display: inline-block
         list-style: none
         li
@@ -93,13 +103,12 @@ ul.posts
           display: inline-block
     a.extra
       color: #aaa
-      margin-left: 1em
       &:hover
         color: #000
   .meta
     color: #aaa
   .footer
-    font-size: 80%
+    font-size: 1em
     color: #666
     border-top: 4px solid #eee
     margin-top: 2em
