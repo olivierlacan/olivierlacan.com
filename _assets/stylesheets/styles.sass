@@ -17,6 +17,16 @@
       line-height: 2
 
 .site
+  .draft
+    font-weight: bold
+    text-align: right
+    color: orangered
+    &::before
+      content: "⚠ "
+      font-style: normal
+      font-size: 1.2em
+      vertical-align: bottom
+
   #post, #tool
     font-size: 1.3em
     line-height: 1.5
