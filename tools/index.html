@@ -2,11 +2,12 @@
 layout: tool
 title: Tools
 ---
+<h2>{{ page.title }}</h2>
 
-<div id="home">
+<div id="post">
   <p>This little guide will hopefully give you some good tools to get started or improve your existing Mac workflow. Since I'm a web developer, this is mostly centered around that. Send me a toodle if you think I'm missing a wonderful app or service in here.</p>
 
-  <h2>News</h2>
+  <h3>News</h3>
   <ul class="tools">
     {% for page in site.pages %}
       {% if page.layout == 'tool' %}
@@ -17,7 +18,7 @@ title: Tools
     {% endfor %}
   </ul>
 
-  <h2>Editors</h2>
+  <h3>Editors</h3>
   <ul class="tools">
     {% for page in site.pages %}
       {% if page.layout == 'tool' %}
@@ -28,7 +29,7 @@ title: Tools
     {% endfor %}
   </ul>
 
-  <h2>Web Development</h2>
+  <h3>Web Development</h3>
   <ul class="tools">
     {% for page in site.pages %}
       {% if page.layout == 'tool' %}
@@ -39,7 +40,7 @@ title: Tools
     {% endfor %}
   </ul>
 
-  <h2>Time Management</h2>
+  <h3>Time Management</h3>
   <ul class="tools">
     {% for page in site.pages %}
       {% if page.layout == 'tool' %}
@@ -50,7 +51,7 @@ title: Tools
     {% endfor %}
   </ul>
 
-  <h2>Communication</h2>
+  <h3>Communication</h3>
   <ul class="tools">
     {% for page in site.pages %}
       {% if page.layout == 'tool' %}
@@ -61,7 +62,7 @@ title: Tools
     {% endfor %}
   </ul>
 
-  <h2>Security</h2>
+  <h3>Security</h3>
   <ul class="tools">
     {% for page in site.pages %}
       {% if page.layout == 'tool' %}
@@ -72,7 +73,7 @@ title: Tools
     {% endfor %}
   </ul>
 
-  <h2>Operating System</h2>
+  <h3>Operating System</h3>
   <ul class="tools">
     {% for page in site.pages %}
       {% if page.layout == 'tool' %}
