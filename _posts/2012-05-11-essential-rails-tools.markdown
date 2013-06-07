@@ -96,7 +96,7 @@ Hard to overstate how amazing Bundler has made working with myriads of gems with
 
 Thankfully Bundler offers the `bundle exec` command which will run whatever command you pass it `bundle exec rake db:migrate` for instance with the version of rake it resolved as compatible with the Gems declared in your Gemfile. 
 
-It's a bit complex to understand. To summerize, you may have installed and activated version 0.9.2.2 while your Gemfile.lock -- the file Bundler creates once it has resolved all the cross-dependencies of all the Gem versions in your Gemfile -- requires version 0.9.1 to be used. Since you don't have version 0.9.1 anymore -- you've upgraded -- you need to tell Bundler to point to rake 0.9.1 instead, which it does through `bundle exec rake`. 
+It's a bit complex to understand. To summerize, you may have installed and activated version 0.9.2.2 while your Gemfile.lock --- the file Bundler creates once it has resolved all the cross-dependencies of all the Gem versions in your Gemfile --- requires version 0.9.1 to be used. Since you don't have version 0.9.1 anymore --- you've upgraded --- you need to tell Bundler to point to rake 0.9.1 instead, which it does through `bundle exec rake`. 
 
 You can verify that by running `rake --version` and `bundle exec rake --version` in a project whose Gemfile requires an older version of rake. The two versions should be different.
 
