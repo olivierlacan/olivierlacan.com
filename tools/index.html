@@ -1,86 +1,82 @@
 ---
-layout: tool
+layout: page
 title: Tools
 ---
-<h2>{{ page.title }}</h2>
+<p>This little guide will hopefully give you some good tools to get started or improve your existing Mac workflow. Since I'm a web developer, this is mostly centered around that. Send me a toodle if you think I'm missing a wonderful app or service in here.</p>
 
-<div id="post">
-  <p>This little guide will hopefully give you some good tools to get started or improve your existing Mac workflow. Since I'm a web developer, this is mostly centered around that. Send me a toodle if you think I'm missing a wonderful app or service in here.</p>
-
-  <h3>News</h3>
-  <ul class="tools">
-    {% for page in site.pages %}
-      {% if page.layout == 'tool' %}
-        {% if page.categories == 'news' %} 
-          <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
-        {% endif %}
+<h3>News</h3>
+<ul class="tools">
+  {% for page in site.pages %}
+    {% if page.layout == 'tool' %}
+      {% if page.categories == 'news' %} 
+        <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
       {% endif %}
-    {% endfor %}
-  </ul>
+    {% endif %}
+  {% endfor %}
+</ul>
 
-  <h3>Editors</h3>
-  <ul class="tools">
-    {% for page in site.pages %}
-      {% if page.layout == 'tool' %}
-        {% if page.categories == 'editors' %} 
-          <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
-        {% endif %}
+<h3>Editors</h3>
+<ul class="tools">
+  {% for page in site.pages %}
+    {% if page.layout == 'tool' %}
+      {% if page.categories == 'editors' %} 
+        <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
       {% endif %}
-    {% endfor %}
-  </ul>
+    {% endif %}
+  {% endfor %}
+</ul>
 
-  <h3>Web Development</h3>
-  <ul class="tools">
-    {% for page in site.pages %}
-      {% if page.layout == 'tool' %}
-        {% if page.categories == 'web development' %} 
-          <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
-        {% endif %}
+<h3>Web Development</h3>
+<ul class="tools">
+  {% for page in site.pages %}
+    {% if page.layout == 'tool' %}
+      {% if page.categories == 'web development' %} 
+        <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
       {% endif %}
-    {% endfor %}
-  </ul>
+    {% endif %}
+  {% endfor %}
+</ul>
 
-  <h3>Time Management</h3>
-  <ul class="tools">
-    {% for page in site.pages %}
-      {% if page.layout == 'tool' %}
-        {% if page.categories == 'time management' %} 
-          <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
-        {% endif %}
+<h3>Time Management</h3>
+<ul class="tools">
+  {% for page in site.pages %}
+    {% if page.layout == 'tool' %}
+      {% if page.categories == 'time management' %} 
+        <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
       {% endif %}
-    {% endfor %}
-  </ul>
+    {% endif %}
+  {% endfor %}
+</ul>
 
-  <h3>Communication</h3>
-  <ul class="tools">
-    {% for page in site.pages %}
-      {% if page.layout == 'tool' %}
-        {% if page.categories == 'communication' %} 
-          <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
-        {% endif %}
+<h3>Communication</h3>
+<ul class="tools">
+  {% for page in site.pages %}
+    {% if page.layout == 'tool' %}
+      {% if page.categories == 'communication' %} 
+        <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
       {% endif %}
-    {% endfor %}
-  </ul>
+    {% endif %}
+  {% endfor %}
+</ul>
 
-  <h3>Security</h3>
-  <ul class="tools">
-    {% for page in site.pages %}
-      {% if page.layout == 'tool' %}
-        {% if page.categories == 'security' %} 
-          <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
-        {% endif %}
+<h3>Security</h3>
+<ul class="tools">
+  {% for page in site.pages %}
+    {% if page.layout == 'tool' %}
+      {% if page.categories == 'security' %} 
+        <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
       {% endif %}
-    {% endfor %}
-  </ul>
+    {% endif %}
+  {% endfor %}
+</ul>
 
-  <h3>Operating System</h3>
-  <ul class="tools">
-    {% for page in site.pages %}
-      {% if page.layout == 'tool' %}
-        {% if page.categories == 'operating system' %} 
-          <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
-        {% endif %}
+<h3>Operating System</h3>
+<ul class="tools">
+  {% for page in site.pages %}
+    {% if page.layout == 'tool' %}
+      {% if page.categories == 'operating system' %} 
+        <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
       {% endif %}
-    {% endfor %}
-  </ul>
-</div>
+    {% endif %}
+  {% endfor %}
+</ul>
