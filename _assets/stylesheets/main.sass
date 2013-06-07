@@ -1,12 +1,10 @@
-/****************************************************************************
+/****************************************************************************/
 /*
- */* Common
- */*
- */****************************************************************************
+/* Common
+/*
+/****************************************************************************/
 
-/* Global Reset
-
-*
+/* Global Reset */
   margin: 0
   padding: 0
 
@@ -16,7 +14,7 @@ html
 body
   height: 100%
   background-color: #FFF
-  font: 13.34px Helvetica, Arial, sans-serif
+  font: 13.34px "AvenirNextLTPro-Regular", Helvetica, Arial, sans-serif
   font-size: small
   text-align: center
 
@@ -30,31 +28,24 @@ p
   margin: 1em 0
 
 a
-  color: #00a
+  text-decoration: none
+  border-bottom: 1px solid rgba(60, 80, 17, 0.46)
+  color: #3C5011
+
   &:hover
     color: #000
   &:visited
-    color: #a0a
+    color: #3C5011
 
 table
   font-size: inherit
   font: 100%
 
-/* ----- @font-face -----
-
-@font-face
-  font-family: "SourceCodePro"
-  src: font-url("sourcecodepro-regular-webfont.eot")
-  src: font-url("sourcecodepro-regular-webfont.eot?#iefix") format("embedded-opentype"), font-url("sourcecodepro-regular-webfont.woff") format("woff"), font-url("sourcecodepro-regular-webfont.ttf") format("truetype"), font-url("sourcecodepro-regular-webfont.svg#source_code_proregular") format("svg")
-  font-weight: normal
-  font-style: normal
-
-
-/****************************************************************************
+/****************************************************************************/
 /*
- */* Home
- */*
- */****************************************************************************
+/* Home
+/*
+/****************************************************************************/
 
 ul.posts
   list-style-type: none
@@ -64,14 +55,13 @@ ul.posts
   time
     float: right
     color: #aaa
-    font-family: Monaco, "Courier New", monospace
-    font-size: 80%
+    font-size: .9em
 
-/****************************************************************************
+/****************************************************************************/
 /*
- */* Site
- */*
- */****************************************************************************
+/* Site
+/*
+/****************************************************************************/
 
 .site
   font-size: 115%
@@ -87,7 +77,6 @@ ul.posts
       display: inline-block
       margin-bottom: 2em
       a
-        color: #a00
         &:hover
           color: #000
   h2
@@ -127,31 +116,56 @@ ul.posts
       img
         border: 0
 
-/****************************************************************************
+/****************************************************************************/
 /*
- */* Posts
- */*
- */****************************************************************************
-
-/* standard
-
-/* terminal
-
-/****************************************************************************
+/* Tools
 /*
- */* Syntax Highlighting
- */*
- */****************************************************************************
+/****************************************************************************/
+
+ul.tools
+  list-style-type: none
+  margin-bottom: 2em
+  margin-left: 1em
+  li
+    line-height: 1.75em
+  time
+    float: right
+    color: #aaa
+    font-size: .9em
+
+/****************************************************************************/
+/*
+/* Syntax Highlighting
+/*
+/****************************************************************************/
+
+figure.code
+  margin: 0 1em
+  padding: 0
 
 .highlight
   color: #fff
-  font-size: 1.1em
-  font-family: "SourceCodePro"
+  font-size: 0.9em
+  font-family: "SourceCodePro-Regular", Monaco, "Courier New", monospace
   background: #333
   border-radius: 5px
   overflow: scroll
-  margin: .5em 0 1em
-  padding: 0.5em 1em .5em 1em
+  margin: 0.5em 0 1em
+  padding: 0
+
+  table
+    border-spacing: 0
+
+  .code
+    padding: 0.4em 0.7em 1em
+  .code, pre
+    margin: 0
+
+  .gutter
+    background-color: #222
+    color: #777
+    padding-left: 0.7em
+    padding-right: 0.5em
 
 .lines.highlight
   width: 100%
