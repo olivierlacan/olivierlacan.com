@@ -1,0 +1,14 @@
+---
+layout: page
+title: Talks
+---
+<p>I now spend <a href="http://lanyrd.com/profile/olivierlacan/">way too much time at conferences</a> where I occasionally talk about the scientific method applied to development and how to benefit from the incredible tools created by the open source community.</p>
+
+<h3>News</h3>
+<ul class="tools">
+  {% for page in site.pages %}
+    {% if page.categories == 'talk' %}
+      <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
+    {% endif %}
+  {% endfor %}
+</ul>
