@@ -70,7 +70,9 @@ draft: true
 - the grey gradient shared by Camera and Settings feels really out of place
 - the Maps, Weather, Clock, Music, Mail, and Calendar icons are great
 - let's not even talk about Calculator (use CalcBot), Reminders, or Contacts
-- I absolutely *love* what they've done with folders. They were quite ugly for multiple iterations of iOS and now they finally don't feel like warts next to other icons, perhaps the scaling algorithm was improved for the icons, or maybe it's the increased size of icons in general that makes the tiny icons inside Folders much easier to see.
+- I *love* what they've done with folders. They were quite ugly for multiple iterations of iOS and now they finally don't feel like warts next to other icons, perhaps the scaling algorithm was improved for the icons, or maybe it's the increased size of icons in general that makes the tiny icons inside Folders much easier to see. On twitter Nathan Henderson mentioned that when opened, the folder display doesn't adjust to the height of the iPhone anymore and the icons are displayed in a 3 by 3 grid with pagination (like the home screen) — I think it's a minor drawback
+- it's really nice that notifications at the top of the screen now have a small handle at the bottom, showing you how easily you can dismiss them, very much unlike the previous notifications.
+- it is quite strange to not have anything to swipe two on the left side of the home screen, I think it's going to take some getting used to, I have to rewire a muscle memory I had developed. That said, I had never really enjoyed having spotlights on the right of the home screen, I accidentally accessed this screen far too often while swiping through home pages
 
 ## FaceTime app
 - whoa it's freaky to see a blurred live image of myself behind the All Contacts first screen in that app, but I guess it's appropriate
@@ -90,3 +92,18 @@ draft: true
 
 ## Messages app
 - that was probably the most iconic iPhone app design around, since it's often shown in movies and TV shows and will now date a 6-year epoch during which people texted on the iPhone with bubbly conversation balloons. 
+- there seems to still be a bug when you upload a photo as it appears to go through the text input field before it moves on the conversation screen, it's a bit weird
+- I'm not enchanted about the grey conversations displayed for the person you're messaging with
+- oddly the context for which I had them put a nickname in previous version of iOS now are displayed with staring nickname instead of their name in the messages interface, since this isn't something I was aware of it was quite confusing when I try to find older text message by a person I had only texted with using their full name before
+
+## Multi-task Screen
+- what an upgrade, it's especially impressive that the thumbnails of currently running app are live for the current app — meaning if you're switching away from the Camera app, you can see the live photo preview even in the app switcher
+- being able to swipe across screens *and* across icons is nice to, the icons allow for faster scrolling
+- no need to tap and hold to remove a previously running app is nice, although it still allows people to believe they have to remove apps to save resources — which is an interesting myth born out of a poorly build user interface in previous iOS versions.
+
+## Siri
+- even though it's very common for people to say that Siri loses its usefulness quickly after you start discovering the many flaws and limitations, I've enjoyed the improvements over the first iteration last year. That said these improvement should have been there earlier and it seems like this iteration of Siri is the first one to come close to the potential that I expected Apple to reach two years ago
+- one of the greatest points of frustration I had with Siri was that the Siri "chime" was much too long. The delay is frustrating when all you want to do is get to the point where you ask Siri to do something. Thankfully this issue is addressed in iOS 7. Now the Siri chime is much more brief, and the experience appears much more responsive because of that. 
+- I also enjoy the voice feedback visualization on this version of Siri much better it's easier to see that it is listening to you. 
+- I can't tell if this has been fixed yet but I truly hope that Apple has that with the issue that caused Siri never to remember that you prefer to use your phone as a sound input device whenever you wore connected via Bluetooth to some sort of hands-free car microphone. It turns out that these microphone is often have extremely poor quality and that your phone usually sits or is placed closer to your mouth and they are anyway unless you're using some sort of headphone system
+- Siri's voice a lot more natural, the flow of her phrasing and pronunciation is incredibly smooth. It truly seems as if someone has pre-recorded what she says. From memory I'd say this is even better than what Google has achieved with Google Voice, but the issue is that it took Apple two years to iterate on Siri's voice quality, while Google has a shorter release cycle.
