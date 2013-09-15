@@ -11,7 +11,7 @@ class Deploy < Thor
     puts "Committing all changes"
     run "cd #{deploy_path} && git add -A . && git commit -m 'Run jekyll build at #{Time.now}'"
     puts "Deploying to GitHub"
-    run "cd #{deploy_path} && git push origin master"
+    run "cd #{deploy_path} && git push -f origin master"
 
     puts "Donezies!"
   end
