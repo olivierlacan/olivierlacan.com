@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-[Code School](http://codeschool.com)'s internal team is where I happily ship every day.
+<img src ="/images/olivier_lacan.jpg" id="mug" /> [Code School](http://codeschool.com)'s internal team is where I happily ship every day.
 
 I wrote the prose for [Try Git](http://try.github.com), worked on & taught a few great courses like [Testing with RSpec](http://www.codeschool.com/courses/testing-with-rspec), [Git Real](http://www.codeschool.com/courses/git-real), [Try jQuery](http://www.codeschool.com/courses/try-jquery), and some super secret internal tools we sneakily use.
 

@@ -103,6 +103,7 @@ ul.posts time {
 .site h2 {
   font-size: 1.6em;
   margin-bottom: .5em;
+  line-height: 1.1;
 }
 
 .site .header nav {
