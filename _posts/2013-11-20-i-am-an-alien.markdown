@@ -4,7 +4,7 @@ title: "I'm an Alien."
 date: 2013-11-20 19:27
 draft: true
 ---
-With some very minor modifications, below is a reproduction of a Basecamp message I sent to the Envy Labs & Code School team this afternoon.
+With some very minor modifications, below is a reproduction of a Basecamp message I sent to my co-workers this afternoon.
 
 > Hello everyone,
 
@@ -29,3 +29,5 @@ With some very minor modifications, below is a reproduction of a Basecamp messag
 > So, there. Cuddles. And prepare for regular French onslaughts.
 
 > Olivier.
+
+I'm going to write about this a lot more in the future but for now I don't really have it me to add much. Wherever you're from, if you've been or are in this situation, I'd love to hear your story.
