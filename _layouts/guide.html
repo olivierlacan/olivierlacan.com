@@ -1,0 +1,10 @@
+---
+layout: default
+---
+{% if page.draft %}<div class='draft'>This post has not been published yet.</div>{% endif %}
+
+<h2>{{ page.title }}</h2>
+
+<div id="post" class="guide">
+{{ content }}
+</div>
