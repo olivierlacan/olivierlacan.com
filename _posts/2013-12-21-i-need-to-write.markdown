@@ -4,7 +4,7 @@ title: "I need to write."
 date: 2013-12-21 11:51
 ---
 
-It's enraging that at the time in my life when I truly need to write, somehow I worry if I'm still capable to.
+It's enraging that at the time in my life when I truly need to write, somehow I worry if I'm still able to.
 
 It's not really about attempting to write and failing, it's the perpetual problem of finding every possible distraction to keep me away from the keyboard so I can't discover that — in fact — I have nothing to say.
 
