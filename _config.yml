@@ -1,15 +1,15 @@
 name: Olivier Lacan
-description: "Unfettered thoughts of Olivier Lacan. Developer at Code School."
+description: "Unfettered thoughts of Olivier Lacan."
 permalink: /posts/:title
 pygments: true
 markdown: redcarpet
 redcarpet:
   extensions: [
-    "no_intra_emphasis", 
-    "fenced_code_blocks", 
-    "autolink", 
-    "strikethrough", 
-    "superscript", 
+    "no_intra_emphasis",
+    "fenced_code_blocks",
+    "autolink",
+    "strikethrough",
+    "superscript",
     "with_toc_data",
     "lax_spacing",
     "lax_html_blocks",
@@ -17,7 +17,7 @@ redcarpet:
     "footnotes"
   ]
 exclude: [
-    "Gemfile", 
-    "Gemfile.lock", 
+    "Gemfile",
+    "Gemfile.lock",
     "deploy.thor"
 ]
