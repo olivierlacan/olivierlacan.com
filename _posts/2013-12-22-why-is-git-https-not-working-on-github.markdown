@@ -10,7 +10,7 @@ On September 3rd, 2013 GitHub [announced](https://github.com/blog/1614-two-facto
 
 ## Authentication failed
 
-After setting up 2FA on GitHub that day, I moved on and proceeded to completely forget about it. Innocently I imagined that my week would go on merrily, until one day I jumped into the local repo for one of the Rails apps we use at Code School and this happened:
+After setting up 2FA on GitHub that day, I moved on and proceeded to completely forget about it. Innocently I imagined that my week would go on merrily, until one day I jumped into the local repo for one of the Rails apps we use at [Code School](https://codeschool.com) and this happened:
 
 ```
 $ git pull
