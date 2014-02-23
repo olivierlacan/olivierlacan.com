@@ -19,8 +19,8 @@ Homebrew is a package manager. Think of it like the Mac App Store, except everyt
 ## Why do you need it?
 Why do you need command line executables? Well say you want to start making web applications using Ruby on Rails. There's a good chance someome will tell you to install:
 
-- git (to version control your files)
-- PostgreSQL (to replace the default SQLite database Rails uses)
-- maybe rbenv & ruby-build to install and switch Ruby versions easily
-- pretty much [anything you can think of](http://braumeister.org/)
+- git (to version control your files).
+- PostgreSQL (to replace the default SQLite database Rails uses).
+- maybe rbenv & ruby-build to install and switch Ruby versions easily.
+- pretty much [anything you can think of](http://braumeister.org/).
 
