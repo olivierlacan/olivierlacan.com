@@ -1,0 +1,32 @@
+#home
+  h1
+    font-weight: bold
+    font-size: 1.4em
+    text-align: right
+    margin-bottom: -0.5em
+
+    @media #{$iphone-breakpoint}
+      text-align: left
+      font-size: 3em
+      margin-top: 1em
+      margin-bottom: 1em
+
+  ul.posts
+    padding-left: .75em
+    font-size: 1.3em
+    list-style-type: none
+    margin-bottom: 2em
+
+    li
+      clear: both
+      line-height: 1.3
+      margin-bottom: 1em
+      @media #{$iphone-breakpoint}
+        font-size: 2em
+
+    time
+      float: right
+      color: #aaa
+      font-size: .9em
+      @media #{$iphone-breakpoint}
+        display: none

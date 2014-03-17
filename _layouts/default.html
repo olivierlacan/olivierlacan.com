@@ -10,9 +10,8 @@
     <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.uri.lv/olivierlacan" />
     {% css_asset_tag global %}
     - /_assets/stylesheets/fonts.sass
-    - /_assets/stylesheets/main.sass
-    - /_assets/stylesheets/syntax.sass
     - /_assets/stylesheets/styles.sass
+    - /_assets/stylesheets/syntax.sass
     {% endcss_asset_tag %}
   </head>
   <body>
@@ -20,7 +19,7 @@
     <div class="container">
       <div class="site">
         <div class="header">
-          <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+          <h1 class="site-title"><a href="/">{{ site.name }}</a></h1>
           <nav>
             <ul>
               <li><a class="extra" href="/about/">about</a></li>
@@ -30,7 +29,7 @@
           </nav>
           <p class="bio">Software bricoleur, word wrangler, scientific skeptic, and logic lumberjack.</p>
         </div>
- 
+
             {{ content }}
 
         <div class="footer">

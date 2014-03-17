@@ -1,0 +1,102 @@
+.site
+  font-size: 115%
+  text-align: left
+  width: 44em
+  margin: 3em auto 2em
+  line-height: 1.5em
+  @media #{$iphone-breakpoint}
+    padding: 2em
+  .header
+    h1.site-title
+      display: inline-block
+      margin-bottom: 0
+      a
+        vertical-align: bottom
+        font-size: 1.7em
+        font-style: italic
+        font-weight: bold
+        font-family: "AvenirNextLTPro", Helvetica, Arial, sans-serif
+
+        @media #{$iphone-breakpoint}
+          font-size: 4.5em
+
+    nav
+      display: inline-block
+      vertical-align: bottom
+      font-size: 1.4em
+      @media #{$iphone-breakpoint}
+        font-size: 3.6em
+        position: relative
+        top: 1.9em
+
+        a
+          padding: .3em .4em .2em
+          background-color: #eee
+          border-radius: 10%
+
+      ul
+        margin-bottom: 0
+        display: inline-block
+        list-style: none
+
+        li
+          margin-left: .5em
+          display: inline-block
+          @media #{$iphone-breakpoint}
+            margin-left: 0
+            margin-right: .35em
+
+    a
+      font-weight: bold
+      border-bottom-width: 0
+
+      &:hover, &:active
+        color: olive
+      &.extra
+        color: #aaa
+        &:hover
+          color: #000
+
+    .bio
+      line-height: 1.2
+      @media #{$iphone-breakpoint}
+        margin-top: -1.7em
+        margin-bottom: 4.5em
+        font-size: 2.3em
+
+
+  h2
+    font-size: 1.6em
+    margin-bottom: .5em
+    line-height: 1.2
+    @media #{$iphone-breakpoint}
+      font-size: 3.5em
+
+  .meta
+    color: #aaa
+    @media #{$iphone-breakpoint}
+      font-size: 2.2em
+      text-indent: .5em
+      font-weight: bold
+
+  .footer
+    font-size: 1em
+    color: #666
+    border-top: 4px solid #eee
+    margin-top: 2em
+    overflow: hidden
+    @media #{$iphone-breakpoint}
+      font-size: 1.5em
+      line-height: 1.5
+
+    .contact
+      float: left
+      margin-right: 3em
+      a
+        color: #8085C1
+    .rss
+      margin-top: 1.1em
+      margin-right: -0.2em
+      float: right
+      img
+        border: 0
