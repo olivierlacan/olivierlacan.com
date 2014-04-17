@@ -1,0 +1,71 @@
+==================================================================
+https://keybase.io/olivierlacan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://olivierlacan.com
+  * I am olivierlacan (https://keybase.io/olivierlacan) on keybase.
+  * I have a public key with fingerprint 657E 4315 B9D1 4DA4 EC57  152C 8AF8 9C6A 1FF9 AF6D
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "657e4315b9d14da4ec57152c8af89c6a1ff9af6d",
+            "host": "keybase.io",
+            "key_id": "8AF89C6A1FF9AF6D",
+            "uid": "37f2ac9ab15699030e41e7bff7615500",
+            "username": "olivierlacan"
+        },
+        "service": {
+            "hostname": "olivierlacan.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1397732492,
+    "expire_in": 157680000,
+    "prev": "55a753cdad0d384cb3f6c8ebcb6f7b25d5c478b73fd102a68bbd93aa8fc76304",
+    "seqno": 12,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owFtkWtMU2cYxwsITkYHSTFuijKPGc5BsKen51aVUC7dLQYXMlzdaj3X9kA5p5ye
+ljHSxHXLuDiGC0jLaBQFJjECIVRRU6giAUQ3wxiRZDFD2aiORMcygvBBdo7Zvu39
+8uZ9/v/n93+fPCfVcarEmPpnwdL01b7ymNvX10hVcVGooRogBboKMFQDZcyLi+V4
+GyM6RY6XAAOAwCijh0CYxGlQTxN6hoJRENZRGMFiOIUQIMviBIvQQBZgF1xKh4wh
+CReTzQlyTX5YOVquYkYThucjRtBkwo0mpEDW3C8ECGV1BIUTJAgjOK6FtIweZFCS
+ZVEEhGGtVjG6GJEnyhnZLTg4D8eIDoIieMCbBciKh6MY5d9K/P+4simhXGY4RUES
+KMEhq3ZJchqUZqnKqbgrGdL6L8dKcjwtzy83eBjRxQk8YABlJyVxChiEcBSFdHpc
+lwUwnzo5kbFyigNGEUwrHyWG8chIGCZQGKJogtbSEKanSIhFKIwhKRJhUVIH0zCl
+RzEShVga1OoIBCNJGocIAmMpFIG0ekCZrIIXZLYcJRE2menibDwhuUUG8NbFpm1Q
+xSSqEuJjlRWqEjel/LfYpInk9YOL/uaRk9NLxvZTmcEz2x6gNyItnXHxOyaftw2O
+LfaNmLGDexMuhcwVdyoTpmJvpW1NCmf+8Oz0kbOHD43PJLUMZ9SuLqc2Re92rE8n
+ekfdRoj8cG0wBXj1zYh7eVfJiaaRQO1cSWtEU7ZQ1Fbsrhnnm301Z4aOXguntFwp
+NWw/Adqjbfb6gi+fzJ7/bWWyMhBs6H24ZZZ62B6AKy5c1z3XqaM/vrZzd3Pe/nTh
+8XtPN3L7jIs3w52LR9f9eq2mwDS/Ob45nBMQcXawzP1E7Qcn7tdQXPvO1vHQJ2Pm
+z/KL8iK3LD2NZrB37zX+2EePjy3N37kx5YsP1Zaf2pFhc3aczfku+/tdlry5bRu/
+WptsLbRn7CPjNKrlQ51DId9+DZg60Pv3zT8a+wpLPLr6nx3+u5e72WB9pGn3U3G2
+UxK6z7+cM2vpmv6a+6vFGIAdIqje+s69pcYxoKH1wfBbXPSV/vx5gr2dek/vDe6R
+vhHrpsG4b68u4LGfT1wFitV8+sxAsDTpyOWPq62aUPT3A8ctlken+x3Hz12qYTR5
+3fML/g2F2sPrfTErVVnD774/Sb3+0mjPlo77K0tv/3Rg+xVbk699hh8YWE3O22Ou
+zf1liCO/6Po1f6Eq7PtgU11XctqMyZo5fDF3ynvB2JP7xp/oaHBiMzf3SN14cXzk
+XKT/Hw==
+=UVMJ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/olivierlacan
+
+==================================================================
