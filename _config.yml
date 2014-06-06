@@ -14,7 +14,8 @@ redcarpet:
     "lax_spacing",
     "lax_html_blocks",
     "tables",
-    "footnotes"
+    "footnotes",
+    "with_toc_data"
   ]
 exclude: [
     "Gemfile",
