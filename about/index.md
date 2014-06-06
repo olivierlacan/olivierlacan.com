@@ -10,13 +10,12 @@ I've been a self-taught web designer for over 10 years</span> and I've evolved i
   <figcaption>That's me. &#10548;</figcaption>
 </figure>
 
-I happily ship remotely on [Code School](http://codeschool.com)'s Internal team although I [used to occasionally stop by the office](/posts/i-am-an-alien/).
+I maintain and build features on [Code School](http://codeschool.com)'s 
+Internal team. In the past I've written and participated in the development
+of some of courses. More on that [here](/work).
 
-I wrote the prose for [Try Git](http://try.github.com), worked on & taught a few great courses like [Testing with RSpec](http://www.codeschool.com/courses/testing-with-rspec), [Git Real](http://www.codeschool.com/courses/git-real), [Try jQuery](http://www.codeschool.com/courses/try-jquery), and some super sneaky secret internal tools.
-
-I created [Shields](http://shields.io) in January 2013 in a bout of constructive rage against bad open source repository metadata badges. I'm a bit amazed by how shiny that rage diamond turned out to be.
-
-Sporadically, I host the [Ruby5](http://ruby5.envylabs.com) podcast. Constantly, I [tweet](http://twitter.com/olivierlacan) as I breathe. And regularly, I [share the world as I see it](http://instagram.com/olivierlacan).
+It's been mathematically proven that I [tweet](http://twitter.com/olivierlacan) 
+about as often as I breathe. I also [take little square pictures of the world](http://instagram.com/olivierlacan).
 
 ## Contact
 
