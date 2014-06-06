@@ -23,6 +23,9 @@
       display: block
       margin: 0 auto
 
+    a[rel=footnote]
+      margin-left: 0.15em
+
     ul, ol
       margin-left: 1.35em
     code
@@ -40,6 +43,21 @@
     [rel=explanation]
       border-bottom: 1px dashed black
       cursor: help
+
+    > table
+      margin: 0 auto
+      border-collapse: separate
+
+      td, th
+        padding: 0 0.4em
+
+        &:first-child
+          text-align: right
+
+        &:last-child
+
+        img
+          vertical-align: middle
 
 #post blockquote
   padding-left: 2em
