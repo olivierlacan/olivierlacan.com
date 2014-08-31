@@ -67,4 +67,4 @@ I'm writing this) which doesn't ship with Command Line Tools pre-installed or
 make them available to download within the preferences is to sign up for a free
 Apple Developer account and grab them from the [Downloads section of the site](https://developer.apple.com/downloads/index.action?name=for%20Xcode%20-).
 
-![Screenshot of the Apple Developer Downloads section](/images/apple_developers_downloads.png)
+![Screenshot of the Apple Developer Downloads section]({{ site.url }}/images/apple_developers_downloads.png)

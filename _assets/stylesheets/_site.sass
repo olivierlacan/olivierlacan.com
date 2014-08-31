@@ -5,7 +5,9 @@
   margin: 3em auto 2em
   line-height: 1.5em
   @media #{$iphone-breakpoint}
-    padding: 2em
+    margin: 0 auto
+    padding: 1.5em 2em
+
   .header
     h1.site-title
       display: inline-block
@@ -18,52 +20,74 @@
         font-family: "AvenirNextLTPro", Helvetica, Arial, sans-serif
 
         @media #{$iphone-breakpoint}
-          font-size: 4.5em
+          font-size: 2.5em
 
     nav
-      display: inline-block
-      vertical-align: bottom
+      display: block
+      float: right
       font-size: 1.4em
       @media #{$iphone-breakpoint}
-        font-size: 3.6em
+        font-size: 2.6em
         position: relative
-        top: 1.9em
+        float: left
+        top: .25em
 
         a
-          padding: .3em .4em .2em
+          padding: .6em .9em .6em
           background-color: #eee
-          border-radius: 10%
+          border-radius: 5%
 
       ul
-        margin-bottom: 0
         display: inline-block
         list-style: none
+        text-align: right
+        margin: 0
+        padding: 0
+
+        @media #{$iphone-breakpoint}
+          margin-top: .8em
 
         li
           margin-left: .5em
           display: inline-block
+          font-size: 1em
+
           @media #{$iphone-breakpoint}
             margin-left: 0
-            margin-right: .35em
+            margin-right: .3em
+            padding: 0
+            line-height: 1.7
+            &:last-child
+              margin-right: 0
 
     a
       font-weight: bold
       border-bottom-width: 0
+      font-family: 'octicons'
 
       &:hover, &:active
-        color: olive
+        color: rgb(142, 166, 39)
       &.extra
-        color: #aaa
+        @media #{$iphone-breakpoint}
+          color: #333
+
+          span
+            display: none
+
+          font-family: 'octicons'
+          font-size: 1em
+          &:before
+            content: '\f04e'
+
         &:hover
-          color: #000
+          color: #111
 
     .bio
+      margin-top: 0
+      margin-bottom: 0
       line-height: 1.2
       @media #{$iphone-breakpoint}
-        margin-top: -1.7em
-        margin-bottom: 4.5em
-        font-size: 2.3em
-
+        display: none
 
   h2
     font-size: 1.6em
@@ -71,12 +95,14 @@
     line-height: 1.2
     @media #{$iphone-breakpoint}
       font-size: 3.5em
+      padding-top: 0.8em
 
   .meta
     color: #aaa
     @media #{$iphone-breakpoint}
-      font-size: 2.2em
-      text-indent: .5em
+      font-size: 2em
+      padding-left: .5em
+      line-height: 1.4
       font-weight: bold
 
   .footer
@@ -86,7 +112,7 @@
     margin-top: 2em
     overflow: hidden
     @media #{$iphone-breakpoint}
-      font-size: 1.5em
+      font-size: 1.55em
       line-height: 1.5
 
     .contact
@@ -100,3 +126,11 @@
       float: right
       img
         border: 0
+
+.header + div
+  clear: both
+  margin-top: .1em
+
+.header + h2
+  clear: both
+  margin-top: .5em

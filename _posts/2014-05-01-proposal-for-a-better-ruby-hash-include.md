@@ -2,6 +2,7 @@
 layout: post
 title: "Proposal for a better Ruby Hash#include?"
 date: 2014-05-01 1:53
+update: 2014-08-28 14:38
 categories: development
 ---
 
@@ -121,6 +122,28 @@ I'd like to thank [Jim Gay](http://www.saturnflyer.com/), [Pat Shaughnessy](http
 and [Terence Lee](http://hone.heroku.com/) for their feedback and support. I'll
 submitting a [feature request](https://bugs.ruby-lang.org/projects/ruby-trunk) for
 Ruby 2.2 shortly unless someone can find a reason for me not to.
+
+## Update (August 28th, 2014)
+Some time has passed since this post and shortly after Nobu — the amazing
+Ruby core team member known as "Patch Monster" — [created a patch that
+actually implements this proposal](https://gist.github.com/nobu/dfe8ba14a48fc949f2ed), albeit with name I find confusing.
+
+After talking with some Ruby developers, including Adam Rensel who works with
+me at Code School and also often has the need to check whether a Hash is
+partially or completely included in an other Hash, I settled on a better
+name for this method: `Hash#contain?(Hash)`
+
+I know I said I would be submitting a feature suggestion to Ruby Core
+and sadly I haven't done that yet because I wanted to make sure that this
+wasn't frivolous. But I swear I'll do it before RubyConf 2014.
+
+To be honest I wish we could extend the capabilities of `Hash#include?`
+because [its current implementation](http://www.ruby-doc.org/core-2.1.1/Hash.html#method-i-include-3F)
+seems woefully simplistic. It's a mere alias to `Hash#has_key?` which is
+inconsistent with the meaning of "include" in my book. I believe that if
+`Hash#include?` (a real one, not an alias) receives a Hash, it should do
+*actually* compare the two hashes (both keys and values). If it receives
+a String or a Symbol, it should defer to `Hash#has_key?`.
 
 [^1]: You can see how this include matcher is implemented in the [rspec-expectations source](https://github.com/rspec/rspec-expectations/blob/master/lib/rspec/matchers/built_in/include.rb#L71-L74).
 

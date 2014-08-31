@@ -41,7 +41,7 @@ The blank line is actually what happens here. This command hangs. At first I thi
 
 No dice. It still hangs on the `get` command. So I try to hit `Enter` while the command is hanging, and this happens:
 
-![Screenshot of the Keychain asking about a random credential stored in my keychain](/images/osxkeychain-credential-helper-keychain-prompt.png)
+![Screenshot of the Keychain asking about a random credential stored in my keychain]({{ site.url }}/images/osxkeychain-credential-helper-keychain-prompt.png)
 
 Why is this thing asking about an outlook.com credential? Well thanks to GitHub Supportocat [Petros Amiridis](http://amiridis.net/) who was kind enough to explain this in detail to me, I can explain.
 
@@ -58,15 +58,15 @@ When no filters are provided -- which is what happens when you call `git credent
 
 After checking my own Keychain, sure enough, there was a record in there that matched `https://github.com`:
 
-![Screenshot of the Keychain app showing a github.com entry](/images/keychain-github-record.png)
+![Screenshot of the Keychain app showing a github.com entry]({{ site.url }}/images/keychain-github-record.png)
 
 Since this obviously wasn't working I checked the info for that record:
 
-![Screenshot of the Keychain app entry info for github.com](/images/keychain-github-record-info.png)
+![Screenshot of the Keychain app entry info for github.com]({{ site.url }}/images/keychain-github-record-info.png)
 
 It all checked out. The password was correct since **I had just logged into github.com itself using it**. You can even see that the git-credential-osxkeychain binary is allowed to access that credential from Keychain in the Access Control tab:
 
-![Screenshot of the Keychain app entry info access control tab for github.com](/images/keychain-github-record-info-access-control.png)
+![Screenshot of the Keychain app entry info access control tab for github.com]({{ site.url }}/images/keychain-github-record-info-access-control.png)
 
 So it's not an access problem. What the hell is going on here?
 I decided to delete the Keychain record for github.com and try to re-submit them.
@@ -87,11 +87,11 @@ In a last effort, I googled the term "https github error" and found a GitHub Hel
 
 > If you have enabled two-factor authentication, **you must provide a personal access token instead of entering your password for HTTPS Git**. You can [create a personal access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use) for accessing GitHub by going to the [application settings page](https://github.com/settings/applications).
 
-![It all makes sense now!](/images/wee-bey.gif)
+![It all makes sense now!]({{ site.url }}/images/wee-bey.gif)
 
 There you go. I willingly setup two-factor authentication on github.com and expected that my single-factor password would still work to authenticate through HTTPS via Git. And I probably glossed over some essential warning copy while doing so.
 
-![Screenshot of GitHub's Personal Access Tokens interface](/images/github-personal-access-tokens.png)
+![Screenshot of GitHub's Personal Access Tokens interface]({{ site.url }}/images/github-personal-access-tokens.png)
 
 Creating a [new Personal Access Token](https://github.com/settings/tokens/new) on GitHub is easy and you get a hash to use as a password. After the first prompt Git gives you when you attempt to clone or pull, the credentials are saved in your Keychain and everything works as it's supposed to.
 

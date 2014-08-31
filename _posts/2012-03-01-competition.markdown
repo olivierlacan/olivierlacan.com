@@ -21,7 +21,7 @@ So to come back to Penn Jillette's bit of wisdom, guess what happens every time 
 
 If there's a white board nearby, I grab a marker, and I draw this:
 
-![The Online Education Market](/images/education_market.png)
+![The Online Education Market]({{ site.url }}/images/education_market.png)
 
 Excuse the hyperbole, but not unlike the universe, the online education market is growing at a fast rate, and knowing that billions of people are due to discover the web in the next decade that growth is not about to slow down. Now, if you picture [Khan Academy](http://khanacademy.com) and [Codecademy](http://codecademy.com) as the two larger circles (left and right) in term of mindshare, [Treehouse](http://teamtreehouse.com) and [Code School](http://codeschool.com) as the smaller circles (top and bottom), you can get a better idea of what I mean.
 

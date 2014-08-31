@@ -48,4 +48,4 @@ Since that summer of 2008, I've been a proud Mac owner. I own a professional DSL
 
 Yesterday I lost another anchor.
 
-![Here's to the Crazy Ones](/images/crazy_ones.png)
+![Here's to the Crazy Ones]({{ site.url }}/images/crazy_ones.png)
