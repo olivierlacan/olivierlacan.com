@@ -23,7 +23,7 @@ Yes, semantic versioning numbers have low resolution. They can be ambiguous. The
 
 ## Numbers + Language
 
-Over the past few months I've been working on guidelines to improve how we log changes in open source projects. I called it [keepachangelog.com](http://keepachangelog.com) because as it is too few projects (even popular ones) don't even have a change log.
+Over the past few months I've been working on guidelines to improve how we log changes in open source projects. I called it [keepachangelog.com](http://keepachangelog.com) because I've noticed that it's surprisingly common for some popular projects to not even have a change log.
 
 I don't mean to pretend that I walked back from the mountain with truth-bearing tablets. I'm asking for [help and feedback](https://github.com/olivierlacan/keep-a-changelog/issues) from the community. That's because the best guidelines — as with science — are based on consensus.
 
