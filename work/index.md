@@ -32,7 +32,7 @@ This was the first Code School course I ever had to teach in front of a
 camera, and that along was more than a little bit stressful.
 Aside from some limited exposure, I learned most of what I know about
 RSpec while working on this course. I also received a lot of useful advice
-from people like [Envy Labs](envylabs.com)' [Nathaniel Bibler](https://twitter.com/nbibler)
+from people like [Envy Labs](http://envylabs.com)' [Nathaniel Bibler](https://twitter.com/nbibler)
 who had written and taught our previous testing course: Rails Testing for Zombies.
 
 ### [Git Real](http://www.codeschool.com/courses/testing-with-rspec)
