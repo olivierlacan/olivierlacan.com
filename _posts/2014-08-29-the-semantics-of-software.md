@@ -13,7 +13,7 @@ You should read his entire piece. It's very enlightening to hear the frustration
 
 Jeremy's gripes are quite valid. It is hard for maintainers to figure out how to communicate about possible breaking changes using merely a number. You want people to not be too afraid of upgrading otherwise you'd have to maintain very old version of your software for decades, yet you want them to be aware of what could break when they do upgrade. It's hard to get right, but I don't believe that makes Semantic Versioning entirely worthless. I wish we could learn to voice our concern about problems without threatening to move to another country.
 
-Versioning and change-logging go hand in hand. Versions are much more machine-oriented, or at least they're much more superficial ways to communicate meaning. Change logs, however, offer essential context about versions so that — regardless of whether the maintainers of the project adhere to [Semantic Versioning](semver.org) or not — you (the open source software user) can know what they mean by `version 2.0.0`:
+Versioning and change-logging go hand in hand. Versions are much more machine-oriented, or at least they're much more superficial ways to communicate meaning. Change logs, however, offer essential context about versions so that — regardless of whether the maintainers of the project adhere to [Semantic Versioning](http://semver.org) or not — you (the open source software user) can know what they mean by `version 2.0.0`:
 
 - Does it introduce a major API rewrite? Check the CHANGELOG.
 - Does it reflect the introduction of a single (but important) breaking change in the `1.x` branch? Check the CHANGELOG.
