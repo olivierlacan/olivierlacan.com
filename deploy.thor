@@ -1,3 +1,5 @@
+require 'html/proofer'
+
 class Deploy < Thor
   include Thor::Actions
 
@@ -14,5 +16,10 @@ class Deploy < Thor
     run "cd #{deploy_path} && git push -f origin master"
 
     puts "Donezies!"
+  end
+
+  desc "thor", "proof HTML"
+  def proofer
+    ::HTML::Proofer.new("./_site").run
   end
 end
