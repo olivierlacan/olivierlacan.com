@@ -33,7 +33,7 @@ What I do want is for us to improve open source user experience. I'd like to bia
 
 ## Badly Breaking
 
-Now, to get back to versioning, it sucks when [tons of things stop working because one library changes its API just enough to cause breakage](https://github.com/jashkenas/underscore/issues/1805). Yep, it's a great opportunity for us to have a much-needed conversation about how we communicate **about** our open source software. As mentioned on [The Changelog](5by5.tv/changelog/127), the idea that open source software is a gift to the world can be dangerous.
+Now, to get back to versioning, it sucks when [tons of things stop working because one library changes its API just enough to cause breakage](https://github.com/jashkenas/underscore/issues/1805). Yep, it's a great opportunity for us to have a much-needed conversation about how we communicate **about** our open source software. As mentioned on [The Changelog](http://5by5.tv/changelog/127), the idea that open source software is a gift to the world can be dangerous.
 
 Publishing open source software is not virtuous in vacuum. There are many parts to a praise-worthy open source project :
 - defined use cases
