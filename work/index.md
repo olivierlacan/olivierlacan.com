@@ -5,7 +5,7 @@ title: Work
 
 ## Code School
 I work remotely on [Code School](http://codeschool.com)'s Internal
-team. There, I maintain and build features for [codeschool.com](codeschool.com) along with
+team. There, I maintain and build features for [codeschool.com](http://codeschool.com) along with
 other little things that keep me up at night.
 
 In the past I've written and participated in the development
