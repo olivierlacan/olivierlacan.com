@@ -40,7 +40,7 @@ shows of all time — [The Shield](http://en.wikipedia.org/wiki/The_Shield)
 their "shield".
 
 Over time the design for the badge evolved. It became good enough that people 
-started paying attention to my little project. The maintainers of [Travis CI](http//travis-ci.org), 
+started paying attention to my little project. The maintainers of [Travis CI](http://travis-ci.org), 
 [Gemfury](https://gemfury.com/), [Code Climate](http://codeclimate.com), 
 [Coveralls](https://coveralls.io/), [Gittip](https://www.gittip.com/), 
 [Gemnasium](https://gemnasium.com/), and more became involved.
