@@ -65,7 +65,7 @@ Here's a list of interesting projects I've gathered recently and which can help 
 - [Gemnasium](http://gemnasium.com/) and [Vandamme](https://github.com/tech-angels/vandamme) (the CHANGELOG parser they use)
 - [GitHub Changelog Generator](https://github.com/piwik/github-changelog-generator)
 - [gitchangelog](https://github.com/securactive/gitchangelog)
-- [rf-changelog][https://github.com/rpflorence/rf-changelog)
+- [rf-changelog](https://github.com/rpflorence/rf-changelog)
 
 If you are aware of more (or better) tools that can help maintainers and contributors produce higher quality change logs, please send me a note and I'll update this list.
 
