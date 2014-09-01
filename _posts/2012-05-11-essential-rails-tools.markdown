@@ -74,7 +74,7 @@ Better yet, in this world of powerful little tools, another Gem called [powder](
 
 There's an inherent issue with Pow that causes it to stop working once an Internet connection isn't available for your machine, and sure enough powder solves that with a convenient command called `powder host`. This will add all your Pow application domain names to your system's host file, which is where your system ends up looking when no Domain Name Server (or DNS) is available on the Internet. And now you can use Pow on your next plane ride!
 
-### [Pry](pry.github.com)
+### [Pry](https://pry.github.com)
 
 Debugging is something many people coming from Integrated Development Environments (IDEs) worry about when coming into the Rails ecosystem. Setting break points to inspect code at a specific point within a program is a common and very straightforward way of figuring out why something isn't working the way you expect it to.
 
