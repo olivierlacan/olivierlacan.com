@@ -49,8 +49,7 @@ method autocompletion trick works? Nope. Why? Well, I had no idea how it
 worked.
 
 Now, thanks in part to a great blog post by Ross Kaff — [Ruby, You
-Autocomplete Me](http://rosskaff.com/blog/2014/02/ruby,-you-
-autocomplete-me.html) — I do understand how it works. So I thought I'd
+Autocomplete Me](http://rosskaff.com/blog/2014/02/ruby,-you-autocomplete-me.html) — I do understand how it works. So I thought I'd
 share it with you too.
 
 Guess what?
@@ -79,21 +78,16 @@ text on which completion is attempted. So if you run `pry`[^3] and type:
 And hit the `Tab` key, it will complete to `"Howdy".reverse`. Why?
 
 1. the input before you hit the `Tab` key starts with a double quote
-   which means `IRB::Completion`'s [first `when` statement](https://gith
-   ub.com/ruby/ruby/blob/trunk/lib/irb/completion.rb#L44) catches it.
-2. the [`receiver`](https://github.com/ruby/ruby/blob/trunk/lib/irb/comp
-   letion.rb#L46) (first match returned by [the regular expression](http
-   s://github.com/ruby/ruby/blob/trunk/lib/irb/completion.rb#L44)) is
+   which means `IRB::Completion`'s [first `when` statement](https://github.com/ruby/ruby/blob/trunk/lib/irb/completion.rb#L44) catches it.
+2. the [`receiver`](https://github.com/ruby/ruby/blob/trunk/lib/irb/completion.rb#L46) (first match returned by [the regular expression](https://github.com/ruby/ruby/blob/trunk/lib/irb/completion.rb#L44)) is
    saved to a variable using the `$1` global variable[^1].
 3. the third match from the regular expression (the second one being the
    `.` separating the receiver from method (or method call) is saved to
-   the [`message`](https://github.com/ruby/r
-   uby/blob/trunk/lib/irb/completion.rb#L47) variable.
+   the [`message`](https://github.com/ruby/ruby/blob/trunk/lib/irb/completion.rb#L47) variable.
 4. Using one of my favorite bit of Ruby introspection, all the possible
    instance methods available[^2] to the String class are collected (an
    alias of the `Enumerable#map` method) into a `candidates` array.
-5. The [`select_message`](https://github.com/ruby/ruby/blob/trunk/lib/ir
-   b/completion.rb#L216-L226) class method is called with the
+5. The [`select_message`](https://github.com/ruby/ruby/blob/trunk/lib/irb/completion.rb#L216-L226) class method is called with the
    `receiver`, `message`, and `candidates` in order to determine what
    methods should be suggested for completion.
 

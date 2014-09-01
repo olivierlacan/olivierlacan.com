@@ -5,7 +5,7 @@ title: GPGTools
 categories: security
 ---
 
-# [GPGTools](gpgtools.org)
+# [GPGTools](https://gpgtools.org)
 Email is unsafe, it's a harsh realization that took way too long to hit the mainstream. And I'm not sure most people fully understand that email is just plain text and that it is sent over Wi-Fi networks as plain text, which means that anybody who can snoop (by simply being connected to the same network while you send or receive) your network can litterally read your emails.
 
 If you've ever sent a password or sensitive information to your co-workers or to your family via email, you should assume that data could have been accessed. It might be chilling, but it's basically as secure as snail mail, which you left in a mailbox for hours before it was picked up by a post office worker whose trustworthiness you took for granted. Your letters were then transfered to a distribution center with varied levels of security and surveillance, within which prying eyes could very well have looked at your private communications.
