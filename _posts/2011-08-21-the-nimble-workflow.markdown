@@ -56,4 +56,4 @@ You can run as fast as you want, you will always need to draw breath. It's going
 
 Run steady, stop to rest. You'll get there fast enough, and you'll be ready to keep going instead of lying on the floor, a sweaty mess.
 
-**Note**: I intend on updating this article with any useful feedback, so don't hesitate to provide some to me on Twitter. It was inspired by my own thoughts on productivity, as well as the works of [Merlin Mann](http://merlinmann.com), [Jason Fried](http://37signals.com/) and [David Heinemeier Hansson](david.heinemeierhansson.com).
+**Note**: I intend on updating this article with any useful feedback, so don't hesitate to provide some to me on Twitter. It was inspired by my own thoughts on productivity, as well as the works of [Merlin Mann](http://merlinmann.com), [Jason Fried](http://37signals.com/) and [David Heinemeier Hansson](http://david.heinemeierhansson.com).
