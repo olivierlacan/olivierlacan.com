@@ -5,7 +5,7 @@ date: 2014-10-23 07:46
 location: "Paris, France"
 categories: development
 ---
-Today I was going through some of our worst queries on [Skylight](http://www.skylight.io/r/YNE-Q1twTyT-) and trying to find some [low-hanging fruits](http://en.wiktionary.org/wiki/low-hanging_fruit) to improve performance with the least effort possible. I like Skylight because it's a tool designed to reduce noise. Whenever you get into the optimization mindset, noise is your worst enemy. It turn the most innocent pursuit of necessary speed improvements into a rabbit hole chase of diminishing gains.
+Today I was going through some of our worst queries on [Skylight](http://www.skylight.io/r/YNE-Q1twTyT-) and trying to find some [low-hanging fruit](http://en.wiktionary.org/wiki/low-hanging_fruit) to improve performance with the least effort possible. I like Skylight because it's a tool designed to reduce noise. Whenever you get into the optimization mindset, noise is your worst enemy. It turns the most innocent pursuit of necessary speed improvements into a rabbit hole chase of diminishing gains.
 
 After a few successful optimizations for which I successfully [added table indices and compound indices](https://tomafro.net/2009/08/using-indexes-in-rails-choosing-additional-indexes) to dramatically speed up some queries on very large tables, I found that our [Report Card](http://codeschool.com/users/olivierlacan) had a ridiculously slow SQL query in it taking basically 50% of the request time.
 
