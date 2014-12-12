@@ -10,21 +10,20 @@ draft: true
 The way [John](https://twitter.com/jbalauat) and I pair together works
 like this. He'll ask me a pointed question which will require some
 thinking. John won't rush me. Beyond the answer, he is looking to
-understandingand how I and people like me think. Whenever I have a chunk
-of free time I'll hop on Screenhero with John so that he can see my
-screen or me his. That's because just like you do in real life, when you
-talk to someone you often want to show them things, examples, context,
-articles to read and sites to visit. Through our conversations John and
-I will take detours to talk about cognitive science because we both love
-that. It'll never be a waste of our time because we're both learning
-from each other along the way.
+understand how I think. I'm a programmer. He's a sales person. Our
+audience is composed of programmers. Whenever I have a chunk of free
+time I'll hop on [Screenhero](https://screenhero.com/) with John so that
+he can see my screen or me his. When we talk we often want to show each
+other examples, context, articles to read and sites to visit. Through our
+conversations John and I will take detours to talk about cognitive
+science because we both love that.
 
 [Katie](https://twitter.com/katiedelfin) is a programmer and a damn good
 one. Yet we probably only write code together 15% of the time. Most of
 the time we talk about code. We talk about interfaces. How names feel.
 How things fit together. We get excited about deleting huge chunks of
 code. We pause while I try to paraphrase something brilliant she just
-said because the world needs to know. I must tweet it.
+said because the world needs to know and I must tweet it now.
 
 [Morgan](https://twitter.com/morganlaco) is bothered by not
 understanding something. When she wants to understand, at first I think:
@@ -39,7 +38,7 @@ details that you often lose when so many things need fixing.
 
 [Joel](https://twitter.com/joeltayl) is a linguistics nerd like me so
 together we defy the adage that programmers suck at naming things.
-That said, we sure talk about naming things a lot. And when we pair,
+That said, we sure talk about naming things a lot. When we pair,
 I spend a lot of time making Joel comfortable with the fact that I have
 [no idea what I'm doing](http://themultilogue.com/episodes/3475-v0-0-3-no-idea-what-i-m-doing)
 either. But we can figure it out together. What will benefit Joel from
@@ -49,12 +48,13 @@ colloquialisms and slang I learned from TV shows and my friends while I
 was on my way to become billingual. It can't be taught, it can only be
 experienced.
 
-Knowing John, Katie, Morgan, and Joel better, understanding how they
+Knowing John, Katie, Morgan, and Joel better; understanding how they
 think, what frustrates them, what they cares about, what makes them lose
-sleep at night — that's how I can design and develop a better interface
-to work with Katie to build software for other human beings.
+sleep at night; that's how we can all design and develop a better
+interface to work with each other and build software for other real
+human beings.
 
-My kind pairing is simple. It's loose. All it takes a pair of people
+My kind of pairing is simple. It's loose. All it takes a pair of people
 working together to achieve something or simply to learn something from
 each other.
 
