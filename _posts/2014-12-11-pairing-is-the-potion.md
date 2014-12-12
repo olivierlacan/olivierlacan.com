@@ -4,7 +4,6 @@ title: "Pairing is the Potion"
 date: 2014-12-1 10:41
 location: "Orlando, Florida"
 categories: development
-draft: true
 ---
 
 The way [John](https://twitter.com/jbalauat) and I pair together works
