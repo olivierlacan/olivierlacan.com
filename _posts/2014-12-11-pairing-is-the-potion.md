@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pairing is the Potion"
-date: 2014-12-1 10:41
+date: 2014-12-11 10:41
 location: "Orlando, Florida"
 categories: development
 ---
