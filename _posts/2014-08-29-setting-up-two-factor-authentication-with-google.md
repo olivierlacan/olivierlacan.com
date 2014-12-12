@@ -1,12 +1,16 @@
 ---
 layout: post
-title: "Setting Up Two-factor Authentication with Google"
-date: 2014-08-29 12:55
-location: "Val Morin, Québec, Canada"
+title: "Surviving Two-factor Authentication"
+date: 2014-12-02 13:14
+location: "Orlando, Florida"
 categories: security
 draft: true
 ---
 
-I hope you've received the message by now: email isn't secure. But the real problem with email is that soe many online services these days rely on email to reset passwords.
+I deal with a lot of security-related issues at Code School. Over the years,
+we've seen that password-protected accounts can easily be compromised through:
 
-If the only factor you use to prove your identity is a password, and someone who gains access to your email has that password, then it's dangerously easy for someone to steal your identity — at least on any online service you use. Sadly, there are many online services which could give a lot of power to a potential usurper: banks, cellphone companies, internet service providers,
+- irresponsible "security questions" from service providers that are exploitable through basic [social engineering](http://en.wikipedia.org/wiki/Social_engineering_%28security%29) techniques
+- insecure password reset processes that send new passwords in plain text to whichever email happens to be on file, regardless of whether that email was recently updated or not
+- unverified email addresses associated with user accounts
+-

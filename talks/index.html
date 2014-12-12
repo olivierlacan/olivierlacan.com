@@ -6,7 +6,8 @@ title: Talks
 
 <h3>News</h3>
 <ul class="tools">
-  {% for page in site.pages %}
+  {% assign talks = site.pages | where: 'category', 'talk' | sort: 'name' %}
+  {% for page in talks %}
     {% if page.categories == 'talk' %}
       <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
     {% endif %}

@@ -1,6 +1,6 @@
 ---
 layout: talk
-date: 2014-07-05 6:33
+date: 2014-07-05 0:00
 title: Rational Security
 categories: talk
 ---
