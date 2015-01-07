@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{{ page.title }}</title>
     <meta name="author" content="{{ site.name }}" />
-    <meta name="description" content="{{ site.description }}" />
+    <meta name="description" content="{{ post.excerpt || site.description }}" />
     <meta name="viewport" content="width=device-width">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feed.olivierlacan.com" />
     <link rel="stylesheet" href="/fonts/octicons/octicons.css">
@@ -29,7 +29,7 @@
               <li><a href="/talks">talks</a></li>
             </ul>
           </nav>
-          <p class="bio">Software bricoleur at <a href="http://codeschool.com">Code School</a>, word wrangler, scientific skeptic, and logic lumberjack.</p>
+          <p class="bio">Software bricoleur, word wrangler, scientific skeptic, and logic lumberjack.</p>
         </div>
 
             {{ content }}

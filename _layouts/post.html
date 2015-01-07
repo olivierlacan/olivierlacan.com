@@ -3,6 +3,8 @@ layout: default
 ---
 {% if page.draft %}<div class='draft'>This post has not been published yet.</div>{% endif %}
 
+{{ page.excerpt }}
+
 <h2>{{ page.title }}</h2>
 <p class="meta">
   Written on {{ page.date | date: "%B %d, %Y" }}
