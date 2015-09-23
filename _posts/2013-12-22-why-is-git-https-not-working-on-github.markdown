@@ -2,6 +2,8 @@
 layout: post
 title: "Why is Git HTTPS not working on GitHub?"
 date: 2013-12-22 8:30
+update: 2015-09-23 15:35
+location: "Orlando, FL"
 ---
 
 If you have no patience or aren't interested in my debugging process, skip to
