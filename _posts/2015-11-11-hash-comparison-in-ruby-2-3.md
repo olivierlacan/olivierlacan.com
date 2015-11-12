@@ -31,7 +31,7 @@ key and value as `hash_one` plus one extra key and value. So how do you check
 that with Ruby? Intuitively you may try the [`Hash#include?`](http://docs.ruby-lang.org/en/2.2.0/Hash.html#method-i-include-3F)
 method, right? Let's see.
 
-```
+```ruby
 # Ruby MRI 2.2 and earlier
 { a: 1, b: 2 }.include?({ a: 1 })
 => false
@@ -42,7 +42,7 @@ only looks at the keys. Worse, it will only work properly with keys as arguments
 So in Ruby 2.2 and earlier, the only thing you
 can do is check that a hash includes the same key, like this:
 
-```
+```ruby
 # Ruby MRI 2.2 and earlier
 { a: 1, b: 2 }.include?(:a)
 => true
@@ -55,7 +55,7 @@ implement [their own Hash inclusion logic](https://github.com/rspec/rspec-expect
 RSpec's `include` matcher checks hashes for both key **and** value matching. So
 you can write:
 
-```
+```ruby
 # RSpec
 expect({ a: 1, b: 2 }).to include({ a: 1 })
 ```
