@@ -2,7 +2,7 @@
 layout: post
 title: "Proposal for a better Ruby Hash#include?"
 date: 2014-05-01 1:53
-update: 2014-08-28 14:38
+update: 2015-08-18 12:37
 categories: development
 ---
 
@@ -123,7 +123,7 @@ and [Terence Lee](http://hone.heroku.com/) for their feedback and support. I'll
 submitting a [feature request](https://bugs.ruby-lang.org/projects/ruby-trunk) for
 Ruby 2.2 shortly unless someone can find a reason for me not to.
 
-## Update (August 28th, 2014)
+## Update 1 (August 28th, 2014)
 Some time has passed since this post and shortly after Nobu — the amazing
 Ruby core team member known as "Patch Monster" — [created a patch that
 actually implements this proposal](https://gist.github.com/nobu/dfe8ba14a48fc949f2ed), albeit with name I find confusing.
@@ -145,6 +145,46 @@ inconsistent with the meaning of "include" in my book. I believe that if
 *actually* compare the two hashes (both keys and values). If it receives
 a String or a Symbol, it should defer to `Hash#has_key?`.
 
-[^1]: You can see how this include matcher is implemented in the [rspec-expectations source](https://github.com/rspec/rspec-expectations/blob/master/lib/rspec/matchers/built_in/include.rb#L71-L74).
+## Update 2 (March 19th, 2015)
+
+After a busy end of 2014 I finally found the time to submit [a proper feature
+proposal to bugs.ruby-lang.org](https://bugs.ruby-lang.org/issues/10984).
+
+The feature is being debated with fellow Rubyists at the moment.
+
+## Update 3 (November 9th, 2015)
+
+After some stagnation, the feature proposal was discussed in two separate Ruby
+core team developer meetings. First on [May 14th, 2015](https://bugs.ruby-lang.org/projects/ruby/wiki/DevelopersMeeting20150514Japan)
+and then [this morning for the November meeting](https://docs.google.com/document/d/1D0Eo5N7NE_unIySOKG9lVj_eyXf66BQPM4PKp7NvMyQ/edit#heading=h.bnqkvf9ajejv). Matz said he favored a comparison operator (`<=` or `>=`) because
+it's less ambiguous than `contain?`.
+
+This means that the syntax I originally proposed would evolve to something like
+this:
+
+```ruby
+{ a: 1, b: 2 } >=  { b: 2 }
+=> true
+{ b: 2 } <=  { a: 1, b: 2 }
+=> true
+
+# also
+{ b: 2 } >=  { b: 2 }
+=> true
+{ a: 1 } >=  { b: 2 }
+=> false
+
+{ b: 2 } <=  { b: 2 }
+=> true
+{ b: 2 } <=  { a: 1 }
+=> false
+```
+
+I have to admit I was originally surprised by Matz' proposal (it was early) but
+I've since then been convinced by its versatility and simplicity. I really hope
+it can be included in Ruby 2.3 for the December 25th release. That would be quite
+the Chritmas present. :-) 
+
+[^1]: You can see how this include matcher is implemented in the [rspec-expectations source](https://github.com/rspec/rspec-expectations/blob/bb731e29f7800f5cef736cf8850293276a0d3f90/lib/rspec/matchers/built_in/include.rb#L94-L97).
 
 [^2]: I'm using [`Hash#merge`](http://www.ruby-doc.org/core-2.1.1/Hash.html#method-i-merge) for convenience and as a hack. I don't know if it's appropriate or performant enough.

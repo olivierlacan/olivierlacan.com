@@ -2,6 +2,7 @@
 layout: post
 title: "Anchors"
 date: 2011-10-06 11:08
+update: 2015-08-01 06:34
 comments: true
 categories: life
 ---
@@ -14,11 +15,11 @@ He used to be tall and proud. He was a working man. He was a farmer and a wood c
 
 When the phone rang and my mom told me that her dad had died, she sounded broken. That got to me even more than the news did. She's an anchor, and she was loose.
 
-I don't know whether it was a concern for ruining everyone's day or the fact that I was stunned, but it seemed like I felt nothing when I hung up the phone. My friends asked me about the call and I misdirected to avoid telling them what had happened. It was time for us to leave and I was the driver. I decided to go to the bathroom. I opened the door, intent on actually using the bathroom. I closed the door, sat down. Facing me was a mirror projecting my face. In it I saw my mom's pain and despair. I started crying uncontrollably. I was loosing it. I turned on the restroom fan to cover the sound of my whimpers and I starred myself blank in the eye. 
+I don't know whether it was a concern for ruining everyone's day or the fact that I was stunned, but it seemed like I felt nothing when I hung up the phone. My friends asked me about the call and I misdirected to avoid telling them what had happened. It was time for us to leave and I was the driver. I decided to go to the bathroom. I opened the door, intent on actually using the bathroom. I closed the door, sat down. Facing me was a mirror projecting my face. In it I saw my mom's pain and despair. I started crying uncontrollably. I was losing it. I turned on the restroom fan to cover the sound of my whimpers and I stared myself blank in the eye.
 
 I let the pain take its stab at me. I thought about my grandma and the loneliness she would now have to face living in a hamlet with a population of less than 20. She didn't know how to drive, only he did. She lost her anchor too.
 
-Yesterday, I left work frustrated over something trivial. It had mostly been a good day, but that little thing angered me enough that I needed some fresh air and stimulating company. I drove to my alma mater and sent a few messages around to see if any of my old classmates who currently work in the Web degree there were on campus. 
+Yesterday, I left work frustrated over something trivial. It had mostly been a good day, but that little thing angered me enough that I needed some fresh air and stimulating company. I drove to my alma mater and sent a few messages around to see if any of my old classmates who currently work in the Web degree there were on campus.
 
 Adam replied, we had dinner together and talked about my frustration, his fruitful discovery of Ruby on Rails, and he told me he was in charge of a lab at 9PM. I told him I would stick around until then.
 
@@ -27,7 +28,7 @@ After dinner we got back to the faculty offices, he went away for a second and I
 Black on white, the words read:
 
     Steve Jobs   1955 – 2011
-    
+
 "Fuck me.", I uttered, and walked away.
 
 Adam came back and asked me if I had heard. I said yes, and made some banal comment about the night being ruined.

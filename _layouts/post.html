@@ -14,6 +14,15 @@ layout: default
   {% if page.update %}
     &amp; updated on <span class='update'>{{ page.update | date: "%B %d, %Y" }}</span>.
   {% endif %}
+  <br />
+  {% if page.editors %}
+    Edited by
+    {% for editors_hash in page.editors %}
+      {% for editor in editors_hash %}
+        <a href="{{ editor[1] }}">{{ editor[0] }}</a>
+      {% endfor %}
+    {% endfor %}
+  {% endif %}
 </p>
 
 <div id="post">

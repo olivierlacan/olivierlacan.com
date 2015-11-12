@@ -62,6 +62,35 @@ One fatelul day in May 2014 I decided I'd had enough trying to decipher the Git 
 
 That wasn't a CHANGELOG. A CHANGELOG is a thing for humans who already know how to make a git log diff if they need to. But they don't want to because git log diff are utterly useless to understand what has changed in a release at a high level. This frustration led me to write down what I believe are guidelines for a human-friendly CHANGELOG.
 
+### [Orientation](http://orientation.io)
+In late 2012, after nearly a year of working at Code School, I noticed that while
+our team was growing, certain questions kept being asked to the same people over
+and over again. Being an early member of the team, I had to repeatedly explain
+simple things that weren't necessarily related to code, but often spun out to
+include company traditions, vacation policies, our customer support philosophy,
+etc.
+
+Orientation was born out of the desire to concentrate as much knowledge as possible
+in a single point of entry that did not create interruptions for our small team,
+allowing us to remain as focus as possible; collaborating when it's necessary
+and not to answer a single question. The idea was that people would go to Orientation
+first — the same way web developers tend to go to Stack Overflow — before giving up
+and asking for help. Better, I wanted to make the act of documenting something
+easy enough for anyone to participate in: if you have a question not answered by
+Orientation, simply create a new article with that question as the title and send
+the URL to the team or the person you believe holds your answer. Instead of answering
+one person at a time, this allows knowledge holders to release that knowledge from
+the sillo of their brain. It's better for them because they'll be less interrupted,
+and it's better for the team because knowledge is not concentrated in single
+individuals who may have a meeting, go on vacation, or leave the company with that
+knowledge still stored in their head.
+
+It took me three years to finally open-source Orientation and I'm incredibly glad
+I did because the influx of excitement and participation has allowed some great
+feature like article subscription to be added. It allows every single person who
+relies on a piece of information to be notified when an article is updated, creating
+hyperlinks of sort between mostly static information and the people who depend on it.
+
 ## Podcasting
 ### [The Multilogue](http://themultilogue)
 I met Anthony Colangelo when we were both students at Full Sail University in 2010. I've always loved having deep conversations with him on the phone. And one day we decided to start recording these conversations. The Multilogue was born.
