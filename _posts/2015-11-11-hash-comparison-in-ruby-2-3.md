@@ -2,11 +2,16 @@
 layout: post
 title: "Hash Comparison in Ruby 2.3"
 date: 2015-11-11 18:00
+update: 2015-11-18 17:14
 categories: development
 editors:
   - Elizabeth Mills: "#"
   - Erik Michaels-Ober: "https://twitter.com/sferik"
 ---
+
+Update (November 18th, 2015): Since these new methods have been announced a few
+people have expressed concerns that they would interfere with `Hash#sort`. I
+addressed those concerns in an addendum to this post below.
 
 It's been over a year since I wrote my initial ["Proposal for a better Ruby Hash#include?"](/posts/proposal-for-a-better-ruby-hash-include/)
 and I'm so happy to announce that since Tuesday November 10, 2015, Hash comparison
@@ -114,3 +119,18 @@ Look at how consistent this is. You can now compare hashes exactly the same way
 you would compare integers.
 
 I can't wait for Ruby 2.3.
+
+## Does it mean Comparable is now included in Hash?
+
+No.
+
+The methods added to Hash are as follows:
+
+- `Hash#>` — this hash instance includes the argument hash
+- `Hash#>=` — this hash instance includes or is the same as the argument hash
+- `Hash#<` — this hash instance is included in the argument hash
+- `Hash<=` - this hash instance is included or the same as the argument hash
+
+Conspicuously absent is the `<=>` method used by the Comparable module to sort
+objects. What this means is that these new methods will not interfere with your
+existing calls to `Hash#sort`.
