@@ -2,7 +2,7 @@
 layout: post
 title: "Why is Git HTTPS not working on GitHub?"
 date: 2013-12-22 8:30
-update: 2015-09-23 15:35
+update: 2015-12-02 2:49
 location: "Orlando, FL"
 ---
 
@@ -120,6 +120,10 @@ git config --global credential.helper osxkeychain
 
 If you don't have the credential helper installed or if you're using an operating
 system other than OS X, read GitHub's new [Caching your GitHub password in Git](https://help.github.com/articles/caching-your-github-password-in-git/) guide.
+
+Outdated credentials stored in Keychain Access for `github.com` can also cause issues. 
+GitHub now has a [guide on how to delete outdated credentials](https://help.github.com/articles/updating-credentials-from-the-osx-keychain/) 
+from either the Keychain Access interface or from the credential helper.
 
 PS: I highly recommend using [GitHub's Hub](https://github.com/github/hub)
 wrapper for Git since it allows you to clone repos with a simple

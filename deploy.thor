@@ -8,7 +8,7 @@ class Deploy < Thor
     original_path = Dir.pwd
     deploy_path = "/Users/olivierlacan/Development/perso/olivierlacan.github.com"
     puts "Running Jekyll build --destination #{deploy_path}"
-    run "jekyll build --destination #{deploy_path}"
+    run "bundle exec jekyll build --destination #{deploy_path}"
 
     puts "Committing all changes"
     run "cd #{deploy_path} && git add -A . && git commit -m 'Run jekyll build at #{Time.now}'"
