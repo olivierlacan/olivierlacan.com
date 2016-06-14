@@ -9,7 +9,7 @@ Today I was going through some of our worst queries on [Skylight](http://www.sky
 
 After a few successful optimizations for which I successfully [added table indices and compound indices](https://tomafro.net/2009/08/using-indexes-in-rails-choosing-additional-indexes) to dramatically speed up some queries on very large tables, I found that our [Report Card](http://codeschool.com/users/olivierlacan) had a ridiculously slow SQL query in it taking basically 50% of the request time.
 
-![Request Trace from Skylight]({{ site.url }}/images/users-show-trace.png)
+![Request Trace from Skylight](/images/users-show-trace.png)
 
 Much to my surprise, that terribly slow (about 700 ms) query appeared very simple:
 

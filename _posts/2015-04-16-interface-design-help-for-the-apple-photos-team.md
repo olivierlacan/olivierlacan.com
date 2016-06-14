@@ -18,7 +18,7 @@ worst part of the Photos interface: the settings.
 The first time you open Photos, it's likely you'll see this at the bottom of the
 `Photos` tab:
 
-![Upload/Download Counter]({{ site.url }}/images/photos_upload_download_counter.png)
+![Upload/Download Counter](/images/photos_upload_download_counter.png)
 
 You'll surely appreciate the absolute minimalism of this interface. It's so
 minimalistic you can't even tell if there's any progress at all; or stop the

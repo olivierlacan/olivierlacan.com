@@ -6,9 +6,9 @@ date: 2013-12-21 13:30
 
 As I sat here tweaking some HTML &amp; CSS on my About page to use a swanky [`<figure>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure) that I learned how to properly use from the great [Drew Barontini](https://www.codeschool.com/courses/front-end-formations), I realized it was silly that I had to manually refresh my browser every time. I'm using `jekyll serve --watch` to automatically update the page in the background when any file is updated so I don't have to shut down jekyll server and restart it every time I make a change.
 
-I knew about [LiveReload](http://livereload.com/), an app & browser extension that allows you monitor files and refresh the browser only when needed and I was curious if someone else had used it with Jekyll before so I did a typical Google search: `jekyll livereload`. The first result was a StackOverlow discussion. Generally those are reliable and to the point but I was attracted by the second result, [a personal blog post from Thanasis Polychronakis](http://thanpol.as/jekyll/jekyll-and-livereload-flow/). 
+I knew about [LiveReload](http://livereload.com/), an app & browser extension that allows you monitor files and refresh the browser only when needed and I was curious if someone else had used it with Jekyll before so I did a typical Google search: `jekyll livereload`. The first result was a StackOverlow discussion. Generally those are reliable and to the point but I was attracted by the second result, [a personal blog post from Thanasis Polychronakis](http://thanpol.as/jekyll/jekyll-and-livereload-flow/).
 
-![Screenshot of my "jekyll livereload" google search]({{ site.url }}/images/jekyll-livereload-google-search.png)
+![Screenshot of my "jekyll livereload" google search](/images/jekyll-livereload-google-search.png)
 
 Hard to pass on such an amazing name and the title is right on the nose for what I was looking for.
 
@@ -34,10 +34,10 @@ A blog post dedicated to a time-sensitive topic should include:
 - the (absolute) date of publication
 - the content of the post itself, hopefully with a reference to the version numbers of all mentioned software
 
-It is possible to customize a Google search to only return pages created during a certain time frame — for instance [the last year](https://www.google.com/search?q=jekyll+livereload&oq=jekyll+livereload&aqs=chrome..69i57j0l5.2721j0j1&sourceid=chrome&espv=210&es_sm=91&ie=UTF-8#es_sm=91&espv=210&q=jekyll+livereload&safe=off&tbs=qdr:y) — but this shouldn't be necessary. 
+It is possible to customize a Google search to only return pages created during a certain time frame — for instance [the last year](https://www.google.com/search?q=jekyll+livereload&oq=jekyll+livereload&aqs=chrome..69i57j0l5.2721j0j1&sourceid=chrome&espv=210&es_sm=91&ie=UTF-8#es_sm=91&espv=210&q=jekyll+livereload&safe=off&tbs=qdr:y) — but this shouldn't be necessary.
 
-![Screenshot of the Google Search Tools options to select a date range]({{ site.url }}/images/jekyll-livereload-google-search-date-filter.png)
+![Screenshot of the Google Search Tools options to select a date range](/images/jekyll-livereload-google-search-date-filter.png)
 
 I'm making an example of Thanasis' post (*say that out loud!*) even before I've finished reading it because I think nailing little details like this can help a lot of people, not because I'm trying to nitpick him for trying to help.
 
-So remember, if you're going to publish it, put a date on it. 
+So remember, if you're going to publish it, put a date on it.

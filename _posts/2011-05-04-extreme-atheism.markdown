@@ -28,6 +28,6 @@ Bear in mind, this is not to say that there aren't extremist atheists (quite a d
 
 But if I could leave you with a lasting thought it would be the [revealing discovery](http://pewforum.org/other-beliefs-and-practices/u-s-religious-knowledge-survey.aspx) recently that self-described Atheists & Agnostics were found to be [more knowledgeable about Christianity, the Bible and other world religions than any other group of religious Americans](http://www.nytimes.com/2010/09/28/us/28religion.html). If this doesn't make you doubt your assumptions about Atheists, nothing will. Opinion based on knowledge isn't extreme, it's reasonable.
 
-![Pew Forum Survey on Religious Knowledge]({{ site.url }}/assets/pew-forum-survey-atheism.png)
+![Pew Forum Survey on Religious Knowledge](/images/pew-forum-survey-atheism.png)
 
 PS : I found this thorough takedown of the fallacious argument I tried to quickly tackle above on [Atheist Revolution](http://www.atheistrev.com/2007/03/atheist-extremism.html) blog after I wrote my response. I think it covers all the bases I didn't and still addresses the (rare for now) case of atheist extremists.

@@ -37,7 +37,7 @@ So first open the Terminal app. `Command` + `Space` to open Spotlight
 and just type `Terminal` if you don't know where it is. You should see
 something like this:
 
-![Terminal]({{ site.url }}/images/terminal.png)
+![Terminal](/images/terminal.png)
 
 Now I'm curious if you already have Homebrew installed. We can be sure
 by using the `which` command like this:

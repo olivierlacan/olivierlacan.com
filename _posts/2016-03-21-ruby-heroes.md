@@ -16,6 +16,6 @@ painful to get back to front-end development after all these years but hopefully
 I've managed to do justice to [Cher Cloude's](https://dribbble.com/chercloude)
 beautiful illustrations.
 
-![Ruby Hero Awards 2016 banner]({{ site.url }}/images/ruby-hero-awards-2016.png)
+![Ruby Hero Awards 2016 banner](/images/ruby-hero-awards-2016.png)
 
 
