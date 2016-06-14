@@ -1,7 +1,7 @@
 ---
 layout: talk
-date: 2016-01-17 0:00
-title: Science-based Development
+date: 2016-02-11 0:00
+title: Ruby & We
 categories: talk
 ---
 # Ruby & we
