@@ -8,8 +8,17 @@ module Jekyll
         module CommonMethods
           def add_code_tags(code, lang)
             code = code.to_s
-            code = code.sub(/<pre>/, "<pre><code class=\"language-#{lang}\" data-lang=\"#{lang}\">")
-            code = code.sub(/<\/pre>/,"</code></pre>")
+            # replace the first instance of <pre> in the string
+            code["<pre>"] = <<-HTML
+              <pre><code class="language-#{lang}" data-lang="#{lang}">
+            HTML
+
+            # replace the last instance of </pre> in the string
+            code[code.rindex(/<\/pre>/)..-1] = <<-HTML
+              </code></pre>
+            HTML
+
+            code
           end
         end
 
@@ -17,9 +26,11 @@ module Jekyll
           include CommonMethods
           def block_code(code, lang)
             Jekyll::External.require_with_graceful_fail("pygments")
+
             lang = lang && lang.split.first || "text"
+
             add_code_tags(
-              Pygments.highlight(code, :lexer => lang, :options => { :encoding => 'utf-8' }),
+              Pygments.highlight(code, lexer: lang, options: { encoding: 'utf-8' }),
               lang
             )
           end
@@ -31,7 +42,13 @@ module Jekyll
           include CommonMethods
 
           def code_wrap(code)
-            "<figure class=\"highlight\"><pre>#{CGI::escapeHTML(code)}</pre></figure>"
+            <<-HTML
+              <figure class="highlight">
+                <pre>
+                  #{CGI::escapeHTML(code)}
+                </pre>
+              </figure>
+            HTML
           end
 
           def block_code(code, lang)
@@ -44,9 +61,11 @@ module Jekyll
           def block_code(code, lang)
             code = "<pre>#{super}</pre>"
 
-            output = "<div class=\"highlight\">"
-            output << add_code_tags(code, lang)
-            output << "</div>"
+            output = <<-HTML
+              <div class="highlight">
+                #{add_code_tags(code, lang)}
+              </div>
+            HTML
           end
 
           protected
