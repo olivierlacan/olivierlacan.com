@@ -100,7 +100,7 @@ method name using that match.
 "Howdy".reverse
 ```
 
-![Tadaaa!]({{ site.url }}/images/tadaaa.gif)
+![Tadaaa!](/images/tadaaa.gif)
 
 Having people with different skill levels and backgrounds on our team
 has been a perfect opportunity for me to rediscover the things that I

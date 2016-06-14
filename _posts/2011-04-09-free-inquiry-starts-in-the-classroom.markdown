@@ -5,15 +5,15 @@ date: 2011-04-09 0:00
 comments: false
 categories: education
 ---
-{% blockquote Steven Levy, http://www.wired.com/magazine/2011/03/mf_larrypage/all/1 Larry Page Wants to Return Google to Its Startup Roots %}
-“You can’t understand Google,” vice president Marissa Mayer says, “unless you know that both Larry and Sergey were Montessori kids.” She’s referring to schools based on the educational philosophy of Maria Montessori, an Italian physician born in 1870 who believed that children should be allowed the freedom to pursue their interests. “In a Montessori school, you go paint because you have something to express or you just want to do it that afternoon, not because the teacher said so,” she says. “This is baked into how Larry and Sergey approach problems. They’re always asking, why should it be like that? It’s the way their brains were programmed early on.”
-{% endblockquote %}
+> “You can’t understand Google,” vice president Marissa Mayer says, “unless you know that both Larry and Sergey were Montessori kids.” She’s referring to schools based on the educational philosophy of Maria Montessori, an Italian physician born in 1870 who believed that children should be allowed the freedom to pursue their interests. “In a Montessori school, you go paint because you have something to express or you just want to do it that afternoon, not because the teacher said so,” she says. “This is baked into how Larry and Sergey approach problems. They’re always asking, why should it be like that? It’s the way their brains were programmed early on.”
+> -- Steven Levy, http://www.wired.com/magazine/2011/03/mf_larrypage/all/1 Larry Page Wants to Return Google to Its Startup Roots
+
 
 It's sad that so many children are berated out of asking crucial questions like "Why?" by parents, teachers and relatives who perpetuate the medieval notion that curiosity killed the cat.
 
 Curiosity is the fuel of inquiry, it's the essence of Science. It should be safeguarded at all costs.
 
-This is not that say that a mischievous kid who is testing boundaries by uttering an endless stream of "why this? why that?" at every explanation given to him shouldn't be punished for abusing people's patience. 
+This is not that say that a mischievous kid who is testing boundaries by uttering an endless stream of "why this? why that?" at every explanation given to him shouldn't be punished for abusing people's patience.
 
 But too often true curiosity and wonder at the mysteries of life and the universe is sacrificed because some brats have abused the system, ruining the chance for all the other bubbling little minds to ask questions their elders too often haven't thought of asking, or worse, have given up on trying to ask.
 

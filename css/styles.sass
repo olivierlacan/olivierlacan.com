@@ -1,0 +1,48 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+@import "fonts"
+@import "breakpoints"
+@import "octicons"
+@import "site"
+@import "syntax"
+
+html
+  height: 100%
+
+body
+  height: 100%
+  background-color: #FFF
+  font-face: Helvetica, Arial, sans-serif
+  font: 13.34px "AvenirNextLTPro"
+  text-align: center
+
+h1, h2, h3, h4, h5, h6
+  font-size: 100%
+
+h1
+  margin-bottom: 1em
+
+p
+  margin: 1em 0
+
+a
+  text-decoration: none
+  border-bottom: 1px solid rgba(60, 80, 17, 0.46)
+  color: #3C5011
+
+  &:hover
+    color: #000
+  &:visited
+    color: #3C5011
+
+table
+  font-size: inherit
+  font: 100%
+
+@import "about"
+@import "article"
+@import "guide"
+@import "home"
+@import "tools"
+@import "syntax_highlighting"

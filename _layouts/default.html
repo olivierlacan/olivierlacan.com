@@ -9,11 +9,7 @@
     <meta name="viewport" content="width=device-width">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feed.olivierlacan.com" />
     <link rel="stylesheet" href="/fonts/octicons/octicons.css">
-    {% css_asset_tag global %}
-    - /_assets/stylesheets/fonts.sass
-    - /_assets/stylesheets/styles.sass
-    - /_assets/stylesheets/syntax.sass
-    {% endcss_asset_tag %}
+    <link rel="stylesheet" href="/css/styles.css">
   </head>
   <body>
 
@@ -40,11 +36,6 @@
       </div>
     </div> <!-- /container -->
 
-  {% javascript_asset_tag global %}
-  - /_assets/scripts/script.coffee
-  {% endjavascript_asset_tag %}
-  <script type="text/javascript" src="//use.typekit.net/acy8jpd.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <script type="text/javascript">
     var _gauges = _gauges || [];
     (function() {

@@ -12,7 +12,7 @@ One my first website ever, which I built in 1999 with Microsoft Front Page, I de
 
 It surely looked like this abberation:
 
-```html 
+```html
 <P><A HREF=page1.htm>- Page 1</A><BR><BR>
 <A HREF=page2.htm>- Page 2</A><BR><BR>
 <A HREF=page3.htm>- Page 3</A><BR><BR>
@@ -24,7 +24,7 @@ This is atrocious code, please don't ever use this.
 Then after I had organized everything _so neatly_ I thought about adding a fourth page. Boy, the agony. Imagine that. I had to open every single one of those (three) files and add a new link to `<A HREF=page4.html>-Page 4</A><BR><BR>`. With my then collosal experience in web mastery, I could not stand for this. I had to find a way to make this more efficient.
 
 - - -
-Oh, hi! This is a reality break. 
+Oh, hi! This is a reality break.
 _Efficiency_ as described in the paragraph above is nothing else than pure and utter laziness. There's no way around it. But you know what? Laziness is the mother of all invention. If less people settled for repetitive crap, you can bet we would already have our flying cars. So don't settle, you're making me wait for the future, and I don't like that.
 - - -
 
@@ -44,7 +44,7 @@ So, back to efficiency. How do you achieve that kind of feat in [HTML 4.01](http
 You guessed it! Frames!
 Perfect. Until you actually open than in a browser.
 
-{% img center /images/frames.gif Grey Scroillbars are FUN %}
+![Grey Scrollbars are FUN ](/images/frames.gif)
 
 Even for my highly tolerant (I used Papyrus and thought it looked _awesome_) 1999 self, this kind of thing was just too ugly to live. So I tried to find a better way.
 
@@ -62,7 +62,7 @@ I soon discovered a thing know as [PHP](http://php.net/) could allow me to do a 
 
 So now I could do things like:
 
-```php Ooh, look at me, I'm fancy!
+```php
 <?php require("menu.html") ?>
 ```
 

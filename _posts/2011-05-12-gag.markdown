@@ -8,15 +8,11 @@ categories: freedom
 
 An anonymous contributor to the Washington Post:
 
-{% blockquote %}
-Three years ago, I received a national security letter (NSL) in my capacity as the president of a small Internet access and consulting business. The letter ordered me to provide sensitive information about one of my clients. There was no indication that a judge had reviewed or approved the letter, and it turned out that none had. The letter came with a gag provision that prohibited me from telling anyone, including my client, that the FBI was seeking this information. Based on the context of the demand --- a context that the FBI still won't let me discuss publicly --- I suspected that the FBI was abusing its power and that the letter sought information to which the FBI was not entitled.
-{% endblockquote %}
+> Three years ago, I received a national security letter (NSL) in my capacity as the president of a small Internet access and consulting business. The letter ordered me to provide sensitive information about one of my clients. There was no indication that a judge had reviewed or approved the letter, and it turned out that none had. The letter came with a gag provision that prohibited me from telling anyone, including my client, that the FBI was seeking this information. Based on the context of the demand --- a context that the FBI still won't let me discuss publicly --- I suspected that the FBI was abusing its power and that the letter sought information to which the FBI was not entitled.
 
 How somber that America's worst enemy turned out to be its own government, using the threat of terrorism as a way to destroy the very tenets of what it should have been standing up for: the American Democracy.
 
-{% blockquote %}
- If I hadn't been under a gag order, I would have contacted members of Congress to discuss my experiences and to advocate changes in the law. 
-{% endblockquote %}
+> If I hadn't been under a gag order, I would have contacted members of Congress to discuss my experiences and to advocate changes in the law.
 
 If this sentence doesn't chill you to the bone, realize that this is something to expect from a repressive dictatorship.
 

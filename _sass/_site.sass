@@ -19,6 +19,11 @@
         font-weight: bold
         font-family: "AvenirNextLTPro", Helvetica, Arial, sans-serif
 
+        &:hover:after
+          content: " ← home"
+          font-size: 0.6em
+          color: #333
+
         @media #{$iphone-breakpoint}
           font-size: 2.5em
 
@@ -63,7 +68,6 @@
     a
       font-weight: bold
       border-bottom-width: 0
-      font-family: 'octicons'
 
       &:hover, &:active
         color: rgb(142, 166, 39)
