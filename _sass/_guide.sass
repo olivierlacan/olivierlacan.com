@@ -2,6 +2,7 @@
   ul, ol
     list-style-position: inside
     margin-left: 0
+    padding-left: 0
 
   dl dt, h3
     clear: left
@@ -17,3 +18,19 @@
     margin: 1em 1em 1em 0
     @media #{$iphone-breakpoint}
       width: 145px
+
+  h3
+    font-size: 1em
+
+  h4
+    font-size: 1.5em
+
+  .venue-images
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+
+  .venue img
+    width: 165px
+    height: 165px
+    flex: 0 4 auto

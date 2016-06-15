@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div id="venue">
+  <h3>{{ page.title }}</h3>
+
+  {% if page.images %}
+    {% for image in page.images %}
+      ![{{ image.alt }}](image.url)
+    {% endfor %}
+  {% endif %}
+
+  {{ content }}
+</div>
