@@ -5,24 +5,22 @@ permalink: /posts/:title
 highlighter: rouge
 markdown: redcarpet
 redcarpet:
-  extensions: [
-    "no_intra_emphasis",
-    "fenced_code_blocks",
-    "autolink",
-    "strikethrough",
-    "superscript",
-    "with_toc_data",
-    "lax_spacing",
-    "lax_html_blocks",
-    "tables",
-    "footnotes",
-    "with_toc_data"
-  ]
-exclude: [
-    "Gemfile",
-    "Gemfile.lock",
-    "deploy.thor"
-]
+  extensions:
+    - no_intra_emphasis,
+    - fenced_code_blocks,
+    - autolink,
+    - strikethrough,
+    - superscript,
+    - with_toc_data,
+    - lax_spacing,
+    - lax_html_blocks,
+    - tables,
+    - footnotes,
+    - with_toc_data
+exclude:
+  - Gemfile,
+  - Gemfile.lock,
+  - deploy.thor
 
 sass:
   style: :nested
