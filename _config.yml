@@ -1,7 +1,7 @@
 name: Olivier Lacan
 url: http://olivierlacan.com
 description: "Unfettered thoughts of Olivier Lacan."
-permalink: /posts/:title
+permalink: /posts/:title/
 highlighter: rouge
 markdown: redcarpet
 redcarpet:
