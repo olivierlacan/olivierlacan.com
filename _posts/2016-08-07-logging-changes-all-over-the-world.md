@@ -4,7 +4,6 @@ title: "Logging Changes All Over The World"
 date: 2016-08-07 12:22
 location: "Orlando, Florida"
 categories: development
-draft: true
 ---
 
 After months of slow but steady work, [keepachangelog.com][kac] is now officially
