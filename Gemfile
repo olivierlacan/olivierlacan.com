@@ -5,7 +5,7 @@ ruby "2.3.1"
 
 gem 'redcarpet'
 gem 'albino'
-gem 'jekyll', '~> 3.1.6'
+gem 'jekyll', '~> 3.2.0'
 gem 'rubypants'
 gem 'pry'
 gem 'jekyll-asset-pipeline'
