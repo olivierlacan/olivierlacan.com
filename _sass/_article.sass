@@ -15,8 +15,28 @@
     @media #{$iphone-breakpoint}
       font-size: 150%
 
+    h2, h3, h4, h5
+      margin-left: -0.5em
+
+      &:hover .anchor, &:focus .anchor
+        visibility: visible
+
+      .anchor
+        float: left
+        padding: 1em 0.4em 1em 0.3em
+        margin: -1em -0.3em -1em -0.5em
+        font-style: normal
+        font-weight: normal
+        visibility: hidden
+        border: none
+
+      .anchor::before
+        content: '¶'
+
     h2
       font-size: 1.1em
+      margin-top: 2em
+      margin-bottom: 1em
 
     p > img
       max-width: 100%
@@ -31,16 +51,7 @@
     p > code
       border: 1px solid #ddd
       padding: 0 0.2em
-    pre
-      code
-        display: inline-table
-        border: none
-      &.terminal
-        border: 1px solid #000
-        background-color: #333
-        color: #FFF
-        code
-          background-color: #333
+
     [rel=explanation]
       border-bottom: 1px dashed black
       cursor: help

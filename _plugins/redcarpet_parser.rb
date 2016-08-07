@@ -68,6 +68,21 @@ module Jekyll
             HTML
           end
 
+          def header(text, header_level)
+            slug = text.gsub(" ", "-").downcase
+            tag_name = "h#{header_level}"
+            anchor_link = "<a id='#{slug}' class='anchor' href='##{slug}' aria-hidden='true'></a>"
+            header_tag_open = "<#{tag_name} id='#{slug}'>"
+
+            output = ""
+            output << header_tag_open
+            output << anchor_link
+            output << text
+            output << "</#{tag_name}>"
+
+            output
+          end
+
           protected
           def rouge_formatter(lexer)
             Rouge::Formatters::HTML.new(wrap: false, line_numbers: true)

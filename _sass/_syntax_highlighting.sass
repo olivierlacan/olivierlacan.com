@@ -9,8 +9,19 @@ figure.code
   background: #333
   border-radius: 5px
   overflow: scroll
-  margin: 0.5em 0 1em
+  margin: 1em 0
   padding: 0
+
+  pre
+    code
+      display: inline-table
+      border: none
+    &.terminal
+      border: 1px solid #000
+      background-color: #333
+      color: #FFF
+      code
+        background-color: #333
 
   table
     border-spacing: 0
