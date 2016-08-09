@@ -8,7 +8,7 @@ As I sat here tweaking some HTML &amp; CSS on my About page to use a swanky [`<f
 
 I knew about [LiveReload](http://livereload.com/), an app & browser extension that allows you monitor files and refresh the browser only when needed and I was curious if someone else had used it with Jekyll before so I did a typical Google search: `jekyll livereload`. The first result was a StackOverlow discussion. Generally those are reliable and to the point but I was attracted by the second result, [a personal blog post from Thanasis Polychronakis](http://thanpol.as/jekyll/jekyll-and-livereload-flow/).
 
-![Screenshot of my "jekyll livereload" google search](/images/jekyll-livereload-google-search.png)
+![Screenshot of my "jekyll livereload" google search]({{ site.url }}/assets/jekyll-livereload-google-search.png)
 
 Hard to pass on such an amazing name and the title is right on the nose for what I was looking for.
 
@@ -36,7 +36,7 @@ A blog post dedicated to a time-sensitive topic should include:
 
 It is possible to customize a Google search to only return pages created during a certain time frame — for instance [the last year](https://www.google.com/search?q=jekyll+livereload&oq=jekyll+livereload&aqs=chrome..69i57j0l5.2721j0j1&sourceid=chrome&espv=210&es_sm=91&ie=UTF-8#es_sm=91&espv=210&q=jekyll+livereload&safe=off&tbs=qdr:y) — but this shouldn't be necessary.
 
-![Screenshot of the Google Search Tools options to select a date range](/images/jekyll-livereload-google-search-date-filter.png)
+![Screenshot of the Google Search Tools options to select a date range]({{ site.url }}/assets/jekyll-livereload-google-search-date-filter.png)
 
 I'm making an example of Thanasis' post (*say that out loud!*) even before I've finished reading it because I think nailing little details like this can help a lot of people, not because I'm trying to nitpick him for trying to help.
 

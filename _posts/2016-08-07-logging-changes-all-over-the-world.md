@@ -17,7 +17,7 @@ I've been impressed with how popular this rant-turned-project[^1]
 has been. It looks like many more people than I've ever expected are finding it
 useful in communities much broader than open source software.
 
-![Illustration of Keep a CHANGELOG popularity with a graph of traffic over the past three years](/images/keep-a-changelog-popularity.png)
+![Illustration of Keep a CHANGELOG popularity with a graph of traffic over the past three years]({{ site.url }}/assets/keep-a-changelog-popularity.png)
 
 Now that the latest version (0.3.0) is public, it will be much easier to
 coordinate the translations that have been streaming in steadily over the

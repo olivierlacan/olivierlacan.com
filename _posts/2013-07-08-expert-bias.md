@@ -25,7 +25,7 @@ An issue arises when the amount of knowledge we possess is radically different f
 
 [Tim Van Damme](http://maxvoltar.com/) once gave [an excellent demonstration](https://speakerdeck.com/maxvoltar/web-designers-unite) of this problem using the slope of a mountain. From the base of the mountain, the top seems unreachable. From the top of the mountain, it doesn't seem like the climb was so hard after all.
 
-![Climbing to Knowledge](http://f.cl.ly/items/2M2U1E3s2s000E2T3F3t/Screen%20Shot%202013-07-08%20at%206.26.11%20PM.png)
+![Climbing to Knowledge]({{ site.url }}/assets/expert-bias-climbing-to-knowledge.png)
 
 You, at the top of the mountain, tend to forget the fear, the confusion, the shame, the sweat, the impasses, and the temptation to give up you had up until the summit was within reach.
 

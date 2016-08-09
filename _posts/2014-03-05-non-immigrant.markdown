@@ -17,7 +17,7 @@ When my parents and I went to Canada, mostly to Québec (it's easier after all f
 
 Probably through much pressure on my part, my parents finally had cable TV and Internet installed in 2001. We had used dial-up previously since. The arrival or broadband internet — along with my dad's contagious knack for tinkering with computers — is one of those things I can easily point to as a crucial moment in my life.
 
-![Downloaded a Song - Only Took 20 minutes](http://f.cl.ly/items/1f080c1Z3V1H252f2M2M/CsykAIv.jpg)
+![Downloaded a Song - Only Took 20 minutes]({{ site.url }}/assets/non-immigrant-downloaded-a-song.jpg)
 
 Suddenly, downloading MP3s didn't risk getting me in trouble anymore. I could even attempt video downloads instead of hoping a RealVideo or QuickTime stream would finally stop buffering.
 

@@ -159,12 +159,12 @@ I open my my browser to a non-existent URL I know will trigger a 404:
 
 I then open the `Full Trace` view from the Rails Routing Error page.
 
-![The Rails 4 Routing Error page on a 404](/images/rails_4_routing_error.png)
+![The Rails 4 Routing Error page on a 404]({{ site.url }}/assets/rails_4_routing_error.png)
 
 This obviously tells me nothing, but the `Full Trace` is bound to yield
 more information about what part of Rails first receives the request.
 
-![The Rails 4 Routing Error Full Trace page on a 404](/images/rails_4_routing_error_full_trace.png)
+![The Rails 4 Routing Error Full Trace page on a 404]({{ site.url }}/assets/rails_4_routing_error_full_trace.png)
 
 Alright, so `railties (4.0.9) lib/rails/application.rb:97:in 'call'` it
 is. Time to open up that gem (railties) and drop a `binding.pry` in

@@ -21,7 +21,7 @@ Now take the online education market. Mature isn't the first adjective that come
 
 Sometimes people wonder if I'm worried about Code School or any other service being eclipsed by Khan Academy or bigger fishes. If there's a white board or a piece of paper nearby, I grab a marker, and I draw this:
 
-![The Online Education Market](/images/education_market.png)
+![The Online Education Market]({{ site.url }}/assets/education_market.png)
 
 Excuse the hyperbole, but not unlike the universe, the online education market is expanding, and knowing that billions more will discover the web in the next decade that growth is not about to slow down.
 

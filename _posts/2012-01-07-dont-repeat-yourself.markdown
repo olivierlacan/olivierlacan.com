@@ -44,7 +44,7 @@ So, back to efficiency. How do you achieve that kind of feat in [HTML 4.01](http
 You guessed it! Frames!
 Perfect. Until you actually open than in a browser.
 
-![Grey Scrollbars are FUN ](/images/frames.gif)
+![Grey Scrollbars are FUN ]({{ site.url }}/assets/frames.gif)
 
 Even for my highly tolerant (I used Papyrus and thought it looked _awesome_) 1999 self, this kind of thing was just too ugly to live. So I tried to find a better way.
 

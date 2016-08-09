@@ -12,13 +12,13 @@ The Mavericks update process was uneventful and took about 35 minutes which were
 
 My first step after restarted with a wall of Californian water was to jump to `System Preferences > Security & Privacy` since two apps I use were asking for me to turn the "assistive devices" feature back on. This feature has basically moved around the System Preferences in every recent release of OS X so it's a good thing Mizage (the makers of [Divvy](http://mizage.com/divvy/)) offers a guide. Sadly their guide is out-of-date (made for 10.8), so here's where you can enable access for assistive devices on 10.9.
 
-![Screenshot of OS X System Preferences Privacy & Security screen](http://f.cl.ly/items/0c1j2T0b0b071K2j2y1E/Screen%20Shot%202013-11-13%20at%204.05.03%20PM.png)
+![Screenshot of OS X System Preferences Privacy & Security screen]({{ site.url }}/assets/mavericks-privacy-security-screen.png)
 
 I enjoy the fact that this is now a [whitelist](http://en.wikipedia.org/wiki/Whitelist) instead of a global toggle as it was in 10.8. I can now control which apps can take control of my operating system's input devices, instead of granting that privilege to anything I have installed. Thumbs up for security there, Apple.
 
 Second step once [TextExpander](http://smilesoftware.com/TextExpander/index.html) and Divvy were back in service was to open the Terminal app and run `brew doctor`. [Homebrew](http://brew.sh/) is a package manager for command line utilities that makes life extremely easy for developers. If you don't already use it (or you still use the antiquated MacPorts) you should.
 
-![Screenshot of brew doctor command results](http://f.cl.ly/items/3z29293h0A1K1P353F1p/Screen%20Shot%202013-11-13%20at%204.07.23%20PM.png)
+![Screenshot of brew doctor command results]({{ site.url }}/assets/mavericks-brew-doctor-results.png)
 
 [XQuartz](http://xquartz.macosforge.org/landing/) started being necessary (as a standalone install) since 10.8 I believe, and it's fairly simple to [download and install](http://xquartz.macosforge.org/trac/wiki/X112.7.5), especially since the Homebrew folks do most of the work for your.
 
@@ -28,15 +28,15 @@ I'm not exactly sure why autoconf, automake and libtool showed up as unlinked. T
 
 Fixing those is rather easy.
 
-![Screenshot of brew link autoconf results](http://f.cl.ly/items/3w3q0A1E1p1s1s2V0t1j/Screen%20Shot%202013-11-13%20at%204.14.34%20PM.png)
-![Screenshot of brew link automake results](http://f.cl.ly/items/1s0g2y0w3x0M07430n38/Screen%20Shot%202013-11-13%20at%204.14.56%20PM.png)
-![Screenshot of brew link libtool results](http://f.cl.ly/items/3D2l1h3w462e1g2z1v3b/Screen%20Shot%202013-11-13%20at%204.15.08%20PM.png)
+![Screenshot of brew link autoconf results]({{ site.url }}/assets/mavericks-brew-link-autoconf.png)
+![Screenshot of brew link automake results]({{ site.url }}/assets/mavericks-brew-link-automake.png)
+![Screenshot of brew link libtool results]({{ site.url }}/assets/mavericks-brew-link-autoconf.png)
 
 After all this, re-running `brew doctor` is a good idea, to see where things are.
 
 Since I couldn't `brew link mysql` because I had uninstalled it, I googled around and found that `brew remove --force mysql` would get rid of it altogether. Nifty trick, especially since Homebrew insisted I had "multiple versions installed". I didn't. I never use the damn thing. Switch to [PostgreSQL](http://www.postgresql.org/) by the way, you'll thank me in a few years.
 
-Finally a little `brew update` to fetch new formulae (recipes to install packages in Homebrew parlance). One last `brew doctor` and the satisfying result: 
+Finally a little `brew update` to fetch new formulae (recipes to install packages in Homebrew parlance). One last `brew doctor` and the satisfying result:
 
 > Your system is ready to brew.
 
@@ -50,7 +50,7 @@ I use rbenv with the following plugins installed in `~/.rbenv/plugins`:
 - [rbenv-gem-rehash](https://github.com/sstephenson/rbenv-gem-rehash) which automatically runs `rbenv rehash` for you after installing gems with executable binaries so you can instantly use said binaries without reloading your prompt or manually running `rbenv rehash`.
 - [ruby-build](https://github.com/sstephenson/ruby-build) which allows me to run `rbenv install 2.0.0-p247` directly when I need to install a Ruby version.
 
-After installing Mavericks, `rbenv` was fully functional and I managed to install Ruby 2.1.0-preview1 without a hitch. Better yet, all my existing Rubies worked fine and I was able to fire up [Powder](https://github.com/Rodreegez/powder) — a lovely little gem I use to manage [Pow](http://pow.cx/) for all my Rails projects so I don't have to manually setup their `rails server` on different ports. 
+After installing Mavericks, `rbenv` was fully functional and I managed to install Ruby 2.1.0-preview1 without a hitch. Better yet, all my existing Rubies worked fine and I was able to fire up [Powder](https://github.com/Rodreegez/powder) — a lovely little gem I use to manage [Pow](http://pow.cx/) for all my Rails projects so I don't have to manually setup their `rails server` on different ports.
 
 This was by far the smoothest OS X upgrade experience I've ever had with a Rails development environment installed on my machine. That doesn't mean I won't run into some hiccups later, but it's reassuring for people like me who stay away from upgrades for fear of having a day of work ruined trying to get things back to normal.
 

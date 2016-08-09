@@ -51,17 +51,17 @@ Seemed all right. Maybe Keychain had the wrong password stored somehow?
 After checking my own Keychain, there was indeed a record in there that
 matched `https://github.com`:
 
-![Screenshot of the Keychain app showing a github.com entry](/images/keychain-github-record.png)
+![Screenshot of the Keychain app showing a github.com entry]({{ site.url }}/assets/keychain-github-record.png)
 
 Since this obviously wasn't working I checked the info for that record:
 
-![Screenshot of the Keychain app entry info for github.com](/images/keychain-github-record-info.png)
+![Screenshot of the Keychain app entry info for github.com]({{ site.url }}/assets/keychain-github-record-info.png)
 
 It all checked out. The password was correct since **I had just logged into
 github.com itself using it**. You can even see that the `git-credential-osxkeychain`
 binary is allowed to access that credential from Keychain in the Access Control tab:
 
-![Screenshot of the Keychain app entry info access control tab for github.com](/images/keychain-github-record-info-access-control.png)
+![Screenshot of the Keychain app entry info access control tab for github.com]({{ site.url }}/assets/keychain-github-record-info-access-control.png)
 
 So it's not an access problem. What the hell is going on here?
 I decided to delete the Keychain record for github.com and try to re-submit them.
@@ -88,14 +88,14 @@ access token instead of entering your password for HTTPS Git**.
 You can [create a personal access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use)
 for accessing GitHub by going to the [application settings page](https://github.com/settings/applications).
 
-![It all makes sense now!](/images/wee-bey.gif)
+![It all makes sense now!]({{ site.url }}/assets/wee-bey.gif)
 
 I willingly setup two-factor authentication on github.com and
 expected that my single-factor password would still work to authenticate
 through HTTPS via Git. And I probably glossed over some essential warning
 copy while doing so.
 
-![Screenshot of GitHub's Personal Access Tokens interface](/images/github-personal-access-tokens.png)
+![Screenshot of GitHub's Personal Access Tokens interface]({{ site.url }}/assets/github-personal-access-tokens.png)
 
 Creating a [new Personal Access Token](https://github.com/settings/tokens/new)
 on GitHub is easy and you get a hash to use as a password. **That** is what the

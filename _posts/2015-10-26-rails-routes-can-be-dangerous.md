@@ -82,4 +82,4 @@ link_to video.author, [:admin, video.author]
 
 
 
-![Routing Error](/images/rails_3_2_routing_error.png)
+![Routing Error]({{ site.url }}/assets/rails_3_2_routing_error.png)

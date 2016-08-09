@@ -18,7 +18,7 @@ separated by spaces, you can easily jump to the beginning of each word by
 using the `Option` key alongside with either the `Left` or `Right` arrow
 keys. Nothing amazing, maybe you think this is neat.
 
-![Flying between words in TextEdit](/images/flying-between-words.gif)
+![Flying between words in TextEdit]({{ site.url }}/assets/flying-between-words.gif)
 
 Well, inside of a Shell, you often can't use your mouse to place your
 cursor wherever you wish. This seems backwards (because it is) but it's
@@ -34,14 +34,14 @@ use `Command` + `,` to do that in any OS X app worth its salt) and go to
 the `Settings` tab, under `Keyboard` you will find a checkbox named
 `Use option as meta key`.
 
-![Terminal Option as meta key setting](/images/terminal-option.png)
+![Terminal Option as meta key setting]({{ site.url }}/assets/terminal-option.png)
 
 Enabling this option will let you fly between
 words with your arrow keys when holding `Option`.
 
 You're welcome.
 
-![Flying between words in Terminal](/images/still-flying-between-words.gif)
+![Flying between words in Terminal]({{ site.url }}/assets/still-flying-between-words.gif)
 
 ## iTerm
 
@@ -53,7 +53,7 @@ shortcuts.
 
 ### Jumping Left
 
-![iTerm Setting to Jump Left](/images/iterm-option-left.png)
+![iTerm Setting to Jump Left]({{ site.url }}/assets/iterm-option-left.png)
 
 Hold the `Option` and `Left Arrow` keys in the `Keyboard Shortcut`
 input field, then select the `Send Escape Sequence` Action, and finally
@@ -61,7 +61,7 @@ set the `Esc+` field to `B` (for back).
 
 ### Jumping Right
 
-![iTerm Setting to Jump Right](/images/iterm-option-right.png)
+![iTerm Setting to Jump Right]({{ site.url }}/assets/iterm-option-right.png)
 
 Hold the `Option` and `Right Arrow` keys in the `Keyboard Shortcut`
 input field, then select the `Send Escape Sequence` Action, and finally
@@ -73,7 +73,7 @@ that has the same combinations of keys. In this situation you will have
 to delete your Profile-specific shortcuts otherwise they will override
 the global ones presented below, otherwise this won't work as expected.
 
-![iTerm Global Shortcut Warning Prompt](/images/iterm-shortcut-warning.png)
+![iTerm Global Shortcut Warning Prompt]({{ site.url }}/assets/iterm-shortcut-warning.png)
 
 This optimization is an example of something you can apply to your life
 every single day. What task or step of a task are you repeating over and

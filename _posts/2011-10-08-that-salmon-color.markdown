@@ -14,7 +14,7 @@ And then he said this:
 
 > I'll end it with this one – I could go on and on, but I'll end it here. This is a nice begining of evening shot. You see a little bit of depth of field, right? You've seen that in a couple of these photos. The background's blurred because that aperture 2.4 allows us a little depth of field. And you get just want you want in a sunset photo, **the start of that salmon color that the sun makes**. A bad auto white balance setting would make this sort of a neutral grey and ruin the beautiful color but not the iPhone 4S.
 
-![Phil Schiller Salmon Sunset](/images/salmon.jpg)
+![Phil Schiller Salmon Sunset]({{ site.url }}/assets/salmon.jpg)
 
 This is just one of many details aimed at people who know this stuff – and with my short experience as an amateur photographer and camera salesman, I think I do. One of my favorite conversations with customers at the electronics store I worked at in Paris was the "Megapixel Conspiracy". Most would-be photographers would come to me as the approachable long-haired 23-year old and ask me which camera had the highest pixel count.
 
@@ -39,6 +39,6 @@ Why? Because it's always there and it can take almost anything I throw at it. I'
 
 > "Do you know how hard it is to get a squirrel to stand still? Not easy."
 
-![That Hairy Squirrel](/images/squirrel.jpg)
+![That Hairy Squirrel]({{ site.url }}/assets/squirrel.jpg)
 
 PS: You can find actual shots (full size original files) from the 4S on [Apple's website](http://www.apple.com/iphone/features/#camera).

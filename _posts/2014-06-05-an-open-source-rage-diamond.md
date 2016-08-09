@@ -15,7 +15,7 @@ out uglier. Somehow, the people making these badges had managed to achieve
 "perfect" visual inconstency. It didn't seem to shock anyone. Perhaps,
 maintainers didn't care or couldn't tell the difference.
 
-![How open source badges looked before Shields](/images/pre-shields_inconsistency.png)
+![How open source badges looked before Shields]({{ site.url }}/assets/pre-shields_inconsistency.png)
 
 Some of these badges weren't helpful at all. They looked a lot like
 stealth advertising for the third-party services powering them.
@@ -32,7 +32,7 @@ took the time to design properly: consistent padding, a more
 legible typeface despite a similar font size, better contrast, softer
 colors, a more subtle gradient, etc.
 
-![The Original Shields Design](/images/shields_original.png)
+![The Original Shields Design]({{ site.url }}/assets/shields_original.png)
 
 I called the project Shields as a nod to one of the greatest TV
 shows of all time — [The Shield](http://en.wikipedia.org/wiki/The_Shield)
@@ -88,7 +88,7 @@ Until all these services get around to updating their websites and
 internal badge generation services, we will see inconsistencies because
 the new SVG badges don't look exactly the same as the first generation.
 
-![Illustration of the inconsistency between PNG and SVG Shields badges](/images/shields_inconsistency.png)
+![Illustration of the inconsistency between PNG and SVG Shields badges]({{ site.url }}/assets/shields_inconsistency.png)
 
 I've wanted to avoid this since inconsistency is what led to this rage
 diamond in the first place, but it's alright. In the end my goal with this
@@ -131,10 +131,10 @@ tell what their maintainers care about, by showcasing:
 
 |  |  |
 | --- | --- |
-| dependencies | [![Dependency status badge](/images/shields_dependencies.svg)](http://img.shields.io/gemnasium/badges/shields.svg) |
-| code quality | [![code quality badge](/images/shields_code_quality.svg)](http://img.shields.io/codeclimate/github/rails/rails.svg) |
-| test coverage | [![test coverage badge](/images/shields_test_coverage.svg)](http://img.shields.io/codeclimate/coverage/github/triAGENS/ashikawa-core.svg) |
-| donations | [![donations badge](/images/shields_donations.svg)](http://img.shields.io/gittip/Shields.svg) |
-| build status | [![build status badge](/images/shields_build_status.svg)](http://img.shields.io/travis/badges/shields.svg) |
-| version awareness | [![version awareness badge](/images/shields_version_awareness.svg)](http://img.shields.io/gem/v/rails.svg) |
-| licensing | [![licensing badge](/images/shields_licensing.svg)](http://img.shields.io/packagist/l/doctrine/orm.svg) |
+| dependencies | [![Dependency status badge]({{ site.url }}/assets/shields_dependencies.svg)](http://img.shields.io/gemnasium/badges/shields.svg) |
+| code quality | [![code quality badge]({{ site.url }}/assets/shields_code_quality.svg)](http://img.shields.io/codeclimate/github/rails/rails.svg) |
+| test coverage | [![test coverage badge]({{ site.url }}/assets/shields_test_coverage.svg)](http://img.shields.io/codeclimate/coverage/github/triAGENS/ashikawa-core.svg) |
+| donations | [![donations badge]({{ site.url }}/assets/shields_donations.svg)](http://img.shields.io/gittip/Shields.svg) |
+| build status | [![build status badge]({{ site.url }}/assets/shields_build_status.svg)](http://img.shields.io/travis/badges/shields.svg) |
+| version awareness | [![version awareness badge]({{ site.url }}/assets/shields_version_awareness.svg)](http://img.shields.io/gem/v/rails.svg) |
+| licensing | [![licensing badge]({{ site.url }}/assets/shields_licensing.svg)](http://img.shields.io/packagist/l/doctrine/orm.svg) |

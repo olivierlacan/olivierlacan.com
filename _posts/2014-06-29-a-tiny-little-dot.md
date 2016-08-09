@@ -39,7 +39,7 @@ Could not load native IDN implementation.
 The first thing you'll notice is this super weird `Could not load native IDN implementation.`
 error. And you'll stare at it. You'll try to poke holes through it like this fella:
 
-![Clint Eastwood Trying Kill Your Stracktrace With His COLD BARE EYES](/images/clint_eastwood_death_stare.jpg)
+![Clint Eastwood Trying Kill Your Stracktrace With His COLD BARE EYES]({{ site.url }}/assets/clint_eastwood_death_stare.jpg)
 
 Eventually, you'll Google this weird error message and find this line in the
 [addressable](https://github.com/sporkmonger/addressable/blob/master/spec/addressable/idna_spec.rb#L249) gem:
@@ -56,7 +56,7 @@ Nope... Wait, it's a dependency of [`launchy`](https://github.com/copiousfreetim
 and [`webmock`](https://github.com/bblimke/webmock). So... maybe I did
 something wrong... but WAIT?
 
-![A fake epiphany that actually never happened because it's really Josh Kalderimis who figured this out](/images/house_epiphany.gif)
+![A fake epiphany that actually never happened because it's really Josh Kalderimis who figured this out]({{ site.url }}/assets/house_epiphany.gif)
 
 Why is the [`rotate_spec.rb`](https://github.com/marcandre/backports/blob/master/spec/tags/1.8.6/core/array/rotate_spec.rb#L1) from the `backports` gem even running in
 my build?! How is that even...
