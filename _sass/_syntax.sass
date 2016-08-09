@@ -1,205 +1,238 @@
-.hll
-  background-color: #49483e
+// /* Solarized Dark
+//  *For use with Jekyll and Pygments
+//  *http://ethanschoonover.com/solarized
+//  *SOLARIZED HEX      ROLE
+//  *--------- -------- ------------------------------------------
+//  *base03    #002b36  background
+//  *base01    #586e75  comments / secondary content
+//  *base1     #93a1a1  body text / default code / primary content
+//  *orange    #cb4b16  constants
+//  *red       #dc322f  regex, special keywords
+//  *blue      #268bd2  reserved keywords
+//  *cyan      #2aa198  strings, numbers
+//  *green     #859900  operators, other keywords
 
-.c
-  color: #75715e
+.highlight
+  background-color: #002b36
+  color: #93a1a1
 
-/* Comment */
+  .c
+    color: #586e75
 
-.err
-  color: #960050
-  background-color: #1e0010
+  .err, .g
+    color: #93a1a1
 
-/* Error */
+  .k
+    color: #859900
 
-.k
-  color: #66d9ef
+  .l, .n
+    color: #93a1a1
 
-/* Keyword */
+  .o
+    color: #859900
 
-.l
-  color: #ae81ff
+  .x
+    color: #cb4b16
 
-/* Literal */
+  .p
+    color: #93a1a1
 
-.n
-  color: #f8f8f2
+  .cm
+    color: #586e75
 
-/* Name */
+  .cp
+    color: #859900
 
-.o
-  color: #f92672
+  .c1
+    color: #586e75
 
-/* Operator */
+  .cs
+    color: #859900
 
-.p
-  color: #f8f8f2
+  .gd
+    color: #2aa198
 
-/* Punctuation */
+  .ge
+    color: #93a1a1
+    font-style: italic
 
-.cm, .cp, .c1, .cs
-  color: #75715e
+  .gr
+    color: #dc322f
 
-/* Comment.Multiline */
-/* Comment.Preproc */
-/* Comment.Single */
-/* Comment.Special */
+  .gh
+    color: #cb4b16
 
-.ge
-  font-style: italic
+  .gi
+    color: #859900
 
-/* Generic.Emph */
+  .go, .gp
+    color: #93a1a1
 
-.gs
-  font-weight: bold
+  .gs
+    color: #93a1a1
+    font-weight: bold
 
-/* Generic.Strong */
+  .gu
+    color: #cb4b16
 
-.kc, .kd
-  color: #66d9ef
+  .gt
+    color: #93a1a1
 
-/* Keyword.Constant */
-/* Keyword.Declaration */
+  .kc
+    color: #cb4b16
 
-.kn
-  color: #f92672
+  .kd
+    color: #268bd2
 
-/* Keyword.Namespace */
+  .kn, .kp
+    color: #859900
 
-.kp, .kr, .kt
-  color: #66d9ef
+  .kr
+    color: #268bd2
 
-/* Keyword.Pseudo */
-/* Keyword.Reserved */
-/* Keyword.Type */
+  .kt
+    color: #dc322f
 
-.ld
-  color: #e6db74
+  .ld
+    color: #93a1a1
 
-/* Literal.Date */
+  .m, .s
+    color: #2aa198
 
-.m
-  color: #ae81ff
-
-/* Literal.Number */
-
-.s
-  color: #e6db74
-
-/* Literal.String */
-
-.na
-  color: #a6e22e
-
-/* Name.Attribute */
-
-.nb
-  color: #f8f8f2
-
-/* Name.Builtin */
-
-.nc
-  color: #a6e22e
-
-/* Name.Class */
-
-.no
-  color: #66d9ef
-
-/* Name.Constant */
-
-.nd
-  color: #a6e22e
-
-/* Name.Decorator */
-
-.ni
-  color: #f8f8f2
-
-/* Name.Entity */
-
-.ne, .nf
-  color: #a6e22e
-
-/* Name.Exception */
-/* Name.Function */
-
-.nl, .nn
-  color: #f8f8f2
-
-/* Name.Label */
-/* Name.Namespace */
-
-.nx
-  color: #a6e22e
-
-/* Name.Other */
-
-.py
-  color: #f8f8f2
-
-/* Name.Property */
-
-.nt
-  color: #f92672
-
-/* Name.Tag */
-
-.nv
-  color: #f8f8f2
-
-/* Name.Variable */
-
-.ow
-  color: #f92672
-
-/* Operator.Word */
-
-.w
-  color: #f8f8f2
-
-/* Text.Whitespace */
-
-.mf, .mh, .mi, .mo
-  color: #ae81ff
-
-/* Literal.Number.Float */
-/* Literal.Number.Hex */
-/* Literal.Number.Integer */
-/* Literal.Number.Oct */
-
-.sb, .sc, .sd, .s2
-  color: #e6db74
-
-/* Literal.String.Backtick */
-/* Literal.String.Char */
-/* Literal.String.Doc */
-/* Literal.String.Double */
-
-.se
-  color: #ae81ff
-
-/* Literal.String.Escape */
-
-.sh, .si, .sx, .sr, .s1, .ss
-  color: #e6db74
-
-/* Literal.String.Heredoc */
-/* Literal.String.Interpol */
-/* Literal.String.Other */
-/* Literal.String.Regex */
-/* Literal.String.Single */
-/* Literal.String.Symbol */
-
-.bp, .vc, .vg, .vi
-  color: #f8f8f2
-
-/* Name.Builtin.Pseudo */
-/* Name.Variable.Class */
-/* Name.Variable.Global */
-/* Name.Variable.Instance */
-
-.il
-  color: #ae81ff
-
-/* Literal.Number.Integer.Long */
+  .na
+    color: #93a1a1
+
+  .nb
+    color: #B58900
+
+  .nc
+    color: #268bd2
+
+  .no
+    color: #cb4b16
+
+  .nd
+    color: #268bd2
+
+  .ni, .ne
+    color: #cb4b16
+
+  .nf
+    color: #268bd2
+
+  .nl, .nn, .nx, .py
+    color: #93a1a1
+
+  .nt, .nv
+    color: #268bd2
+
+  .ow
+    color: #859900
+
+  .w
+    color: #93a1a1
+
+  .mf, .mh, .mi, .mo
+    color: #2aa198
+
+  .sb
+    color: #586e75
+
+  .sc
+    color: #2aa198
+
+  .sd
+    color: #93a1a1
+
+  .s2
+    color: #2aa198
+
+  .se
+    color: #cb4b16
+
+  .sh
+    color: #93a1a1
+
+  .si, .sx
+    color: #2aa198
+
+  .sr
+    color: #dc322f
+
+  .s1, .ss
+    color: #2aa198
+
+  .bp, .vc, .vg, .vi
+    color: #268bd2
+
+  .il
+    color: #2aa198
+
+/* Comment
+/* Error
+/* Generic
+/* Keyword
+/* Literal
+/* Name
+/* Operator
+/* Other
+/* Punctuation
+/* Comment.Multiline
+/* Comment.Preproc
+/* Comment.Single
+/* Comment.Special
+/* Generic.Deleted
+/* Generic.Emph
+/* Generic.Error
+/* Generic.Heading
+/* Generic.Inserted
+/* Generic.Output
+/* Generic.Prompt
+/* Generic.Strong
+/* Generic.Subheading
+/* Generic.Traceback
+/* Keyword.Constant
+/* Keyword.Declaration
+/* Keyword.Namespace
+/* Keyword.Pseudo
+/* Keyword.Reserved
+/* Keyword.Type
+/* Literal.Date
+/* Literal.Number
+/* Literal.String
+/* Name.Attribute
+/* Name.Builtin
+/* Name.Class
+/* Name.Constant
+/* Name.Decorator
+/* Name.Entity
+/* Name.Exception
+/* Name.Function
+/* Name.Label
+/* Name.Namespace
+/* Name.Other
+/* Name.Property
+/* Name.Tag
+/* Name.Variable
+/* Operator.Word
+/* Text.Whitespace
+/* Literal.Number.Float
+/* Literal.Number.Hex
+/* Literal.Number.Integer
+/* Literal.Number.Oct
+/* Literal.String.Backtick
+/* Literal.String.Char
+/* Literal.String.Doc
+/* Literal.String.Double
+/* Literal.String.Escape
+/* Literal.String.Heredoc
+/* Literal.String.Interpol
+/* Literal.String.Other
+/* Literal.String.Regex
+/* Literal.String.Single
+/* Literal.String.Symbol
+/* Name.Builtin.Pseudo
+/* Name.Variable.Class
+/* Name.Variable.Global
+/* Name.Variable.Instance
+/* Literal.Number.Integer.Long
