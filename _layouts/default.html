@@ -12,21 +12,21 @@
     {% endif %}
     <meta name="viewport" content="width=device-width">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feed.olivierlacan.com" />
-    <link rel="stylesheet" href="/fonts/octicons/octicons.css">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="{{ site.url }}/fonts/octicons/octicons.css">
+    <link rel="stylesheet" href="{{ site.url }}/css/styles.css">
   </head>
   <body>
 
     <div class="container">
       <div class="site">
         <div class="header">
-          <h1 class="site-title"><a href="/">{{ site.name }}</a></h1>
+          <h1 class="site-title"><a href="{{ site.url }}">{{ site.name }}</a></h1>
           <nav>
             <ul>
-              <li><a class="extra" href="/about/"><span>about</span></a></li>
-              <li><a href="/work">work</a></li>
-              <li><a href="/tools">tools</a></li>
-              <li><a href="/talks">talks</a></li>
+              <li><a class="extra" href="{{ site.url }}/about/"><span>about</span></a></li>
+              <li><a href="{{ site.url }}/work">work</a></li>
+              <li><a href="{{ site.url }}/tools">tools</a></li>
+              <li><a href="{{ site.url }}/talks">talks</a></li>
             </ul>
           </nav>
           <p class="bio">Software bricoleur, word wrangler, scientific skeptic, and logic lumberjack.</p>
@@ -35,7 +35,7 @@
             {{ content }}
 
         <div class="footer">
-          <p>Don't be shy, come say <a href="mailto:hi@olivierlacan.com">hi@olivierlacan.com</a>. Or send me a little <a href="http://twitter.com/olivierlacan">tweet</a>.</p>
+          <p>Don't be shy, come say <a href="mailto:hi@olivierlacan.com">hi@olivierlacan.com</a>. Or send me a little <a href="https://twitter.com/olivierlacan">tweet</a>.</p>
         </div>
       </div>
     </div> <!-- /container -->
