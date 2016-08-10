@@ -13,7 +13,10 @@
     font-size: 1.3em
     line-height: 1.5
     @media #{$iphone-breakpoint}
-      font-size: 200%
+      font-size: 220%
+
+    @media #{$ipad-breakpoint}
+      font-size: 150%
 
     h2, h3, h4, h5
       margin-left: -0.5em
@@ -37,6 +40,9 @@
       font-size: 1.1em
       margin-top: 2em
       margin-bottom: 1em
+
+      @media #{$iphone-breakpoint}
+        margin-top: 1em
 
     p > img
       max-width: 100%

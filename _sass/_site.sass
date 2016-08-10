@@ -12,6 +12,10 @@
     h1.site-title
       display: inline-block
       margin-bottom: 0
+
+      @media #{$ipad-breakpoint}
+        margin: 0
+
       a
         vertical-align: bottom
         font-size: 1.7em
@@ -26,11 +30,14 @@
 
         @media #{$iphone-breakpoint}
           font-size: 2.5em
+          margin: 0 5.5em
+
 
     nav
       display: block
       float: right
       font-size: 1.4em
+
       @media #{$iphone-breakpoint}
         font-size: 2.6em
         position: relative
@@ -41,6 +48,17 @@
           padding: .6em .9em .6em
           background-color: #eee
           border-radius: 5%
+
+      @media #{$ipad-breakpoint}
+        font-size: 2.1em
+        margin: 0
+        position: fixed
+        top: auto
+        bottom: 0px
+        background: white
+        width: 100%
+        height: 1em
+        padding: 1.2em 0 1em 7.3em
 
       ul
         display: inline-block
@@ -90,7 +108,7 @@
       margin-top: 0
       margin-bottom: 0
       line-height: 1.2
-      @media #{$iphone-breakpoint}
+      @media #{$iphone-breakpoint}, #{$ipad-breakpoint}
         display: none
 
   h2
@@ -101,9 +119,12 @@
       font-size: 3.5em
       padding-top: 1em
 
+    @media #{$ipad-breakpoint}
+      font-size: 300%
+
   .meta
     color: #aaa
-    @media #{$iphone-breakpoint}
+    @media #{$iphone-breakpoint}, #{$ipad-breakpoint}
       font-size: 1.7em
       padding-left: .5em
       line-height: 1.4
@@ -115,8 +136,9 @@
     border-top: 4px solid #eee
     margin-top: 2em
     overflow: hidden
+
     @media #{$iphone-breakpoint}
-      font-size: 1.55em
+      font-size: 2.1em
       line-height: 1.5
 
     .contact
