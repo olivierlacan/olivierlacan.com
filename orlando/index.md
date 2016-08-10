@@ -35,7 +35,7 @@ Version 3.0 (2016)
             {% for image in venue.images %}
               {% assign file = image | split: '|' | first %}
               {% assign alt = image | split: '|' | last %}
-              <img src="/images{{ venue.dir }}{{ file }}" alt="{{ alt }}">
+              <img src="{{ site.url }}/assets/orlando{{ venue.dir }}{{ file }}" alt="{{ alt }}">
             {% endfor %}
           </div>
         {% endif %}
