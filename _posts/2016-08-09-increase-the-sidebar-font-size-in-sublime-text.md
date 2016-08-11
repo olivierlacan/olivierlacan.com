@@ -4,10 +4,9 @@ title: "Increasing the Sidebar Font Size in Sublime Text"
 date: 2016-08-09 10:17
 location: "Orlando, Florida"
 categories: development
-draft: true
 ---
 
-I still use Sublime Text. If you do to, great, I'm sure you love it. That said
+I still use Sublime Text. If you do too, great, I'm sure you love it. That said
 if you own a screen larger than 13" it's very likely you find the default font
 size in the sidebar madeningly small.
 
@@ -22,7 +21,7 @@ anniversary of my bionic eyes, let's fix this damn sidebar for good.
 
 ## PackageResourceViewer
 
-This step assumes you have [Package Control installed](https://packagecontrol.io/installation).
+This step assumes you have [Package Control installed][package-control].
 If you don't, go do it, trust me, you're missing on a world of Sublime goodness.
 
 It appears that the files we need to modify (at least in Sublime 3) are now
@@ -105,14 +104,48 @@ After, they looked like this:
 Don't forget to add a comma (`,`) at the end of the previous property's line
 (`shadow_offset` in this case) otherwise you'll cause a syntax error.
 
+## Sweating the Details
+
 I recommend playing with the `font.size` value. I settled on `16` but only
 after messing with the `sidebar_tree` property's `row_padding` values that
 determine the padding (spacing) within each sidebar row.
 
-I found that changing them from their default value of `[8, 3]` to `[8, 5]` made
-the sidebar rows much easier to read.
+I also found that changing them from their default value of `[8, 3]` to `[8, 5]`
+made the sidebar rows much easier to read.
 
 I'd recommend making a backup of the original values. Otherwise you can always
 remove the Theme package you were modifying and re-install it from Package
 Control. That should restore the default theme settings.
 
+### My sidebar before:
+
+![Screenshot of my sidebar using the default settings]({{ site.url }}/assets/sublime-sidebar-default-font-size.png)
+
+### My sidebar after:
+
+![Screenshot of my sidebar using the improved settings]({{ site.url }}/assets/sublime-sidebar-improved-font-size.png)
+
+It may not look like much, but in the context of a larger screen, it matters and
+my eyes thank me for spending the time to finally address this issue.
+
+## Conclusions
+
+This post was drawn from personal frustration and it's very much an expansion
+of this [excellent StackOverflow response][so-response]. I have to admit that
+it's a bit baffling how difficult this ordeal was to accomplish such a basic
+change that would surely benefit many Sublime Text users. If there's a much
+simpler way to achieve this (using a simple Package perhaps) then let me know
+and I'll be glad to shorten this.
+
+In the meantime, remember that it's important to take some time to chip away
+at the rough edges of your tools every day. You don't need to switch editors
+because something isn't perfect in the one you're using. You can often find
+solutions that don't involve uppending your entire workflow for a few weeks.
+
+
+That said, there should be a breaking point. I could have switched to Atom for
+less, and I have. I just haven't found the productivity equilibrium to satisfy
+me in another editor yet. That doesn't mean it won't happen.
+
+[package-control]: https://packagecontrol.io/installation
+[so-response]: http://stackoverflow.com/questions/23045968/increase-the-font-size-of-text-in-sublime-side-bar/23046654#23046654
