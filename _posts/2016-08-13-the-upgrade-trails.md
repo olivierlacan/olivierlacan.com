@@ -93,10 +93,10 @@ No, I'm not talking about [Stranger Things][stranger].
 
 ### 3 — Subtract
 
-Do use every single opportunity (Pull Request) to remove code and [drop
-third-party dependencies][killdeps]. Not because they're evil, but because
-they will demogorgons were real and could take some people away for ever to
-the upside-down world of wheel reinventing. 
+Do use every single opportunity (Pull Request) to remove code and [drop third-
+party dependencies][killdeps]. Not because they're evil, but because they will
+make you wish demogorgons were real and could take some people away for ever to
+the upside-down world of wheel reinventing.
 
 Seriously though, go [watch that show][stranger]. 
 
