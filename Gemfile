@@ -15,3 +15,7 @@ gem 'thor'
 gem 'html-proofer'
 gem 'pygments.rb'
 gem 'jekyll-gist'
+
+group :jekyll_plugins do
+  gem 'jekyll-admin'
+end
