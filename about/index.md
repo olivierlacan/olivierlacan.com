@@ -19,4 +19,4 @@ about as often as I breathe. I also [take little square pictures of the world](h
 
 ## Contact
 
-If you'd like to email me securely you can use my [PGP Key](http://hkps.pool.sks-keyservers.net/pks/lookup?search=hi%40olivierlacan.com&fingerprint=on&op=index) and I recommend reading my little [GPGTools](/tools/security/gpgtools.html) article if you don't know much about secure communication. [Keybase.io](https://keybase.io/olivierlacan) is a neat alternative with a much easier learning curve although it may not be as secure.
+If you'd like to email me securely you can use my [PGP Key](http://hkps.pool.sks-keyservers.net/pks/lookup?search=hi%40olivierlacan.com&fingerprint=on&op=index) and I recommend reading my little [GPGTools](/tools/security/gpgtools) article if you don't know much about secure communication. [Keybase.io](https://keybase.io/olivierlacan) is a neat alternative with a much easier learning curve although it may not be as secure.
