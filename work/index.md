@@ -45,10 +45,6 @@ The Tron-inspired design and illustrations that Justin Mezzell
 created for this course, aside from being gorgeous, helped quite a bit by
 allowing us to identify some concepts — through iconography for instance.
 
-[Git Real](http://www.codeschool.com/courses/git-real),
-[Try jQuery](http://www.codeschool.com/courses/try-jquery),
-and some super sneaky secret internal tools.
-
 ## Open Source
 ### [Shields](https://github.com/badges/shields)
 I created [Shields](http://shields.io) in January 2013 in a bout of constructive rage against bad open source repository metadata badges. I'm a bit amazed by how shiny that rage diamond turned out to be.
@@ -98,8 +94,8 @@ Ruby news podcast that covers new releases, interesting blog posts, and relevant
 events in the Ruby and Rails community.
 
 ### [The Multilogue](http://themultilogue)
-I met Anthony Colangelo when we were both students at Full Sail University in
-2010. I've always loved having deep conversations with him on the phone. And one
+I met Anthony Colangelo when we were both students at Full Sail University in 2010.
+I've always loved having deep conversations with him on the phone. And one
 day we decided to start recording these conversations. The Multilogue was born.
 
 We don't do much editing but record on quality audio hardware so that you don't
