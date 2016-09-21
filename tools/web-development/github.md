@@ -6,4 +6,7 @@ categories: web development
 ---
 
 # [GitHub](http://github.com)
-Hosting Git repositories remotely is crucial whether collaborating on projects with friends, anyone in the open-source community, or co-workers. GitHub makes this so easy I could cry, and GitHub Issues is how I've always wanted to handle bug tracking.
+Hosting Git repositories remotely is crucial whether collaborating on projects
+with friends, anyone in the open-source community, or co-workers. GitHub makes
+this so easy I could cry, and GitHub Issues is how I've always wanted to handle
+bug tracking.
