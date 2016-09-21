@@ -92,16 +92,28 @@ relies on a piece of information to be notified when an article is updated, crea
 hyperlinks of sort between mostly static information and the people who depend on it.
 
 ## Podcasting
-### [The Multilogue](http://themultilogue)
-I met Anthony Colangelo when we were both students at Full Sail University in 2010. I've always loved having deep conversations with him on the phone. And one day we decided to start recording these conversations. The Multilogue was born.
+### [Ruby Facets](http://rubyfacets.com)
+A spiritual successor to Ruby5 since it ended, Ruby Facets is a short and sweet
+Ruby news podcast that covers new releases, interesting blog posts, and relevant
+events in the Ruby and Rails community.
 
-We don't do much editing but record on quality audio hardware so that you don't have to suffer our rants while your ears beg for mercy. It's called The Multilogue because I tend to monologue quite a bit and Anthony can hold his own too. That said, I believe we often arrive at thoughtful conversations about topics we care about: technology, attention to details, self-expression, open source software, iOS development, responsive design, impostor syndrome, etc.
+### [The Multilogue](http://themultilogue)
+I met Anthony Colangelo when we were both students at Full Sail University in
+2010. I've always loved having deep conversations with him on the phone. And one
+day we decided to start recording these conversations. The Multilogue was born.
+
+We don't do much editing but record on quality audio hardware so that you don't
+have to suffer our rants while your ears beg for mercy. It's called The
+Multilogue because I tend to monologue quite a bit and Anthony can hold his own
+too. That said, I believe we often arrive at thoughtful conversations about
+topics we care about: technology, attention to details, self-expression, open
+source software, iOS development, responsive design, impostor syndrome, etc.
 
 ### [Ruby5](http://ruby5.envylabs.com)
 I first started podcasting with Gregg Pollack and the rest of the
 Envy Labs & Code School team that rotates on the show. Recently I've
 become a regular co-host. With the help of serious audio engineering
-friends like Jamison Rabbe, Jason Madsen and John Friskics
+friends like Jamison Rabbe, Jason Madsen and Jon Friskics.
 
 ### [5 Minutes of JavaScript](http://five-js.envylabs.com/episodes/27-episode-27-may-15th-2014)
 Recently Carlos Souza [invited me to co-host](http://five-js.envylabs.com/episodes/27-episode-27-may-15th-2014) this new Code School podcast
@@ -115,14 +127,6 @@ was so great to finally be able to go full cinephile with a bunch of
 
 Along my [few contributions](http://www.hypotheticalpodcast.com/contributors/olivier),
 [our Django Unchained episode](http://www.hypotheticalpodcast.com/episode/django-unchained) remains my absolute favorite. Utter joy.
-
-### [Parlons Ruby](http://parlonsruby.com/pr008-olivier-lacan/)
-Two extremely nice French rubyists — [Fabien Catteau](https://github.com/fcat)
-and [Philippe Creux](https://twitter.com/pcreux) — approached me at the
-first [TakeOffConf](http://takeoffconf.com/2013) in Lille, France to do
-a little interview. It's all in French, but it was the first time someone asked
-now how I got to where I was in early 2013, so it holds a chunk of
-nostalgia in my heart.
 
 ### [An Impolite Podcast](http://www.animpolitepodcast.com/episode/dolphinhorse)
 Nice [conversation](http://www.animpolitepodcast.com/episode/dolphinhorse)
