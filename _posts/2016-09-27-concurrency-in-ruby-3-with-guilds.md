@@ -5,12 +5,14 @@ date: '2016-09-27 13:21:00'
 location: Orlando, Florida
 categories: development
 draft: true
+reviewers:
+  - Aaron Patterson: http://tenderlove.com
 ---
 
 At Ruby Kaigi on September 8th, 2016, [Koichi Sasada][koichi] — who designed
 [YARV][yarv], the current Ruby virtual machine, and the last iterations of the
-Ruby garbage collector — presented his proposal for a new concurrency model in
-Ruby 3.
+Ruby garbage collector — [presented][talk] [his proposal][proposal] for a new
+concurrency model in Ruby 3.
 
 While Ruby has a thread system, [MRI][mri] doesn't allow parallel execution.
 Koichi proposed a new concurrent AND parallel mechanism called Guilds. He
@@ -32,8 +34,9 @@ locks which somewhat defeat the initial purpose of parallelism.
 
 Guilds are implemented in terms of the existing [`Thread`][thread] and
 [`Fiber`][fiber] classes. While threads allow for concurrent execution of code
-scheduled by the virtual machine, fibers allow for cooperative concurrency with
-execution scheduling that can be manually controlled.
+scheduled by the operating system scheduler on your behalf, fibers allow for
+cooperative concurrency with execution scheduling that can be manually
+controlled.
 
 Guilds are composed of at least one Thread which in turn has at least one Fiber.
 Threads from different Guilds can run in parallel while threads in the same
@@ -159,7 +162,13 @@ with this new concept under some sort of opt-in experimental flag so that we
 can potentially accelerate testing and hopefully see this feature available
 before 2020 — the expected release date of Ruby 3.0.
 
+---
+**Didn't hate the way I explained all this stuff? You might enjoy
+[Ruby Facets][rf], a short &amp; sweet Ruby news podcast I host every week.**
+
 [koichi]: http://www.atdot.net/~ko1/
+[talk]: https://www.youtube.com/watch?v=WIrYh14H9kA&feature=youtu.be
+[proposal]: http://www.atdot.net/~ko1/activities/2016_rubykaigi.pdf
 [yarv]: https://en.wikipedia.org/wiki/YARV
 [mri]: https://en.wikipedia.org/wiki/Ruby_MRI
 [thread]: https://ruby-doc.org/core-2.3.1/Thread.html
@@ -168,3 +177,5 @@ before 2020 — the expected release date of Ruby 3.0.
 [2]: {{ site.url }}/assets/ruby_3_guilds_channels_object_copy.png
 [3]: {{ site.url }}/assets/ruby_3_guilds_channels_object_move.png
 [4]: {{ site.url }}/assets/ruby_3_guilds_fibonacci_performance.png
+[rf]: http://rubyfacets.com
+[rfpost]: http://olivierlacan.com/posts/ruby-facets/

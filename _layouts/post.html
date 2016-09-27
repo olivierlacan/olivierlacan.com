@@ -21,6 +21,14 @@ layout: default
       {% endfor %}
     {% endfor %}
   {% endif %}
+  {% if page.reviewers %}
+    Reviewed by
+    {% for reviewers_hash in page.reviewers %}
+      {% for reviewer in reviewers_hash %}
+        <a href="{{ reviewer[1] }}">{{ reviewer[0] }}</a>
+      {% endfor %}
+    {% endfor %}
+  {% endif %}
 </p>
 
 <div class="post">
