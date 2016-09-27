@@ -162,6 +162,9 @@ with this new concept under some sort of opt-in experimental flag so that we
 can potentially accelerate testing and hopefully see this feature available
 before 2020 — the expected release date of Ruby 3.0.
 
+PS: All illustrations in this post are taken directly from Koichi Sasada's
+slides for his [A proposal of new concurrency model for Ruby 3][proposal] talk.
+
 ---
 **Didn't hate the way I explained all this stuff? You might enjoy
 [Ruby Facets][rf], a short &amp; sweet Ruby news podcast I host every week.**
