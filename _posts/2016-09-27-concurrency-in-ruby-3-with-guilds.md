@@ -53,8 +53,8 @@ after another. However, threads from different guilds can execute concurrently.
 <figure>
   <img src="{{ site.url }}/assets/ruby_3_guilds_concurrency.png" alt="Illustration of thread concurrency within guilds and between guilds">
   <figcaption>
-    Threads T1 & T2 belong to guild G1 and can't execute concurrently but thread
-    T3 belongs to guild G2 and it can execute while threads from guild G1 are
+    Threads T1 & T2 belong to guild G1 and can't run concurrently but thread
+    T3 belongs to guild G2 and it can run while threads from guild G1 are
     executing.
   </figcaption>
 </figure>
