@@ -162,8 +162,8 @@ lines of code. The source isn't available to peruse yet but Koichi gave an idea
 of what to expect with regard to performance in his talk by comparing a
 single-guild execution of the fibonacci example with a multi-guild one.
 
-On a dual core Linux virtual machine runnin within Windows 7 he had the following
-results:
+On a **dual core** Linux virtual machine running within Windows 7, Koichi
+observed the following results:
 
 ![Illustration of single vs. multi-guild performance at fibonacci function solving][4]
 
