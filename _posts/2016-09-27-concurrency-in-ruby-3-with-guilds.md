@@ -7,28 +7,35 @@ categories: development
 draft: true
 reviewers:
   - Aaron Patterson: http://tenderlove.com
+editors:
+  - Nate Berkopec: https://www.nateberkopec.com/
 ---
 
 At Ruby Kaigi on September 8th, 2016, [Koichi Sasada][koichi] — who designed
-[YARV][yarv], the current Ruby virtual machine, and the last iterations of the
+[YARV][yarv], the current Ruby virtual machine, and the latest iterations of the
 Ruby garbage collector — [presented][talk] [his proposal][proposal] for a new
-concurrency model in Ruby 3.
+concurrency model in Ruby 3. I used the illustrations from his talk below with
+Koichi's permission since they're very helpful in understanding the concepts.
 
-While Ruby has a thread system, [MRI][mri] doesn't allow parallel execution.
-Koichi proposed a new concurrent AND parallel mechanism called Guilds. He
-looked at the problem of object mutation, race conditions, and synchronization
-across threads and tried to come up with a new concept to solve these issues.
+While Ruby has a thread system to allow for concurrency, [MRI][mri] doesn't
+allow parallel execution of Ruby code. Koichi proposed a new concurrent AND
+parallel mechanism called Guilds. He looked at the problem of object mutation,
+race conditions, and synchronization across threads and tried to come up with a
+new concept to solve these issues.
 
 ## Concurrency Goals
 
-The stated goals for Ruby 3 are to retain compatibility with Ruby 2, allow for
-paralellism, reconsider global locks that prevent parallel execution, allow
-objects to be shared in a fast way if possible, and otherwise to provide special
-objects in order to share mutable objects if necessary.
+The stated goals for Guilds in Ruby 3 are to retain compatibility with Ruby 2,
+allow for parallelism, reconsider global locks that prevent parallel execution,
+allow objects to be shared in a fast way if possible, and otherwise to provide
+special objects in order to share mutable objects if necessary.
 
-Existing issues with concurrency in Ruby today involve the fact that programmers
-have to manually ensure that Threads don't create race conditions by introducing
-locks which somewhat defeat the initial purpose of parallelism.
+Concurrency in Ruby today is difficult because programmers have to manually
+ensure that threads don't create [race conditions][race-condition]. Common ways
+around this issue involve introducing locks, like Ruby's [`Thread::Mutex`][mutex]
+which somewhat defeat the initial purpose of parallelism. Locks tend to slow
+down programs and improperly placed locks can even make concurrent programs run
+slower than synchronous equivalents.
 
 ## How Guilds Work
 
@@ -50,26 +57,27 @@ Threads that belong to the same guild can't execute concurrently since there's
 a GGL (Giant Guild Lock) ensuring that each thread within a guild execute one
 after another. However, threads from different guilds can execute concurrently.
 
+You can think of a Ruby 2.x program as having a single Guild.
+
 <figure>
   <img src="{{ site.url }}/assets/ruby_3_guilds_concurrency.png" alt="Illustration of thread concurrency within guilds and between guilds">
   <figcaption>
     Threads T1 & T2 belong to guild G1 and can't run concurrently but thread
     T3 belongs to guild G2 and it can run while threads from guild G1 are
-    executing.
+    executing. — Illustration: [Koichi Sasada][koichi], [A proposal of new concurrency model for Ruby 3][proposal].
   </figcaption>
 </figure>
 
 ## Communication Between Guilds
 
-By default, an object from one guild will not be able to read or write an object
-from a different guild. Preventing mutation in this way allows Guilds to operate
-concurrently without running the risk of both accessing a modifying the same
-objects.
+An object from one guild will not be able to read or write to a mutable object
+from a different guild. Preventing mutation allows Guilds to operate concurrently
+without running the risk of both accessing a modifying the same objects.
 
 <figure>
   <img src="{{ site.url }}/assets/ruby_3_guilds_object_access_restrictions.png" alt="Illustration of Guilds being unable to read or write each other's objects">
   <figcaption>
-    Objects from one guild can't access objects from a different guild.
+    Objects from one guild can't access objects from a different guild. — Illustration: [Koichi Sasada][koichi], [A proposal of new concurrency model for Ruby 3][proposal]
   </figcaption>
 </figure>
 
@@ -77,7 +85,7 @@ However, guilds can communicate between each other using the `Guild::Channel`
 interface which allows for the copying or moving of objects across the channel
 to another guild.
 
-The `Guild::Channel#transfer(object)` method sends deep copy of the `object` to
+The `Guild::Channel#transfer(object)` method sends a deep copy of the `object` to
 a destination guild.
 
 ![Illustration of Guild Channels copying objects from one channel to another][2]
@@ -90,6 +98,23 @@ It's also possible to completely move an object from one guild to another using
 Once an object's membership has been transferred to a new guild, it is no longer
 accessible from its original guild and attempts to access the object will raise
 errors.
+
+While guilds can't share mutable objects without previously copying or
+transfering to one another, it's important to note that **immutable objects can be shared (i.e. read)
+across guilds**, as long as they're "deeply frozen" — meaning every object they
+reference is also immutable. Here's a clear example Koichi gave:
+
+```ruby
+# While Numeric types like Integers are immutable by default, Hash instances aren't.
+mutable = [1, { "key" => "value" }, 3].freeze
+
+# But if you freeze String or Hash instances and the Array instances that references
+# them, then you have a "deeply frozen" immutable object.
+immutable = [
+  "bar".freeze,
+  { "key" => "value".freeze }.freeze
+].freeze
+```
 
 ## Example
 
@@ -162,9 +187,6 @@ with this new concept under some sort of opt-in experimental flag so that we
 can potentially accelerate testing and hopefully see this feature available
 before 2020 — the expected release date of Ruby 3.0.
 
-PS: All illustrations in this post are taken directly from Koichi Sasada's
-slides for his [A proposal of new concurrency model for Ruby 3][proposal] talk.
-
 ---
 **Didn't hate the way I explained all this stuff? You might enjoy
 [Ruby Facets][rf], a short &amp; sweet Ruby news podcast I host every week.**
@@ -176,6 +198,8 @@ slides for his [A proposal of new concurrency model for Ruby 3][proposal] talk.
 [mri]: https://en.wikipedia.org/wiki/Ruby_MRI
 [thread]: https://ruby-doc.org/core-2.3.1/Thread.html
 [fiber]: https://ruby-doc.org/core-2.3.1/Fiber.html
+[race-condition]: https://en.wikipedia.org/wiki/Race_condition
+[mutex]: https://ruby-doc.org/core-2.3.1/Thread/Mutex.html
 [1]: {{ site.url }}/assets/ruby_3_guilds_threads_and_fibers.png
 [2]: {{ site.url }}/assets/ruby_3_guilds_channels_object_copy.png
 [3]: {{ site.url }}/assets/ruby_3_guilds_channels_object_move.png
