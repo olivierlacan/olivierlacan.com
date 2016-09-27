@@ -14,8 +14,8 @@ editors:
 At Ruby Kaigi on September 8th, 2016, [Koichi Sasada][koichi] — who designed
 [YARV][yarv], the current Ruby virtual machine, and the latest iterations of the
 Ruby garbage collector — [presented][talk] [his proposal][proposal] for a new
-concurrency model in Ruby 3. I used the illustrations from his talk below with
-Koichi's permission since they're very helpful in understanding the concepts.
+concurrency model in Ruby 3. With Koichi's permission, I used the illustrations
+from his talk since they're quite helpful in understanding the concepts.
 
 While Ruby has a thread system to allow for concurrency, [MRI][mri] doesn't
 allow parallel execution of Ruby code. Koichi proposed a new concurrent AND
