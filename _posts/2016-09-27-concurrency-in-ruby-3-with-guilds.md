@@ -102,12 +102,16 @@ errors.
 While guilds can't share mutable objects without previously copying or
 transfering to one another, it's important to note that **immutable objects can be shared (i.e. read)
 across guilds**, as long as they're "deeply frozen" — meaning every object they
-reference is also immutable. Here's a clear example Koichi gave:
+reference is also immutable.
+
+Here's an example to distinguish mutable from immitable objects:
 
 ```ruby
 # While Numeric types like Integers are immutable by default, Hash instances aren't.
 mutable = [1, { "key" => "value" }, 3].freeze
+```
 
+```ruby
 # But if you freeze String or Hash instances and the Array instances that references
 # them, then you have a "deeply frozen" immutable object.
 immutable = [
@@ -116,7 +120,7 @@ immutable = [
 ].freeze
 ```
 
-## Example
+## Usage Example
 
 Koichi Sasada gave a few succinct examples during his talk of how guilds could
 work. I'd like to reproduce the simplest one that applies Guilds to computing
@@ -126,8 +130,7 @@ more clear.
 ```ruby
 def fibonacci(n)
   return n if n <= 1
-
-  ( fibonacci( n - 1 ) + fibonacci( n - 2 ) )
+  fibonacci( n - 1 ) + fibonacci( n - 2 )
 end
 
 guild_fibonacci = Guild.new(script: %q{
@@ -138,7 +141,8 @@ guild_fibonacci = Guild.new(script: %q{
   end
 })
 
-channel = Guild::Channel.new( guild_fibonacci.transfer([3, channel]) )
+channel = Guild::Channel.new \
+  guild_fibonacci.transfer([3, channel])
 
 puts channel.receive
 ```
