@@ -15,21 +15,26 @@ layout: default
 
   {% if page.editors %}
     <br />
-    Edited by
-    {% for editors_hash in page.editors %}
-      {% for editor in editors_hash %}
-        <a href="{{ editor[1] }}">{{ editor[0] }}</a>
+    <span class="editors">
+      Edited by
+      {% for editors_hash in page.editors %}
+        {% for editor in editors_hash %}
+          <a href="{{ editor[1] }}">{{ editor[0] }}</a>
+        {% endfor %}
       {% endfor %}
-    {% endfor %}
+    </span>
   {% endif %}
+
   {% if page.reviewers %}
     <br />
+    <span class="reviewers">
     Reviewed by
     {% for reviewers_hash in page.reviewers %}
       {% for reviewer in reviewers_hash %}
         <a href="{{ reviewer[1] }}">{{ reviewer[0] }}</a>
       {% endfor %}
     {% endfor %}
+    </span>
   {% endif %}
 </p>
 
