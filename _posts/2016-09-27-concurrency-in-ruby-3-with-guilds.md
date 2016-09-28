@@ -4,121 +4,123 @@ layout: post
 date: '2016-09-27 13:21:00'
 location: Orlando, Florida
 categories: development
-draft: true
 reviewers:
   - Aaron Patterson: http://tenderlove.com
 editors:
   - Nate Berkopec: https://www.nateberkopec.com/
   - Chris Arcand: https://chrisarcand.com/
+  - Elizabeth Mills: https://twitter.com/ArchaeoNemesis
 ---
 
-At Ruby Kaigi on September 8th, 2016, [Koichi Sasada][koichi] — who designed
-[YARV][yarv], the current Ruby virtual machine, and the latest iterations of the
-Ruby garbage collector — [presented][talk] [his proposal][proposal] for a new
-concurrency model in Ruby 3. With Koichi's permission, I used the illustrations
-from his talk since they're quite helpful in understanding the concepts.
+At [Ruby Kaigi][kaigi] 2016, [Koichi Sasada][koichi] — designer of the current
+[Ruby virtual machine][yarv] and garbage collector — presented[^1] his
+proposal for a new concurrency model in Ruby 3.
 
 While Ruby has a thread system to allow for concurrency, [MRI][mri] doesn't
 allow parallel execution of Ruby code. Koichi looked at the various challenges
 of running Ruby in parallel including object mutation, race conditions, and
-synchronization across threads. The result was a proposal for a new concurrent
-*and* parallel mechanism called Guilds.
+synchronization across Threads. The result was a [proposal][proposal] for a new
+concurrent *and* parallel mechanism called Guilds.
 
 ## Concurrency Goals
 
 If like me you're not a computer science graduate, or if concurrency just tends
 to hurt your brain, you can read this clear explanation of the [differences
-between concurrency and paralellism][paracurrent].
+between concurrency and parallelism][paracurrent].
 
 The stated goals for Guilds in Ruby 3 are to retain compatibility with Ruby 2,
 allow for parallelism, reconsider global locks that prevent parallel execution,
-allow objects to be shared in a fast way if possible, and otherwise to provide
-special objects in order to share mutable objects if necessary.
+try to allow fast object sharing, and provide special objects to share
+mutable objects.
 
 Concurrency in Ruby today is difficult because programmers have to manually
-ensure that threads don't create [race conditions][race-condition]. Common ways
-around this issue involve introducing locks, like Ruby's [`Thread::Mutex`][mutex]
-which somewhat defeat the initial purpose of parallelism. Locks tend to slow
-down programs and improperly placed locks can even make concurrent programs run
-slower than synchronous equivalents.
+ensure that Threads don't create [race conditions][race-condition]. Common ways
+around this issue involve introducing locks, like Ruby's
+[`Thread::Mutex`][mutex], which somewhat defeat the initial purpose of
+parallelism. Locks tend to slow down programs, and improperly placed locks can
+even make concurrent programs run slower than synchronous equivalents.
 
 ## How Guilds Work
 
+*Note: With Koichi's permission, I've reproduced some illustrations from his
+[proposal][proposal] since they're helpful for understanding the concepts.*
+
 Guilds are implemented in terms of the existing [`Thread`][thread] and
-[`Fiber`][fiber] classes. While threads allow for concurrent execution of code
-scheduled by the operating system scheduler on your behalf, fibers allow for
+[`Fiber`][fiber] classes. While Threads allow for concurrent execution of code
+scheduled by the operating system scheduler on your behalf, Fibers allow for
 cooperative concurrency with execution scheduling that can be manually
 controlled.
 
 Guilds are composed of at least one Thread which in turn has at least one Fiber.
-Threads from different Guilds can run in parallel while threads in the same
-guild can't. Objects from one guild cannot read or write to objects from another
-guild.
+Threads from different Guilds can run in parallel while Threads in the same
+Guild can't. Objects from one Guild cannot read or write to objects from another
+Guild.
 
 ![Illustration of Guilds containing at least one Thread which contain at least
 one Fiber][1]
 
-Threads that belong to the same guild can't execute in parallel since there's
-a GGL (Giant Guild Lock) ensuring that each thread within a guild executes one
-after another. However, threads from different Guilds can execute in parallel.
+Threads that belong to the same Guild can't execute in parallel since there's
+a GGL (Giant Guild Lock) ensuring that each thread within a Guild executes one
+after another. However, Threads from different Guilds can execute in parallel.
 
 You can think of a Ruby 2.x program as having a single Guild.
 
 <figure>
   <img src="{{ site.url }}/assets/ruby_3_guilds_concurrency.png" alt="Illustration of thread concurrency within Guilds and between Guilds">
   <figcaption>
-    Threads T1 & T2 belong to guild G1 and can't run in parallel but thread
-    T3 belongs to guild G2 and it can run while threads from guild G1 are
-    executing. — Illustration: [Koichi Sasada][koichi], [A proposal of new concurrency model for Ruby 3][proposal].
+    Threads T1 & T2 belong to Guild G1 and can't run in parallel, but T3 belongs
+    to G2, and it can run while Threads from G1 are executing.
   </figcaption>
 </figure>
 
 ## Communication Between Guilds
 
-An object from one guild will not be able to read or write to a mutable object
-from a different guild. Preventing mutation allows Guilds to operate concurrently
-without running the risk of both accessing a modifying the same objects.
+An object from one Guild will not be able to read or write to a mutable object
+from a different Guild. Preventing mutation allows Guilds to operate concurrently
+without running the risk of both accessing and modifying the same objects.
 
 <figure>
   <img src="{{ site.url }}/assets/ruby_3_guilds_object_access_restrictions.png" alt="Illustration of Guilds being unable to read or write each other's objects">
   <figcaption>
-    Objects from one guild can't access objects from a different guild. — Illustration: [Koichi Sasada][koichi], [A proposal of new concurrency model for Ruby 3][proposal]
+    Objects from one Guild can't access objects from a different Guild.
   </figcaption>
 </figure>
 
-However, Guilds can communicate between each other using the `Guild::Channel`
+However, Guilds can communicate with each other using the `Guild::Channel`
 interface which allows for the copying or moving of objects across the channel
-to another guild.
+to another Guild.
 
 The `Guild::Channel`'s `transfer(object)` method sends a deep copy of the `object` to
-a destination guild.
+a destination Guild.
 
 ![Illustration of Guild Channels copying objects from one channel to another][2]
 
-It's also possible to completely move an object from one guild to another using
+It's also possible to completely move an object from one Guild to another using
 `Guild::Channel`'s `transfer_membership(object)`.
 
 ![Illustration of Guild Channels moving objects from one channel to another][3]
 
-Once an object's membership has been transferred to a new guild, it is no longer
-accessible from its original guild and attempts to access the object will raise
-errors.
+Once an object's membership has been transferred to a new Guild, it is no longer
+accessible from its original Guild, and any attempt to access the object will
+raise an error.
 
 While Guilds can't share mutable objects without previously copying or
-transfering to one another, it's important to note that **immutable objects can be shared (i.e. read)
-across Guilds**, as long as they're "deeply frozen" — meaning every object they
-reference is also immutable.
+transferring to one another, it's important to note that **immutable objects can
+be shared (read) across Guilds** as long as they're "deeply frozen", meaning
+every object they reference is also immutable.
 
-Here's an example to distinguish mutable from immitable objects:
+Here's an example to distinguish mutable from immutable objects:
 
 ```ruby
-# While Numeric types like Integers are immutable by default, Hash instances aren't.
+# While Numeric types like Integers are immutable by
+# default, Hash instances aren't.
 mutable = [1, { "key" => "value" }, 3].freeze
 ```
 
 ```ruby
-# But if you freeze String or Hash instances and the Array instances that references
-# them, then you have a "deeply frozen" immutable object.
+# But if you freeze String or Hash instances and the
+# Array instances that reference them, then you have
+# a "deeply frozen" immutable object.
 immutable = [
   "bar".freeze,
   { "key" => "value".freeze }.freeze
@@ -127,10 +129,9 @@ immutable = [
 
 ## Usage Example
 
-Koichi Sasada gave a few succinct examples during his talk of how Guilds could
+During his talk, Koichi Sasada gave a few succinct examples of how Guilds could
 work. I'd like to reproduce the simplest one that applies Guilds to computing
-Fibonacci in parallel. The example below is slightly modified in order to be
-more clear.
+Fibonacci in parallel. The example below has been modified slightly for clarity.
 
 ```ruby
 def fibonacci(n)
@@ -154,57 +155,59 @@ puts channel.receive
 
 ## Advantages of Guilds over Threads
 
-While it's difficult to figure out which objects are shared mutable objects
-when using threads, Guilds prevent the use of them altogether. Koichi seems
-to have planned for what he describes as "special data structures" who would
-solely have the privilege to share mutable objects with Guilds. But since this
-would be the only source of shared mutable objects across Guilds, it would be
-easier to isolate the risky code.
+With Threads, it's difficult to figure out which objects are shared mutable
+objects. Guilds prevent their use altogether and instead makes sharing
+*immutable* objects much easier. Koichi has planned for "special data
+structures" to share mutable objects with Guilds. These structures would
+automatically isolate risky mutable code.
 
-There is however a trade-off, since communication between Guilds is much more
-tedious than between threads.
+There is, however, a trade-off, since communication between Guilds is much more
+tedious than between Threads.
 
 ## Performance
 
-It's my understanding that the current C implementation of Guilds is about 400
-lines of code. The source isn't available to peruse yet but Koichi gave an idea
-of what to expect with regard to performance in his talk by comparing a
-single-guild execution of the fibonacci example with a multi-guild one.
+It's my understanding that the current C implementation of Guilds is roughly 400
+lines of code. While the source isn't yet available, Koichi hinted at the
+performance benefits of Guilds by comparing a single-guild execution of the
+fibonacci example with a multi-guild one.
 
 On a **dual core** Linux virtual machine running within Windows 7, Koichi
 observed the following results:
 
 ![Illustration of single vs. multi-guild performance at fibonacci function solving][4]
 
-It's probably not representative of real world improvement in most Ruby
-application but I can't wait to hunt for the impact of Guilds on
+It may not be representative of real-world improvement in most Ruby
+applications, but I can't wait to see the impact of Guilds on
 [RubyBench][rubybench].
 
 ## Conclusions
 
-Guilds is an exciting idea to introduce much easier mutation-safe concurrency
-workflows to Ruby. I can't wait for Koichi Sasada and the Ruby core team to
-share more about this proposal in the future.
+The Guild concept is an exciting way to introduce easier mutation-safe
+concurrency workflows to Ruby. I can't wait for Koichi Sasada and the Ruby core
+team to share more about this proposal in the future.
 
-I do have minor concerns about the naming of copy and move methods for
-`Guild::Channel`. `transfer(object)` seems to imply an exchange although it
+I do have minor concerns about the naming of the object copy and move methods
+for `Guild::Channel`. `transfer(object)` seems to imply an exchange, but it
 merely results in a deep copy of the object. I believe `transfer_copy(object)`
 or simply `copy(object)` would be less confusing. And
 `transfer_membership(object)`, the move/transfer method, could simply be named
-`channel.transfer(object)`. Thankfully it doesn't appear that the method names
-are set in stone.
+`channel.transfer(object)`. Thankfully, it seems that the method names
+aren't set in stone.
 
-I would encourage the Ruby core team to experiment with this new feature under
-some sort of opt-in experimental flag so that we can potentially accelerate
-testing and hopefully see this feature available before 2020 — the expected
-release date of Ruby 3.0. I feel like the positive impact it could have on
-Ruby's reputation as a concurrent-friendly language is not negligible and would
-be welcome sooner than later, warts and all.
+I'd encourage the Ruby core team to release this new feature under an opt-in
+experimental flag so that the Ruby community can participate in testing.
+Hopefully, this would allow us to have this feature available before 2020 — the
+expected release date of Ruby 3.0. Guilds will have a positive impact on Ruby's
+reputation as a concurrent-friendly language. It would be welcome soon, warts
+and all.
 
 ---
 **Didn't hate the way I explained all this stuff? You might enjoy
 [Ruby Facets][rf], a short &amp; sweet Ruby news podcast I host every week.**
 
+[^1]: A video of the talk is [already available][talk].
+
+[kaigi]: http://rubykaigi.org/2016
 [koichi]: http://www.atdot.net/~ko1/
 [talk]: https://www.youtube.com/watch?v=WIrYh14H9kA&feature=youtu.be
 [proposal]: http://www.atdot.net/~ko1/activities/2016_rubykaigi.pdf
