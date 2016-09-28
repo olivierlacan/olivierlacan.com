@@ -9,6 +9,7 @@ reviewers:
   - Aaron Patterson: http://tenderlove.com
 editors:
   - Nate Berkopec: https://www.nateberkopec.com/
+  - Chris Arcand: https://chrisarcand.com/
 ---
 
 At Ruby Kaigi on September 8th, 2016, [Koichi Sasada][koichi] — who designed
@@ -18,12 +19,16 @@ concurrency model in Ruby 3. With Koichi's permission, I used the illustrations
 from his talk since they're quite helpful in understanding the concepts.
 
 While Ruby has a thread system to allow for concurrency, [MRI][mri] doesn't
-allow parallel execution of Ruby code. Koichi proposed a new concurrent AND
-parallel mechanism called Guilds. He looked at the problem of object mutation,
-race conditions, and synchronization across threads and tried to come up with a
-new concept to solve these issues.
+allow parallel execution of Ruby code. Koichi looked at the various challenges
+of running Ruby in parallel including object mutation, race conditions, and
+synchronization across threads. The result was a proposal for a new concurrent
+*and* parallel mechanism called Guilds.
 
 ## Concurrency Goals
+
+If like me you're not a computer science graduate, or if concurrency just tends
+to hurt your brain, you can read this clear explanation of the [differences
+between concurrency and paralellism][paracurrent].
 
 The stated goals for Guilds in Ruby 3 are to retain compatibility with Ruby 2,
 allow for parallelism, reconsider global locks that prevent parallel execution,
@@ -53,16 +58,16 @@ guild.
 ![Illustration of Guilds containing at least one Thread which contain at least
 one Fiber][1]
 
-Threads that belong to the same guild can't execute concurrently since there's
-a GGL (Giant Guild Lock) ensuring that each thread within a guild execute one
-after another. However, threads from different guilds can execute concurrently.
+Threads that belong to the same guild can't execute in parallel since there's
+a GGL (Giant Guild Lock) ensuring that each thread within a guild executes one
+after another. However, threads from different Guilds can execute in parallel.
 
 You can think of a Ruby 2.x program as having a single Guild.
 
 <figure>
-  <img src="{{ site.url }}/assets/ruby_3_guilds_concurrency.png" alt="Illustration of thread concurrency within guilds and between guilds">
+  <img src="{{ site.url }}/assets/ruby_3_guilds_concurrency.png" alt="Illustration of thread concurrency within Guilds and between Guilds">
   <figcaption>
-    Threads T1 & T2 belong to guild G1 and can't run concurrently but thread
+    Threads T1 & T2 belong to guild G1 and can't run in parallel but thread
     T3 belongs to guild G2 and it can run while threads from guild G1 are
     executing. — Illustration: [Koichi Sasada][koichi], [A proposal of new concurrency model for Ruby 3][proposal].
   </figcaption>
@@ -81,7 +86,7 @@ without running the risk of both accessing a modifying the same objects.
   </figcaption>
 </figure>
 
-However, guilds can communicate between each other using the `Guild::Channel`
+However, Guilds can communicate between each other using the `Guild::Channel`
 interface which allows for the copying or moving of objects across the channel
 to another guild.
 
@@ -99,9 +104,9 @@ Once an object's membership has been transferred to a new guild, it is no longer
 accessible from its original guild and attempts to access the object will raise
 errors.
 
-While guilds can't share mutable objects without previously copying or
+While Guilds can't share mutable objects without previously copying or
 transfering to one another, it's important to note that **immutable objects can be shared (i.e. read)
-across guilds**, as long as they're "deeply frozen" — meaning every object they
+across Guilds**, as long as they're "deeply frozen" — meaning every object they
 reference is also immutable.
 
 Here's an example to distinguish mutable from immitable objects:
@@ -122,7 +127,7 @@ immutable = [
 
 ## Usage Example
 
-Koichi Sasada gave a few succinct examples during his talk of how guilds could
+Koichi Sasada gave a few succinct examples during his talk of how Guilds could
 work. I'd like to reproduce the simplest one that applies Guilds to computing
 Fibonacci in parallel. The example below is slightly modified in order to be
 more clear.
@@ -150,13 +155,13 @@ puts channel.receive
 ## Advantages of Guilds over Threads
 
 While it's difficult to figure out which objects are shared mutable objects
-when using threads, Guilds prevents the use of them altogether. Koichi seems
+when using threads, Guilds prevent the use of them altogether. Koichi seems
 to have planned for what he describes as "special data structures" who would
-solely have the privilege to share mutable objects with guilds. But since this
-would be the only source of shared mutable objects across guilds, it would be
+solely have the privilege to share mutable objects with Guilds. But since this
+would be the only source of shared mutable objects across Guilds, it would be
 easier to isolate the risky code.
 
-There is however a trade-off, since communication between guilds is much more
+There is however a trade-off, since communication between Guilds is much more
 tedious than between threads.
 
 ## Performance
@@ -210,6 +215,7 @@ be welcome sooner than later, warts and all.
 [race-condition]: https://en.wikipedia.org/wiki/Race_condition
 [mutex]: https://ruby-doc.org/core-2.3.1/Thread/Mutex.html
 [rubybench]: https://rubybench.org/
+[paracurrent]: http://bytearcher.com/articles/parallel-vs-concurrent/
 [1]: {{ site.url }}/assets/ruby_3_guilds_threads_and_fibers.png
 [2]: {{ site.url }}/assets/ruby_3_guilds_channels_object_copy.png
 [3]: {{ site.url }}/assets/ruby_3_guilds_channels_object_move.png
