@@ -177,23 +177,24 @@ application but I can't wait to hunt for the impact of Guilds on
 
 ## Conclusions
 
-I find Guilds an exciting idea to introduce much easier mutation-safe
-concurrency workflow for Ruby. I can't wait for Koichi Sasada and the Ruby core
-team to share more about this proposal.
+Guilds is an exciting idea to introduce much easier mutation-safe concurrency
+workflows to Ruby. I can't wait for Koichi Sasada and the Ruby core team to
+share more about this proposal in the future.
 
-I do have concerns about the naming of the object copy and move methods for
-`Guild::Channel`. `channel.transfer(object)` seems to imply an exchange while it
-in fact only results in a deep copy of the object. I believe
-`channel.transfer_copy(object)` or simply `channel.copy(object)` would be far
-less confusing. Especially when compared with
-`channel.transfer_membership(object)`, the actual move/transfer method, which
-could then simply be named `channel.transfer(object)` without pushing the guild
-abstraction of object membership to guilds a little too far.
+I do have minor concerns about the naming of copy and move methods for
+`Guild::Channel`. `transfer(object)` seems to imply an exchange although it
+merely results in a deep copy of the object. I believe `transfer_copy(object)`
+or simply `copy(object)` would be less confusing. And
+`transfer_membership(object)`, the move/transfer method, could simply be named
+`channel.transfer(object)`. Thankfully it doesn't appear that the method names
+are set in stone.
 
-Aside from these concerns I would encourage the Ruby core team to experiment
-with this new concept under some sort of opt-in experimental flag so that we
-can potentially accelerate testing and hopefully see this feature available
-before 2020 — the expected release date of Ruby 3.0.
+I would encourage the Ruby core team to experiment with this new feature under
+some sort of opt-in experimental flag so that we can potentially accelerate
+testing and hopefully see this feature available before 2020 — the expected
+release date of Ruby 3.0. I feel like the positive impact it could have on
+Ruby's reputation as a concurrent-friendly language is not negligible and would
+be welcome sooner than later, warts and all.
 
 ---
 **Didn't hate the way I explained all this stuff? You might enjoy
