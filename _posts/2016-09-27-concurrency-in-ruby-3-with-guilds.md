@@ -171,6 +171,10 @@ observed the following results:
 
 ![Illustration of single vs. multi-guild performance at fibonacci function solving][4]
 
+It's probably not representative of real world improvement in most Ruby
+application but I can't wait to hunt for the impact of Guilds on
+[RubyBench][rubybench].
+
 ## Conclusions
 
 I find Guilds an exciting idea to introduce much easier mutation-safe
@@ -204,6 +208,7 @@ before 2020 — the expected release date of Ruby 3.0.
 [fiber]: https://ruby-doc.org/core-2.3.1/Fiber.html
 [race-condition]: https://en.wikipedia.org/wiki/Race_condition
 [mutex]: https://ruby-doc.org/core-2.3.1/Thread/Mutex.html
+[rubybench]: https://rubybench.org/
 [1]: {{ site.url }}/assets/ruby_3_guilds_threads_and_fibers.png
 [2]: {{ site.url }}/assets/ruby_3_guilds_channels_object_copy.png
 [3]: {{ site.url }}/assets/ruby_3_guilds_channels_object_move.png
