@@ -85,7 +85,7 @@ However, guilds can communicate between each other using the `Guild::Channel`
 interface which allows for the copying or moving of objects across the channel
 to another guild.
 
-The `Guild::Channel#transfer(object)` method sends a deep copy of the `object` to
+The `Guild::Channel`'s `transfer(object)` method sends a deep copy of the `object` to
 a destination guild.
 
 ![Illustration of Guild Channels copying objects from one channel to another][2]
