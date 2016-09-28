@@ -22,4 +22,6 @@ class Deploy < Thor
   def proofer
     ::HTML::Proofer.new("./_site").run
   end
+
+  default_task :github
 end
