@@ -91,7 +91,7 @@ a destination guild.
 ![Illustration of Guild Channels copying objects from one channel to another][2]
 
 It's also possible to completely move an object from one guild to another using
-`Guild::Channel#transfer_membership(object)`.
+`Guild::Channel`'s `transfer_membership(object)`.
 
 ![Illustration of Guild Channels moving objects from one channel to another][3]
 

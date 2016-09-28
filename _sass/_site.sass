@@ -112,22 +112,28 @@
         display: none
 
   h2
-    font-size: 1.6em
-    margin-bottom: .5em
+    font-size: 2.5em
+    margin-bottom: 0
     line-height: 1.2
     @media #{$iphone-breakpoint}
       font-size: 3.5em
       padding-top: 1em
 
     @media #{$ipad-breakpoint}
-      font-size: 300%
+      font-size: 350%
 
   .meta
     color: #aaa
+    text-align: right
+    font-size: 1em
+    line-height: 1.3
+    a
+      &:link, &:visited, &:hover, &:active
+        border: none
+        color: #666
     @media #{$iphone-breakpoint}, #{$ipad-breakpoint}
-      font-size: 1.7em
+      font-size: 1.3em
       padding-left: .5em
-      line-height: 1.4
       font-weight: bold
 
   .footer

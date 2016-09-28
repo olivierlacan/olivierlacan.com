@@ -12,8 +12,9 @@ layout: default
   {% if page.update %}
     &amp; updated on <span class='update'>{{ page.update | date: "%B %d, %Y" }}</span>.
   {% endif %}
-  <br />
+
   {% if page.editors %}
+    <br />
     Edited by
     {% for editors_hash in page.editors %}
       {% for editor in editors_hash %}
@@ -21,8 +22,8 @@ layout: default
       {% endfor %}
     {% endfor %}
   {% endif %}
-  <br />
   {% if page.reviewers %}
+    <br />
     Reviewed by
     {% for reviewers_hash in page.reviewers %}
       {% for reviewer in reviewers_hash %}
