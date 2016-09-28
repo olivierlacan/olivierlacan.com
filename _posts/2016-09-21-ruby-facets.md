@@ -3,7 +3,9 @@ title: Ruby Facets
 layout: post
 date: '2016-09-21 08:19:00'
 location: Orlando, Florida
-categories: development
+categories:
+  - ruby
+  - development
 ---
 
 ![Ruby Facets Banner with a chunky red heart full of chunky bacon]({{ site.url }}/assets/ruby-facets-logo_1600.png)

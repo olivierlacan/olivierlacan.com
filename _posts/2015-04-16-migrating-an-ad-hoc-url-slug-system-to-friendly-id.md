@@ -3,7 +3,9 @@ layout: post
 title: "Migrating an ad-hoc URL slug system to FriendlyId"
 date: 2015-04-16 13:42
 location: "Paris, France"
-categories: development
+categories:
+  - ruby
+  - development
 ---
 
 I recently decided to migrate from a ad-hoc solution for URL slugs on [Orientation](https://github.com/orientation/orientation) to [Norman Clarke](https://github.com/norman)'s excellent [FriendlyId gem](https://github.com/norman/friendly_id).

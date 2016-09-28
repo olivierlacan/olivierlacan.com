@@ -3,7 +3,10 @@ layout: post
 title: "Rails link_to array options are dangerous"
 date: 2015-10-26 11:02
 location: "Orlando, Florida"
-categories: development
+categories:
+  - rails
+  - ruby
+  - development
 draft: true
 ---
 

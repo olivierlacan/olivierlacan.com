@@ -3,49 +3,51 @@ layout: post
 title: "The Upgrade Trails"
 date: 2016-08-13 11:01
 location: "Val Morin, Québec, Canada"
-categories: development
+categories:
+  - rails
+  - development
 ---
 
-Recently I completed a Rails 4 upgrade for [codeschool.com][cs] which I 
-originally started in the fall of 2014. Almost two years to upgrade from 
+Recently I completed a Rails 4 upgrade for [codeschool.com][cs] which I
+originally started in the fall of 2014. Almost two years to upgrade from
 Rails 3.2 to Rails 4.2.
 
 ![You think it only took these four pull requests I'm showing in this screenshot to upgrade to Rails 3.2 back in 2014? Ha... haaa hahahahaha. Oh boy. If only.][32prscreenshot]
 
 ## Rationalizations
 
-What took us so long? Why didn't we do it faster? Are we just really bad at 
-upgrading things? Do we not care about security? Is it because Rails can't 
-scale? Or maybe Rails 4 is bad? 
+What took us so long? Why didn't we do it faster? Are we just really bad at
+upgrading things? Do we not care about security? Is it because Rails can't
+scale? Or maybe Rails 4 is bad?
 
 No. It was just hard. Because I did it wrong. Because I did it mostly alone.
-Because I tried to do it too fast, and too slow, and everything in between. 
+Because I tried to do it too fast, and too slow, and everything in between.
 Because when a startup like Code School is born people take a lot of shortcuts.
-They (and I) wrote a lot of terrible code, used a lot of terrible dependencies, 
-hacked together a lot of terrible patches. 
+They (and I) wrote a lot of terrible code, used a lot of terrible dependencies,
+hacked together a lot of terrible patches.
 
-Eventually, if those terrible things don't surface in bugs or build failures, 
-you end up paying the price for them on the upgrade trails. The circuitous, 
-slippery, and depressing paths that you can barely see when you're riding 
-high on the shiny new Rails. 
+Eventually, if those terrible things don't surface in bugs or build failures,
+you end up paying the price for them on the upgrade trails. The circuitous,
+slippery, and depressing paths that you can barely see when you're riding
+high on the shiny new Rails.
 
-I didn't spend most of those two years working on these upgrades, of course. 
-Deplore it if you will, framework upgrades are not always a business priority. 
-In my mind they should be because updating often means avoiding getting the 
-short end of the stick with bug fixes. *Most* important bug fixes are 
-backported to earlier minor versions of frameworks like Rails — *some* slip 
+I didn't spend most of those two years working on these upgrades, of course.
+Deplore it if you will, framework upgrades are not always a business priority.
+In my mind they should be because updating often means avoiding getting the
+short end of the stick with bug fixes. *Most* important bug fixes are
+backported to earlier minor versions of frameworks like Rails — *some* slip
 through the cracks.
 
-Over time, the body of knowledge surrounding the software your business depends 
-on the most grows stale. People drop support for the version you use in their 
-test builds. Gems stop trying to fix compatibility issues with it. Framework 
-contributors and maintainers accidentally break or deprecate features you came 
+Over time, the body of knowledge surrounding the software your business depends
+on the most grows stale. People drop support for the version you use in their
+test builds. Gems stop trying to fix compatibility issues with it. Framework
+contributors and maintainers accidentally break or deprecate features you came
 to rely on. Features you'll have to rewrite in order to upgrade.
 
-On the scarier side, you don't realize that you're missing out on some new 
-security features that — while they wouldn't require a security release that 
-would be backported to your older version — still leave you and your customers 
-a little less safe than the folks on the bleeding edge. 
+On the scarier side, you don't realize that you're missing out on some new
+security features that — while they wouldn't require a security release that
+would be backported to your older version — still leave you and your customers
+a little less safe than the folks on the bleeding edge.
 
 You hear about performance improvements in your [ORM][orm] and you eagerly start
 building internal apps using the new version of the framework in order to
@@ -75,7 +77,7 @@ much time as you did on those treacherous trails.
 Don't rush to update to a new version until at least a month (or two) after a
 major or minor release because one tenth of your 238 transitive dependencies are
 not compatible yet or their maintainers still don't know how to losen dependency
-constraints. Get a pull request and a build going for sure, but wait until that 
+constraints. Get a pull request and a build going for sure, but wait until that
 first bugfix release comes out, and maybe a second one.
 
 ### 2 — Don't Lag
@@ -83,11 +85,11 @@ first bugfix release comes out, and maybe a second one.
 Don't wait to update until the following version is released. You will miss out
 on all the blog posts, GitHub issues, and otherwise fresh conversations of
 people with similar apps in similar situations and whose experiences you could
-benefit from. I get that it's easier for other people to feel the upgrade pain, 
-but it's time to become a better community citizen. Also your assumption that 
-people who upgrade before you will save you from the weird bugs your app will 
-encounter is flawed. There are always edge cases sitting in the dark waiting for 
-**you**. 
+benefit from. I get that it's easier for other people to feel the upgrade pain,
+but it's time to become a better community citizen. Also your assumption that
+people who upgrade before you will save you from the weird bugs your app will
+encounter is flawed. There are always edge cases sitting in the dark waiting for
+**you**.
 
 No, I'm not talking about [Stranger Things][stranger].
 
@@ -98,7 +100,7 @@ party dependencies][killdeps]. Not because they're evil, but because they will
 make you wish demogorgons were real and could take some people away for ever to
 the upside-down world of wheel reinventing.
 
-Seriously though, go [watch that show][stranger]. 
+Seriously though, go [watch that show][stranger].
 
 ### 4 — New Defaults
 
@@ -119,8 +121,8 @@ you will think your eyes are bleeding. Yes. They are.
 
 ### 6 — Mini-majors
 
-Take any opportunity to turn any framework minor version upgrade into a 
-mini-major version upgrade if that makes sense. From watching Rails 4, I knew 
+Take any opportunity to turn any framework minor version upgrade into a
+mini-major version upgrade if that makes sense. From watching Rails 4, I knew
 that [Strong Parameters][strongparams] were coming when I upgraded us to Rails
 3.2, so I added the [strong_parameters][strongparamsgem] and converted our
 models and controllers **before** we upgraded to Rails 4 so we would have one
@@ -133,19 +135,19 @@ release changelogs are not great because they're all split between indedepent
 sub-components of the framework that few end-users care about. Yeah, there
 should be more end-user friendly entries in the [Rails Upgrade Guides][rug]
 but they are still very useful and you never know what you might notice and
-get ready for **before** it's time for the big upgrade. Every Monday I get a 
-rundown of the new versions released for every single dependency we have 
-thanks to [Gemnasium][gemnasium]. Yes, that even includes the dreaded Bower 
+get ready for **before** it's time for the big upgrade. Every Monday I get a
+rundown of the new versions released for every single dependency we have
+thanks to [Gemnasium][gemnasium]. Yes, that even includes the dreaded Bower
 and npm ones.
 
 ### 8 — Breaking News
 
 Read the news. If you're not subscribed to [Ruby Weekly][rubyweekly], that's
-the very **least** you could be doing to keep your ear to the ground. Even 
-better, learn about what the Rails core team is working on by reading 
+the very **least** you could be doing to keep your ear to the ground. Even
+better, learn about what the Rails core team is working on by reading
 [This Week in Rails][TWIR] or great podcasts like [The Bikeshed][bikeshed].
-You know what your team is currently working on and will work on for the 
-next few months. So why don't you have the same curiosity when it comes to 
+You know what your team is currently working on and will work on for the
+next few months. So why don't you have the same curiosity when it comes to
 the people maintaining your most important software dependency? Want to go
 commando on this one? Go to [RubyConf][rubyconf], [RailsConf][railsconf], and
 great regional Ruby conferences so you can talk to these people. They are really
@@ -155,28 +157,28 @@ your upgrade pains or [fix regressions that affect you][fix] in new releases!
 
 ### 9 — Experiment
 
-Play with new versions. I started working on an internal app called 
-[Orientation][orientation] while suffering from Rails 5 envy in late 2012 
-because I felt we needed a better way to document our knowledge dependencies 
-(sense a theme?). It allowed me to learn what we could benefit from in this 
-new version without having to worry about our dependency baggage and 
-technical debt (yet). While I expected our main application to follow sooner, 
-I was still able to keep Orientation in lockstep with all minor and major 
+Play with new versions. I started working on an internal app called
+[Orientation][orientation] while suffering from Rails 5 envy in late 2012
+because I felt we needed a better way to document our knowledge dependencies
+(sense a theme?). It allowed me to learn what we could benefit from in this
+new version without having to worry about our dependency baggage and
+technical debt (yet). While I expected our main application to follow sooner,
+I was still able to keep Orientation in lockstep with all minor and major
 releases of Rails, which helped a lot with regards to the previous point.
 
 ### 10 - Blank
 
-There is no tenth point. You make it. Share your upgrade stories; good or 
-bad. They'll help people like you and me make better and more informed decisions 
-about upgrading. The community will also benefit because we'll all talk about 
+There is no tenth point. You make it. Share your upgrade stories; good or
+bad. They'll help people like you and me make better and more informed decisions
+about upgrading. The community will also benefit because we'll all talk about
 and work on making the upgrade process a little better with each new release.
 
 ---
 
-This post was inspired by [a talk I first gave at the Orlando Ruby Users Group 
+This post was inspired by [a talk I first gave at the Orlando Ruby Users Group
 on August 11th][trailstalk].
 
-Want me to share these Rails upgrade battle stories with your company or 
+Want me to share these Rails upgrade battle stories with your company or
 conference attendees? You can find ways to reach below.
 
 Stay safe, stay upgraded.

@@ -2,7 +2,9 @@
 layout: post
 title: "An Open Source Rage Diamond"
 date: 2014-06-05 6:14
-categories: development
+categories:
+  - open source software
+  - development
 ---
 One [late night of January 2013](https://github.com/badges/shields/commit/a99b4db912b8ccd2350c417db301eea99ef4996a),
 I had a little bout of anger. The culprit: these badges I was starting to

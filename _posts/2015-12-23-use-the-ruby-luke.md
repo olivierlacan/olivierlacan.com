@@ -3,7 +3,9 @@ layout: post
 title: "Use the Ruby, Luke."
 date: 2015-12-23 11:00
 location: "Paris, France"
-categories: development
+categories:
+  - ruby
+  - development
 draft: true
 ---
 

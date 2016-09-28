@@ -3,7 +3,9 @@ layout: post
 title: "Diving into Ruby, Head First."
 date: 2015-11-07 18:01
 location: "Paris, France"
-categories: development
+categories:
+  - ruby
+  - development
 ---
 
 I did technical reviewing for Jay McGavren's new and excellent Head First Ruby book

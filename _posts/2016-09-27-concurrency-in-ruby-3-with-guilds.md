@@ -3,7 +3,9 @@ title: Concurrency in Ruby 3 with Guilds
 layout: post
 date: '2016-09-27 13:21:00'
 location: Orlando, Florida
-categories: development
+categories:
+  - ruby
+  - ruby
 reviewers:
   - Aaron Patterson: http://tenderlove.com
 editors:

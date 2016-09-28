@@ -3,7 +3,9 @@ layout: post
 title: "There is no such thing as magic."
 date: 2014-07-09 14:51
 location: "Orlando, Florida"
-categories: development
+categories:
+  - ruby
+  - development
 ---
 
 > “So this is, like, if I took a spaceship to Titan — the moon of

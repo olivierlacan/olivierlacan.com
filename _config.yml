@@ -1,6 +1,6 @@
 name: Olivier Lacan
 url: http://olivierlacan.com
-description: "Unfettered thoughts of Olivier Lacan."
+description: "Thoughts on Ruby, Rails, open source software, programming, and life from Olivier Lacan"
 permalink: /posts/:title/
 highlighter: rouge
 markdown: redcarpet

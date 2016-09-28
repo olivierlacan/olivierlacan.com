@@ -3,7 +3,9 @@ layout: post
 title: "Hash Comparison in Ruby 2.3"
 date: 2015-11-11 18:00
 update: 2015-11-18 17:14
-categories: development
+categories:
+  - ruby
+  - development
 editors:
   - Elizabeth Mills: "#"
   - Erik Michaels-Ober: "https://twitter.com/sferik"

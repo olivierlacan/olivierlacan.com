@@ -3,7 +3,9 @@ layout: post
 title: "The Semantics of Software"
 date: 2014-08-30 12:15
 location: "Val Morin, Québec, Canada"
-categories: development
+categories:
+  - open source software
+  - development
 ---
 Jeremy Ashkenas shared some [counter-current thoughts about Semantic Versioning](https://gist.github.com/jashkenas/cbd2b088e20279ae2c8e) recently.
 

@@ -3,7 +3,8 @@ layout: post
 title: "Jumping between words in the console"
 date: 2014-08-20 00:33
 location: "Paris, France"
-categories: development
+categories:
+  - development
 ---
 
 There are many obvious ways to waste one's time, and there are the less

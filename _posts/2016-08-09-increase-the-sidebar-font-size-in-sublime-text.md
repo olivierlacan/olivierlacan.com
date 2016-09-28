@@ -3,7 +3,9 @@ layout: post
 title: "Increasing the Sidebar Font Size in Sublime Text"
 date: 2016-08-09 10:17
 location: "Orlando, Florida"
-categories: development
+categories:
+  - text editors
+  - development
 ---
 
 I still use Sublime Text. If you do too, great, I'm sure you love it. That said
