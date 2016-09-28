@@ -44,9 +44,9 @@
       <meta content="{{ page.update | date_to_xmlschema }}" property="article:modified_time">
     {% endif %}
     {% if page.image %}
-      <meta content="/img/srcset/{{ page.image }}" property="og:image">
-    {% else %}
 
+    {% else %}
+      <meta content="https://en.gravatar.com/userimage/4041830/dbf236e2e62fc5199015d289d59cf551.jpg?size=2048" property="og:image">
     {% endif %}
     {% if page.categories %}
       {% for category in page.categories limit:1 %}
