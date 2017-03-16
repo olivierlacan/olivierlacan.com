@@ -8,6 +8,10 @@ categories: talk
 
 How contributing to community projects like rubygems.org can help you overcome your fears and become a better Ruby developer.
 
-[View slides for the talk](//speakerdeck.com/olivierlacan/ruby-and-we)
+## Video
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/vum-FJn7kes" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/155107107?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+## Slides
+
+<script async class="speakerdeck-embed" data-id="c4b6622fe08a4e5a846f715a86e53178" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
