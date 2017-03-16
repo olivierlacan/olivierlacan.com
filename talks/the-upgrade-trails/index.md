@@ -10,10 +10,6 @@ A harrowing tale of multi-year Rails upgrades on codeschool.com with some
 hopefully useful hindsights for anyone maintaining large Rails applications and 
 looking to keep them up-to-date.
 
-## Video
-
-<script async class="speakerdeck-embed" data-id="6f7b90f5d4774376a5881c5f96f2b10e" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-
 ## Slides
 
 <script async class="speakerdeck-embed" data-id="6f7b90f5d4774376a5881c5f96f2b10e" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
