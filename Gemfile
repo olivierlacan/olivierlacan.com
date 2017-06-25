@@ -6,7 +6,7 @@ ruby "2.3.1"
 gem 'rake'
 gem 'redcarpet'
 gem 'albino'
-gem 'jekyll', '~> 3.2.0'
+gem 'jekyll'
 gem 'rubypants'
 gem 'pry'
 gem 'jekyll-asset-pipeline'

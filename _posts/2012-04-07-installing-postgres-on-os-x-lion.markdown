@@ -5,6 +5,7 @@ date: 2012-04-07 19:23
 comments: true
 categories: 
 published: false
+draft: true
 ---
 
 First, you should be using Homebrew. If not, go install it.
