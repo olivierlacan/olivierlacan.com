@@ -4,7 +4,7 @@ title: Work
 ---
 
 ## Code School
-I work remotely on [Code School](http://codeschool.com)'s Internal
+I work remotely on [Code School](http://codeschool.com)'s Platform
 team. There, I maintain and build features for [codeschool.com](http://codeschool.com) along with
 other little things that keep me up at night.
 
@@ -107,23 +107,7 @@ source software, iOS development, responsive design, impostor syndrome, etc.
 
 ### [Ruby5](http://ruby5.envylabs.com)
 I first started podcasting with Gregg Pollack and the rest of the
-Envy Labs & Code School team that rotates on the show. Recently I've
-become a regular co-host. With the help of serious audio engineering
-friends like Jamison Rabbe, Jason Madsen and Jon Friskics.
+Envy Labs & Code School team that rotates on the show. Over time I've
+become a regular co-host, until the show [ended on September 20th, 2016](https://ruby5.codeschool.com/episodes/690-episode-645-september-20th-2016).
 
-### [5 Minutes of JavaScript](http://five-js.envylabs.com/episodes/27-episode-27-may-15th-2014)
-Recently Carlos Souza [invited me to co-host](http://five-js.envylabs.com/episodes/27-episode-27-may-15th-2014) this new Code School podcast
-which follows a similar format than Ruby5, but for JavaScript. It was so
-much fun I can't wait to be invited again.
-
-### [A Hypothetical Movie Podcast](http://www.hypotheticalpodcast.com/contributors/olivier)
-I met Joshua Blount through co-workers and friends at Envy Labs and it
-was so great to finally be able to go full cinephile with a bunch of
-(sometimes) like-minded folks.
-
-Along my [few contributions](http://www.hypotheticalpodcast.com/contributors/olivier),
-[our Django Unchained episode](http://www.hypotheticalpodcast.com/episode/django-unchained) remains my absolute favorite. Utter joy.
-
-### [An Impolite Podcast](http://www.animpolitepodcast.com/episode/dolphinhorse)
-Nice [conversation](http://www.animpolitepodcast.com/episode/dolphinhorse)
-with a devout friend about what it basically means to be an atheist.
+I started [Ruby Facets](http://rubyfacets.com/) to carry on what I loved most about Ruby5.
