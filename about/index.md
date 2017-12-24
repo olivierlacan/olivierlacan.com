@@ -1,8 +1,23 @@
 ---
 layout: page
-title: About
+title: About me
 ---
-I've been a self-taught web designer for over 10 years</span> and I've evolved into a software engineer over the last 4 years. Despite my unescapable Frenchness, my favorite languages are English and [Ruby](http://tryruby.org). I spend most of my time building and maintaining [large](https://codeschool.com) and small Rails applications.
+
+{% assign startWebsites = 2000 %}
+{% assign startProgramming = 2010 %}
+{% assign nowYear = 'now' | date: '%Y' %}
+{% assign websitesYears = nowYear | minus: startWebsites %}
+{% assign programmingYears = nowYear | minus: startProgramming %}
+
+I've been creating websites for over {{ websitesYears }} years</span>
+and I've evolved into a more backend focused software developer during
+the last {{ programmingYears }} years. Despite my unescapable
+Frenchness, my favorite languages are English and
+[Ruby](http://tryruby.org).
+
+I spend most of my time building and maintaining
+[large](https://codeschool.com) and small Rails applications.
+
 <figure id="mug">
   <a href="https://en.gravatar.com/userimage/4041830/dbf236e2e62fc5199015d289d59cf551.jpg?size=2048" title="Download a huge version of my face to see if you can figure out the number of degrees I tilted it for this shot.">
     <img src ="https://en.gravatar.com/userimage/4041830/dbf236e2e62fc5199015d289d59cf551.jpg?size=540" alt="Portrait of Olivier Lacan"/>
@@ -10,13 +25,30 @@ I've been a self-taught web designer for over 10 years</span> and I've evolved i
   <figcaption>That's me. &#10548;</figcaption>
 </figure>
 
-I maintain and build features on [Code School](http://codeschool.com)'s
-Internal team. In the past I've written and participated in the development
-of several of our courses. More on that [here](/work).
+I've built and maintained [Code School](https://www.codeschool.com) for
+multiple years. I've written and participated in the development of
+several of our earliest courses. More on that [here](/work).
 
-It's been mathematically proven that I [tweet](http://twitter.com/olivierlacan)
-about as often as I breathe. I also [take little square pictures of the world](http://instagram.com/olivierlacan).
+I've created the Shields metadata [badges](http://shields.io) that
+you can now find in [open source repositories][gh-shields] all over to
+succinctly display whether tests are passing or failing, if dependencies
+are out of date, or if code is well-documented or not.
 
-## Contact
+[gh-shields]: https://github.com/search?utf8=✓&q=https%3A%2F%2Fimg.shields.io%2F&type=Code
 
-If you'd like to email me securely you can use my [PGP Key](http://hkps.pool.sks-keyservers.net/pks/lookup?search=hi%40olivierlacan.com&fingerprint=on&op=index) and I recommend reading my little [GPGTools](/tools/security/gpgtools) article if you don't know much about secure communication. [Keybase.io](https://keybase.io/olivierlacan) is a neat alternative with a much easier learning curve although it may not be as secure.
+I wrote [Keep a Changelog](http://keepachangelog.com) to give fellow
+software developers clearer guidelines on how to providing
+human-friendly release notes for their software.
+
+I've spoken at multiple conferences around the world on topics like
+Science-driven Development, contributing to open source, Ruby on Rails,
+and information security. You can find my published talks [here](/talks).
+
+## Get in touch
+
+You can find me at <a href="mailto:hi@olivierlacan.com">hi@olivierlacan.com</a>
+or on Twitter <a href="https://twitter.com/olivierlacan">@olivierlacan</a>.
+
+If you'd like to email me securely you can use my [PGP Key][pgp] and I recommend reading my little [GPGTools](/tools/security/gpgtools) article if you don't know much about secure communication. [Keybase.io](https://keybase.io/olivierlacan) is a neat alternative with a much easier learning curve although it may not be as secure.
+
+[pgp]: http://hkps.pool.sks-keyservers.net/pks/ookup?search=hi%40olivierlacan.com&fingerprint=on&op=index
