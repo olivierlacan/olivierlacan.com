@@ -4,10 +4,8 @@ date: 2016-08-11 7:00
 title: The Upgrade Trails
 categories: talk
 ---
-# The Upgrade Trails
-
-A harrowing tale of multi-year Rails upgrades on codeschool.com with some 
-hopefully useful hindsights for anyone maintaining large Rails applications and 
+A harrowing tale of multi-year Rails upgrades on codeschool.com with some
+hopefully useful hindsights for anyone maintaining large Rails applications and
 looking to keep them up-to-date.
 
 ## Slides

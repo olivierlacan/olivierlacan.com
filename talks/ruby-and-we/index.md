@@ -4,8 +4,6 @@ date: 2016-02-11 0:00
 title: Ruby & We
 categories: talk
 ---
-# Ruby & we
-
 How contributing to community projects like rubygems.org can help you overcome your fears and become a better Ruby developer.
 
 ## Video
