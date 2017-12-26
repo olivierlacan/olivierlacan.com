@@ -38,6 +38,17 @@ layout: default
   {% endif %}
 </p>
 
+<!-- From: https://carlosbecker.com/posts/jekyll-reading-time-without-plugins/ -->
+<span class="reading-time" title="Assuming a 180 word per minute average reading speed">
+  {% assign words = content | number_of_words %}
+  {% if words < 360 %}
+    1 minute
+  {% else %}
+    {{ words | divided_by:180 }} minute
+  {% endif %}
+   reading time
+</span>
+
 <div class="post">
 {{ content }}
 </div>
