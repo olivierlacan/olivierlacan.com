@@ -1,5 +1,5 @@
 ---
-title: Where is that Ruby gem deprecation warning coming from?
+title: Ruby gem deprecation warnings
 layout: post
 date: '2017-09-24 06:33:00'
 location: Paris, France
