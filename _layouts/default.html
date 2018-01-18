@@ -44,7 +44,7 @@
       <meta content="{{ page.update | date_to_xmlschema }}" property="article:modified_time">
     {% endif %}
     {% if page.image %}
-
+      <meta content="{{ site.url }}/assets/{{ page.image }}" property="og:image">
     {% else %}
       <meta content="{{ site.url }}/assets/olivier_lacan_landscape_portrait.jpg" property="og:image">
     {% endif %}

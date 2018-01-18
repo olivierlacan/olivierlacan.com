@@ -6,19 +6,19 @@ categories: talk
 ---
 Runtime errors can sometimes turn into dark and unpleasant journeys which lead you to question the nature of reality. Thankfully, Ruby often provides friendly feedback for understanding the cause and remedy for exceptions. Yet, there are situations in which programmers don't receive clear enough context for what really caused an exception and how to address it. We'll look at Ruby's error feedback mechanisms and search for constructive ways in which they can be made more helpful to humans.
 
-## Video
+### Video
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/eASsqQsaNOA" frameborder="0" allowfullscreen></iframe>
 
-## Slides
+### Slides
 
 <script async class="speakerdeck-embed" data-id="92b55fe4a2b440ce851035848e749c71" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
-## Abstract
+### Abstract
 
 Runtime errors can sometimes turn into dark and unpleasant journeys which lead you to question the nature of reality. Thankfully, Ruby often provides friendly feedback for understanding the cause and remedy for exceptions. Yet, there are situations in which programmers don't receive clear enough context for what really caused an exception and how to address it. We'll look at Ruby's error feedback mechanisms and search for constructive ways in which they can be made more helpful to humans.
 
-### Details
+#### Details
 
 Whether you're a beginner or a seasoned Ruby developer it's a given that you encounter exceptions of some kind every single day. Many of them are caused by simple mistakes that can be easily fixed assuming you have the proper context and understand the cause of the exception.
 
