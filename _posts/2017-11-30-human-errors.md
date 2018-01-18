@@ -1,11 +1,12 @@
 ---
 title: Human Errors
 layout: post
-date: '2017-11-30 1:11:00'
-location: Tulsa, Oklahoma
+date: '2018-01-02 14:30:00'
+location: Paris, France
 categories:
   - open source software
 draft: true
+image: human_errors_title.png
 ---
 ![Title card for Human Errors. Human is light blue. Errors is light red. There is a small red heart next to the word errors with a white X crossing it. ]({{ site.url }}/assets/human_errors_title.png)
 
@@ -19,7 +20,17 @@ As programmers, we're often assisted by programming languages like Ruby
 which try to provide friendly feedback to understand the cause of an
 exception and its potential remedy.
 
-Yet invariably, there are situations in which software developers (and
+```
+"cool " * 3
+=> "cool cool cool "
+3 * "cool "
+TypeError: String can't be coerced into Integer
+  from (irb):24:in `*'
+  from (irb):24
+  from /.../2.4.0/bin/irb:11:in `<main>'
+```
+
+Invariably, there are situations in which software developers (and
 unfortunately, their end-users) don't receive clear enough context for
 what really caused an exception and how to address it.
 
@@ -29,10 +40,12 @@ them are caused by simple mistakes that can be easily fixed assuming you
 have the proper context and understand the cause of the exception.
 
 {%
-  include image.html
-  name="human_errors_context.png"
+  include video.html
+  name="human_errors_error_recovery.mp4"
   alt="Slopped graph of parts separating users from recovery: first context, then feedback."
   caption="When errors are provided without context, or feedback, or both, recovery is much more difficult for programmers and end-users alike."
+  loop=true
+  autoplay=true
 %}
 
 As a programming language that focuses on happiness, Ruby has done a
@@ -48,14 +61,28 @@ programmers in exceptional situations.
   caption="Elm provides perhaps the best example of a recent programming language that goes the extra mile to provide as much context and feedback to programmers as possible when errors occur."
 %}
 
+This error feedback is incredibly useful because it tell us:
+
+- **What happened**: an alias problem.
+- **Where it happened**: inside `Maze.elm`, it even shows us the code.
+- **Why it happened**: we accidentally used a recursive type alias.
+- **How to recover**: avoid using an alias.
+
+Obviously providing this much context and feedback takes a lot of work
+and may not be possible with this level of granularity in all or most
+cases. So what? Why shy away from such a challenge when software is
+becoming so crucial to our daily lives and even a marginal improvement
+in programmer-facing errors could make inevitable mistakes so much
+easier to recover from.
+
 ## Instant Recovery
 
-In contrast, one of the most useful errors Ruby provides occurs when you
-attempt to call a method which doesn't appear to exist on an object but
-matches a slightly differently spelled method:
+One of the most useful errors Ruby provides occurs when you attempt to
+call a method which doesn't appear to exist on an object but matches a
+slightly differently spelled method:
 
 ```
-irb(main):001:0> expode
+expode
 NameError: undefined local variable or method `expode' for main:Object
 Did you mean?  explode
   from (irb):01
@@ -72,11 +99,10 @@ But another [very common][nilerr] Ruby exception — `NoMethodError` is
 not so great at giving useful context:
 
 ```
-irb(main):001:0> task.call && target.call
+task.call && target.call
 NoMethodError: undefined method `call' for nil:NilClass
   from (irb):01
   from /.../2.3.1/bin/irb:01:in `<main>'
-irb(main):012:0>
 ```
 
 Can you tell which side of this line triggered the exception? Was it
@@ -104,11 +130,11 @@ the `NoMethodError` class as a [proof of concept][poc], and it's quite
 good:
 
 ```
-irb(main):043:0> @foo = nil
+@foo = nil
 => nil
-irb(main):044:0> @bar = nil
+@bar = nil
 => nil
-irb(main):045:0> @foo.call && @bar.call
+@foo.call && @bar.call
 NoMethodError: undefined method `call' for nil:NilClass
 
   @foo.call && @bar.call
@@ -133,13 +159,112 @@ NoMethodError because they don't notice `nil` as the receiver in the
 exception message. Instead, they could erroneously try to investigate
 their originally intended receiver.
 
+## Stack Story
+
+Context in most programming languages often means understanding not just
+what specifically triggered the error which caused a program to abort
+but also the series of events that may have started the chain reaction
+resulting in the exception.
+
+This is why many good programming language include at least a glimpse
+at the many layers of execution prior to the final one. This can be
+especially useful in situations where the unexpected behavior starts
+occuring in some part of your codebase but is only caught later in the
+execution sequence.
+
+In Ruby, the simplest way to see this is by calling a broken method from
+another:
+
+```
+def do_something
+  "abc".boom
+end
+=> :do_something
+def start
+  do_something
+end
+=> :start
+start
+NoMethodError: undefined method `boom' for "abc":String
+  from (irb):10:in `do_something'
+  from (irb):13:in `start'
+  from (irb):15
+  from /.../2.4.0/bin/irb:11:in `<main>'
+```
+
+The story the stacktrace is telling us here can be illuminating in some
+cases, especially when executing code from actual Ruby files. What shows
+up as `(irb):10` in the first line of the trace is the actual location
+of the method call. Ruby tells us that the `NoMethodError` originated
+from this location within a lexical scope named `do_something`. In this
+case the lexical scope is the method body of `do_something`.
+
+Although from top to bottom the execution is listed in reverse
+chronological order (most recent first), you can glance down at the
+bottom of the stacktrace and follow it back up to see exactly everything
+that happened. If the error message doesn't illuminate the cause of the
+exception, the context provided by the stacktrace can let you piece
+together the sequence of execution and all the places in which things
+may have gone wrong.
+
+In this example, the error comes from a call to a non-existent `boom`
+method on the String instance `"abc"`, but in other situations, you may
+notice for instance that the wrong kind of object was returned from a
+method higher up (earlier) in the stack.
+
+Ruby 2.5.0 introduces an interesting change to the context provided by
+the stacktrace. Here's the same situation:
+
+```
+RUBY_VERSION
+=> "2.5.0"
+def do_something
+  "abc".boom
+end
+=> :do_something
+def start
+  do_something
+end
+=> :start
+start
+Traceback (most recent call last):
+        4: from /.../2.5.0/bin/irb:11:in `<main>'
+        3: from (irb):12
+        2: from (irb):10:in `start'
+        1: from (irb):7:in `do_something'
+NoMethodError (undefined method `boom' for "abc":String)
+```
+
+First, Ruby no longer assumes that you know what a stacktrace is and
+gives it a clear name: `Traceback`. It's a strange choice considering
+Rubyist often refer to these listings as either "stacktraces" or
+"backtraces" but at least it comes with a (minimally) useful
+explanation: `(most recent calls last)`.
+
+You'll note the obvious difference here. Ruby used to order stacktraces
+in reverse. Now the beginning of the execution is at the top. It might
+be an annoying change to long-time Rubyists but you have to admit that
+it makes a bit more sense. It could have been problematic if the
+exception message had remained at the top of the stacktrace in
+situations with very deep stacks (which common in Rails, for one) but
+the exception message was intelligently moved at the bottom of the trace
+right next to the most recent call which caused the exception.
+
+{%
+  include image.html
+  name="human_errors_stacktrace.png"
+  alt="IRB output for the same NoMethoError exception showing the exception message underlined"
+  caption="A lovely detail I couldn't show in plain text is that Ruby 2.5 now underlines the exception message. It's great way to help developers focus their attention first on what could have caused the error before they go on a fishing expedition through the stack."
+%}
+
+
 ## Unambiguous Feedback
 
 Ruby's `ArgumentError` provides an ideal example of how feedback can be
 improved for a very common error type. Take this simple method that
 requires a single `code` argument:
 
-```ruby
+```
 def explode(code)
   puts "#{code} Boom!"
 end
@@ -150,7 +275,7 @@ raises an exception and logically protests that you didn't provide the
 correct number of arguments. One was expected, none were given.
 
 ```
-> explode
+explode
 ArgumentError: wrong number of arguments
  (given 0, expected 1)
   from (irb):1:in `explode'
@@ -163,7 +288,7 @@ programmer a round trip to check the required arguments, this is a
 pretty good error. Passing the required argument solves the problem:
 
 ```
-> explode("abcd")
+explode("abcd")
 abcd Boom!
 => nil
 ```
@@ -171,7 +296,7 @@ abcd Boom!
 But what if your team decides one day that explicit beats implicit and
 replaces the `code` argument with a keyword argument:
 
-```ruby
+```
 def explode(code:)
   puts "#{code} Boom!"
 end
@@ -182,7 +307,7 @@ difference is the colon (`:`) after `code`. Now calling `explode`
 without any argument results in this:
 
 ```
-> explode
+explode
 ArgumentError: missing keyword: code
   from (irb):9:in `explode'
   from (irb):12
@@ -195,7 +320,7 @@ of missing arguments, it simply states that there is a missing keyword
 this error:
 
 ```
-> explode(code: "abcd")
+explode(code: "abcd")
 abcd Boom!
 => nil
 ```
@@ -203,22 +328,16 @@ abcd Boom!
 But what happens when old call sites for the `explode` method still
 use the old argument?
 
-```ruby
-> explode("abcd")
+```
+explode("abcd")
 
-???
+# => ???
 ```
 
 Take a guess. I'll try not to spoil the answer for you with some blank
-space.
+space:
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<br class="viewport-height-blank">
 
 Did you guess you would get a missing keyword argument error? Or perhaps
 a weird "expected one argument, received one argument" error because
@@ -228,7 +347,7 @@ argument?
 Nope.
 
 ```
-> explode("abcd")
+explode("abcd")
 ArgumentError: wrong number of arguments
 (given 1, expected 0)
   from (irb):9:in `explode'
@@ -250,23 +369,23 @@ strange. The feature was added but the error handling logic in CRuby was
 not updated to reflect the new behavior, which resulted in this odd
 behavior.
 
-Ten months ago I filed [a bug report][kwargs] to address this issue in
+In February 2017 I filed [a bug report][kwargs] to address this issue in
 CRuby. Nobuyoshi "nobu" Nakada provided a fix which resulted in the
 following improvement:
 
 ```
-irb(main):005:0> explode("abcd")
+explode("abcd")
 ArgumentError: wrong number of arguments
 (given 1, expected 0; required keyword: code)
   from (irb):1:in `explode'
   from (irb):5
-  from /.../2.5.0-preview1/bin/irb:11:in `<main>'
+  from /.../2.5.0/bin/irb:11:in `<main>'
 ```
 
 Before you send me an email to say that the `given 1, expected 0` part
 is still confusing, I know. That's a bit harder to fix and I hope we
-can address it before Ruby 2.5 comes out on Christmas. Otherwise it will
-sadly have to wait for a patch release later on.
+can address it in future Ruby patches since this change is already
+included in Ruby 2.5 which came out on December 25th, 2017.
 
 Still! At least now if you have the courage or the attention span to
 keep reading the error message til the end, you will see
@@ -288,6 +407,8 @@ points into CRuby's error handling internals:
 If you're not familiar with all of Ruby's exceptions,
 [Exceptional Creatures][ec] from Honeybadger is a lovely (and weird!) way to
 discover more and learn about their specificities.
+
+
 
 [1]: http://www.yukinishijima.net/2014/10/21/did-you-mean-experience-in-ruby.html
 [2]: https://www.schneems.com/2014/12/27/going_the_distance.html

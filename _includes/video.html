@@ -1,0 +1,4 @@
+<figure>
+  <video src="{{ site.url }}/assets/{{ include.name }}" {% if include.autoplay %} autoplay {% endif %} {% if include.loop %} loop {% endif %} {% if include.poster %} poster="{{ site.url }}/assets/{{ include.poster }}" {% endif %}></video>
+  <figcaption>{{ include.caption }}</figcaption>
+</figure>
