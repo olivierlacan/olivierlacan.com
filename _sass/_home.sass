@@ -1,4 +1,9 @@
 #home
+  &:after
+  content: ""
+  display: table
+  clear: both
+
   h1
     font-weight: bold
     font-size: 1.4em
@@ -12,25 +17,36 @@
       margin-bottom: 1em
       padding-top: 1.2em
 
-  ul.posts
-    padding-left: .75em
+  .posts
+    width: 100%
     font-size: 1.3em
-    list-style-type: none
-    margin-bottom: 2em
 
-    li
-      clear: both
+    tr
+      height: 2em
       line-height: 1.3
-      margin-bottom: 1em
+      margin-bottom: 2em
       @media #{$iphone-breakpoint}
         font-size: 2em
 
+    td
+      &.title
+        width: 80%
+
+      &.draft
+        a
+          color: red
+
+      &.time
+        width: 20%
+        text-align: right
+        vertical-align: bottom
+
+        @media #{$iphone-breakpoint}
+          display: none
+
     time
-      float: right
       color: #aaa
       font-size: .9em
-      @media #{$iphone-breakpoint}
-        display: none
 
 
 .feature
@@ -39,3 +55,6 @@
   display: block
   text-align: center
   margin: 1em
+
+.draft-marker
+  padding: 0.2em 0.2em 0 0

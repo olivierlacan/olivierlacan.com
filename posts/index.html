@@ -4,11 +4,48 @@ title: Olivier Lacan - Posts
 ---
 <div id="home">
   <h1>Blog Posts</h1>
-  <ul class="posts">
+  <table class="posts">
     {% for post in site.posts %}
-      {% unless post.draft %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a> <time>{{ post.date | date_to_string }}</time></li>
-      {% endunless %}
+      {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+      {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+
+      {% if forloop.first %}
+      <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
+      <table class="posts">
+      {% endif %}
+
+      {% if post.draft == false %}
+        <tr>
+          <td class="title">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </td>
+          <td class="time">
+            <time>{{ post.date | date: "%B %d"  }}</time>
+          </td>
+        </tr>
+      {% elsif post.draft == true and site.development == true %}
+        <tr>
+          <td class="title {% if post.draft %}draft{% endif %}">
+            <a href="{{ post.url }}">
+              {{ post.title }}
+            </a>
+          </td>
+          <td class="time">
+            <time>
+              {{ post.date | date: "%B %d"  }}
+            </time>
+          </td>
+        </tr>
+      {% endif %}
+
+      {% if forloop.last %}
+      </table>
+      {% else %}
+          {% if this_year != next_year %}
+          </table>
+          <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
+          <table class="posts">
+          {% endif %}
+      {% endif %}
     {% endfor %}
-  </ul>
 </div>
