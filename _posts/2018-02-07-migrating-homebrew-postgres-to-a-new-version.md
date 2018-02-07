@@ -114,7 +114,7 @@ mv /usr/local/var/postgres/ /usr/local/var/postgres.9.3.backup/
 Now that the old data directory has been "moved", you can safely create
 a brand new clean database:
 
-```shell
+```
 initdb /usr/local/var/postgres/
 The files belonging to this database system will be owned by user "olivierlacan".
 This user must also own the server process.
