@@ -12,12 +12,12 @@ about and accidentally rediscovered recently when the need arose to
 resolve a similar accidental upgrade. I felt like it deserved to
 live somewhere where there is a chance I might update it.
 
-## Update
+## Update (February 7th, 2018)
 
 In Homebrew 1.5 and above, there's a new process to upgrade your
 Postgres database across major versions using the
-`brew postgresql-upgrade-database` command which was [added by Mike
-McQuaid on January 8th, 2018][3].
+`brew postgresql-upgrade-database` command which was [recently added
+by Mike McQuaid][3].
 
 This is a fantastic one-step improvement over the lengthy guide you'll
 see below, but since this new command isn't foolproof (it will fail if
@@ -205,14 +205,14 @@ Is server running?
 ```
 
 If you're using a recent version of Homebrew (as you should), then it's
-likely you're using homebrew services instead of launchctl to manage
+likely you're using Homebrew Services instead of launchctl to manage
 persistent processes like postgres. So use this instead:
 
 ```shell
 brew services stop postgresql
 ```
 
-While brew services should do the job of stopping postgres, it's not
+While Homebrew Services should do the job of stopping postgres, it's not
 guaranteed that you don't have a server process connected to postgres
 and locking it's `pid` (process ID) file. It's always a good idea to
 check for that file which may exist at
@@ -308,7 +308,8 @@ launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 With Homebrew Services, the operation is even simpler:
 
 ```shell
-homebrew services start postgresql
+brew services start postgresql
+==> Successfully started `postgresql` (label: homebrew.mxcl.postgresql)
 ```
 
 Once PG is running you could run the optimization script recommended by
@@ -376,4 +377,4 @@ version of the
 
 [1]: https://gist.github.com/olivierlacan/e1bf5c34bc9f82e06bc0
 [2]: https://github.com/Homebrew/homebrew-core/blob/ac2ba2b02772708fe648363e4ef9dad891d89ef6/cmd/brew-postgresql-upgrade-database.
-[3]: https://github.com/Homebrew/homebrew-core/commit/25d5a9ef6cd3dbbd903aa87bd6f6fa423c13ee6e
+[3]: https://github.com/Homebrew/homebrew-core/pull/21244
