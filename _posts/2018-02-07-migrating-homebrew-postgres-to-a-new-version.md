@@ -223,8 +223,11 @@ some surprises later on.
 ## Upgrading
 
 I've based this article on the fairly detailed [pg_upgrade guide in the
-PostgreSQL documentation][4]. If you have specific needs (very large data
-directory for example), you should consult it too.
+PostgreSQL documentation][4]. If you have specific needs (very large
+data directory for example), you should consult it too. This section
+is also not specific to a macOS Homebrew install of Postgres since it
+uses the same commands you should be able to use on other operating
+systems like Linux.
 
 Assuming you're dealing with the same version numbers I'm dealing with
 (you probably aren't, so change them when running this on your machine),
