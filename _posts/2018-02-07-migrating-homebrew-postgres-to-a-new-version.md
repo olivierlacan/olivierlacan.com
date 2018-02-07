@@ -222,6 +222,10 @@ some surprises later on.
 
 ## Upgrading
 
+I've based this article on the fairly detailed [pg_upgrade guide in the
+PostgreSQL documentation][4]. If you have specific needs (very large data
+directory for example), you should consult it too.
+
 Assuming you're dealing with the same version numbers I'm dealing with
 (you probably aren't, so change them when running this on your machine),
 this is what the `pg_upgrade` command should look like when you run it:
@@ -378,3 +382,4 @@ version of the
 [1]: https://gist.github.com/olivierlacan/e1bf5c34bc9f82e06bc0
 [2]: https://github.com/Homebrew/homebrew-core/blob/ac2ba2b02772708fe648363e4ef9dad891d89ef6/cmd/brew-postgresql-upgrade-database.
 [3]: https://github.com/Homebrew/homebrew-core/pull/21244
+[4]: https://www.postgresql.org/docs/10/static/pgupgrade.html
