@@ -1,7 +1,7 @@
 ---
 title: Human Errors
 layout: post
-date: '2018-01-02 14:30:00'
+date: '2018-02-07 14:30:00'
 location: Paris, France
 categories:
   - open source software
