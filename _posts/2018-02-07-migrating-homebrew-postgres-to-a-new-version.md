@@ -166,7 +166,7 @@ Interesting to note, but if you use PostgreSQL with Rails. This means
 there will be no password on your development database, so you can skip
 the `password` field in `database.yml` or leave it **completely* empty.
 
-## pg_upgrade
+### Shutting Things Down
 
 First we have to make sure both database servers are not running when we
 do the upgrade:
