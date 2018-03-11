@@ -9,7 +9,7 @@ title: About me
 {% assign websitesYears = nowYear | minus: startWebsites %}
 {% assign programmingYears = nowYear | minus: startProgramming %}
 
-I've been creating websites for over {{ websitesYears }} years</span>
+I've been creating websites for over {{ websitesYears }} years
 and I've evolved into a more backend focused software developer during
 the last {{ programmingYears }} years. Despite my unescapable
 Frenchness, my favorite languages are English and
