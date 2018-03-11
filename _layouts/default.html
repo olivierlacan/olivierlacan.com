@@ -85,19 +85,21 @@
     </div> <!-- /container -->
 
   <script type="text/javascript">
-    document.querySelectorAll("h2, h3, h4, h5, h6").forEach(
-      function(element, i) {
-        var id = element.getAttribute('id');
-        var anchor = document.createElement("a");
-        anchor.setAttribute("href", '#' + id);
-        anchor.classList.add("anchor");
-        anchor.setAttribute("aria-hidden", "true");
+    document.addEventListener("DOMContentLoaded", function(event) {
+      document.querySelectorAll("h2, h3, h4, h5, h6").forEach(
+        function(element, i) {
+          var id = element.getAttribute('id');
+          var anchor = document.createElement("a");
+          anchor.setAttribute("href", '#' + id);
+          anchor.classList.add("anchor");
+          anchor.setAttribute("aria-hidden", "true");
 
-        if (id) {
-          element.appendChild(anchor);
+          if (id) {
+            element.appendChild(anchor);
+          }
         }
-      }
-    );
+      );
+    });
 
     var _gauges = _gauges || [];
     (function() {
