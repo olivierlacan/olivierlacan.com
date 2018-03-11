@@ -130,7 +130,6 @@ DEPENDENCIES
   pygments.rb
   rake
   redcarpet
-  rouge
   rubypants
   sass
   thor
