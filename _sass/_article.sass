@@ -23,7 +23,7 @@
       margin-left: -0.5em
 
       &:hover .anchor, &:focus .anchor
-        visibility: visible
+        opacity: 1
 
       .anchor
         float: left
@@ -31,8 +31,9 @@
         margin: -1em -0.3em -1em -0.5em
         font-style: normal
         font-weight: normal
-        visibility: hidden
+        opacity: 0
         border: none
+        transition: opacity 0.1s ease-in-out 0.1s
 
       .anchor::before
         content: '¶'
