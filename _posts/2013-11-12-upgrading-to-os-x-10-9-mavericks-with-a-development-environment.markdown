@@ -54,4 +54,4 @@ After installing Mavericks, `rbenv` was fully functional and I managed to instal
 
 This was by far the smoothest OS X upgrade experience I've ever had with a Rails development environment installed on my machine. That doesn't mean I won't run into some hiccups later, but it's reassuring for people like me who stay away from upgrades for fear of having a day of work ruined trying to get things back to normal.
 
-PS: If you enjoy all these talks of tools, you should check out my [toolbelt](http://olivierlacan.com/tools/).
+PS: If you enjoy all these talks of tools, you should check out my [toolbelt](/tools/).

@@ -7,7 +7,7 @@ draft: true
 ---
 
 ## Backstory
-In a [recent blog post](http://olivierlacan.com/posts/proposal-for-a-better-ruby-hash-include/)
+In a [recent blog post](/posts/proposal-for-a-better-ruby-hash-include/)
 I mused about a handy method I've felt the need for when comparing hashes in Ruby.
 
 The post was mostly composed of explanations, examples and a hacky Ruby-only

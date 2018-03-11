@@ -73,7 +73,7 @@ It wasn't until I decided that any question about a gem should result either
 Blame RSpec if you will, but this code doesn't feel very "idiomatic" to me.
 That said, I used to write code like this. Then one day, after writting one too
 many request or controller specs for an API, my frustration at the inadequacy
-of Hash comparison tools in Ruby started rising ([frustration](http://olivierlacan.com/posts/proposal-for-a-better-ruby-hash-include/) which was recently [resolved](http://olivierlacan.com/posts/hash-comparison-in-ruby-2-3/))
+of Hash comparison tools in Ruby started rising ([frustration](/posts/proposal-for-a-better-ruby-hash-include/) which was recently [resolved](/posts/hash-comparison-in-ruby-2-3/))
 and I typed what I wished Ruby would let me do. It looked a little bit like this:
 
 

@@ -59,7 +59,7 @@ your software with, [keep a changelog][kac].**
 [kac]: http://keepachangelog.com
 [cl]: https://github.com/olivierlacan/keep-a-changelog/blob/c844dcacdcce8d026f0867b7782866d6d5b11492/CHANGELOG.md
 [tr]: https://github.com/olivierlacan/keep-a-changelog#translations
-[ossragediamond]: http://olivierlacan.com/posts/an-open-source-rage-diamond/
+[ossragediamond]: /posts/an-open-source-rage-diamond/
 [rd]: http://railsdiff.org/
 [tianshuo]: https://github.com/tianshuo
 [mpbzh]: https://github.com/mpbzh
