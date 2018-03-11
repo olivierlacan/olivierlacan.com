@@ -35,19 +35,19 @@
       <meta content="{{ site.description }}" property="og:description">
     {% endif %}
     {% if page.url %}
-      <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+      <meta content="/{{ page.url }}" property="og:url">
     {% endif %}
     {% if page.date %}
       <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-      <meta content="{{ site.url }}/about/" property="article:author">
+      <meta content="/about/" property="article:author">
     {% endif %}
     {% if page.update %}
       <meta content="{{ page.update | date_to_xmlschema }}" property="article:modified_time">
     {% endif %}
     {% if page.image %}
-      <meta content="{{ site.url }}/assets/{{ page.image }}" property="og:image">
+      <meta content="/assets/{{ page.image }}" property="og:image">
     {% else %}
-      <meta content="{{ site.url }}/assets/olivier_lacan_landscape_portrait.jpg" property="og:image">
+      <meta content="/assets/olivier_lacan_landscape_portrait.jpg" property="og:image">
     {% endif %}
     {% if page.categories %}
       {% for category in page.categories limit:1 %}
@@ -65,13 +65,13 @@
     <div class="container">
       <div class="site">
         <div class="header">
-          <h1 class="site-title"><a href="{{ site.url }}">{{ site.name }}</a></h1>
+          <h1 class="site-title"><a href="/">{{ site.name }}</a></h1>
           <nav>
             <ul>
-              <li><a class="extra" href="{{ site.url }}/about/"><span>about</span></a></li>
-              <li><a href="{{ site.url }}/work">work</a></li>
-              <li><a href="{{ site.url }}/tools">tools</a></li>
-              <li><a href="{{ site.url }}/talks">talks</a></li>
+              <li><a class="extra" href="/about/"><span>about</span></a></li>
+              <li><a href="/work">work</a></li>
+              <li><a href="/tools">tools</a></li>
+              <li><a href="/talks">talks</a></li>
             </ul>
           </nav>
         </div>
