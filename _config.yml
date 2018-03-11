@@ -3,7 +3,24 @@ url: http://olivierlacan.com
 description: "Thoughts on Ruby, Rails, open source software, programming, and life from Olivier Lacan"
 permalink: /posts/:title/
 highlighter: rouge
-markdown: redcarpet
+# Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
+# span, block element options fall back to global
+# https://github.com/jekyll/jekyll/issues/4619#issuecomment-191267346
+kramdown:
+  auto_ids: true
+  input: GFM
+  # https://github.com/jekyll/jekyll/pull/4090
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: 'highlight'
+    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+markdown: kramdown
 redcarpet:
   extensions:
     - no_intra_emphasis
