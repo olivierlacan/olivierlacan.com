@@ -37,7 +37,7 @@ His work allowed me to create the kind of strong and clear project
 website I didn't have the courage to build back in May 2014 when this
 project originally started.
 
-PS: I'm [looking for help](gh) porting the following languages to this new
+PS: I'm [looking for help][gh] porting the following languages to this new
 version: Czech, German, Spanish, Italian, Polish, Brazilian Portugese, Russian,
 Slovenian, Swedish, Turkish, Simplified & Traditional Chinese, and any other
 language you'd like to [contribute][lang].

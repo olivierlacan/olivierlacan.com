@@ -194,7 +194,7 @@ Stay safe, stay upgraded.
 [messagebus]: https://github.com/SamSaffron/message_bus
 [strongparams]: http://api.rubyonrails.org/classes/ActionController/StrongParameters.html
 [strongparamsgem]: https://github.com/rails/strong_parameters
-[keepachangelog]: keepachangelog.com
+[keepachangelog]: http://keepachangelog.com
 [rug]: http://guides.rubyonrails.org/upgrading_ruby_on_rails.html
 [gemnasium]: https://gemnasium.com/orientation/orientation
 [rubyweekly]: http://rubyweekly.com
