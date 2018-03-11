@@ -1,10 +1,11 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-ruby "2.5.0"
+ruby "2.4.2"
 
 gem 'rake'
 gem 'redcarpet'
+gem 'rouge'
 gem 'albino'
 gem 'jekyll'
 gem 'rubypants'
