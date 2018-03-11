@@ -314,10 +314,10 @@ ArgumentError: missing keyword: code
   from /.../2.4.0/bin/irb:11:in `<main>'
 ```
 
-The argument error is now very different. Instead of focus on the number
-of missing arguments, it simply states that there is a missing keyword
-(argument) named `code`. Passing the explicit keyword argument resolves
-this error:
+The argument error is now very different. Instead of focusing on the
+number of missing arguments, it simply states that there is a missing
+keyword (argument) named `code`. Passing the explicit keyword argument
+resolves this error:
 
 ```
 explode(code: "abcd")
