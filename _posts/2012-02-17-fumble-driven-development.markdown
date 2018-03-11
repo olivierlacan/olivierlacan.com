@@ -8,7 +8,7 @@ categories: programming
 
 My digressive brain started to run wild while watching Bret Victor's fascinating talk [Inventing on Principle](https://vimeo.com/36579366) a few minutes ago.
 
-<iframe src="http://player.vimeo.com/video/36579366?byline=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="https://player.vimeo.com/video/36579366?byline=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 ## What if we're wrong?
 
