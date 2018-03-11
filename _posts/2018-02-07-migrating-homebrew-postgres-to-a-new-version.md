@@ -36,53 +36,123 @@ your logs:
 
 ```shell
 FATAL:  database files are incompatible with server
-DETAIL:  The data directory was initialized by PostgreSQL version 9.5, which is not compatible with this version 10.0.
+DETAIL:  The data directory was initialized by PostgreSQL version 9.5, which is not compatible with this version 9.6.
 ```
 
 ```shell
 PG::InternalError: ERROR:  incompatible library "/usr/local/lib/postgresql/dict_snowball.so": version mismatch
-DETAIL:  Server is version 9.5, library is version 10.0.
+DETAIL:  Server is version 9.5, library is version 9.6.
 ```
 
 No need to panic. Your data should be fine. While you've upgraded the Postgres
 library, your existing databases have not been removed. They simply need to be
 upgraded to run with the new library.
 
-So first, let's check something.
+### Important Caveat for Non-Incremental Upgrades
+
+The process I describe below will work for incremental
+version updates: for example 9.5 to 9.6. But it will probably not work
+if you jump versions: for example 9.5 to 10.0.
+
+In order to upgrade properly you will first need to downgrade the
+Postgres version in Homebrew to the version directly after the one of
+your data directory.
+
+How do you figure out what version your data directory uses? Ask it.
 
 ```shell
-brew info postgresql
+cat /usr/local/var/postgres/PG_VERSION
+9.5
 ```
 
-The top of what gets printed as a result is the most important:
+There we go. And what is your currently activated Postgres version in
+Homebrew?
 
 ```shell
-postgresql: stable 9.4.1 (bottled)
-http://www.postgresql.org/
-Conflicts with: postgres-xc
-/usr/local/Cellar/postgresql/9.3.2 (2924 files, 39M)
-  Poured from bottle
-/usr/local/Cellar/postgresql/9.4.1 (2996 files, 40M) *
-  Poured from bottle
+$ psql --version
+psql (PostgreSQL) 9.6.6
 ```
 
-The interesting bit is that there are two versions installed on my
-systems. Homebrew thankfully installs the Postgres binaries in different
-subfolders, which is very important to be able to migrate data from one
-version to the other.
-
-As you can see I have my old version installed in
-`/usr/local/Cellar/postgresql/9.3.2`. The new version is in
-`/usr/local/Cellar/postgresql/9.4.1`.
-
-First ensure that you have the correct PG binaries running:
+Good. If you find yourself one step further than you should be, say
+on `10.0` like I was. You can do the following to step back down to
+`9.6`:
 
 ```shell
-which psql
-/usr/local/bin/psql
+brew uninstall postgresql
+brew install postgresql@9.6
+brew services start postgresql@9.6
+brew link postgresql@9.6 --force
+```
 
+Couldn't you use this to go back to Postgres 9.5? Yes, you could. But
+it's never a bad idea to stay up to date with newer versions, so why
+not use the opportunity to be less worried about upgrades?
+
+Now, check the active version of Postgres with:
+
+```shell
+$ psql --version
+psql (PostgreSQL) 9.6.6
+```
+
+## Checking Versions
+
+You can check all the versions of postgres that are installed in
+Homebrew with:
+
+```shell
+$ brew list --versions | grep postgres
+postgresql 9.4.5_2 9.5.0 9.5.4_1 9.5.3
+postgresql@9.6 9.6.6
+```
+
+In this case you can see that I don't have Postgres 9.6 installed in the
+usual postgres formula, since I had to specifically install that version
+in order to be able to upgrade from 9.5 with
+`brew install postgresql@9.6`.
+
+So there are 5 different versions of PostgreSQL installed on my machine
+in different subfolders. We can find out where those are with:
+
+```shell
+$ brew info postgresql
+postgresql: stable 10.1 (bottled), HEAD
+Object-relational database system
+https://www.postgresql.org/
+Conflicts with:
+  postgres-xc (because postgresql and postgres-xc install the same binaries.)
+/usr/local/Cellar/postgresql/9.4.5_2 (3,030 files, 33.6MB)
+  Poured from bottle on 2015-11-09 at 05:23:00
+/usr/local/Cellar/postgresql/9.5.0 (3,122 files, 34.9MB)
+  Poured from bottle on 2016-02-11 at 22:16:06
+/usr/local/Cellar/postgresql/9.5.3 (3,142 files, 35.0MB)
+  Poured from bottle on 2016-06-16 at 16:19:04
+/usr/local/Cellar/postgresql/9.5.4_1 (3,147 files, 35MB)
+  Poured from bottle on 2016-10-08 at 02:50:55
+...
+```
+
+As you can see I have my old versions installed in
+`/usr/local/Cellar/postgresql/`. And what about this new `postgres@9.6`?
+
+That one's in a standalone directory:
+
+```shell
+$ brew info postgresql@9.6
+postgresql@9.6: stable 9.6.6 (bottled) [keg-only]
+Object-relational database system
+https://www.postgresql.org/
+/usr/local/Cellar/postgresql@9.6/9.6.6 (3,273 files, 36.8MB) *
+  Poured from bottle on 2018-02-07 at 09:24:03
+...
+```
+
+One final check to make sure we have the correct versions of the
+Postgres commands running:
+
+```shell
 psql --version
-psql (PostgreSQL) 9.4.1
+psql (PostgreSQL) 9.6.6
 ```
 
 This means that the `pg_upgrade` binary we'll be using is also the new
@@ -90,7 +160,7 @@ one. But let's not assume:
 
 ```shell
 pg_upgrade --version
-pg_upgrade (PostgreSQL) 9.4.1
+pg_upgrade (PostgreSQL) 9.6.6
 ```
 
 Good good.
@@ -108,7 +178,7 @@ First I recommend moving your existing data to a directory with a
 different name:
 
 ```shell
-mv /usr/local/var/postgres/ /usr/local/var/postgres.9.3.backup/
+mv /usr/local/var/postgres/ /usr/local/var/postgres.9.5.backup/
 ```
 
 Now that the old data directory has been "moved", you can safely create
@@ -173,7 +243,7 @@ do the upgrade:
 
 ```shell
 pg_ctl -D /usr/local/var/postgres stop -m fast
-pg_ctl -D /usr/local/var/postgres.9.3.backup stop -m fast
+pg_ctl -D /usr/local/var/postgres.9.5.backup stop -m fast
 ```
 
 If you get the following message it's possible that you have PG in
@@ -234,7 +304,7 @@ Assuming you're dealing with the same version numbers I'm dealing with
 this is what the `pg_upgrade` command should look like when you run it:
 
 ```shell
-$ pg_upgrade -b /usr/local/Cellar/postgresql/9.3.2/bin/ -B /usr/local/Cellar/postgresql/9.4.1/bin/ -d /usr/local/var/postgres.9.3.backup/ -D /usr/local/var/postgres
+$ pg_upgrade -b /usr/local/Cellar/postgresql/9.5.4_1/bin/ -B /usr/local/Cellar/postgresql@9.6/9.6.6/bin/ -d /usr/local/var/postgres.9.5.backup/ -D /usr/local/var/postgres
 ```
 
 Lowercase flags (`-b` and `-d`) are for old `binary` and `data`
@@ -336,7 +406,7 @@ running this script because they will delay fast statistics generation.
 
 If you would like default statistics as quickly as possible, cancel
 this script and run:
-    "/usr/local/Cellar/postgresql/9.4.1/bin/vacuumdb" --all --analyze-only
+    "/usr/local/Cellar/postgresql/9.5.4_1/bin/vacuumdb" --all --analyze-only
 
 (...)
 ```
