@@ -6,4 +6,6 @@ categories: operating system
 ---
 
 # [Divvy](http://mizage.com/divvy/)
-A fast keyboard-triggered tool to resize application windows on a predefined grid with shortcuts. An absolute must for HTML/CSS design with browser testing and programming with documentation & research.
+A fast keyboard-triggered tool to resize application windows on a
+predefined grid with shortcuts. An absolute must for HTML/CSS design
+with browser testing and programming with documentation & research.
