@@ -14,7 +14,7 @@ your Rails application's Gemfile.
 
 It looks a little bit like this:
 
-![]({{ site.url }}/assets/bundle_update_nokogiri.png)
+![]({{ site.url }}/assets/bundler_update_nokogiri.png)
 
 Concerned, you decide to immediately update this dependency, run your
 test suite, and deploy to production to prevent even the remote
