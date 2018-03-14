@@ -5,11 +5,10 @@ date: '2018-03-14 18:20:00'
 location: Saint-Anne, Martinique, France
 categories:
   - ruby
-draft: true
 ---
 
 You just received notification from GitHub's nifty new repository
-dependency scanner that there is a critical vulnerability report for
+[dependency scanner][4] that there is a critical vulnerability report for
 the Nokogiri Ruby gem you currently have locked to version 1.6.8.1 in
 your Rails application's Gemfile.
 
@@ -82,7 +81,7 @@ bundler dependencies nokogiri
 I'm sorry to say, Bundler offers no such thing. At least none that I
 could find in its documentation, source, issues, or pull requests.
 
-But there's hope. The kind Joe Mastey has created a little gem called
+But there's hope. The kind [Joe Mastey][3] has created a little gem called
 [bundler-stats][1] which allows to get some basic statistics about your
 Gemfile dependencies. bundler-stats can sift through your Gemfile and
 figure out how many transitive dependencies each of the gems declared
@@ -172,7 +171,17 @@ bundle update html2haml nokogiri
 
 This new `bundle-stats versions <gemname>` is not yet available in the
 released version of bundler-stats but it hopefully will be soon. I hope
-we can convince the Bundler team that this sort of feature is a
-must-have for a modern package manager.
+this will convince the Bundler team that this sort of feature is a
+must-have for a modern package manager. I honestly didn't think I could
+learn all I needed to learn about Bundler to implement this as a Pull
+Request to Bundler but I did learn a ton about how the internals of
+RubyGems' `Gem::Version`, `Gem::Requirement`, and `Gem::Dependency`
+work thanks to Joe's work on `bundler-stats`.
+
+If you're curious about this stuff, you can take a look at the changes
+introduced in [the Pull Request][2].
 
 [1]: https://github.com/jmmastey/bundler-stats
+[2]: https://github.com/jmmastey/bundler-stats/pull/1
+[3]: http://josephmastey.com/
+[4]: https://blog.github.com/2017-11-16-introducing-security-alerts-on-github/
