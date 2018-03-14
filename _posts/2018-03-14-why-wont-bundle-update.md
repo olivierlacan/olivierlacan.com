@@ -24,7 +24,7 @@ possibility of an exploitation of this vulnerability in your application.
 ```
 bundle update nokogiri
 Fetching gem metadata from https://rubygems.org/.........
-(... coffee break ...)
+(... coffee (or Mamba) time! ...)
 Bundler attempted to update nokogiri but its version stayed the same
 Bundle updated!
 ```
