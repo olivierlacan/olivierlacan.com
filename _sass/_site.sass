@@ -27,7 +27,7 @@
         vertical-align: bottom
         font-size: 1.7em
         font-style: italic
-        font-weight: bold
+        font-weight: 700
 
         &:hover:after
           content: " ← home"
@@ -47,7 +47,8 @@
       line-height: 2.5
 
       @media #{$iphone-breakpoint}
-        font-size: 2.6em
+        font-size: 3.1em
+        font-weight: 400
         position: relative
         float: left
         top: .25em
@@ -77,6 +78,7 @@
 
         @media #{$iphone-breakpoint}
           margin-top: .8em
+          text-align: center
 
         li
           margin-left: .5em
@@ -88,6 +90,7 @@
             margin-right: 0.2em
             padding: 0
             line-height: 1.7
+            margin-bottom: 0.7em
             &:last-child
               margin-right: 0
 
@@ -97,15 +100,6 @@
 
       &:hover, &:active
         color: rgb(142, 166, 39)
-      &.extra
-        @media #{$iphone-breakpoint}
-          color: #333
-
-          span
-            display: none
-
-          &:before
-            content: "me"
 
         &:hover
           color: #111
@@ -131,9 +125,13 @@
 
   h3
     font-size: 1.7em
+    @media #{$iphone-breakpoint}
+      font-size: 2.4em
 
   h4
     font-size: 1.2em
+    @media #{$iphone-breakpoint}
+      font-size: 2em
 
   p
     font-size: 1.3em
