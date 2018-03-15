@@ -7,15 +7,17 @@
 .tools
   margin-top: 0
   padding-left: 0
-
-
-ul.tools
   list-style-type: none
   margin-bottom: 2em
   margin-left: 1em
   font-size: 1.2em
+
+  @media #{$iphone-breakpoint}
+    font-size: 2em
+
   li
     line-height: 1.75em
+
   time
     float: right
     color: #aaa
