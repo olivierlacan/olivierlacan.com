@@ -2,24 +2,13 @@
 layout: page
 title: Tools
 ---
-<p>This little guide will hopefully give you some good tools to get started or improve your existing Mac workflow. Since I'm a web developer, this is mostly centered around that. Send me a toodle if you think I'm missing a wonderful app or service in here.</p>
+<p>This little guide will hopefully give you some good tools to get started or improve your existing Mac workflow. Since I make websites and web applications, this is mostly centered around that. Send me a toodle if you think I'm missing a wonderful app or service in here.</p>
 
-<h3>News</h3>
+<h3>Text Editors</h3>
 <ul class="tools">
   {% for page in site.pages %}
     {% if page.layout == 'tool' %}
-      {% if page.categories == 'news' %} 
-        <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-</ul>
-
-<h3>Editors</h3>
-<ul class="tools">
-  {% for page in site.pages %}
-    {% if page.layout == 'tool' %}
-      {% if page.categories == 'editors' %} 
+      {% if page.categories == 'editors' %}
         <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
       {% endif %}
     {% endif %}
@@ -30,7 +19,7 @@ title: Tools
 <ul class="tools">
   {% for page in site.pages %}
     {% if page.layout == 'tool' %}
-      {% if page.categories == 'web development' %} 
+      {% if page.categories == 'web development' %}
         <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
       {% endif %}
     {% endif %}
@@ -41,7 +30,7 @@ title: Tools
 <ul class="tools">
   {% for page in site.pages %}
     {% if page.layout == 'tool' %}
-      {% if page.categories == 'time management' %} 
+      {% if page.categories == 'time management' %}
         <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
       {% endif %}
     {% endif %}
@@ -52,7 +41,7 @@ title: Tools
 <ul class="tools">
   {% for page in site.pages %}
     {% if page.layout == 'tool' %}
-      {% if page.categories == 'communication' %} 
+      {% if page.categories == 'communication' %}
         <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
       {% endif %}
     {% endif %}
@@ -63,7 +52,7 @@ title: Tools
 <ul class="tools">
   {% for page in site.pages %}
     {% if page.layout == 'tool' %}
-      {% if page.categories == 'security' %} 
+      {% if page.categories == 'security' %}
         <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
       {% endif %}
     {% endif %}
@@ -74,7 +63,18 @@ title: Tools
 <ul class="tools">
   {% for page in site.pages %}
     {% if page.layout == 'tool' %}
-      {% if page.categories == 'operating system' %} 
+      {% if page.categories == 'operating system' %}
+        <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h3>News</h3>
+<ul class="tools">
+  {% for page in site.pages %}
+    {% if page.layout == 'tool' %}
+      {% if page.categories == 'news' %}
         <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
       {% endif %}
     {% endif %}
