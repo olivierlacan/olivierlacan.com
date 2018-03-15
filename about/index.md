@@ -19,7 +19,7 @@ I spend most of my time building and maintaining
 [large](https://codeschool.com) and small Rails applications.
 
 <figure id="mug">
-  <a href="https://en.gravatar.com/userimage/4041830/dbf236e2e62fc5199015d289d59cf551.jpg?size=2048" title="Download a huge version of my face to see if you can figure out the number of degrees I tilted it for this shot.">
+  <a href="https://en.gravatar.com/userimage/4041830/f96aa6256f6953179d7921d981516f2b?size=2048" title="Download a huge version of my face to see if you can figure out the number of degrees I tilted it for this shot.">
     <img src ="https://en.gravatar.com/userimage/4041830/dbf236e2e62fc5199015d289d59cf551.jpg?size=540" alt="Portrait of Olivier Lacan"/>
   </a>
   <figcaption>That's me. &#10548;</figcaption>
