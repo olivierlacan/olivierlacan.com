@@ -2,6 +2,7 @@
 title: Why Won't Bundle Update
 layout: post
 date: '2018-03-14 18:20:00'
+update: '2018-03-15 16:25:00'
 location: Saint-Anne, Martinique, France
 categories:
   - ruby
@@ -181,7 +182,28 @@ work thanks to Joe's work on `bundler-stats`.
 If you're curious about this stuff, you can take a look at the changes
 introduced in [the Pull Request][2].
 
+## Update (March 15th, 2018)
+Since this post was published yesterday, Joe Mastey kindly worked with
+me to merge the pull request and he released [version 1.1.0][6] of
+bundler-stats that now includes the `bundle-stats versions` command so
+all you have to do is `gem install bundler-stats` and you can start
+using it on your Gemfiles. He even added a [lovely changelog][7] to the
+project.
+
+Additionally, André Arko from Bundler [reached out on Twitter][5] to let
+me know that he'd accept a pull request to add this behavior to Bundler's
+`bundle show <gemname>` command which currently prints the installation
+directory for a given gem. I think I'll try to find some time before the
+end of the week to get started on that pull request although it'll
+probably be a bit more tricky than to do this cleanly inside Bundler.
+
+If you want to help, feel free to reach out on Twitter or to open a
+pull request on Bundler yourself and let me know.
+
 [1]: https://github.com/jmmastey/bundler-stats
 [2]: https://github.com/jmmastey/bundler-stats/pull/1
 [3]: http://josephmastey.com/
 [4]: https://blog.github.com/2017-11-16-introducing-security-alerts-on-github/
+[5]: https://twitter.com/indirect/status/974343146430595072
+[6]: https://rubygems.org/gems/bundler-stats/versions/1.1.0
+[7]: https://github.com/jmmastey/bundler-stats/blob/master/CHANGELOG.md#added
