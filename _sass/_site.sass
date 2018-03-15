@@ -17,6 +17,9 @@
       display: inline-block
       margin-bottom: 0
 
+      @media #{$iphone-breakpoint}
+        margin-bottom: 2em
+
       @media #{$ipad-breakpoint}
         margin: 0
 
@@ -102,7 +105,7 @@
             display: none
 
           &:before
-            content: 'Me'
+            content: "me"
 
         &:hover
           color: #111
