@@ -44,4 +44,5 @@ sass:
   sass_dir: _sass
 plugins:
   - jekyll-gist
+  - jekyll-redirect-from
   - pry
