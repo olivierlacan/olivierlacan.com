@@ -46,3 +46,4 @@ plugins:
   - jekyll-gist
   - jekyll-redirect-from
   - pry
+  - jekyll-haml
