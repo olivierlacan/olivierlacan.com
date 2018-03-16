@@ -3,6 +3,7 @@ layout: talk
 date: 2016-08-11 7:00
 title: The Upgrade Trails
 categories: talk
+venue: ORUG
 ---
 A harrowing tale of multi-year Rails upgrades on codeschool.com with some
 hopefully useful hindsights for anyone maintaining large Rails applications and

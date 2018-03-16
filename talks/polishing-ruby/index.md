@@ -3,8 +3,12 @@ layout: talk
 date: 2014-11-18 0:00
 title: Polishing Ruby
 categories: talk
+venue: RubyConf 2014
 ---
-There are gems out there solving very common problems that could easily be contributed back to Ruby itself. Suggesting a new Ruby feature isn't as daunting as it sounds. As long as you're diligent, you too can push ruby forward.
+There are gems out there solving very common problems that could easily
+be contributed back to Ruby itself. Suggesting a new Ruby feature isn't
+as daunting as it sounds. As long as you're diligent, you too can push
+ruby forward.
 
 ### Video
 

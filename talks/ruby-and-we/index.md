@@ -3,8 +3,10 @@ layout: talk
 date: 2016-02-11 0:00
 title: Ruby & We
 categories: talk
+venue: ORUG
 ---
-How contributing to community projects like rubygems.org can help you overcome your fears and become a better Ruby developer.
+How contributing to community projects like rubygems.org can help you
+overcome your fears and become a better Ruby developer.
 
 ### Video
 

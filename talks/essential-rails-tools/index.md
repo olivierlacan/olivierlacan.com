@@ -3,6 +3,7 @@ layout: talk
 date: 2012-04-23 0:00
 title: Essential Rails Tools
 categories: talk
+venue: RailsConf 2012
 ---
 Working with Rails often means switching between several Ruby versions back and forth which is made almost seamless by RVM. It also involves several simple command line tools like Pry, Pow, and Bundler and that will make your development life so much easier.
 

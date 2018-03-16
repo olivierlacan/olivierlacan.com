@@ -3,6 +3,7 @@ layout: talk
 date: 2017-11-30 4:48
 title: Human Errors
 categories: talk
+venue: RubyConf 2017
 ---
 Runtime errors can sometimes turn into dark and unpleasant journeys which lead you to question the nature of reality. Thankfully, Ruby often provides friendly feedback for understanding the cause and remedy for exceptions. Yet, there are situations in which programmers don't receive clear enough context for what really caused an exception and how to address it. We'll look at Ruby's error feedback mechanisms and search for constructive ways in which they can be made more helpful to humans.
 
