@@ -1,0 +1,12 @@
+---
+layout: default
+---
+%div{ id: "talk" }
+  %h2= "{{ page.title }}"
+
+  {% if page.venue %}
+  %strong= "{{ page.venue }}"
+  {% endif %}
+
+  = "{{ content }}"
+
