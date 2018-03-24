@@ -21,4 +21,5 @@ group :jekyll_plugins do
   gem 'jekyll-gist'
   gem 'jekyll-redirect-from'
   gem 'jekyll-haml'
+  gem 'jekyll-tidy'
 end
