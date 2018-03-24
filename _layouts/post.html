@@ -39,11 +39,11 @@ layout: default
 <span class="reading-time" title="Assuming a 180 word per minute average reading speed">
   {% assign words = content | number_of_words %}
   {% if words < 360 %}
-    1 minute
+    1 min.
   {% else %}
-    {{ words | divided_by:180 }} minute
+    {{ words | divided_by:180 }} min.
   {% endif %}
-   reading time
+   read
 </span>
 
 <div class="post">
