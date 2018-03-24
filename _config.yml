@@ -1,4 +1,5 @@
 name: Olivier Lacan
+subtitle: Software Bricoleur
 url: https://olivierlacan.com
 description: "Thoughts on Ruby, Rails, open source software, programming, and life from Olivier Lacan"
 permalink: /posts/:title/
@@ -20,6 +21,7 @@ kramdown:
     block:
       line_numbers: true
       start_line: 1
+
 markdown: kramdown
 redcarpet:
   extensions:
@@ -34,6 +36,7 @@ redcarpet:
     - tables
     - footnotes
     - with_toc_data
+
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -42,8 +45,15 @@ exclude:
 sass:
   style: :nested
   sass_dir: _sass
+
+jekyll_tidy:
+    exclude: []
+    compress_html: false
+    # ignore_env: development
+
 plugins:
   - jekyll-gist
   - jekyll-redirect-from
   - pry
   - jekyll-haml
+  - jekyll-tidy
