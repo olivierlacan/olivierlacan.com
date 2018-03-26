@@ -56,4 +56,3 @@ plugins:
   - jekyll-redirect-from
   - pry
   - jekyll-haml
-  - jekyll-tidy
