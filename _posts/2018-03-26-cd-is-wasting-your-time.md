@@ -1,9 +1,10 @@
 ---
-layout: post
 title: "cd is Wasting Your Time"
-date: 2018-03-26 17:34
+layout: post
+date: '2018-03-26 17:34'
 location: "Paris, France"
 categories: development
+image: cd_is_wasting_your_time.jpg
 ---
 
 As a programmer or someone who does things with computers in command
