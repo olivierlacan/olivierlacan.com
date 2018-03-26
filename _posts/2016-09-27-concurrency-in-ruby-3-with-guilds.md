@@ -5,7 +5,6 @@ date: '2016-09-27 13:21:00'
 location: Orlando, Florida
 categories:
   - ruby
-  - ruby
 reviewers:
   - Aaron Patterson: http://tenderlove.com
 editors:
