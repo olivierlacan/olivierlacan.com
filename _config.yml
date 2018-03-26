@@ -57,8 +57,9 @@ plugins:
   - pry
   - jekyll-haml
 
-manifest_name: Olivier Lacan
-manifest_short_name: O. Lacan
-manifest_lang: en
-manifest_background_color: white
-manifest_display: standalone
+manifest:
+  name: Olivier Lacan
+  short_name: O. Lacan
+  lang: en
+  background_color: #ffffff
+  display: standalone
