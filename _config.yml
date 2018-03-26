@@ -58,7 +58,7 @@ plugins:
   - jekyll-haml
 
 manifest_name: Olivier Lacan
-manifest_short_name: Olivier Lacan
+manifest_short_name: O. Lacan
 manifest_lang: en
 manifest_background_color: white
 manifest_display: standalone
