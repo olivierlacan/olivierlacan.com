@@ -43,7 +43,7 @@ exclude:
   - deploy.thor
 
 sass:
-  style: :nested
+  style: :compressed
   sass_dir: _sass
 
 jekyll_tidy:
