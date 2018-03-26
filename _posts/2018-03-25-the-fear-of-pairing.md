@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Fear of Pairing"
+title: The Fear of Pairing
 date: 2018-03-25 18:50
 location: "Paris, France"
 categories: development
