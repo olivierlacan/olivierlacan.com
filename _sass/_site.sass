@@ -70,6 +70,8 @@
         padding: 0.8em 0 2.3em
         left: 0
         border-top: 1px solid rgba(0,0,0, 0.4)
+        @supports padding: max(0px)
+          padding-bottom: max(2.3em, env(safe-area-inset-bottom))
 
         a
           padding: .6em .9em .6em
