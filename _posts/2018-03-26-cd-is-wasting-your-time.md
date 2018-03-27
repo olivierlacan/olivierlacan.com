@@ -48,7 +48,7 @@ j p
 ```
 
 That's 9 fewer keystrokes to accomplish exactly the same commands. How
-does it work? AutoJump
+does it work? [AutoJump][aj]
 
 AutoJump is magic cape that lets you fly around directories in your
 command line. The real description of the tool is "a faster way to
@@ -189,6 +189,7 @@ procedure][git] if you want to stay on the bleeding edge but it's an
 incredibly stable tool thanks to its simplicity. I don't think I've
 encountered a single bug in years of usage.
 
+[aj]: https://github.com/wting/autojump
 [fuzz]: https://en.wikipedia.org/wiki/Fuzzy_matching_(computer-assisted_translation)
 [linux]: https://github.com/wting/autojump#linux
 [git]: https://github.com/wting/autojump#manual
