@@ -2,32 +2,39 @@
 title: cd is Wasting Your Time
 layout: post
 date: '2018-03-26 17:34'
+update: '2018-03-27 19:08'
 location: "Paris, France"
 categories: development
 image: cd_is_wasting_your_time.jpg
 ---
 
-As a programmer or someone who does things with computers in command
-line shells, I bet you regularly do things like this:
+As a programmer or someone who spends a lot of time in command line
+shells, it's likely that you regularly move around directories in ways
+that might feel less than efficient. Especially if you often visit the
+same directories every day.
+
+The routine probably goes a bit like this:
 
 ```bash
-cd ~
-cd Development
+cd ~/Development
+ls # look around...
 cd project
+# whoops, never mind, let's go back...
 cd ..
+# time to start something new...
 mkdir new_project
 cd new_project
+# need to check something in that other directory...
 cd ../project
 ```
 
-I'm sure you're aware that moving through directories this way is far
-less efficient than using a graphical user interface (GUI). But maybe
-you have some tab-completion tricks up your sleeve to avoid typing these
-full directory names, so in reality it looks more like:
+Maybe with a bit more experience, you have some tab-completion tricks up
+your sleeve to avoid typing these full directory names, so in reality it
+looks more like:
 
 ```bash
-cd
-cd Dev<TAB>
+cd ~/Dev<TAB>
+ls # look around...
 cd pro<TAB>
 cd ..
 mkdir new_project
@@ -35,26 +42,47 @@ cd new<TAB>
 cd ../pro<TAB>
 ```
 
-Great. So you saved 20 keystrokes (24 characters replaced by 4
-invocations of the `TAB` key). That's pretty good. How about this:
+Great. You saved about 20 keystrokes. That's commendable. Yes, you could
+also use the return value from the `mkdir` command to immediately move
+into the newly created directory (`cd !$`). And you could just remember
+that `project/` is nested inside `Development/` so that you don't need
+to `ls` around to find your way. The reality is that people are not
+computers and memorizing your entire directory's tree structure is a
+trick that only impresses people who far too much time on their hands.
+
+But what about this?
 
 ```bash
-cd
 j d
 j p
+cd ..
 mkdir new_project
 cd new<TAB>
 j p
 ```
 
-That's 9 fewer keystrokes to accomplish exactly the same commands. How
-does it work? [AutoJump][aj]
+The most obvious benefit is that this took 18 fewer keystrokes to
+accomplish the same goals but what may not be so obvious is that the `j
+d` (or `j dev`, `j develop`, etc.) command will now take you to
+`~/Development/` and `j p` to `~/Development/project` from anywhere
+inside your filesystem. So this relatively small gain in typing
+efficiency will compound with time.
+
+```bash
+cd /usr/local/lib/something/log/
+j p
+pwd
+~/Development/project
+```
+
+How does it work? [AutoJump][aj]
 
 AutoJump is magic cape that lets you fly around directories in your
-command line. The real description of the tool is "a faster way to
-navigate your filesystem" — but that doesn't quite do it justice. It's
-such an undersell. My made up estimate is that Autojump has saved me
-from at least a whole year of typing. At least that's how it feels.
+command line. The official description of the tool is "a faster way to
+navigate your filesystem" — but that doesn't quite do it justice. It a
+bit of an undersell. My **completely made up** estimate is that Autojump
+has saved me from at least a whole year of typing. At the very least
+that's how it feels.
 
 ## How Autojump works
 
