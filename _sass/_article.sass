@@ -1,3 +1,5 @@
+$inline-code-color: hsla(60,90%,50%,0.2)
+
 .site
   .header + .draft
     font-weight: 900
@@ -73,7 +75,7 @@
       border-radius: 0.3em
       display: inline-block
       line-height: 1
-      background-color: hsla(60,90%,50%,0.2)
+      background-color: $inline-code-color
 
     [rel=explanation]
       border-bottom: 1px dashed black
@@ -145,3 +147,9 @@ span.reading-time
   @media #{$iphone-breakpoint}, #{$ipad-breakpoint}
     font-size: 2em
     font-weight: 700
+
+.subscribe
+  border-top: 2px solid #eee
+  margin-top: 2em
+  background-color: $inline-code-color
+  padding: 0.1em 2em

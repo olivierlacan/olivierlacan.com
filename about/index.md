@@ -46,9 +46,10 @@ and information security. You can find my published talks [here](/talks).
 
 ## Get in touch
 
-You can find me at <a href="mailto:hi@olivierlacan.com">hi@olivierlacan.com</a>
-or on Twitter <a href="https://twitter.com/olivierlacan">@olivierlacan</a>.
+If you'd like to email me securely you can use my [PGP Key][pgp] (see
+[GPGTools][gpg]). [Keybase.io][kb] is a neat alternative with a much
+easier learning curve although it may not be as secure.
 
-If you'd like to email me securely you can use my [PGP Key][pgp] and I recommend reading my little [GPGTools](/tools/security/gpgtools) article if you don't know much about secure communication. [Keybase.io](https://keybase.io/olivierlacan) is a neat alternative with a much easier learning curve although it may not be as secure.
-
+[gpg]: /tools/security/gpgtools
+[kb]: https://keybase.io/olivierlacan
 [pgp]: http://hkps.pool.sks-keyservers.net/pks/ookup?search=hi%40olivierlacan.com&fingerprint=on&op=index
