@@ -37,7 +37,7 @@ are out of date, or if code is well-documented or not.
 [gh-shields]: https://github.com/search?utf8=✓&q=https%3A%2F%2Fimg.shields.io%2F&type=Code
 
 I wrote [Keep a Changelog](http://keepachangelog.com) to give fellow
-software developers clearer guidelines on how to providing
+software developers clearer guidelines on how to provide
 human-friendly release notes for their software.
 
 I've spoken at multiple conferences around the world on topics like
