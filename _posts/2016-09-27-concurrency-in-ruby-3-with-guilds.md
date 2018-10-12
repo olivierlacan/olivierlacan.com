@@ -203,8 +203,6 @@ reputation as a concurrent-friendly language. It would be welcome soon, warts
 and all.
 
 ---
-**Didn't hate the way I explained all this stuff? You might enjoy
-[Ruby Facets][rf], a short &amp; sweet Ruby news podcast I host every week.**
 
 [^1]: A video of the talk is [already available][talk].
 
