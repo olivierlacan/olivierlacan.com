@@ -52,4 +52,4 @@ easier learning curve although it may not be as secure.
 
 [gpg]: /tools/security/gpgtools
 [kb]: https://keybase.io/olivierlacan
-[pgp]: http://hkps.pool.sks-keyservers.net/pks/ookup?search=hi%40olivierlacan.com&fingerprint=on&op=index
+[pgp]: http://hkps.pool.sks-keyservers.net/pks/lookup?search=hi%40olivierlacan.com&fingerprint=on&op=index
