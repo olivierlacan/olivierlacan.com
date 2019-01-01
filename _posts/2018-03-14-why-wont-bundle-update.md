@@ -47,7 +47,7 @@ grepping through a Lockfile of all things like a lowly machine?
 There has to be a better way, right? Well...
 
 There is something in RubyGems that allows you to check the installed
-gem dependencies for a specific gem. You can ask `gem dependency nokogir`
+gem dependencies for a specific gem. You can ask `gem dependency nokogiri`
 and RubyGems will tell you — for each version of nokogiri — what gems
 depend on that specific version:
 
