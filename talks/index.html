@@ -11,7 +11,7 @@ all my published talks below with slides and video recordings when available. </
   {% assign talks = site.pages | where: "categories", "talk" | sort: "date" %}
   {% for page in talks reversed %}
     {% if page.categories == "talk" %}
-      <li><a href="{{ page.url }}">{{ page.title }}</a><time>{{ page.date | date_to_string }}</time></li>
+      <li><a href="{{ page.url }}">{{ page.title }}</a> - {{ page.venue }} <time>{{ page.date | date_to_string }}</time></li>
     {% endif %}
   {% endfor %}
 </ul>
