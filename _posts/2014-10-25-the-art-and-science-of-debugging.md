@@ -74,7 +74,7 @@ only a blank page appears. Insinctively I go first to the development
 logs, thinking there must be an issue with the server: the app is
 running and no request was logged.
 
-![Come again for big fudge?!](http://ethereal365.files.wordpress.com/2014/04/tumblr_m1tm7onswt1r9udrko1_500.gif)
+![Come again for big fudge?!](https://ethereal365.files.wordpress.com/2014/04/tumblr_m1tm7onswt1r9udrko1_500.gif)
 
 I hit `Shift` + `Command` + `R` to make sure the browser cache is
 ignored for a new request to the root of the application. Still nothing.
