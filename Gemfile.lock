@@ -27,7 +27,7 @@ GEM
     execjs (2.6.0)
     faraday (0.12.1)
       multipart-post (>= 1.2, < 3)
-    ffi (1.9.23)
+    ffi (1.11.1)
     forwardable-extended (2.6.0)
     haml (5.0.4)
       temple (>= 0.8.0)
