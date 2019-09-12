@@ -6,10 +6,10 @@ location: "Paris, France"
 categories: development
 ---
 
-**These days**, I'm always eager the first time I have a chance to [pair
-program][pair] with someone for the first time. Whether they're more or
-less experienced than I am, I know that we'll most likely learn a ton
-from each other. Maybe they'll make me explain something I thought I
+**These days**, I'm always eager when I have a chance to [pair program][pair]
+with someone for the first time. Whether they're more or less
+experienced than I am, I know that we'll most likely learn a ton from
+each other. Maybe they'll make me explain something I thought I
 understood, but in fact had incomplete knowledge of; or maybe they'll
 take something that used to intimidate me and make it easily relatable.
 It's always a learning opportunity for both parties in some way.
