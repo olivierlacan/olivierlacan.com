@@ -1,7 +1,7 @@
-name: Olivier Lacan
+name: Editorial!
 subtitle: Software Bricoleur
-url: https://olivierlacan.com
-description: "Thoughts on Ruby, Rails, open source software, programming, and life."
+url: https://ahmfuad.github.io
+description: "Editorial Factory"
 permalink: /posts/:title/
 highlighter: rouge
 # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
