@@ -58,8 +58,8 @@ plugins:
   - jekyll-haml
 
 manifest:
-  name: Olivier Lacan
-  short_name: O. Lacan
+  name: Fuad
+  short_name: Fuad
   lang: en
   background_color: #ffffff
   display: standalone
