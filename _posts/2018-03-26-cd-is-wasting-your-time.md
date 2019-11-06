@@ -7,7 +7,7 @@ location: "Paris, France"
 categories: development
 image: cd_is_wasting_your_time.jpg
 ---
-
+$$p^{2}=25$$ শলভ কয়রও
 As a programmer or someone who spends a lot of time in command line
 shells, it's likely that you regularly move around directories in ways
 that might feel less than efficient. Especially if you often visit the
