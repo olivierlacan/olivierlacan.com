@@ -67,7 +67,7 @@ Biggest difference? Price.
 
 | Microphone | Shockmount | Boom Arm | Pre-amp | USB Interface | Total |
 | --- | --- | --- | --- | --- | --- |
-| [Samson CL8][cl8] ($90) | [Samson SP01][sp01] ($40) | [RODE PSA1][psa1] ($85) | [Scarlett 2i2][2i2] ($160) | $375 |
+| [Samson CL8][cl8] ($90) | [Samson SP01][sp01] ($40) | [RODE PSA1][psa1] ($85) | None | [Scarlett 2i2][2i2] ($160) | $375 |
 | [Shure SM7B][sm7b] ($400) | None | [RODE PSA1][psa1] ($85) | [Cloudlifter CL-1][cl1] ($150) | [Scarlett 2i2][2i2] ($160) | $635 |
 
 You’ll also need quality closed cup headphones for both to avoid sound
