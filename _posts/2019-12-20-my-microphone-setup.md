@@ -63,17 +63,18 @@ solution for this is the Cloudlifter CL-1 in front of the Scarlett 2i2.
 The RODE PSA1 boom arm works just as well for that mic since the thread
 on the back is compatible.
 
-Biggest difference? Price.
+Biggest difference? Price. The SM7B is $400 where the CL8 is $90. And it needs
+a dedicated pre-amp.
 
 | Microphone | Shockmount | Boom Arm | Pre-amp | USB Interface | Total |
 | --- | --- | --- | --- | --- | --- |
-| [Samson CL8][cl8] ($90) | [Samson SP01][sp01] ($40) | [RODE PSA1][psa1] ($85) | None | [Scarlett 2i2][2i2] ($160) | $375 |
-| [Shure SM7B][sm7b] ($400) | None | [RODE PSA1][psa1] ($85) | [Cloudlifter CL-1][cl1] ($150) | [Scarlett 2i2][2i2] ($160) | $635 |
+| [Samson CL8][cl8] | [Samson SP01][sp01] | [RODE PSA1][psa1] | None | [Scarlett 2i2][2i2] | ~ $400 |
+| [Shure SM7B][sm7b] | None | [RODE PSA1][psa1] | [Cloudlifter CL-1][cl1] | [Scarlett 2i2][2i2] | ~ $650 |
 
 You’ll also need quality closed cup headphones for both to avoid sound
 leakage when you’re talking to someone (mic picking up on sound from
 your headphones and feeding it back). I’ve had good luck with the cheap
-Sony MDR7506 ($90) because they’re not music-focused so will give you a
+Sony MDR7506 (~ $100) because they’re not music-focused so will give you a
 more accurate representation of your microphone compared to heavy bass
 music-focused headphones.
 
