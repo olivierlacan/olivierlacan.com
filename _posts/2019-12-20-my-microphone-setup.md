@@ -9,7 +9,7 @@ draft: true
 
 The microphone I use isn’t that great. It’s an old [Samson CL8][cl8]
 cardioid microphone from the era where we hosted podcasts weekly at Code
-School. We also used it for voice over work on screencasts. Cardioid
+School. We also used it for voice-over work on screencasts. Cardioid
 mics have a very narrow pickup pattern (area where the microphone
 receives input) so they’re great at isolating sound if you learn good
 mic technique. Like most capsule microphone (there’s a membrane that
@@ -64,7 +64,7 @@ The RODE PSA1 boom arm works just as well for that mic since the thread
 on the back is compatible.
 
 Biggest difference? Price. The SM7B is $400 where the CL8 is $90. And it needs
-a dedicated pre-amp.
+a dedicated pre-amp like the Cloudlifter CL-1 ($160).
 
 | Microphone | Shockmount | Boom Arm | Pre-amp | USB Interface | Total |
 | --- | --- | --- | --- | --- | --- |
