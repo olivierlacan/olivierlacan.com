@@ -86,8 +86,9 @@ or gain/volume control means you’re constantly fiddling with software
 sound input controls and you have no idea what you sound like on a very
 sensitive microphone. So be warned.
 
-[sm7b]: https://www.shure.com/en-GB/products/microphones/sm7b
+[2i2]: https://focusrite.com/en/usb-audio-interface/scarlett/scarlett-2i2
+[cl1]: https://www.cloudmicrophones.com/cloudlifter-cl-1
 [cl8]: http://www.samsontech.com/samson/products/microphones/condenser-microphones/cl8/
 [psa1]: http://www.rode.com/accessories/psa1
-[cl1]: https://www.cloudmicrophones.com/cloudlifter-cl-1
+[sm7b]: https://www.shure.com/en-GB/products/microphones/sm7b
 [sp01]: http://www.samsontech.com/samson/products/accessories/microphone-accessories/sp01/
