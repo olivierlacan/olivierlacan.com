@@ -8,13 +8,14 @@ draft: true
 ---
 
 The microphone I use isn’t that great. It’s an old [Samson CL8][cl8]
-cardioid microphone from the era where we hosted podcasts weekly at Code
-School. We also used it for voice-over work on screencasts. Cardioid
-mics have a very narrow pickup pattern (area where the microphone
-receives input) so they’re great at isolating sound if you learn good
-mic technique. Like most capsule microphone (there’s a membrane that
-receives vibrations from your voice) they’re also tricky to use without
-causing too much vibrations with plosives (P, T, F, D sounds).
+[cardioid microphone][cardioid] from the era where we hosted podcasts
+weekly at Code School. We also used it for voice-over work on
+screencasts. Cardioid mics have a very narrow pickup pattern (area where
+the microphone receives input) so they’re great at isolating sound if
+you learn good mic technique. Like most capsule microphone (there’s a
+membrane that receives vibrations from your voice) they’re also tricky
+to use without causing too much vibrations with [plosives][plosives] (P,
+T, F, D sounds).
 
 And like most cardioid microphones (with some recent exception) this mic
 isn’t USB but XLR and requires an interface. I use the simple and mostly
@@ -93,3 +94,5 @@ sensitive microphone. So be warned.
 [psa1]: http://www.rode.com/accessories/psa1
 [sm7b]: https://www.shure.com/en-GB/products/microphones/sm7b
 [sp01]: http://www.samsontech.com/samson/products/accessories/microphone-accessories/sp01/
+[plosives]: https://en.wikipedia.org/wiki/Stop_consonant
+[cardioid]: https://en.wikipedia.org/wiki/Microphone#Cardioid,_hypercardioid,_supercardioid,_subcardioid
