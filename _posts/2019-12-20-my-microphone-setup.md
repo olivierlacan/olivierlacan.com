@@ -69,8 +69,8 @@ a dedicated pre-amp like the Cloudlifter CL-1 ($160).
 
 | Microphone | Shockmount | Boom Arm | Pre-amp | USB Interface | Total |
 | --- | --- | --- | --- | --- | --- |
-| [Samson CL8][cl8] | [Samson SP01][sp01] | [RODE PSA1][psa1] | None | [Scarlett 2i2][2i2] | ~ $400 |
-| [Shure SM7B][sm7b] | None | [RODE PSA1][psa1] | [Cloudlifter CL-1][cl1] | [Scarlett 2i2][2i2] | ~ $650 |
+| [Samson CL8][cl8] | [Samson SP01][sp01] | [RODE PSA1][psa1] | None | [Scarlett 2i2][2i2] | ~$400 |
+| [Shure SM7B][sm7b] | None | [RODE PSA1][psa1] | [Cloudlifter CL-1][cl1] | [Scarlett 2i2][2i2] | ~$650 |
 
 You’ll also need quality closed cup headphones for both to avoid sound
 leakage when you’re talking to someone (mic picking up on sound from
