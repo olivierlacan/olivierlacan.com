@@ -67,7 +67,7 @@ on the back is compatible.
 Biggest difference? Price. The SM7B is $400 where the CL8 is $90. And it needs
 a dedicated pre-amp like the Cloudlifter CL-1 ($160).
 
-| Microphone | Shockmount | Boom Arm | Pre-amp | USB Interface | Total |
+| Microphone | Shockmount | Boom | Pre-amp | Interface | Total |
 | --- | --- | --- | --- | --- | --- |
 | [Samson CL8][cl8] | [SP01][sp01] | [PSA1][psa1] | None | [Scarlett 2i2][2i2] | ~$400 |
 | [Shure SM7B][sm7b] | None | [PSA1][psa1] | [CL-1][cl1] | [Scarlett 2i2][2i2] | ~$650 |
