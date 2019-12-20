@@ -69,8 +69,8 @@ Biggest difference? Price:
 
 | Microphone | Shockmount | Boom Arm | Pre-amp | USB Interface | Total |
 | --- | --- | --- | --- | --- | --- |
-| Samson CL8 ($90) | SP01 Samson Shockmount ($40) | RODE PS1 ($85) | Scarlett 2i2 USB XLR interface ($160) | $375 |
-| Shure SM7B ($400) | None | RODE PS1 ($85) | Cloudlifter CL-1 ($150) | Scarlett 2i2 USB XLR interface ($160) | $635 |
+| Samson CL8 ($90) | Samson SP01 ($40) | RODE PS1 ($85) | Scarlett 2i2 ($160) | $375 |
+| Shure SM7B ($400) | None | RODE PS1 ($85) | Cloudlifter CL-1 ($150) | Scarlett 2i2 ($160) | $635 |
 
 You’ll also need quality closed cup headphones for both to avoid sound
 leakage when you’re talking to someone (mic picking up on sound from
