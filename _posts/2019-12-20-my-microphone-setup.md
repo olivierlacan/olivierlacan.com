@@ -4,8 +4,11 @@ title: "My Microphone Setup"
 date: 2019-12-20 13:18
 location: "Orlando, Florida"
 categories: development
+image: [1]: microphone-setup.jpg
 draft: true
 ---
+
+![Close up shot of a sideways Samson CL8 cardioid microphone attached to a boom arm with a shockmount and a pop filter attached][image]
 
 The microphone I use isn’t that great. It’s an old [Samson CL8][cl8]
 [cardioid microphone][cardioid] from the era where we hosted podcasts
@@ -88,6 +91,7 @@ or gain/volume control means you’re constantly fiddling with software
 sound input controls and you have no idea what you sound like on a very
 sensitive microphone. So be warned.
 
+[image]: {{ site.url }}/assets/microphone-setup.jpg
 [2i2]: https://focusrite.com/en/usb-audio-interface/scarlett/scarlett-2i2
 [cl1]: https://www.cloudmicrophones.com/cloudlifter-cl-1
 [cl8]: http://www.samsontech.com/samson/products/microphones/condenser-microphones/cl8/
