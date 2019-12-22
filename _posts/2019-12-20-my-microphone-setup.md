@@ -4,7 +4,7 @@ title: "My Microphone Setup"
 date: 2019-12-20 13:18
 location: "Orlando, Florida"
 categories: development
-image: [1]: microphone-setup.jpg
+image: microphone-setup.jpg
 draft: true
 ---
 
