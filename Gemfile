@@ -1,7 +1,7 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-ruby "2.4.3"
+ruby "2.6.5"
 
 gem 'rake'
 gem 'redcarpet'
