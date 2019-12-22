@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Microphone Setup"
+title: "Loud & Clear"
 date: 2019-12-20 13:18
 location: "Orlando, Florida"
 categories: development
@@ -8,17 +8,50 @@ image: microphone-setup.jpg
 draft: true
 ---
 
-![Close up shot of a sideways Samson CL8 cardioid microphone attached to a boom arm with a shockmount and a pop filter attached][image]
+It's kind of strange to me how many people who work or communicate in a
+distributed fashion (remotely) treat the transmission of their voice as
+an afterthought.
 
-The microphone I use isn’t that great. It’s an old [Samson CL8][cl8]
-[cardioid microphone][cardioid] from the era where we hosted podcasts
-weekly at Code School. We also used it for voice-over work on
-screencasts. Cardioid mics have a very narrow pickup pattern (area where
-the microphone receives input) so they’re great at isolating sound if
-you learn good mic technique. Like most capsule microphone (there’s a
-membrane that receives vibrations from your voice) they’re also tricky
-to use without causing too much vibrations with [plosives][plosives] (P,
-T, F, D sounds).
+My audio recording setup is absurd for most people who would be much
+better served by something as dead simple as AirPods or AirPods Pro.
+AirPods have surprisingly good microphones on them (so do EarPods by the
+way) and if that's the only thing you're going to carry with you, use
+that.
+
+There are however some noticeable drawbacks to AirPods:
+- they're often very tied to the Apple ecosystem, if you don't like
+  that, it's likely that you won't like them.
+- they're tiny batteries, so while they'll easily last a couple of hours
+  when listening and talking, you do have to be mindful of their
+  batteries, which can't be replaced when they get old.
+- you can't hear your own voice and therefore it's tricky to know
+  whether your ambiant sound is too loud, and whether you're speaking at
+  the appropriate volume, that said ambiant microphone isolation is very
+  good.
+
+Just like large sensors tend to produce much better image quality on
+cameras, so do large sensors (capsules) produce better audio quality on
+microphones. Condenser microphones don't have to be incredibly expensive
+and they will dramatically improve the impact of your voice when it's
+sent across a wire to another person. Your voice will be clearer, more
+life-like (assuming no heavy in-transit audio compression), and the
+modulations of your speech will allow you to stand out when you speak,
+especially compared to speakers who are communicating through a tin can.
+Just like a good headshot can go a long way to making you look
+presentable, so can a good microphone make you sound more put together.
+
+![Close up shot of a sideways Samson CL8 cardioid microphone attached to
+a boom arm with a shockmount and a pop filter attached][image]
+
+The microphone I use most of the time isn’t *that* great. It’s an old
+[Samson CL8][cl8] [cardioid microphone][cardioid] from the era where we
+hosted podcasts weekly at Code School. We also used it for voice-over
+work on screencasts. Cardioid mics have a very narrow pickup pattern
+(area where the microphone receives input) so they’re great at isolating
+sound if you learn good mic technique. Like most capsule microphone
+(there’s a membrane that receives vibrations from your voice) they’re
+also tricky to use without causing too much vibrations with
+[plosives][plosives] (P, T, F, D sounds).
 
 And like most cardioid microphones (with some recent exception) this mic
 isn’t USB but XLR and requires an interface. I use the simple and mostly
