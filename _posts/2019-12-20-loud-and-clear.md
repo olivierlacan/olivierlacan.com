@@ -8,59 +8,63 @@ image: microphone-setup.jpg
 draft: true
 ---
 
-It's kind of strange to me how many people who work or communicate in a
-distributed fashion (remotely) treat the transmission of their voice as
-an afterthought.
+It's strange how many people who work or communicate in a distributed
+fashion (remotely) treat the transmission of their voice as an
+afterthought.
 
 My audio recording setup is absurd for most people who would be much
-better served by something as dead simple as AirPods or AirPods Pro.
-AirPods have surprisingly good microphones on them (so do EarPods by the
-way) and if that's the only thing you're going to carry with you, use
-that.
+better served by something as pricey-yet-simple like AirPods. Despite
+their size, they carry a surprisingly good microphone, as do EarPods.
+And unlike a serious microphone setup, you're much more likely to carry
+them with you when you travel.
 
-There are however some noticeable drawbacks to AirPods:
-- they're often very tied to the Apple ecosystem, if you don't like
+There are, however, some noticeable drawbacks to AirPods:
+- they're relatively tied to the Apple ecosystem, if you don't like
   that, it's likely that you won't like them.
-- they're tiny batteries, so while they'll easily last a couple of hours
-  when listening and talking, you do have to be mindful of their
-  batteries, which can't be replaced when they get old.
+- they're tiny batteries, so while Apple quotes [3 hours of talk
+  time][airpod-charge] (with a new battery), you do have to be mindful
+  of their charge throughout the day.
 - you can't hear your own voice and therefore it's tricky to know
   whether your ambiant sound is too loud, and whether you're speaking at
   the appropriate volume, that said ambiant microphone isolation is very
   good.
 
-Just like large sensors tend to produce much better image quality on
-cameras, so do large sensors (capsules) produce better audio quality on
-microphones. Condenser microphones don't have to be incredibly expensive
-and they will dramatically improve the impact of your voice when it's
-sent across a wire to another person. Your voice will be clearer, more
-life-like (assuming no heavy in-transit audio compression), and the
-modulations of your speech will allow you to stand out when you speak,
-especially compared to speakers who are communicating through a tin can.
-Just like a good headshot can go a long way to making you look
-presentable, so can a good microphone make you sound more put together.
+Just as large image sensors tend to produce much better image quality on
+digital cameras, so do large sensors (capsules) produce better audio
+quality on microphones. Condenser microphones don't have to be
+incredibly expensive and they will dramatically improve the impact of
+your voice when it's sent across a wire to another person. Your voice
+will be clearer, more life-like (assuming no heavy in-transit audio
+compression), and the modulations of your speech will allow you to stand
+out when you speak, especially compared to speakers who are
+communicating through a tin can. Just like a good headshot can go a long
+way to making you look presentable, so can a good microphone make you
+sound more put together.
 
 ![Close up shot of a sideways Samson CL8 cardioid microphone attached to
 a boom arm with a shockmount and a pop filter attached][image]
 
 The microphone I use most of the time isn’t *that* great. It’s an old
 [Samson CL8][cl8] [cardioid microphone][cardioid] from the era where we
-hosted podcasts weekly at Code School. We also used it for voice-over
-work on screencasts. Cardioid mics have a very narrow pickup pattern
-(area where the microphone receives input) so they’re great at isolating
-sound if you learn good mic technique. Like most capsule microphone
-(there’s a membrane that receives vibrations from your voice) they’re
-also tricky to use without causing too much vibrations with
-[plosives][plosives] (P, T, F, D sounds).
+hosted podcasts weekly at Code School. It's a workhorse and as far as I
+know it's been working without a glitch for at least a decade. We also
+used it for voice-over work on screencasts. Cardioid mics have a very
+narrow pickup pattern (area where the microphone receives input) so
+they’re great at isolating sound if you learn good mic technique. Like
+most capsule microphone (there’s a membrane that receives vibrations
+from your voice) they’re also tricky to use without causing too much
+vibrations with [plosives][plosives] (P, T, F, D sounds).
 
-And like most cardioid microphones (with some recent exception) this mic
-isn’t USB but XLR and requires an interface. I use the simple and mostly
-user friendly [Scarlett 2i2][2i2] (2 inputs, 2 outputs) which is about
-as small as these things get. It’s a USB device and most importantly it
-has a pre-amp that allows you to increase the gain (sensitivity) of the
-mic with hardware but also to receive live monitor feedback from the
-mic. That’s a major benefit compared to most mics where you don’t have
-any idea of how *you* sound.
+And like most cardioid microphones (with some recent exception) this
+microphone doesn't output to USB but to XLR instead and requires an
+audio interface to convert its analog XLR signal into a digital one. I
+use the simple and mostly user-friendly [Scarlett 2i2][2i2] (2 inputs, 2
+outputs) which is about as small as these things get. It’s a USB device
+and most importantly it has a [preamplifier][preamp] ("preamp") that
+allows you to increase the gain (sensitivity) of the mic with hardware
+but also to receive live monitor feedback from the mic. That’s a major
+benefit compared to most mics where you don’t have any idea of how *you*
+sound.
 
 It helps with mic technique, and it’s especially useful when recording
 screencasts, participating in calls or podcasts, and surprisingly when
@@ -105,6 +109,7 @@ a dedicated pre-amp like the Cloudlifter CL-1 ($160).
 
 | Microphone | Shockmount | Boom | Pre-amp | Interface | Total |
 | --- | --- | --- | --- | --- | --- |
+| [Apple AirPods][airpods] | None | None | None | None | ~$160 |
 | [Samson CL8][cl8] | [SP01][sp01] | [PSA1][psa1] | None | [Scarlett 2i2][2i2] | ~$400 |
 | [Shure SM7B][sm7b] | None | [PSA1][psa1] | [CL-1][cl1] | [Scarlett 2i2][2i2] | ~$650 |
 
@@ -124,6 +129,32 @@ or gain/volume control means you’re constantly fiddling with software
 sound input controls and you have no idea what you sound like on a very
 sensitive microphone. So be warned.
 
+## The Tool is a Tool
+
+No matter how much money you spend, if you don't *spend* more time
+learning *how* to use the tool, you'll be pissing money down the drain.
+
+A $3000 espresso machine is a marvel of engineering but in the hands of
+someone who doesn't want to learn and isn't dedicated enough to make
+coffee making their new hobby, it's just a hulking heap of metal that
+heats up and draws 1000 watts of power and constant comparisons to the
+indulgent ease of a K-cup trash printer.
+
+So let's talk about microphone technique, because maybe you thoughts
+cool gear was going to solve all your problems. I first go interested in
+microphones in 2010 when I bought my first Yeti from Blue Microphones.
+It's nearly ten years later and I'd say I'm competent with most of the
+variables of voice recording:
+- Pick the right microphone for the job.
+- Place the microphone at an appropriate distance from my mouth.
+- Angle the microphone so I don't constantly blow air on it.
+- Use grounded "clean" power delivered by a [pure sine wave
+  UPS][ups].
+- Avoid electromagnetic interference with quality cables (shielding).
+- Keep microphone close to your mouth and develop the instinct to
+  constantly orient towards it.
+- Actually press the record button.
+
 [image]: {{ site.url }}/assets/microphone-setup.jpg
 [2i2]: https://focusrite.com/en/usb-audio-interface/scarlett/scarlett-2i2
 [cl1]: https://www.cloudmicrophones.com/cloudlifter-cl-1
@@ -133,3 +164,7 @@ sensitive microphone. So be warned.
 [sp01]: http://www.samsontech.com/samson/products/accessories/microphone-accessories/sp01/
 [plosives]: https://en.wikipedia.org/wiki/Stop_consonant
 [cardioid]: https://en.wikipedia.org/wiki/Microphone#Cardioid,_hypercardioid,_supercardioid,_subcardioid
+[airpods]: https://www.apple.com/airpods/
+[airpod-charge]: https://support.apple.com/en-us/HT207012
+[preamp]: https://en.wikipedia.org/wiki/Preamplifier
+[ups]: https://superuser.com/questions/912679/when-do-i-need-a-pure-sine-wave-ups
