@@ -1,5 +1,3 @@
-$inline-code-color: hsla(60,90%,50%,0.2)
-
 .site
   .header + .draft
     font-weight: 900
@@ -75,7 +73,13 @@ $inline-code-color: hsla(60,90%,50%,0.2)
       border-radius: 0.3em
       display: inline-block
       line-height: 1
-      background-color: $inline-code-color
+
+      @media(prefers-color-scheme: dark)
+        background-color: $inline-code-color-dark
+        color: $slate
+      @media(prefers-color-scheme: light)
+        background-color: $inline-code-color-light
+        color: $grey
 
     [rel=explanation]
       border-bottom: 1px dashed black
@@ -116,16 +120,22 @@ $inline-code-color: hsla(60,90%,50%,0.2)
   content: ""
 
 span.reading-time
-  color: #f1f1f1
   float: right
   line-height: 1
   margin: 0 0 1em 0
   text-align: center
   width: auto
-  background-color: #8a877f
+
   padding: .5em 1.1em
   font-weight: 400
   border-radius: 0.6em
+
+  @media(prefers-color-scheme: dark)
+    background-color: $grey
+    color: $lightgrey
+  @media(prefers-color-scheme: light)
+    background-color: $slate
+    color: $white
 
   @media #{$iphone-breakpoint}
     display: inline-block
@@ -135,7 +145,7 @@ span.reading-time
     font-weight: 700
 
 .meta
-  color: #777777
+  color: $slate
   float: left
   font-size: 1em
   line-height: 1.3
@@ -149,7 +159,13 @@ span.reading-time
     font-weight: 700
 
 .subscribe
-  border-top: 2px solid #eee
   margin-top: 2em
-  background-color: $inline-code-color
   padding: 0.1em 2em
+  text-align: center
+  color: $slate
+  @media(prefers-color-scheme: dark)
+    border-top: 2px solid $inline-code-color-dark
+    background-color: $inline-code-color-dark
+  @media(prefers-color-scheme: light)
+    border-top: 2px solid $lightgrey
+    background-color: $inline-code-color-light
