@@ -9,10 +9,10 @@ draft: true
 ---
 
 It's strange how many people who work or communicate in a distributed
-fashion (remotely) treat the transmission of their voice as an
+fashion treat the transmission of their voice as an
 afterthought.
 
-My audio recording setup is absurd for most people. You would probably
+My audio setup is a bit excessive for most people. You would probably
 be better served by something as pricey-yet-simple like AirPods. Despite
 their size, they carry a surprisingly good microphone, as do EarPods.
 And unlike a serious microphone setup, you're much more likely to carry
@@ -180,7 +180,8 @@ measure. The size of your fist doesn't matter than much.
 An easy trap to fall into when you get into serious voice recording
 gear is accoustic room treatments such as foam, bass traps, and even
 recording booth kits. The whole point of cardioid polar pattern
-microphones is that they already
+microphones is that they already ignore much of a room's reflective
+noise.
 
 [image]: {{ site.url }}/assets/microphone-setup.jpg
 [mic-technique]: {{ site.url }}/assets/microphone-sweet-spot.jpg
