@@ -15,9 +15,8 @@ live somewhere where there is a chance I might update it.
 ## Update (February 7th, 2018)
 
 In Homebrew 1.5 and above, there's a new process to upgrade your
-Postgres database across major versions using the
-`brew postgresql-upgrade-database` command which was [recently added
-by Mike McQuaid][3].
+Postgres database across major versions using the `brew postgresql-upgrade-database`
+command which was [recently added by Mike McQuaid][3].
 
 This is a fantastic one-step improvement over the lengthy guide you'll
 see below, but since this new command isn't foolproof (it will fail if
