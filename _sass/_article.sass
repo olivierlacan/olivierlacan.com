@@ -67,19 +67,20 @@
     ul, ol
       margin-left: 1.35em
     p > code, li > code
-      border: 1px solid #ccc
-      padding: 0.1em 0.2em 0.1em 0.3em
+      padding: 0.15em 0.3em 0.15em 0.4em
       font-size: 0.85em
       border-radius: 0.3em
       display: inline-block
       line-height: 1
 
       @media(prefers-color-scheme: dark)
-        background-color: $inline-code-color-dark
-        color: $slate
+        background-color: $darkgrey
+        color: $grey
+        border: 1px solid $anthracite
       @media(prefers-color-scheme: light)
         background-color: $inline-code-color-light
         color: $grey
+        border: 1px solid $lightgrey
 
     [rel=explanation]
       border-bottom: 1px dashed black
@@ -131,8 +132,8 @@ span.reading-time
   border-radius: 0.6em
 
   @media(prefers-color-scheme: dark)
-    background-color: $grey
-    color: $lightgrey
+    background-color: $darkgrey
+    color: $slate
   @media(prefers-color-scheme: light)
     background-color: $slate
     color: $white
@@ -162,10 +163,11 @@ span.reading-time
   margin-top: 2em
   padding: 0.1em 2em
   text-align: center
-  color: $slate
   @media(prefers-color-scheme: dark)
-    border-top: 2px solid $inline-code-color-dark
-    background-color: $inline-code-color-dark
+    color: $slate
+    border-top: 1px solid $anthracite
+    background-color: $darkgrey
   @media(prefers-color-scheme: light)
-    border-top: 2px solid $lightgrey
+    color: $slate
+    border-top: 1px solid $lightgrey
     background-color: $inline-code-color-light

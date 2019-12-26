@@ -5,7 +5,9 @@ $green-hover-dark: hsla(69, 24%, 45%, 1)
 $green-light: #3C5011
 $green-hover-light: darken(#3C5011, 10%)
 $lightgrey: #eee
-$grey: #333
+$grey: #888
+$anthracite: #333
+$darkgrey: #111
 $slate: #777
 $white: #fff
 
@@ -160,7 +162,7 @@ body
 
           a
             @media #{$ipad-breakpoint}
-              background-color: #eee
+              background-color: $lightgrey
               padding: 0.4em 0.8em
 
 
@@ -201,14 +203,15 @@ body
 
   .footer
     font-size: 1em
-    border-top: 2px solid #eee
     overflow: hidden
     text-align: center
 
     @media(prefers-color-scheme: dark)
       color: $lightgrey
+      border-top: 1px solid $anthracite
     @media(prefers-color-scheme: light)
       color: $slate
+      border-top: 1px solid $lightgrey
 
     @media #{$ipad-breakpoint}
       padding-bottom: 3em
