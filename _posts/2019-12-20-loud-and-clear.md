@@ -12,8 +12,8 @@ It's strange how many people who work or communicate in a distributed
 fashion (remotely) treat the transmission of their voice as an
 afterthought.
 
-My audio recording setup is absurd for most people who would be much
-better served by something as pricey-yet-simple like AirPods. Despite
+My audio recording setup is absurd for most people. You would probably
+be better served by something as pricey-yet-simple like AirPods. Despite
 their size, they carry a surprisingly good microphone, as do EarPods.
 And unlike a serious microphone setup, you're much more likely to carry
 them with you when you travel.
@@ -150,12 +150,40 @@ variables of voice recording:
 - Angle the microphone so I don't constantly blow air on it.
 - Use grounded "clean" power delivered by a [pure sine wave
   UPS][ups].
-- Avoid electromagnetic interference with quality cables (shielding).
+- Avoid electromagnetic interference with quality cables.
 - Keep microphone close to your mouth and develop the instinct to
   constantly orient towards it.
-- Actually press the record button.
+- Actually press the record button *before* you start.
+- Adjust the gain to never reach 0 decibels when you raise your voice.
+- Never adjust your gain based on loud you are, loud is relative.
+- Stop focusing so much on what you sound like.
+- Regularly remember to breathe and pause within sentences.
+
+Now that this brain dump is out of the way, let's talk about this whole
+microphone technique. As the word suggests, it's mort of an art than a
+science although once you understand that the capsule inside of your
+microphone is like a partner's sensitive eardrum when your mouth is
+centimeters away from it. Stop. Yelling. If anything go listen to some
+of the greatest podcasts out there: Radiolab, Serial, 99% Invisible,
+Criminal. One thing you'll realize quickly is how airy the voices of
+their hosts are. Jad Abumrad and Sarah Koenig in particular actually
+sound *earnest*. It might sound absurd, but just as you can hear someone
+smile, so can you sound honest and authoritative if you do the right
+thing.
+
+![Schematic showing the cardioid polar pattern of a microphone and how the sweet spot for placing one's mouth is roughly a fist away from the front of the microphone and roughly 30 degrees around the center][mic-technique]
+
+The sweet spot will vary depending on the timber of your voice but my
+rule of thumb for most people is "a fist away" because it's easy to
+measure. The size of your fist doesn't matter than much.
+
+An easy trap to fall into when you get into serious voice recording
+gear is accoustic room treatments such as foam, bass traps, and even
+recording booth kits. The whole point of cardioid polar pattern
+microphones is that they already
 
 [image]: {{ site.url }}/assets/microphone-setup.jpg
+[mic-technique]: {{ site.url }}/assets/microphone-sweet-spot.jpg
 [2i2]: https://focusrite.com/en/usb-audio-interface/scarlett/scarlett-2i2
 [cl1]: https://www.cloudmicrophones.com/cloudlifter-cl-1
 [cl8]: http://www.samsontech.com/samson/products/microphones/condenser-microphones/cl8/
