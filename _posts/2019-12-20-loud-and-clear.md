@@ -56,8 +56,7 @@ great at isolating sound, especially if you learn decent microphone
 technique. The capsule inside of the microphone receives vibrations from
 your mouth hole and converts them into an analog signal. Because of the
 fairly sensitive capsule, the CL8 is quite sensitive to [plosives][plosives]
-(P, T, F, D sounds) but it's nothing some care or a good pop filter can
-prevent.
+(P, T, F, D sounds) but it's nothing some care or a good pop filter can't prevent.
 
 ## XLR to USB Audio Interface
 
