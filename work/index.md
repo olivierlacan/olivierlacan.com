@@ -2,11 +2,37 @@
 layout: page
 title: Work
 ---
+### Pluralsight 
+I work as as a senior software engineer on 
+[Pluralsight's Projects](https://www.pluralsight.com/product/projects) 
+team where we develop interactive ways for people to achieve proficiency with 
+new technologies they recently discovered either through video or interactive 
+courses.
+
+We initially developed Projects inside of Code School back in 2016 to fill 
+a need expressed by our students. Despite gaining a lot of theoretical and 
+practical knowledge of a new technology while going through a Code School
+interactive course like Rails for Zombies, many of our students didn't know 
+where to start in order to apply their newly acquired skills. 
+
+Projects solves this blank page problem by offering students a tightly scoped 
+Project to work on, starting with a failing test suite which serves as a list 
+of tasks to slowly work through. This allows people to become familiar with 
+the flow and process of software development in an environment with a tight 
+feedback loop. Since exceptions and setup issues often results in dead ends 
+for newcomers to a technology, we try to provide the most specific feedback 
+possible by not only executing tests written by our authors against the code 
+written by our learners but also guiding them through the environment-specific 
+errors that occur when their code is executed or built.
+
+Projects was initially extracted from Code School as a Rails REST API and GraphQL 
+backend and a React UI front-end. We integrate with the rest of the Pluralsight 
+ecosystem with RabbitMQ, REST APIs, and Kafka.
 
 ### Code School
-I work remotely as a Tech Lead on [Code School](http://codeschool.com)'s
-Platform team where I build and maintain the Ruby on Rails application
-that powers [codeschool.com](http://codeschool.com).
+I served as Tech Lead on [Code School](http://codeschool.com)'s
+Platform team where I built and maintained the Ruby on Rails application
+that powered [codeschool.com](http://codeschool.com).
 
 Throughout the years I've been responsible for upgrading our Rails
 infrastructure from version 3.1 to 5.0; maintaining our security bug
