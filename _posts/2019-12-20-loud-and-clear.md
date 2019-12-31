@@ -33,7 +33,7 @@ Your voice will be clearer, more life-like, and the modulations of your
 speech will allow you to stand out when you speak. Especially compared
 to speakers who are communicating through a tin can of a microphone. You
 already know the value of a good headshot, or maybe you're aware of the
-importance of good lighting with webcames, but microphones are recording
+importance of good lighting with webcams, but microphones are recording
 the actual message, not just the medium. They matter a lot.
 
 ## Condenser Cardioid Microphones
