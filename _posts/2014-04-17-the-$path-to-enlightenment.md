@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "The $PATH to Enlightenment"
-date: 2014-04-17 13:23
+original: 2014-04-17 13:23
+date: 2019-12-28 13:23
 categories: development
 draft: true
 ---

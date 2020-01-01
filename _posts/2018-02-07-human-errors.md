@@ -1,8 +1,9 @@
 ---
 title: Human Errors
 layout: post
-date: '2018-02-07 14:30:00'
-location: Paris, France
+original: '2018-02-07 14:30:00'
+date: '2019-12-28 22:15:00'
+location: Flying over Greenville, North Carolina
 categories:
   - open source software
 draft: true

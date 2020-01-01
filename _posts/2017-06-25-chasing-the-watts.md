@@ -1,5 +1,7 @@
 ---
+layout: post
 title: Chasing The Watts
+date: 2017-06-25 17:10
 draft: true
 ---
 

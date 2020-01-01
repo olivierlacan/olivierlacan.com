@@ -1,7 +1,8 @@
 ---
 title: Testing Ruby Patches
 layout: post
-date: '2017-03-16 9:12:00'
+original: '2017-03-16 9:12:00'
+date: '2019-12-28 9:12:00'
 location: Paris, France
 categories:
   - ruby
