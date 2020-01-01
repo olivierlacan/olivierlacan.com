@@ -1,14 +1,15 @@
 ---
 title: Human Errors
 layout: post
-original: '2018-02-07 14:30:00'
-date: '2019-12-28 22:15:00'
+original: 2018-02-07 14:30:00
+date: 2020-01-01 22:15:00
 location: Flying over Greenville, North Carolina
 categories:
   - open source software
 draft: true
 image: human_errors_title.png
 ---
+
 ![Title card for Human Errors. Human is light blue. Errors is light red. There is a small red heart next to the word errors with a white X crossing it. ]({{ site.url }}/assets/human_errors_title.png)
 
 *Don't like reading? This post is based on a talk you can [watch here](/talks/human-errors/).*

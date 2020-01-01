@@ -2,7 +2,7 @@
 layout: post
 title: "The Art and Science of Debugging"
 original: 2014-10-25 23:45
-date: 2018-12-28 23:45
+date: 2020-01-01 23:45
 location: "Paris, France"
 categories: development
 draft: true
