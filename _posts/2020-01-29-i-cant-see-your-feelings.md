@@ -7,6 +7,8 @@ categories: development
 image: webcams.jpg
 draft: true
 ---
+![Close up of Razer Kiyo and Logitech C920 webcams on top of a computer monitor][2]
+
 In the last decade, phone cameras have gone from noisy shots to DSLR-level quality, 
 webcams have coasted on the mediocre lane. Remote work grew 91% over that same period 
 of time. We’ve never relied on webcams more, and they still suck.
@@ -67,3 +69,4 @@ but if you can’t, try to find a way to bring that webcam closer to you. Screen
 webcams can only get so close, which is why zooming is such a good option in my mind.  
 
 [1]: https://apps.apple.com/us/app/webcam-settings/id533696630?mt=12
+[2]: {{ site.url }}/assets/webcams.jpg
