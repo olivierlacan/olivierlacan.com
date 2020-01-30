@@ -4,7 +4,7 @@ title: "I Can't See Your Feelings"
 date: 2020-01-29 21:19
 location: "Orlando, Florida"
 categories: development
-image: webcams.jpg
+image: logitech-c920-vs-razer-kiyo.jpg
 draft: true
 excerpt: Your face is your interface, help your webcam share it with the world.
 ---
@@ -52,6 +52,11 @@ Kelvin) as a backup light source. If you can afford a higher webcam
 budget, the newer Razer Kiyo webcam has an adjustable LED light ring
 around it which provides incredible lighting. I wish more webcams
 offered this option. The improvement is staggering.
+
+{% include image.html
+name="logitech-c920-vs-razer-kiyo.jpg"
+alt="Side-by-side comparison of the lighting captured by the Logitech C920 on the left and the Razer Kiyo on the right, showing much better face lighting on the Razer Kiyo."
+caption="Logitech C920 (left) vs. Razer Kiyo (right) both at their maximum digital zoom level." %}
 
 ## If you can’t zoom in, get closer
 
