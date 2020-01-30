@@ -7,9 +7,6 @@ categories: development
 image: webcams.jpg
 draft: true
 ---
-
-# I Can’t See How You Feel
-
 In the last decade, phone cameras have gone from noisy shots to DSLR-level quality, 
 webcams have coasted on the mediocre lane. Remote work grew 91% over that same period 
 of time. We’ve never relied on webcams more, and they still suck.
