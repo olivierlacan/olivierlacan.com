@@ -6,7 +6,7 @@ location: "Orlando, Florida"
 categories: development
 image: webcams.jpg
 draft: true
-excerpt: Your face is your interface, with a little help your webcam can help you communicate better.
+excerpt: Your face is your interface, help your webcam share it with the world.
 ---
 ![Close up of Razer Kiyo and Logitech C920 webcams on top of a computer monitor][2]
 
