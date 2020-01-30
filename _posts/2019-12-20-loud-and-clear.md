@@ -2,6 +2,7 @@
 layout: post
 title: "Loud & Clear"
 date: 2019-12-20 13:18
+update: 2020-01-30 00:08
 location: "Orlando, Florida"
 categories: development
 image: microphone-setup.jpg
@@ -126,7 +127,7 @@ quick.
 
 ## Wireless vs. Condenser vs. Dynamic Microphones
 
-| Microphone | Shock | Boom | Pre | USB | Total |
+| Model | Shock | Boom | Pre | USB | Total |
 | --- | --- | --- | --- | --- | --- |
 | [AirPods][airpods] | None | None | None | None | $160 |
 | [Samson CL8][cl8] | [SP01][sp01] | [PSA1][psa1] | None | [2i2][2i2] | $400 |
@@ -206,6 +207,11 @@ yourself and listening back to how you sound to people who aren't in the
 room with you. It will give you a great idea of how much room for
 improvement you have.
 
+**Note: you can go a long way with great sound, but sometimes watching
+someone's facial expression when they speak -- and when they don't -- can
+make all the difference in the world. I wrote a follow up to this post on
+the topic of [webcams and how to make them suck less][in-sight].**
+
 [image]: {{ site.url }}/assets/microphone-setup.jpg
 [mic-technique]: {{ site.url }}/assets/microphone-sweet-spot.jpg
 [2i2]: https://focusrite.com/en/usb-audio-interface/scarlett/scarlett-2i2
@@ -220,3 +226,4 @@ improvement you have.
 [airpod-charge]: https://support.apple.com/en-us/HT207012
 [preamp]: https://en.wikipedia.org/wiki/Preamplifier
 [ups]: https://superuser.com/questions/912679/when-do-i-need-a-pure-sine-wave-ups
+[in-sight]: /posts/in-sight
