@@ -2,6 +2,7 @@
 title: Migrating Homebrew Postgres to a New Version
 layout: post
 date: '2018-02-07 08:21:00'
+update: '2020-08-24 16:15:00'
 location: Paris, France
 categories:
   - open source software
@@ -12,7 +13,7 @@ about and accidentally rediscovered recently when the need arose to
 resolve a similar accidental upgrade. I felt like it deserved to
 live somewhere where there is a chance I might update it.
 
-## Update (February 7th, 2018)
+## Update
 
 In Homebrew 1.5 and above, there's a new process to upgrade your
 Postgres database across major versions using the `brew postgresql-upgrade-database`
@@ -22,6 +23,9 @@ This is a fantastic one-step improvement over the lengthy guide you'll
 see below, but since this new command isn't foolproof (it will fail if
 you haven't killed all processes connected to your database) it seems
 like a good idea to still understand the way it works behind the scenes.
+
+I've learned a cool new trick from Homebrew's upgrade command however and you
+can find it in the last section of this updated post.
 
 ## Accidental Homebrew Upgrades
 
@@ -303,12 +307,27 @@ Assuming you're dealing with the same version numbers I'm dealing with
 this is what the `pg_upgrade` command should look like when you run it:
 
 ```shell
-$ pg_upgrade -b /usr/local/Cellar/postgresql/9.5.4_1/bin/ -B /usr/local/Cellar/postgresql@9.6/9.6.6/bin/ -d /usr/local/var/postgres.9.5.backup/ -D /usr/local/var/postgres
+$ pg_upgrade -b /usr/local/Cellar/postgresql/9.5.4_1/bin/ \
+             -B /usr/local/Cellar/postgresql@9.6/9.6.6/bin/ \
+             -d /usr/local/var/postgres.9.5.backup/ \
+             -D /usr/local/var/postgres
 ```
 
 Lowercase flags (`-b` and `-d`) are for old `binary` and `data`
 directories respectively. Their uppercase counterparts are for their new
 equivalents.
+
+I really dislike short form flags because they make self-descriptive discovery
+very difficult so here is the alternative with long-form flags:
+
+```shell
+$ pg_upgrade --old-bindir /usr/local/Cellar/postgresql/9.5.4_1/bin/ \
+             --new-bindir /usr/local/Cellar/postgresql@9.6/9.6.6/bin/ \
+             --old-datadir /usr/local/var/postgres.9.5.backup/ \
+             --new-datadir /usr/local/var/postgres \
+```
+
+How nice is this?
 
 You should see the following output immediately if the upgrade process
 is starting:
@@ -448,10 +467,41 @@ that the data was already upgraded when it's not actually true or at
 least the process hasn't fully completed.
 
 You can see how this script works by [checking its source code][2]. It
-seems like it's comparing the installed (in Homebrew) version to the
-version of the
+seems like it's comparing the Homebrew-installed version to the
+version of the currently active Postgres database inside of the `/var/postgres`
+data directory. It references the [PostgreSQL documentation upgrade article][4]
+as well. The only notable difference with the instructions I've listed above
+is the use of the `-j` flag, which defines how many threads or processes the
+`pg_upgrade` command will use. Homebrew sets that number to
+`Hardware::CPU.cores.to_s` which would be 2, 4, 6 or more CPU cores your machine
+may have to handle CPU-intensive tasks like these.
+
+However I'd recommend not doing this since you may have operations already
+using some CPU on your machine. My best tip is to use one less core than your
+total, which I learned from this excellent [Thoughbot blog post on parallel
+RubyGem install configuration for Bundler][5]:
+
+```
+number_of_cores=`sysctl -n hw.ncpu`
+echo "$(expr $number_of_cores - 1)"
+11
+```
+
+So here's the final command in its full glory for all of you who skipped
+straight to the bottom of this post:
+
+```shell
+$ pg_upgrade --old-bindir /usr/local/Cellar/postgresql/9.5.4_1/bin/ \
+             --new-bindir /usr/local/Cellar/postgresql@9.6/9.6.6/bin/ \
+             --old-datadir /usr/local/var/postgres.9.5.backup/ \
+             --new-datadir /usr/local/var/postgres \
+             --jobs $(expr $(sysctl -n hw.ncpu) - 1)
+```
+
+Safe upgrades!
 
 [1]: https://gist.github.com/olivierlacan/e1bf5c34bc9f82e06bc0
-[2]: https://github.com/Homebrew/homebrew-core/blob/ac2ba2b02772708fe648363e4ef9dad891d89ef6/cmd/brew-postgresql-upgrade-database.
+[2]: https://github.com/Homebrew/homebrew-core/blob/ac2ba2b02772708fe648363e4ef9dad891d89ef6/cmd/brew-postgresql-upgrade-database.rb
 [3]: https://github.com/Homebrew/homebrew-core/pull/21244
 [4]: https://www.postgresql.org/docs/10/static/pgupgrade.html
+[5]: https://thoughtbot.com/blog/parallel-gem-installing-using-bundler
