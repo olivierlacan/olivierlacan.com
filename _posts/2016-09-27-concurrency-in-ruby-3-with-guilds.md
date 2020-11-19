@@ -15,8 +15,8 @@ editors:
 ---
 
 **Note**: Since this post was written four years ago, Guilds were renamed
-*Ractors* and were released as an experimental feature in Ruby 3.0. The feature
-now includes great documentation and copious usage examples in the
+*Ractors* and were released as an [experimental feature in Ruby 3.0][ruby-3].
+The feature now includes great documentation and copious usage examples in the
 [Ruby API documentation][ractor].
 
 At [Ruby Kaigi][kaigi] 2016, [Koichi Sasada][koichi] — designer of the current
@@ -231,3 +231,4 @@ and all.
 [rf]: http://rubyfacets.com
 [rfpost]: http://olivierlacan.com/posts/ruby-facets/
 [ractor]: https://docs.ruby-lang.org/en/master/doc/ractor_md.html
+[ruby-3]: https://www.ruby-lang.org/en/news/2020/09/25/ruby-3-0-0-preview1-released/
