@@ -2,6 +2,7 @@
 title: Concurrency in Ruby 3 with Guilds
 layout: post
 date: '2016-09-27 13:21:00'
+update: 2020-11-19
 location: Orlando, Florida
 categories:
   - ruby
@@ -12,6 +13,11 @@ editors:
   - Chris Arcand: https://chrisarcand.com/
   - Elizabeth Mills: https://twitter.com/ArchaeoNemesis
 ---
+
+**Note**: Since this post was written four years ago, Guilds were renamed
+*Ractors* and were released as an experimental feature in Ruby 3.0. The feature
+now includes great documentation and copious usage examples in the
+[Ruby API documentation][ractor].
 
 At [Ruby Kaigi][kaigi] 2016, [Koichi Sasada][koichi] — designer of the current
 [Ruby virtual machine][yarv] and garbage collector — presented[^1] his
@@ -224,3 +230,4 @@ and all.
 [4]: {{ site.url }}/assets/ruby_3_guilds_fibonacci_performance.png
 [rf]: http://rubyfacets.com
 [rfpost]: http://olivierlacan.com/posts/ruby-facets/
+[ractor]: https://docs.ruby-lang.org/en/master/doc/ractor_md.html
