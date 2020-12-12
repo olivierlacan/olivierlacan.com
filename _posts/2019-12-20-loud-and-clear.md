@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Loud & Clear"
+title: "Loud &amp; Clear"
 date: 2019-12-20 13:18
 update: 2020-01-30 00:08
 location: "Orlando, Florida"
