@@ -31,6 +31,13 @@ multiple teams including our own migrate to the new infrastructure.
 
 #### Projects
 
+<figure>
+  <img src="{{ site.url }}/assets/projects-build-check-my-work.png" alt="Screenshot of the Projects Build interface showing feedback given to the learner when tasks aren't successfully completed">
+  <figcaption>
+    Projects offers feedback to learners when tasks aren't successfully completed.
+  </figcaption>
+</figure>
+
 As a senior software engineer on [Pluralsight's
 Projects](https://www.pluralsight.com/product/projects) team where we developed
 interactive ways for people to achieve proficiency with new technologies they
@@ -58,6 +65,14 @@ ecosystem with RabbitMQ, REST APIs, and Kafka.
 
 ### Code School
 
+<figure>
+  <img src="{{ site.url }}/assets/codeschool-account-page.png" alt="Screenshot of the Code School account dashboard">
+  <figcaption>
+    The Code School account dashbord allowed you to track the course you were currently playing, recently earned activity
+    or course completion badges, progress on given learning paths, but also find your team dashboard, and other settings.
+  </figcaption>
+</figure>
+
 I served as Tech Lead on [Code School](http://codeschool.com)'s
 Platform team where I built and maintained the Ruby on Rails application
 that powered [codeschool.com](http://codeschool.com).
@@ -77,6 +92,13 @@ Several years ago, when Code School was still a baby startup I wrote
 and taught in several of our excellent interactive courses:
 
 #### [Try Git](http://try.github.com)
+
+<figure>
+  <img src="{{ site.url }}/assets/try-git-demo.gif" alt="Quick animated demo of the Try Git interactive course interface in action.">
+  <figcaption>
+    Try Git had a simplified interface which mimicked a terminal window to help people get acclimated to a command line interface like git.
+  </figcaption>
+</figure>
 
 I wrote this short course with the Code School and GitHub teams. We
 reproduced a command line terminal to execute real git commands and

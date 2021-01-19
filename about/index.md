@@ -9,21 +9,21 @@ title: About me
 {% assign websitesYears = nowYear | minus: startWebsites %}
 {% assign programmingYears = nowYear | minus: startProgramming %}
 
+<figure id="mug">
+  <a href="https://en.gravatar.com/userimage/4041830/af45b0fc14ad6281b6878cb3d6ee64f6.jpeg?size=2048" title="Download a huge version of my face to see if you can figure out where I took this brazen selfie just by looking at the reflection in my eyeballs.">
+    <img src ="https://en.gravatar.com/userimage/4041830/af45b0fc14ad6281b6878cb3d6ee64f6.jpg?size=300" alt="Portrait of Olivier Lacan"/>
+  </a>
+  <figcaption>Yep, that's me. &#10548;</figcaption>
+</figure>
+
 I've been creating websites for over {{ websitesYears }} years
 and I've evolved into a more backend focused software developer during
 the last {{ programmingYears }} years. Despite my unescapable
-Frenchness, my favorite languages are English and
+Frenchness (Paris-born & raised), my favorite languages are English and
 [Ruby](http://tryruby.org).
 
 I spend most of my time building and maintaining
 large and small web applications.
-
-<figure id="mug">
-  <a href="https://en.gravatar.com/userimage/4041830/f96aa6256f6953179d7921d981516f2b?size=2048" title="Download a huge version of my face to see if you can figure out the number of degrees I tilted it for this shot.">
-    <img src ="https://en.gravatar.com/userimage/4041830/f96aa6256f6953179d7921d981516f2b.jpg?size=540" alt="Portrait of Olivier Lacan"/>
-  </a>
-  <figcaption>That's me. &#10548;</figcaption>
-</figure>
 
 ### Work
 
@@ -79,14 +79,12 @@ I've spoken at multiple conferences around the world on topics like
 Science-driven Development, contributing to open source, Ruby on Rails,
 and information security. You can find my published talks [here](/talks).
 
-I also used to co-host the Ruby5 podcast and [other podcasts](/work#podcasts).
+I also used to co-host the Ruby5 podcast and [other podcasts](/work#podcasting).
 
 ## Get in touch
 
 If you'd like to email me securely you can use my [PGP Key][pgp] (see
-[GPGTools][gpg]). [Keybase.io][kb] is a neat alternative with a much
-easier learning curve although it may not be as secure.
+[GPGTools][gpg]) but email and twitter are fine for most cases.
 
 [gpg]: /tools/security/gpgtools
-[kb]: https://keybase.io/olivierlacan
 [pgp]: http://hkps.pool.sks-keyservers.net/pks/lookup?search=hi%40olivierlacan.com&fingerprint=on&op=index

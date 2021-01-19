@@ -22,25 +22,6 @@
     @media #{$ipad-pro-landscape-breakpoint}
       font-size: 170%
 
-    h2, h3, h4, h5
-      margin-left: -0.5em
-
-      &:hover .anchor, &:focus .anchor
-        opacity: 1
-
-      .anchor
-        float: left
-        padding: 1em 0.4em 1em 0.3em
-        margin: -1em -0.3em -1em -0.5em
-        font-style: normal
-        font-weight: normal
-        opacity: 0
-        border: none
-        transition: opacity 0.1s ease-in-out 0.1s
-
-      .anchor::before
-        content: '¶'
-
     h2
       font-size: 1.1em
       margin-top: 1.5em
@@ -52,21 +33,12 @@
     h3
       font-size: 1em
 
+    h4
+      font-size: .9em
+
     p
       font-size: 1em
       font-weight: 300
-
-    p > img, figure > img
-      max-width: 100%
-      display: block
-      margin: 0 auto
-
-    figure
-      margin-inline-start: 0
-      margin-inline-end: 0
-
-    figure figcaption
-      margin-top: 1em
 
     a.footnote
       margin-left: 0.15em
@@ -108,12 +80,6 @@
 
 .post blockquote
   padding-left: 2em
-
-.post figcaption
-  font-size: 0.8em
-  font-style: italic
-  font-weight: 400
-  text-align: center
 
 .editors, .reviewers
   a:after

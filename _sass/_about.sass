@@ -1,8 +1,11 @@
 #mug
-  width: 40%
-  height: 40%
+  width: 30%
+  height: 30%
   float: left
-  margin: 0 1em 0.1em 0
+  margin: 0 1.4em 0 0
+
+  @media #{$iphone-breakpoint}
+    margin-top: 1em
 
   a
     display: block
@@ -10,7 +13,14 @@
 
   img
     width: 100%
+    border-radius: 3%
 
   figcaption
     font-style: italic
     font-size: .7em
+    visibility: hidden
+    text-align: center
+    margin-top: -0.3em
+
+#mug:hover figcaption
+    visibility: visible

@@ -99,14 +99,14 @@ body
       line-height: 2.5
 
       @media #{$iphone-breakpoint}
-        font-size: 2em
+        font-size: 2.2em
         margin: 0
         position: fixed
         top: auto
         bottom: 0
         width: 100%
         height: 1em
-        padding: 0.8em 0 2.3em
+        padding: 0.7em 0 2.3em
         left: 0
 
         a
@@ -223,7 +223,7 @@ body
     line-height: 1.4
 
     @media #{$iphone-breakpoint}, #{$ipad-breakpoint}
-      font-size: 2em
+      font-size: 2.2em
 
   .footer
     font-size: 1em
@@ -267,3 +267,41 @@ body
   clear: both
   margin-top: .5em
   margin-bottom: .5em
+
+.site > div
+  h2, h3, h4, h5
+    margin-left: -0.5em
+
+    &:hover .anchor, &:focus .anchor
+      opacity: 1
+
+    .anchor
+      float: left
+      padding: 1em 0.4em 1em 0.3em
+      margin: -1em -0.3em -1em -0.5em
+      font-style: normal
+      font-weight: normal
+      opacity: 0
+      border: none
+      transition: opacity 0.1s ease-in-out 0.1s
+
+    .anchor::before
+      content: '¶'
+
+
+.site
+  p > img, figure > img
+    max-width: 100%
+    display: block
+    margin: 0 auto
+
+  figure
+    margin-inline-start: 0
+    margin-inline-end: 0
+
+  figure figcaption
+    margin-top: 1em
+    font-size: 0.8em
+    font-style: italic
+    font-weight: 400
+    text-align: center
