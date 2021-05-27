@@ -14,12 +14,12 @@ forced to go full-remote when my work visa expired in late 2013. I had
 months to prepare and it was still very hard on my mental health. I
 strongly recommend [Alice Goldfuss' piece on this topic][2].
 
-Alice briefly mentions improvements to be made with you video setup. Let
-me expand on that. I've already written about how to improve your
-[audio][3] and [video setup][4] before but I mostly suggested working
+Alice briefly mentions improvements you can make to your video setup. I'd like
+to expand on those. I've already written about how to improve your
+[audio][3] and [video setup][4] before but I mostly suggested working with
 and improving on the gear you already have. That assumes you have gear
 to begin with. A lot of employers don't offer remote work stipends
-either because they're deluded about the value of that investment or
+either because they're misinformed about the value of that investment or
 because they expect "work from home"[^1] to only happen occasionally.
 
 ## Face Time Matters
@@ -30,11 +30,11 @@ even talking most of that time.
 I'm not here to solve your useless meeting problems. If there's not a very good
 reason for you to be in a meeting that's something you should address first.
 What I can tell you with confidence is that not seeing your co-workers' faces
-tends to dehumanize them. A disembodied voice is always jarring, especially
-since who you are may be obvious but is far from obvious to everybody else. Sure,
-video meeting software like Zoom tends to highlight the current speaker even if
-their video is disabled (or inscrutably poorly lit so as to obscure their
-entire face) but you know what gets lost? Social cues.
+and the emotions they cary -- whether they're actively participating or not --
+tends to dehumanize them. A disembodied voice is always jarring. Who *you* are
+may be obvious from your perspective but it's far from obvious to everyone else.
+Sure, video meeting software like Zoom tends to highlight the current
+speaker but something crucial is getting lost: social cues.
 
 When I'm about to speak sometimes I raise my eyebrows. Or I open my mouth
 subconsciously because I want to add something or respond to a question that
