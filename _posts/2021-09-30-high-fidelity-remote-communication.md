@@ -233,7 +233,7 @@ I think it's hard to argue that remoteness means you will become an
 invisible[^1] employee anymore. 
 
 
-[^1]: That does require turning on your camera, even in meetings where you don't  expect to say anything. I know there's a big debate about this that is far more complex than the issue of visibility. I don't mean to diminish this. None of this post is meant to argue that it's the personal responsibility of everyone to always have high quality cameras turned on when communicating remotely, far from it. I believe it's the responsibility of employers to deploy the same kinds of budgets they deploy to offer basic communication capabilities via IT, and the role of folks like me to advocate to these IT professionals and their leaders, as I have at Pluralsight. 
+[^1]: That does require turning on your camera, even in meetings where you don't  expect to say anything. I know there's a big debate about this that is far more complex than the issue of visibility. I don't mean to diminish this. None of this post is meant to argue that it's the personal responsibility of everyone to always have high quality cameras turned on when communicating remotely, far from it. I believe it's the responsibility of employers to deploy the same kind of budgets they deploy to offer basic communication capabilities via in-office IT, and the role of folks like me to advocate to these IT professionals and their leaders, as I have at Pluralsight. 
 
 [^2]: I strongly recommend against going this route for 99% of people but here is my setup for the nerdiest among you, I [recorded a demo][11] when I first set it up although some of the setup has changed since and I'll likely update this post with a more succinct video soon: 
     - [Elgato Key Light Air][9]
