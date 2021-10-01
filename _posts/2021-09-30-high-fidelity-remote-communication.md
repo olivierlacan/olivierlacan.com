@@ -220,8 +220,8 @@ before the pandemic. While your three-dimensional presence will never
 be replaceable, it's possible for two-way communication to have an 
 unprecendented amount of subtlety.
 
-I'll leave you with this annecdote. I've had an even more [intricate 
-setup][^2] than the one I recommend here since February 2020 because I was 
+I'll leave you with this annecdote. I've had a much more *intricate 
+setup*[^2] than the one I recommend here since February 2020 since I was
 preparing to author a video course for my Pluralsight and wanted to 
 offer students the best possible learning experience. In countless 
 meetings, many involving leaders far above my paygrade, I can no longer 
@@ -236,19 +236,19 @@ invisible[^1] employee anymore.
 [^1]: That does require turning on your camera, even in meetings where you don't  expect to say anything. I know there's a big debate about this that is far more complex than the issue of visibility. I don't mean to diminish this. None of this post is meant to argue that it's the personal responsibility of everyone to always have high quality cameras turned on when communicating remotely, far from it. I believe it's the responsibility of employers to deploy the same kinds of budgets they deploy to offer basic communication capabilities via IT, and the role of folks like me to advocate to these IT professionals and their leaders, as I have at Pluralsight. 
 
 [^2]: I strongly recommend against going this route for 99% of people but here is my setup for the nerdiest among you, I [recorded a demo][11] when I first set it up although some of the setup has changed since and I'll likely update this post with a more succinct video soon: 
-   - [Elgato Key Light Air][9]
-     - one key light at a 25 degree angle to the right of my face
-     - one fill light pointed at the background or left side of my face
-   - [Sony A6000 mirrorless camera][8] with: 
-     - battery power adapter
-     - [Sony 50mm F1.8 OSS Portrait Lens][6]
-     - [Elgato Cam Link 4K][7] (set to 1080p 60 fps) 
-     - articulated wall-mounted boom arm
-     - when reading pre-written slides for screencasts I also use a rudimentary teleprompter called a Padcaster that reflects the screen of my iPhone in front of the lens of the camera allowing me to make eye contact with the viewer
-   - [Shure SM7B][10] XLR dynamic microphone with:
-     - a [Motu M2][4] XLR to USB interface with live digital level monitoring
-     - a [Cloudlifter CL-1][3] inline amplifier for a "clean" 25 dB boost
-     - a [RODE PSA1][5] articulated boom arm which allows me to constantly adjust the microphone to the idea position 
+    - [Elgato Key Light Air][9]
+      - one key light at a 25 degree angle to the right of my face
+      - one fill light pointed at the background or left side of my face
+    - [Sony A6000 mirrorless camera][8] with: 
+      - battery power adapter
+      - [Sony 50mm F1.8 OSS Portrait Lens][6]
+      - [Elgato Cam Link 4K][7] (set to 1080p 60 fps) 
+      - articulated wall-mounted boom arm
+      - when reading pre-written slides for screencasts I also use a rudimentary teleprompter called a Padcaster that reflects the screen of my iPhone in front of the lens of the camera allowing me to make eye contact with the viewer
+    - [Shure SM7B][10] XLR dynamic microphone with:
+      - a [Motu M2][4] XLR to USB interface with live digital level monitoring
+      - a [Cloudlifter CL-1][3] inline amplifier for a "clean" 25 dB boost
+      - a [RODE PSA1][5] articulated boom arm which allows me to constantly adjust the microphone to the idea position 
  
 [1]: https://olivierlacan.com/posts/in-sight/
 [2]: https://olivierlacan.com/posts/loud-and-clear/#dynamic-cardioid-microphones
