@@ -191,8 +191,8 @@ sacrifice what I believe are essential features:
 
 - flicker-free consistent lighting (no headaches or artifacts) 
 - narrow field of view lenses trained on your face, not the room
-- short pickup pattern (cardioid) microphones with live headphone monitoring
-- studio monitors headphones to hear yourself and avoid noise feedback loops
+- narrow pickup microphones with live headphone monitoring
+- monitoring headphones to hear yourself and avoid noise feedback loops
 
 | Focus            | Brand         | Model             | Price |
 | ---------------- | ------------- | ----------------- | ----- |
