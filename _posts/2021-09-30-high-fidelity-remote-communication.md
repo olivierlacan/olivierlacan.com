@@ -14,12 +14,10 @@ name="remote-desk.jpg"
 alt="Photograph of my absurdly over-engineered remote worker desk." %}
 
 This pandemic isn’t over. Before it even started, remote work was on the 
-rise around the world. 
-
-Why? Because it makes sense. Knowledge work doesn’t have to be 
-centralized to crammed, loud, distracting, unhealthy open offices 
-located in overly expensive areas. It also makes little sense for 
-knowledge workers who work on laptop to bring that laptop to a room 
+rise around the world. Why? Because it makes sense. Knowledge work 
+doesn’t need to depend on crammed, loud, distracting, unhealthy open 
+offices located in overly expensive areas. It also makes little sense 
+for knowledge workers who work on laptop to bring that laptop to a room 
 inside of a building they have to travel hours to and from every single 
 day.
 
