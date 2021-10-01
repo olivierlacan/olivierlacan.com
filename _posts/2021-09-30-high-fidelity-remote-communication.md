@@ -11,8 +11,7 @@ image: remote-desk.jpg
 
 {% include image.html
 name="remote-desk.jpg"
-alt="Photograph of over-engineered remote worker desk with bookshelf speakers, an articulated boom arm with a ridiculously expensive dynamic Shure SM7B microphone, a pair of Sony MDR-7506 studio monitor headphones, a Scarlett 2i2 XLR to USB audio interface, a CalDigit T3+ Thunderbolt dock, an M1 Mac Mini, an Elgato Key Light Air LED lighting panel with remote control, a WD RAID external storage box that has since been replaced, a large double bulb lamp with 75W equivalent soft white LEDs, a small Apple Lighting dock on which an iPhone XS is charging, next to a Zojirushi insulated mug, and Apple bluetooth Magic Keyboard and Trackpad which are both inadequate in their own way and not ergonomic in the slightest. Oh yeah, and there's an articulated arm above the screen with a Padcaster teleprompted which hides a Sony A6000 mirroless camera with a 35mm fixed lens rigged as a webcam although there's also a Logitech Brio 4K webcam sitting on top of the LG 5K monitor."
-caption="Remote workers should not have to do anything as ridiculous as my home office setup, but that's mostly the fault of hardware companies not taking remote work seriously." %}
+alt="Photograph of my absurdly over-engineered remote worker desk." %}
 
 This pandemic isn’t over. Before it even started, remote work was on the 
 rise around the world. 
