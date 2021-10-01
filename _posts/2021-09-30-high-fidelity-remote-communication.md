@@ -196,7 +196,7 @@ sacrifice what I believe are essential features:
 
 | Focus            | Brand         | Model             | Price |
 | ---------------- | ------------- | ----------------- | ----- |
-| Lighting         | Elgato        | [Key Ligh Air][9] | $180  |
+| Lighting         | Elgato        | [Key Light Air][9] | $180  |
 | Face — Option 1  | Elgato        | [Facecam][16]     | $200  | 
 | Face — Option 2  | Logitech      | [Brio][15]        | $200  |
 | Voice — Option 2 | AudioTechnica | [AT2005USB][14]   | $80   | 
