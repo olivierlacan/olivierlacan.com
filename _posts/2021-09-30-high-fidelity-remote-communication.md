@@ -58,14 +58,18 @@ This setup is never the one I recommend to fellow remoters, especially folks tha
 
 Two long years into this pandemic, the only company that seems to have grasped the importance of a quality sensor and lens combo is Elgato, with their Facecam. Logitech has been on top of the webcam business for years, and their best offering is the Logitech Brio. A excellent camera sensor on a far too wide camera that befits YouTubers with carefully crafted backdrops far more than remote workers whose face should be the sole focus, not their environment. You *can* force the 4K Logitech Brio to crop most of the background it defaults to showing so you can display what truly matters — your face — but it takes some futzing with settings which should be unnecessary.
 
-To wrap up this piece, which I originally intended to be more actionable, allow me to give you a list of gear at a total budget of $600 (yes, that is a lot, and an opportunity):
+To wrap up this piece, which I originally intended to be more actionable, allow me to give you a list of gear at a total budget of roughly $600. Yes, that's a lot of money. It's roughly double the typical "remote stipend" reluctantly relinquished by companies to remote workers. It's also one of the simplest, most reliable kit you'll likely deal with. Yes, you can get away with cheaper microphones if you sacrifice what I believe are essentials: good and consistent lighting, narrow field of field focused on your face and not your surroundings, quality microphone with close pickup pattern (cardioid) and live headphone monitoring, and a pair of studio monitors to learn proper microphone technique and avoid noise feedback loops.
 
 | Focus | Brand | Model | Price |
 | ----- | ----- | ----- |
-| Face | Elgato | Key Ligh Air | $180 US |
-| Face | Elgato | Facecam | $200 | 
-| Face | Logitech | Brio | $200 |
-| Voice | RODE | NT-USB | $170 |     
+| Face Lighting | Elgato | Key Ligh Air | $180 |
+| Face (option 1) | Elgato | Facecam | $200 | 
+| Face (option 2) | Logitech | Brio | $200 |
+| Voice (option 1) | RODE | NT-USB | $170 | 
+| Voice (option 2) | AudioTechnica | AT2005USB | $80 | 
+| Ears | Sony | MDR 7506 | $100 |      
+
+This list is by no means exhaustive, and yes it's very different than what I've recommended [in the past][1] because the world of remote gear is thankfully evolving at last. I'd warn you against integrated solutions (lighting, camera, microphone) but it's quite possible a company like Elgato might come out with a higher quality solution than their Facecam in the future, and finally offer remote works the high fidelity communication hardware we deserve.
 
 [1]: https://olivierlacan.com/posts/in-sight/
 [2]: https://olivierlacan.com/posts/loud-and-clear/#dynamic-cardioid-microphones
