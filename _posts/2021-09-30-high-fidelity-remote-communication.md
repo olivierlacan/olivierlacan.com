@@ -37,3 +37,12 @@ Compared to the camera sensors that are now commpon on mobile phones, wecams are
 This setup is never the one I recommend to fellow remoters, especially folks that aren’t deeply familiar with photography of videography. It’s cumbersome, complex, and requires constant fidgeting. Keeping the camera on, making sure the color temperature is fixed, the aperture wide enough to prevent frequent automatic focus hunting, and the battery replaced with a dummy powe adapter to prevent runtime issues. 
 
 Two long years into this pandemic, the only company that seems to have grasped the importance of a quality sensor and lens combo is Elgato, with their Facecam. Logitech has been on top of the webcam business for years, and their best offering is the Logitech Brio. A excellent camera sensor on a far too wide camera that befits YouTubers with carefully crafted backdrops far more than remote workers whose face should be the sole focus, not their environment. You *can* force the 4K Logitech Brio to crop most of the background it defaults to showing so you can display what truly matters — your face — but it takes some futzing with settings which should be unnecessary.
+
+To wrap up this piece, which I originally intended to be more actionable, allow me to give you a list of gear at a total budget of $600 (yes, that is a lot, and an opportunity):
+
+| Focus | Brand | Model | Price |
+| ----- | ----- | ----- |
+| Face | Elgato | Key Ligh Air | $180 US |
+| Face | Elgato | Facecam | $200 | 
+| Face | Logitech | Brio | $200 |
+| Voice | RODE | NT-USB | $170 |     
