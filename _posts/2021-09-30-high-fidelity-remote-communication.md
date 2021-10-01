@@ -21,7 +21,7 @@ centralized to crammed, loud, distracting, unhealthy open offices
 located in overly expensive areas. It also makes little sense for 
 knowledge workers who work on laptop to bring that laptop to a room 
 inside of a building they have to travel hours to and from every single 
-day. The road hazard risks alone are absurd. 
+day.
 
 Instead, more people and their bosses choose to work remotely. I don’t 
 use “Work From Home”  because it’s infused with butts-in-seats 
