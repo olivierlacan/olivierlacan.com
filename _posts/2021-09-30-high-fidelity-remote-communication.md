@@ -28,8 +28,8 @@ condescension perfected by corporate leaders. You’re not working, you’re
 They assume you'll be doing laundry, running errands, but not really 
 "working". It's a semantic trap. Absent is any recognition that work 
 is by nature remote when it happens on the Internet. Large companies 
-have renote offices. They rely on asynchronous communication *in some 
-way* to coordinate work across cities and countries.
+have effectively remote offices. They rely on asynchronous communication 
+*in some way* to coordinate work across cities and countries.
 
 The first thing inexperienced remote workers complained about when the 
 pandemic led to a sudden exodus from shared offices spaces all over the 
