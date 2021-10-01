@@ -190,7 +190,7 @@ deal with. Yes, you can get find cheaper microphones and cameras if you
 sacrifice what I believe are essential features: 
 
 - flicker-free consistent lighting (no headaches or artifacts) 
-- narrow field of view camera lenses trained on your face, not the room
+- narrow field of view lenses trained on your face, not the room
 - short pickup pattern (cardioid) microphones with live headphone monitoring
 - studio monitors headphones to hear yourself and avoid noise feedback loops
 
