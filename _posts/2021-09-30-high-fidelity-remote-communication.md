@@ -179,7 +179,7 @@ which should be unnecessary.
 
 To wrap up this piece, which I originally intended to be more 
 actionable, allow me to give you a list of gear I recently recommended 
-as an alternative to my unwieldy custom setup[^setup] and which requires 
+as an alternative to my unwieldy custom setup[^2] and which requires 
 a budget of roughly $600. Yes, that's a *lot* of money. It's roughly 
 double the typical "remote stipend" reluctantly relinquished by 
 companies to remote workers, while they happily purchase snacks, 
