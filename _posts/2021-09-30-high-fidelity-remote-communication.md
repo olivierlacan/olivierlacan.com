@@ -306,4 +306,4 @@ invisible[^1] employee anymore.
 [15]: https://www.audio-technica.com/en-us/at2005usb
 [16]: https://www.elgato.com/en/facecam
 [17]: /posts/loud-and-clear/#microphone-technique
-[18]: /pages/remote-setup
+[18]: /setup
