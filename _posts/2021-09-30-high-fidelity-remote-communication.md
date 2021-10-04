@@ -21,16 +21,15 @@ for knowledge workers who work on laptop to bring that laptop to a room
 inside of a building they have to travel hours to and from every single 
 day.
 
-Instead, more people and their bosses choose to work remotely. I don’t 
-use “Work From Home”  because it’s infused with butts-in-seats 
-condescension perfected by corporate leaders. You’re not working, you’re 
-“working from home”. Be grateful. We *let* you do that. It's a perk. 
-They assume you'll be doing laundry, running errands, but not really 
-"working". It's a semantic trap. Absent is any recognition that work 
-is by nature remote when it happens on the Internet. Large companies 
-already have *effectively* remote offices. They rely on asynchronous 
-communication *in some way* to coordinate work across cities and 
-countries. Remote work is a here, it's just not evenly distributed.
+Instead, more people and their bosses choose to work remotely. I avoid
+the tern “Work From Home”. It's infused with a particular
+butts-in-seats condescension perfected by corporate leaders. You’re not
+working, you’re working *from home*. Be grateful. We *let* you do that.
+Maybe you're doing laundry, running errands, but not really "working".
+It pretends that work isn't already remote by nature when it happens on
+the Internet. Large companies *effectively* have remote offices, 
+coordinating work across cities and countries. Remote work is here,
+it's just not evenly distributed.
 
 The first thing inexperienced remote workers complained about when the 
 pandemic led to a sudden exodus from shared offices spaces all over the 
