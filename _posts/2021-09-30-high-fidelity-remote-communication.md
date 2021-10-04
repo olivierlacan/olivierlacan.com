@@ -46,6 +46,12 @@ to communicate before.
 
 ## Remote Shell Shock
 
+{% include image.html
+name="remote-code-school-standup.jpg"
+alt="Picture of more than twenty people crowded together in the back of an office near an iMac sporting a tiny webcam in the foreground." 
+caption="A whole-company standup meeting at Code School's office back in December 2013, featuring in the foreground what would soon become my unfortunate eyes and ears." 
+%}
+
 I was the first fully remote worker at my job back in 2013. It happened 
 very suddenly. One month I was happily driving 3 days a week to our 
 Orlando office, the next I plan a move back home to France, and set up 
@@ -90,6 +96,12 @@ instead.
 
 ## Remote Presence Circa 2014
 
+{% include image.html
+name="remote-podcasting-setup.jpg"
+alt="Profile picture of the author using Sony MDR 7506 monitor headphones and the Shure SM7B dynamic microphone." 
+caption="Sure it looks and sounds great, but this gear is far to complex and expensive for most." 
+%}
+
 This is where we get to the meat of it all: high fidelity. By definition 
 being *remote* means not being *there*. Presence has a way to make some 
 things happen. A simple look can trigger a strong reaction and a sense 
@@ -112,6 +124,12 @@ up the notoriously low default output of the Shure microphone.
 
 ## Sensors Aren't Eyes and Ears 
 
+{% include image.html
+name="remote-microphone-waveforms-compared.jpg"
+alt="Comparing the audio waveforms of three different microphones: the 2019 16-inch MacBook Pro, the Logitech Brio webcam, and the Shure SM7B." 
+caption="The flatter the audio output of a microphone, the more compressed and less lifelike you will sound." 
+%}
+
 It was… a mess. I didn’t know how to set up the audio interface. 
 Although this was a fairly simple one. I held out on purchasing a good 
 set of studio headphones (like the Sony MDR-7506) because I thought 
@@ -130,7 +148,44 @@ when you wear them, not your own. Especially in noise cancellation mode.
 You naturally have an awareness of your own voice level in a room full 
 of humans. A microphne has no such awareness. 
 
+Here are examples of three radically different microphones recording 
+the exact same input albeit at different distances from my voice:
+
+<figure class="audio">
+    <figcaption>2019 16-inch MacBook Pro (60 cm from face)</figcaption>
+    <audio
+        controls
+        src="{{ site.url }}/assets/2019-16-inch-macbook-pro.mp3">
+    </audio>
+</figure>
+
+<figure class="audio">
+    <figcaption>Logitech Brio webcam (50 cm from face)</figcaption>
+    <audio
+        controls
+        src="{{ site.url }}/assets/logitech-brio.mp3">
+    </audio>
+</figure>
+
+<figure class="audio">
+    <figcaption>Shure SM7B (10 cm from face)</figcaption>
+    <audio
+        controls
+        src="{{ site.url }}/assets/shure-sm7b.mp3">
+    </audio>
+</figure>
+
+I think these demonstrate how much more **present** you can sound with 
+a better microphone. I talk in a bit more detail about this and 
+microphone technique [in a previous post][17].
+
 ## Face Time
+
+{% include image.html
+name="remote-code-school-platform-standup.jpg"
+alt="Screenshot of a fully-remote standup with three people each on their own webcams." 
+caption="A Code School Platform team standup from December 2017, finally fully remote." 
+%}
 
 Now let’s talk about your face. Apple did something quite meaningful 
 with FaceTime. They put the onus on precisely what makes you miss your 
@@ -193,7 +248,7 @@ sacrifice what I believe are essential features:
 - flicker-free consistent lighting (no headaches or artifacts) 
 - narrow field of view lenses trained on your face, not the room
 - narrow pickup microphones with live headphone monitoring
-- monitoring headphones to hear yourself and avoid noise feedback loops
+- headphones to hear yourself and avoid noise feedback loops
 
 | Focus            | Brand         | Model             | Price |
 | ---------------- | ------------- | ----------------- | ----- |
@@ -218,38 +273,24 @@ before the pandemic. While your three-dimensional presence will never
 be replaceable, it's possible for two-way communication to have an 
 unprecendented amount of subtlety.
 
-I'll leave you with this annecdote. I've had a much more *intricate 
-setup*[^2] than the one I recommend here since February 2020 since I was
-preparing to author a video course for my Pluralsight and wanted to 
-offer students the best possible learning experience. In countless 
-meetings, many involving leaders far above my paygrade, I can no longer 
-count the number of times someone who matters noticed my facial 
-expressions and asked me to share my thoughts.
+## Remote Presence 
+
+I've had a much more [intricate setup][18] than the one I recommend
+above since February 2020. I was preparing to author a video course for
+Pluralsight and wanted to offer students the best possible learning
+experience. In countless meetings since, often involving leaders far
+above my paygrade, it's impossible to count the number of times someone
+who matters noticed my facial expressions and asked me to share my
+thoughts, or reached out to me in DMs afterwards to learn about my setup.
 
 That kind of visibility is clearly not comfortable for everyone, but 
 I think it's hard to argue that remoteness means you will become an 
 invisible[^1] employee anymore. 
 
-
 [^1]: That does require turning on your camera, even in meetings where you don't  expect to say anything. I know there's a big debate about this that is far more complex than the issue of visibility. I don't mean to diminish this. None of this post is meant to argue that it's the personal responsibility of everyone to always have high quality cameras turned on when communicating remotely, far from it. I believe it's the responsibility of employers to deploy the same kind of budgets they deploy to offer basic communication capabilities via in-office IT, and the role of folks like me to advocate to these IT professionals and their leaders, as I have at Pluralsight. 
-
-[^2]: I strongly recommend against going this route for 99% of people but here is my setup for the nerdiest among you, I [recorded a demo][11] when I first set it up although some of the setup has changed since and I'll likely update this post with a more succinct video soon: 
-    - [Elgato Key Light Air][9]
-      - one key light at a 25 degree angle to the right of my face
-      - one fill light pointed at the background or left side of my face
-    - [Sony A6000 mirrorless camera][8] with: 
-      - battery power adapter
-      - [Sony 50mm F1.8 OSS Portrait Lens][6]
-      - [Elgato Cam Link 4K][7] (set to 1080p 60 fps) 
-      - articulated wall-mounted boom arm
-      - when reading pre-written slides for screencasts I also use a rudimentary teleprompter called a Padcaster that reflects the screen of my iPhone in front of the lens of the camera allowing me to make eye contact with the viewer
-    - [Shure SM7B][10] XLR dynamic microphone with:
-      - a [Motu M2][4] XLR to USB interface with live digital level monitoring
-      - a [Cloudlifter CL-1][3] inline amplifier for a "clean" 25 dB boost
-      - a [RODE PSA1][5] articulated boom arm which allows me to constantly adjust the microphone to the idea position 
  
-[1]: https://olivierlacan.com/posts/in-sight/
-[2]: https://olivierlacan.com/posts/loud-and-clear/#dynamic-cardioid-microphones
+[1]: /posts/in-sight/
+[2]: /posts/loud-and-clear/#dynamic-cardioid-microphones
 [3]: https://www.cloudmicrophones.com/cloudlifter-cl-1
 [4]: https://motu.com/en-us/products/m-series/m2/
 [5]: https://www.rode.com/accessories/stands/psa1
@@ -264,3 +305,5 @@ invisible[^1] employee anymore.
 [14]: https://www.logitech.com/en-us/products/webcams/brio-4k-hdr-webcam.html
 [15]: https://www.audio-technica.com/en-us/at2005usb
 [16]: https://www.elgato.com/en/facecam
+[17]: /posts/loud-and-clear/#microphone-technique
+[18]: /pages/remote-setup
