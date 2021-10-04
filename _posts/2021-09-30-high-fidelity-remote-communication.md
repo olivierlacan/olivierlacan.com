@@ -51,14 +51,14 @@ alt="Picture of more than twenty people crowded together in the back of an offic
 caption="A whole-company standup meeting at Code School's office back in December 2013, featuring in the foreground what would soon become my unfortunate eyes and ears." 
 %}
 
-I was the first fully remote worker at my job back in 2013. It happened 
-very suddenly. One month I was happily driving 3 days a week to our 
-Orlando office, the next I plan a move back home to France, and set up 
-shop as an independent contractor at my old 30 square meters studio in 
-Paris. I became the only full-time remote collaborator. Six timezones 
-away. Thomas Meeks, my manager at the time, told me: be loud about any 
-friction you encounter, we want to make this work and you’re going to be 
-the canary in the coal mine. 
+I was one of the first fully remote worker at my job back in 2013. It
+happened very suddenly. One month I was happily driving 3 days a week
+to our Orlando office, the next I plan a move back home to France, and
+set up shop as an independent contractor at my old 30 square meters
+studio in Paris. I became the only full-time remote collaborator. Six
+timezones away. Thomas Meeks, my manager at the time, told me: be loud
+about any friction you encounter, we want to make this work and you’re
+going to be the canary in the coal mine. 
 
 ## Inadequate Meeting Habits
 
