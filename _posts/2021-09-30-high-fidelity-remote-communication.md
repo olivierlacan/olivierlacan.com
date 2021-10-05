@@ -62,22 +62,18 @@ going to be the canary in the coal mine.
 
 ## Inadequate Meeting Habits
 
-So I was. I quickly realized that our stand-up meetings where awful 
-remotely. A dozen people standing in a circle in a large echoing open 
-space, talking in turn about what they’re working on. That doesn’t quite 
-work with a distant iMac camera and a single underpowered 
-omnidirectional microphone. Folks eventually volunteered to pass a 
-laptop around so I could hear them give their update, or at least point 
-the camera in the general direction of the speaker. This was 2014. Yes, 
-it was absurd. These intelligent people were working on discrete laptops 
-all day but somehow crowded around a single one to give each other 
-updates. The obvious-in-hindsight realization was that our team standup 
-included way too many people. It was easy to dismiss this problem in 
-person. Eventually, we reduced the size of standups to people who 
-absolutely needed to hear updates from each other, and after what feels 
-like far too many years those standups became video calls were each 
-person connected on their own machine so they could be heard and seen 
-whether they were in-office or remote.  
+I quickly realized our stand-up meetings where quite awful remotely. A
+dozen people standing in a circle in a large open space, talking in
+turn about what they’re working on, doesn’t quite work. Especially with
+distant webcam and a weak microphone. Soon, folks volunteered to pass a
+laptop around so I could hear better. We worked on our own laptops all
+day long but somehow crowded around one to give each other updates.
+It's obvious in hindsight that too many people were involved, but it
+was easy to overlook the issue in person. We soon reduced the size of
+teams which needed to share frequent updates. I partially credit remote
+communication for accelerating this realization. Standups later became
+video calls were each person used their own machine, making everyone as
+visible and audible, wherever they worked.  
 
 ## Communication Bandwidth Modulation
 
@@ -224,13 +220,13 @@ to crop most of the background it defaults to showing so you can display
 what truly matters — your face — but it takes some futzing with settings 
 which should be unnecessary.
 
-To wrap up this piece, which I originally intended to be more 
-actionable, allow me to give you a list of gear I recently recommended 
-as an alternative to my unwieldy custom setup[^2] and which requires 
-a budget of roughly $600. Yes, that's a *lot* of money. It's roughly 
-double the typical "remote stipend" reluctantly relinquished by 
-companies to remote workers, while they happily purchase snacks, 
-ergonomic office chairs, networking equipment, and so much more. 
+I originally intended this post to be more actionable, so allow me to
+give you a list of gear I recently recommended as an alternative to my
+unwieldy custom setup[^2] and which requires a budget of roughly $600.
+Yes, that's a *lot* of money. It's roughly double the typical "remote
+stipend" reluctantly relinquished by companies to remote workers, while
+they happily purchase snacks, ergonomic office chairs, networking
+equipment, and so much more. 
 
 This kit is one of the simplest to use and most reliable you'll likely 
 deal with. Yes, you can get find cheaper microphones and cameras if you 
