@@ -174,6 +174,21 @@ dreadful microphone.
     </audio>
 </figure>
 
+<figure class="audio">
+    <figcaption>Apple iPhone 12 Mini (close to your face)</figcaption>
+    <audio
+        controls
+        src="{{ site.url }}/assets/apple-iphone-12-mini.mp3">
+    </audio>
+</figure>
+
+<figure class="audio">
+    <figcaption>Apple 2019 iPad Pro (30 cm from your face)</figcaption>
+    <audio
+        controls
+        src="{{ site.url }}/assets/apple-2019-ipad-pro.mp3">
+    </audio>
+</figure>
 
 I think these demonstrate how much more **present** you can sound with 
 a better microphone. I talk in a bit more detail about this and 
