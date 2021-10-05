@@ -210,7 +210,7 @@ Compared to the camera sensors that are now commpon on mobile phones,
 webcams are terrible. My friend Justin Searls found a way to use his 
 iPhone as a webcam. This seems obvious. It’s far more practical than the 
 solution I arrived at before the pandemic: using a Sony A6000 mirrorless 
-camera with an expensive 35mm lens and an Elgato Cam Link 4K acquisition 
+camera with an expensive 50mm lens and an Elgato Cam Link 4K acquisition 
 card so I can use a sensor and lens combo no webcam maker can compete 
 with. 
 

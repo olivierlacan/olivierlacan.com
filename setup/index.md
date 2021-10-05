@@ -1,12 +1,17 @@
 ---
 layout: page
-title: My Remote Setup
+title: My Audio & Video Remote Setup
 image: remote-desk.jpg
 ---
 
 Version 1.0 (October 2021)
 
-I strongly recommend against going this route for 99% of people but here is my setup for the nerdiest among you, I [recorded a demo][11] when I first set it up although some of the setup has changed since and I'll likely update this with a more succinct video soon.
+I strongly recommend against going this route for 99% of people but here
+is my setup for the nerdiest among you, I recorded a demo when I
+first set it up although some of the setup has changed since and I'll
+likely update this with a more succinct video soon.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vTbxW12-QMc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Lights
 
