@@ -164,7 +164,7 @@ input albeit at different distances from my voice:
 
 As a bonus, here's are some popular Apple mobile devices frequently used 
 to send audio and video but don't fare particularly well even when 
-directly on device with the Voice Memos app.
+recording directly on-device with the Voice Memos app.
 
 <figure class="audio">
     <figcaption>Apple Airpod Max (on your face)</figcaption>
