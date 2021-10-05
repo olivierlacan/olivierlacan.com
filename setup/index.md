@@ -4,14 +4,18 @@ title: My Audio & Video Remote Setup
 image: remote-desk.jpg
 ---
 
-Version 1.0 (October 2021)
+Version 4.0 (October 2021)
+
+{% include image.html
+name="remote-setup.jpg"
+alt="Panoramic photograph of my entire desk setup including lights, monitor, microphone and boom arm and a ridiculous array of custom and commercial webcams." 
+caption="Yes that's too many webcams and far too much money spent on gear. I know..." 
+%}
 
 I strongly recommend against going this route for 99% of people but here
 is my setup for the nerdiest among you, I recorded a demo when I
 first set it up although some of the setup has changed since and I'll
 likely update this with a more succinct video soon.
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vTbxW12-QMc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Lights
 
@@ -44,3 +48,39 @@ likely update this with a more succinct video soon.
 [9]: https://www.elgato.com/en/key-light-air
 [10]: https://www.shure.com/en-US/products/microphones/sm7b
 [11]: https://www.youtube.com/watch?v=vTbxW12-QMc
+
+### Changelog
+
+This is only the latest iteration, all [notable changes][kac] are documented
+below.
+
+#### 4.0 - 2020
+
+- Camera: Sony A6000 with 50mm f/1.8 OSS lens
+- Adapter: Elgato Cam Link 4K
+- Lights: Elgato Key Light Air (x2)
+- Microphone: Shure SM7B
+- Audio Interface: Motu M1
+- Amplifier: Cloudlifter CL-1
+
+#### 3.0 - 2019
+
+- Camera: Razer Kyio (with integrated ring light)
+- Microphone: Shure SM7B
+- Audio Interface: Scarlett 2i2
+- Amplifier: Cloudlifter CL-1
+
+#### 2.0 - 2014
+
+- Camera: Logitech C920
+- Microphone: Shure SM7B
+- Audio Interface: Scarlett 2i2
+- Amplifier: cheap pre-amp with analog dial
+
+#### 1.0 - 2013
+
+- Camera: Logitech C920
+- Microphone: Samson CL8 
+- Audio Interface: Scarlett 2i2
+
+[kac]: https://keepachangelog.com/
