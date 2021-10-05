@@ -162,6 +162,19 @@ input albeit at different distances from my voice:
     </audio>
 </figure>
 
+As a bonus, here's the newly popular Apple Airpod Max, which sound great
+listening to music and other people, but actually ship with a fairly 
+dreadful microphone.
+
+<figure class="audio">
+    <figcaption>Apple Airpod Max (on your face)</figcaption>
+    <audio
+        controls
+        src="{{ site.url }}/assets/apple-airpod-max.mp3">
+    </audio>
+</figure>
+
+
 I think these demonstrate how much more **present** you can sound with 
 a better microphone. I talk in a bit more detail about this and 
 microphone technique [in a previous post][17].
@@ -209,21 +222,20 @@ on, making sure the color temperature is fixed, the aperture wide enough
 to prevent frequent automatic focus hunting, and the battery replaced 
 with a dummy powe adapter to prevent runtime issues. 
 
-Two long years into this pandemic, the only company that seems to have 
-grasped the importance of a quality sensor and lens combo is Elgato, 
-with their Facecam. Logitech has been on top of the webcam business for 
-years, and their best offering is the Logitech Brio. A excellent camera 
-sensor on a far too wide camera that befits YouTubers with carefully 
-crafted backdrops far more than remote workers whose face should be the 
-sole focus, not their environment. You *can* force the 4K Logitech Brio 
-to crop most of the background it defaults to showing so you can display 
-what truly matters — your face — but it takes some futzing with settings 
-which should be unnecessary.
+Two long years into this pandemic, the only company that seems to have
+grasped the importance of a quality sensor and lens combo is Elgato,
+with their (mic-less) Facecam. Logitech has been on top of the webcam
+business for years, and their best offering is the Logitech Brio. A
+decent camera sensor attached to a overly wide lens better suited for
+YouTubers than remote workers whose face should be the sole focus, not
+their fancy backdrops. You *can* force the 4K Logitech Brio to crop most of
+the background it defaults to showing so you can display what truly
+matters — your face — but it takes some futzing with settings which
+should be unnecessary.
 
-I originally intended this post to be more actionable, so allow me to
-give you a list of gear I recently recommended as an alternative to my
-unwieldy custom setup[^2] and which requires a budget of roughly $600.
-Yes, that's a *lot* of money. It's roughly double the typical "remote
+Here's a list of gear I recently recommended as an alternative to my own
+unwieldy custom setup. Thist list has a budget of roughly $600. Yes,
+that's a *lot* of money. It's roughly double the typical "remote
 stipend" reluctantly relinquished by companies to remote workers, while
 they happily purchase snacks, ergonomic office chairs, networking
 equipment, and so much more. 
@@ -237,14 +249,14 @@ sacrifice what I believe are essential features:
 - narrow pickup microphones with live headphone monitoring
 - headphones to hear yourself and avoid noise feedback loops
 
-| Focus            | Brand         | Model             | Price |
-| ---------------- | ------------- | ----------------- | ----- |
+| Focus            | Brand         | Model              | Price |
+| ---------------- | ------------- | ------------------ | ----- |
 | Lighting         | Elgato        | [Key Light Air][9] | $180  |
-| Face — Option 1  | Elgato        | [Facecam][16]     | $200  | 
-| Face — Option 2  | Logitech      | [Brio][15]        | $200  |
-| Voice — Option 2 | AudioTechnica | [AT2005USB][14]   | $80   | 
-| Voice — Option 1 | RODE          | [NT-USB][13]      | $170  | 
-| Ears             | Sony          | [MDR 7506][12]    | $100  |      
+| Face — Option 1  | Elgato        | [Facecam][16]      | $200  | 
+| Face — Option 2  | Logitech      | [Brio][15]         | $200  |
+| Voice — Option 2 | AudioTechnica | [AT2005USB][14]    | $80   | 
+| Voice — Option 1 | RODE          | [NT-USB][13]       | $170  | 
+| Ears             | Sony          | [MDR 7506][12]     | $100  |      
 
 This list is by no means exhaustive, and yes it's very different than 
 what I've recommended [in the past][1] because the world of remote gear 
