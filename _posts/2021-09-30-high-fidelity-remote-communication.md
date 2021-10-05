@@ -101,25 +101,18 @@ alt="Profile picture of the author using Sony MDR 7506 monitor headphones and th
 caption="Sure it looks and sounds great, but this gear is far to complex and expensive for most." 
 %}
 
-This is where we get to the meat of it all: high fidelity. By definition 
-being *remote* means not being *there*. Presence has a way to make some 
-things happen. A simple look can trigger a strong reaction and a sense 
-of shared understanding. The slightest change in intonation communicates 
-doubt or excitement better than a paragraph (or five) ever could. I was 
-lucky to have participated in a weekly podcast called Ruby5 at work. I 
-learned some of the intricacies of audio engineering and production. As 
-an avid amateur photographer, I had a keen sense of how digital sensors 
-handle lighting conditions and how those affect the representation of 
-the human face. So cameras are nothing without proper direct lighting on 
-the subject, and backlighting (light sources pointing at the camera 
-itself) must be [avoided at all costs][1]. While in Paris, I purchased a 
-Logitech C920 720p (1280 by 720 pixels) webcam. Because I had done some 
-research on dynamic microphones (as opposed to the condenser microphones 
-we used to record the podcast) I bit the bullet and bought — at my own 
-expense — an absurdly expensive [Shure SM7B microphone][2], a Scarlett 
-2i2 XLR to USB interface (to convert the analog signal to USB) and a 
-cheap pre-amplifier with a very visible input volume level dial to punch 
-up the notoriously low default output of the Shure microphone. 
+By definition being *remote* means not being *there*. But *feeling
+present* goes a long way. A simple look can trigger a strong reaction
+and a sense of shared understanding. A slight change in intonation can
+convey doubt or excitement better than a paragraph. Cameras can't 
+magically make your expressions visible when light isn't bouncing off 
+your face. Backlighting is a very [common mistake][1]. 
+
+Back in Paris, I purchased my first Logitech C920 720p webcam. Since I
+was co-hosting a podcast at the time, I'd done some research on
+microphones and bought — at my own expense — an absurdly expensive
+[Shure SM7B microphone][2], a Scarlett 2i2 XLR to USB interface
+(to convert the analog signal to USB) and a cheap pre-amplifier.
 
 ## Sensors Aren't Eyes and Ears 
 
@@ -129,26 +122,25 @@ alt="Comparing the audio waveforms of three different microphones: the 2019 16-i
 caption="The flatter the audio output of a microphone, the more compressed and less lifelike you will sound." 
 %}
 
-It was… a mess. I didn’t know how to set up the audio interface. 
-Although this was a fairly simple one. I held out on purchasing a good 
-set of studio headphones (like the Sony MDR-7506) because I thought 
-(wrongly) that I could have a sense for my own voice’s volume. A 
-microphone, like a camera, doesn’t have a human’s perspective on what 
-*loud* means. It will happily blast your co-worker’s ears off or sound 
-like you’re a kilometer away. It’s not until someone from your team 
-complains that you’ll notice your voice was near impossible to hear, 
-something you never have to worry about when physically present. Until 
-you can afford a fancy microphone or an amplifier with a live level 
-monitor, I strongly recommend you wear monitor headphones when you talk 
-into a microphone. All the pros do it for a reason, they don't trust the 
-microphone to portrait their voice as intended. And no, your AirPods 
-don’t count as proper monitors because you can only hear other voices 
-when you wear them, not your own. Especially in noise cancellation mode. 
-You naturally have an awareness of your own voice level in a room full 
-of humans. A microphne has no such awareness. 
+It was... challenging. Although it was a fairly simplified one, I didn’t
+know how to set up the audio interface. I mistakenly held out on
+purchasing a good set of studio headphones thinking I had a sense of my
+own voice’s volume. But a microphone, like a camera, doesn’t have a
+human perspective on what *loud* means. It will blast your co-worker’s
+ears off or sound like you’re far away. If you're lucky someone will
+complain that you're heard to understand. Most won't people won't
+bother. Don't ever bother using a microphone with live feedback without 
+monitoring headphones. Professionals always do it for a reason. 
 
-Here are examples of three radically different microphones recording 
-the exact same input albeit at different distances from my voice:
+Your typical headphone microphones don’t count. You'll only hear other
+people's voices when you wear them, not your own. This is even worse 
+with noise cancellation, which gives you less awareness of your own 
+voice's volume. Even if *your* voice is a the appropriate level in your 
+environment, you'd be surprised how differently you sound depending on 
+what microphone you're using and how far away it is from your face.
+
+Here are three radically different microphones recording the exact same
+input albeit at different distances from my voice:
 
 <figure class="audio">
     <figcaption>2019 16-inch MacBook Pro (60 cm from face)</figcaption>
@@ -288,7 +280,7 @@ invisible[^1] employee anymore.
 
 [^1]: That does require turning on your camera, even in meetings where you don't  expect to say anything. I know there's a big debate about this that is far more complex than the issue of visibility. I don't mean to diminish this. None of this post is meant to argue that it's the personal responsibility of everyone to always have high quality cameras turned on when communicating remotely, far from it. I believe it's the responsibility of employers to deploy the same kind of budgets they deploy to offer basic communication capabilities via in-office IT, and the role of folks like me to advocate to these IT professionals and their leaders, as I have at Pluralsight. 
  
-[1]: /posts/in-sight/
+[1]: /posts/in-sight/#point-the-light-toward-you
 [2]: /posts/loud-and-clear/#dynamic-cardioid-microphones
 [3]: https://www.cloudmicrophones.com/cloudlifter-cl-1
 [4]: https://motu.com/en-us/products/m-series/m2/
