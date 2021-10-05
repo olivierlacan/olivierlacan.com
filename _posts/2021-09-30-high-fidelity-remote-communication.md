@@ -162,9 +162,9 @@ input albeit at different distances from my voice:
     </audio>
 </figure>
 
-As a bonus, here's the newly popular Apple Airpod Max, which sound great
-listening to music and other people, but actually ship with a fairly 
-dreadful microphone.
+As a bonus, here's are some popular Apple mobile devices frequently used 
+to send audio and video but don't fare particularly well even when 
+directly on device with the Voice Memos app.
 
 <figure class="audio">
     <figcaption>Apple Airpod Max (on your face)</figcaption>
