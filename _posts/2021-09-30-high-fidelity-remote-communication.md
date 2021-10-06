@@ -162,9 +162,20 @@ input albeit at different distances from my voice:
     </audio>
 </figure>
 
+Here's a different a slightly longer demo of the RODE NT-USB microphone
+where I tried to demonstrated the usefulness of an articulated boom arm: 
+
+<figure class="audio">
+    <figcaption>RODE NT-USB (10 cm from face)</figcaption>
+    <audio
+        controls
+        src="{{ site.url }}/assets/rode-nt-usb.mp3">
+    </audio>
+</figure>
+
 As a bonus, here's are some popular Apple mobile devices frequently used 
 to send audio and video but don't fare particularly well even when 
-recording directly on-device with the Voice Memos app.
+recording directly on-device with the Voice Memos app:
 
 <figure class="audio">
     <figcaption>Apple Airpod Max (on your face)</figcaption>
@@ -249,29 +260,33 @@ matters — your face — but it takes some futzing with settings which
 should be unnecessary.
 
 Here's a list of gear I recently recommended as an alternative to my own
-unwieldy custom setup. Thist list has a budget of roughly $600. Yes,
-that's a *lot* of money. It's roughly double the typical "remote
-stipend" reluctantly relinquished by companies to remote workers, while
-they happily purchase snacks, ergonomic office chairs, networking
-equipment, and so much more. 
+unwieldy custom setup. The minimum budget is more than double the
+common "remote stipend" reluctantly relinquished by most companies,
+while they happily purchase snacks, ergonomic chairs, networking
+equipment, as well as the typical utility and office leasing costs
+required for in-office workers. 
 
 This kit is one of the simplest to use and most reliable you'll likely 
 deal with. Yes, you can get find cheaper microphones and cameras if you 
 sacrifice what I believe are essential features: 
 
 - flicker-free consistent lighting (no headaches or artifacts) 
-- narrow field of view lenses trained on your face, not the room
+- croppable video output that focuses on your face, not the room
 - narrow pickup microphones with live headphone monitoring
 - headphones to hear yourself and avoid noise feedback loops
 
-| Focus            | Brand         | Model              | Price |
-| ---------------- | ------------- | ------------------ | ----- |
-| Lighting         | Elgato        | [Key Light Air][9] | $180  |
-| Face — Option 1  | Elgato        | [Facecam][16]      | $200  | 
-| Face — Option 2  | Logitech      | [Brio][15]         | $200  |
-| Voice — Option 2 | AudioTechnica | [AT2005USB][14]    | $80   | 
-| Voice — Option 1 | RODE          | [NT-USB][13]       | $170  | 
-| Ears             | Sony          | [MDR 7506][12]     | $100  |      
+| Focus             | Brand         | Model              | Price   |
+| ----------------- | ------------- | ------------------ | ------- |
+| Lighting          | Elgato        | [Key Light Air][9] | $180    |
+| Face — Option 1   | Logitech      | [Brio][15]         | $200    |
+| Face — Option 2   | Elgato        | [Facecam][16]      | $200    | 
+| Voice — Option 1  | RODE          | [NT-USB][13]       | $170    | 
+| Voice — Option 2  | AudioTechnica | [AT2005USB][14]    | $80     | 
+| Mic Distance      | RODE          | [PSA1][5]          | $100    |      
+| Ears              | Sony          | [MDR 7506][12]     | $100    |
+| ----------------- | ------------- | ------------------ | -----   |
+| **Minimum Total** |               |                    | **$750**|
+
 
 This list is by no means exhaustive, and yes it's very different than 
 what I've recommended [in the past][1] because the world of remote gear 
@@ -297,11 +312,23 @@ above my paygrade, it's impossible to count the number of times someone
 who matters noticed my facial expressions and asked me to share my
 thoughts, or reached out to me in DMs afterwards to learn about my setup.
 
-That kind of visibility is clearly not comfortable for everyone, but 
-I think it's hard to argue that remoteness means you will become an 
-invisible[^1] employee anymore. 
+An easily overlooked issue when discussing putting your face on camera
+is that some folks may not be comfortable or even willing to be seen
+inside their remote working location (home or otherwise). Especially in
+larger meetings where they don't expect to intervene. I don't think
+it's anyone's duty to always have a high quality camera always on. That
+kind of visibility is clearly not comfortable for everyone but I think 
+within reason — when not using chat or asynchronous messaging — it's 
+extremely valuable for all parties.
 
-[^1]: That does require turning on your camera, even in meetings where you don't  expect to say anything. I know there's a big debate about this that is far more complex than the issue of visibility. I don't mean to diminish this. None of this post is meant to argue that it's the personal responsibility of everyone to always have high quality cameras turned on when communicating remotely, far from it. I believe it's the responsibility of employers to deploy the same kind of budgets they deploy to offer basic communication capabilities via in-office IT, and the role of folks like me to advocate to these IT professionals and their leaders, as I have at Pluralsight. 
+It's the responsibility of employers to deploy the kind of budgets
+already allocated toward in-office communication to remote work
+equipment. It's also the role of folks like me (and you) to help
+educate IT departments and business leaders on hardware solutions that
+already exist today. 
+
+It has become quite absurd to argue that remoteness has to mean becoming
+a less visible and valued contributor to your organization. 
  
 [1]: /posts/in-sight/#point-the-light-toward-you
 [2]: /posts/loud-and-clear/#dynamic-cardioid-microphones
