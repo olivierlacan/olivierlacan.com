@@ -6,34 +6,42 @@ location: "Montréal, Québec, Canada"
 categories: development
 summary: Remote work requires high fidelity communication and it's still not easy to achieve.
 draft: true
-image: remote-desk.jpg
+image: remote-a6000-setup.jpg
 ---
 
-{% include image.html
-name="remote-desk.jpg"
-alt="Photograph of my absurdly over-engineered remote worker desk." %}
+{% include video.html
+name="remote-720p-loop.mp4"
+poster="remote-720p-loop.jpg"
+alt="Looping 720p video of my weird face pretending to react at things you say to me on a Zoom call." 
+autoplay=true
+loop=true
+controls=false
+muted=true
+class="zoot"
+%}
 
-This pandemic isn’t over. Before it even started, remote work was on the 
-rise around the world. Why? Because it makes sense. Knowledge work 
-doesn’t need to depend on crammed, loud, distracting, unhealthy open 
-offices located in overly expensive areas. It also makes little sense 
-for knowledge workers who work on laptop to bring that laptop to a room 
-inside of a building they have to travel hours to and from every single 
-day.
+Before the pandemic even started, remote work was already on the rise
+around the world because *it makes sense*. Knowledge work doesn’t need
+to depend on crammed, loud, and unhealthy open offices located in
+expensive areas devoid of affordable housing. Bringing a laptop to
+a room inside of a building you spend hours to travel to every day is 
+the definition of absurdity.
 
-Instead, more people and their bosses choose to work remotely. I avoid
-the tern “Work From Home”. It's infused with a particular
-butts-in-seats condescension perfected by corporate leaders. You’re not
-working, you’re working *from home*. Be grateful. We *let* you do that.
-Maybe you're doing laundry, running errands, but not really "working".
-It pretends that work isn't already remote by nature when it happens on
-the Internet. Large companies *effectively* have remote offices, 
-coordinating work across cities and countries. Remote work is here,
-it's just not evenly distributed.
+Instead working remotely has become almost normal, except to corporate
+leaders who prefer portraying it as "working from home" as if you need
+to be grateful for the (temporary) perk. This patronizing
+butts-in-seats mentality assumes that you're not, you’re working *from
+home*. Perhaps you're really doing laundry or running errands, but not
+actually "working". This ignores the fact that work is already remote
+by nature when it happens on the Internet. Large organizations 
+*effectively* have remote offices. They coordinate work across cities 
+and countries. Remote work is here, it's just not evenly distributed.
 
-The first thing inexperienced remote workers complained about when the 
-pandemic led to a sudden exodus from shared offices spaces all over the 
-world in the spring of 2020: it’s hard to communicate remotely. 
+## Remote Shell Shock
+
+One of the first complaints from first-time remote workers in the spring
+of 2020 when the pandemic led to an abrupt exodus from shared offices
+all over the world: it’s hard to communicate remotely. 
 
 No shit.
 
@@ -43,26 +51,23 @@ conference rooms, often in blatant violation of fire codes. It’s only
 now more obvious to everyone how difficult it was for the remote workers 
 to communicate before. 
 
-## Remote Shell Shock
-
 {% include image.html
 name="remote-code-school-standup.jpg"
 alt="Picture of more than twenty people crowded together in the back of an office near an iMac sporting a tiny webcam in the foreground." 
-caption="A whole-company standup meeting at Code School's office back in December 2013, featuring in the foreground what would soon become my unfortunate eyes and ears." 
+caption="A whole-company standup meeting at Code School's office back in December 2013, featuring in the bottom right what would soon become my eyes and ears." 
 %}
 
-I was one of the first fully remote worker at my job back in 2013. It
-happened very suddenly. One month I was happily driving 3 days a week
-to our Orlando office, the next I plan a move back home to France, and
-set up shop as an independent contractor at my old 30 square meters
-studio in Paris. I became the only full-time remote collaborator. Six
-timezones away. Thomas Meeks, my manager at the time, told me: be loud
+I was one of the first fully remote workers at my job back in 2013. One
+month I was happily commuting at least three days a week to our Orlando
+office, the next I was planning a move back to France. I set up shop as
+an independent contractor in my 30 square meters (330 sq ft) studio in
+Paris, six timezones away. My manager at the time was clear: be loud
 about any friction you encounter, we want to make this work and you’re
 going to be the canary in the coal mine. 
 
-## Inadequate Meeting Habits
+## Bad Meeting Habits
 
-I quickly realized our stand-up meetings where quite awful remotely. A
+Quickly, I realized our stand-up meetings where quite awful remotely. A
 dozen people standing in a circle in a large open space, talking in
 turn about what they’re working on, doesn’t quite work. Especially with
 distant webcam and a weak microphone. Soon, folks volunteered to pass a
@@ -74,8 +79,6 @@ teams which needed to share frequent updates. I partially credit remote
 communication for accelerating this realization. Standups later became
 video calls were each person used their own machine, making everyone as
 visible and audible, wherever they worked.  
-
-## Communication Bandwidth Modulation
 
 It’s hard to say that I thrived working 7253 kilometers away from my 
 co-workers, but somehow, I managed. I enacted a personal policy that has 
@@ -89,44 +92,49 @@ That's because there are always missing steps, and you never identify
 them when you’re writing them down. You waste other people's time 
 instead.
 
-## Remote Presence Circa 2014
+## The Before Times
 
 {% include image.html
 name="remote-podcasting-setup.jpg"
 alt="Profile picture of the author using Sony MDR 7506 monitor headphones and the Shure SM7B dynamic microphone." 
-caption="Sure it looks and sounds great, but this gear is far to complex and expensive for most." 
 %}
 
 By definition being *remote* means not being *there*. But *feeling
 present* goes a long way. A simple look can trigger a strong reaction
 and a sense of shared understanding. A slight change in intonation can
-convey doubt or excitement better than a paragraph. Cameras can't 
-magically make your expressions visible when light isn't bouncing off 
-your face. Backlighting is a very [common mistake][1]. 
+convey doubt or excitement better than a paragraph. Cameras can't
+magically make your expressions visible when light isn't bouncing off
+your face. Backlighting or [contre-jour][19] for example is a very
+[common mistake][1] that I see very smart people make over and over
+again, even during important video calls featuring very important people
+you'd assume would have staff to assist them.
 
-Back in Paris, I purchased my first Logitech C920 720p webcam. Since I
-was co-hosting a podcast at the time, I'd done some research on
-microphones and bought — at my own expense — an absurdly expensive
-[Shure SM7B microphone][2], a Scarlett 2i2 XLR to USB interface
-(to convert the analog signal to USB) and a cheap pre-amplifier.
+When I moved back to Paris in 2014, I purchased my first Logitech C920
+720p webcam. Since I was also co-hosting a podcast at the time, I did
+some microphone research and bought an absurdly expensive but oh so
+great [Shure SM7B microphone][2], a [Scarlett 2i2][20] XLR to USB
+interface (to convert the analog signal to USB) and a cheap
+pre-amplifier. This setup alone allowed me to stand out and be often 
+seen and heard better than many of my in-office co-workers who crowded 
+together in conference rooms and open spaces.
 
 ## Sensors Aren't Eyes and Ears 
 
 {% include image.html
 name="remote-microphone-waveforms-compared.jpg"
 alt="Comparing the audio waveforms of three different microphones: the 2019 16-inch MacBook Pro, the Logitech Brio webcam, and the Shure SM7B." 
-caption="The flatter the audio output of a microphone, the more compressed and less lifelike you will sound." 
+caption="The flatter the audio output of a microphone, the less lifelike you will sound." 
 %}
 
-It was... challenging. Although it was a fairly simplified one, I didn’t
-know how to set up the audio interface. I mistakenly held out on
-purchasing a good set of studio headphones thinking I had a sense of my
-own voice’s volume. But a microphone, like a camera, doesn’t have a
-human perspective on what *loud* means. It will blast your co-worker’s
-ears off or sound like you’re far away. If you're lucky someone will
-complain that you're heard to understand. Most won't people won't
-bother. Don't ever bother using a microphone with live feedback without 
-monitoring headphones. Professionals always do it for a reason. 
+Still, being *so* remote was challenging. I didn’t know how to set up
+the audio interface properly. I mistakenly held out on purchasing a
+good set of studio headphones thinking I had a sense of my own voice’s
+volume. But a microphone, like a camera, doesn’t have a human
+perspective on what *loud* means. It will blast your co-worker’s ears
+off or sound like you’re far away. If you're lucky someone will
+complain that you're heard to understand. Most people won't
+bother. Don't use a microphone with live feedback without
+monitoring headphones. The pros do it for a reason. 
 
 Your typical headphone microphones don’t count. You'll only hear other
 people's voices when you wear them, not your own. This is even worse 
@@ -222,42 +230,49 @@ manages to produce webcams that are as bad as they were a decade ago.
 Meanwhile, Apple makes some of the best selfie phone cameras in the 
 world. 
 
-I started out with a relatively cheap webcam: the Logitech C920. It's a 
-workhorse. It was released in 2012 and its resolution is only 720p. Yet 
-for nearly a decade this webcam made sense considering how little 
-bandwidth you could dedicate to display a face on the Internet. In the 
-late 2010s, more webcams manufacturers introduced full HD or 1080p 
-resolution, and later 4K (1920 by 2180 pixels). It was and still is a 
-fairly unnecessary output for a face on a screen. But just as 
-photography cameras were taken over by the megapixel wars so too did the 
-webcam industry only focus on raw output size, rather than output 
-quality, especially in low light. 
+{% include image.html
+name="remote-2015-logitech-c920.jpg"
+alt="Screen capture of the output of a Logitech C920 webcam shot with ambient lighting behind my monitor." 
+caption="Cropped Logitech C920 output lit with an Ikea lamp & soft white LED back in 2015." 
+%}
 
-Compared to the camera sensors that are now commpon on mobile phones, 
-webcams are terrible. My friend Justin Searls found a way to use his 
-iPhone as a webcam. This seems obvious. It’s far more practical than the 
-solution I arrived at before the pandemic: using a Sony A6000 mirrorless 
-camera with an expensive 50mm lens and an Elgato Cam Link 4K acquisition 
-card so I can use a sensor and lens combo no webcam maker can compete 
-with. 
+I started out with a cheap and reliable webcam: the Logitech C920. It's
+from 2012 and outputs only 720p but for nearly a decade this webcam was
+basically the best out there. Especially given limitations in
+bandwidth. Later on in the 2010s, webcams manufacturers introduced full
+HD or 1080p resolution, and eventually 4K. It's still arguably too much 
+for just showing a small face on a screen. As photo cameras became all 
+about more megapixels, so did webcams. Focusing on raw output size over 
+output quality, especially in low light. 
 
-This setup is never the one I recommend to fellow remoters, especially 
-folks that aren’t deeply familiar with photography of videography. It’s 
-cumbersome, complex, and requires constant fidgeting. Keeping the camera 
-on, making sure the color temperature is fixed, the aperture wide enough 
-to prevent frequent automatic focus hunting, and the battery replaced 
-with a dummy powe adapter to prevent runtime issues. 
+Compared to camera sensors now commpon in mobile phones, webcams are a
+decade behind. My friend Justin Searls found a way to use an old iPhone
+as a webcam and I completely get it. It’s far more practical than the
+solution I arrived at just before the pandemic: using a Sony A6000
+mirrorless camera with an expensive 50mm lens and an Elgato Cam Link 4K
+acquisition card so I can use a sensor and lens combo no webcam maker
+can compete with. The strange video you see at the top of this post was
+filmed with this setup. One that I actively recommended against to any
+fellow remoter. Particularly folks who aren't into photography or
+videography. It’s cumbersome, complex, and requires constant fidgeting
+to keep the camera on, obtain a consistent color temperature, or prevent 
+automatic focus hunting due to shallow depth of field. Plus you often 
+have to replace the camera's battery with an adapter so you don't run 
+out of juice in the middle of a meeting. 
 
 Two long years into this pandemic, the only company that seems to have
 grasped the importance of a quality sensor and lens combo is Elgato,
-with their (mic-less) Facecam. Logitech has been on top of the webcam
-business for years, and their best offering is the Logitech Brio. A
-decent camera sensor attached to a overly wide lens better suited for
-YouTubers than remote workers whose face should be the sole focus, not
-their fancy backdrops. You *can* force the 4K Logitech Brio to crop most of
-the background it defaults to showing so you can display what truly
-matters — your face — but it takes some futzing with settings which
-should be unnecessary.
+with their (mic-less) Facecam. But its output is too wide by default
+and according to [Elgato's own GM it's best to tweak exposure manually (at least for now)][21].
+Logitech has been on top of the webcam business for years, and their
+best offering is the Logitech Brio. A decent camera sensor attached to
+a overly wide lens better suited for YouTubers than remote workers
+whose face should be the sole focus, not their fancy backdrops.
+You *can* force the 4K Logitech Brio to crop most of the background it
+defaults to showing so you can display what truly matters — your face —
+but it takes some futzing with settings which should be unnecessary.
+
+<iframe width="675" height="381" src="https://www.youtube-nocookie.com/embed/uzXcK0hHvUM?controls=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Here's a list of gear I recently recommended as an alternative to my own
 unwieldy custom setup. The minimum budget is more than double the
@@ -304,6 +319,10 @@ unprecendented amount of subtlety.
 
 ## Remote Presence 
 
+{% include image.html
+name="remote-desk.jpg"
+alt="Photograph of my absurdly over-engineered remote worker desk." %}
+
 I've had a much more [intricate setup][18] than the one I recommend
 above since February 2020. I was preparing to author a video course for
 Pluralsight and wanted to offer students the best possible learning
@@ -311,6 +330,27 @@ experience. In countless meetings since, often involving leaders far
 above my paygrade, it's impossible to count the number of times someone
 who matters noticed my facial expressions and asked me to share my
 thoughts, or reached out to me in DMs afterwards to learn about my setup.
+
+I'll leave you with this unfair example of a quick video demo of my 
+custom setup which I shot a few months ago during a time of the day 
+where the typical webcam is easily drowned out by backlighting 
+especially without some bright and diffused lighting pointed at your 
+face to compensate. I'm being caricaturally animated (although not that 
+much for me) to highlight how much of my tone, facial expressions, and 
+overal feelings you can perceive from this video. This is not edited in 
+any way other than to make the file smaller and more compressed for 
+easier playback on the web. Granted your Internet bandwidth is 
+sufficient (and that's a big **if**) and your conferencing software of 
+choice doesn't overly compress audio and video you'd likely experience
+something similar on the other end. 
+
+{% include video.html
+name="remote-720p-demo.mp4"
+poster="remote-720p-demo.jpg"
+alt="Screen capture of the output of my custom Sony A6000 camera with a 50mm f/1.8 OSS lens attached and Elgato Key Light Air lighting." 
+caption="Why can't most webcams convey your presence this well? Your phone does." 
+controls=true
+%} 
 
 An easily overlooked issue when discussing putting your face on camera
 is that some folks may not be comfortable or even willing to be seen
@@ -328,7 +368,9 @@ educate IT departments and business leaders on hardware solutions that
 already exist today. 
 
 It has become quite absurd to argue that remoteness has to mean becoming
-a less visible and valued contributor to your organization. 
+a less visible and valued contributor to your organization. I hope this 
+post can help you convince anyone who might still doubt that 
+communicating remotely still has to be a pain.   
  
 [1]: /posts/in-sight/#point-the-light-toward-you
 [2]: /posts/loud-and-clear/#dynamic-cardioid-microphones
@@ -348,3 +390,6 @@ a less visible and valued contributor to your organization.
 [16]: https://www.elgato.com/en/facecam
 [17]: /posts/loud-and-clear/#microphone-technique
 [18]: /setup
+[19]: https://en.wikipedia.org/wiki/Contre-jour
+[20]: https://focusrite.com/en/usb-audio-interface/scarlett/scarlett-2i2
+[21]: https://mobile.twitter.com/JFest/status/1445382349257064448

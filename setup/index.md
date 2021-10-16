@@ -49,6 +49,23 @@ likely update this with a more succinct video soon.
 [10]: https://www.shure.com/en-US/products/microphones/sm7b
 [11]: https://www.youtube.com/watch?v=vTbxW12-QMc
 
+### Output
+
+{% include image.html
+name="remote-a6000-setup.jpg"
+alt="Screen capture of the output of my custom Sony A6000 camera with a 50mm f/1.8 OSS lens attached and Elgato Key Light Air lighting." 
+caption="Yes, most people can neither afford this setup nor should they have to deal with it, but why can't we have webcams nearly this good?" 
+%}
+
+{% include video.html
+name="remote-720p-demo.mp4"
+poster="remote-720p-demo.jpg"
+alt="Screen capture of the output of my custom Sony A6000 camera with a 50mm f/1.8 OSS lens attached and Elgato Key Light Air lighting." 
+caption="Yes, most people can neither afford this setup nor should they have to deal with it, but why can't we have webcams nearly this good?" 
+%}
+
+remote-720p-demo.mp4 
+
 ### Changelog
 
 This is only the latest iteration, all [notable changes][kac] are documented

@@ -290,7 +290,7 @@ body
 
 
 .site
-  p > img, figure > img
+  p > img, figure > img, figure > video
     max-width: 100%
     display: block
     margin: 0 auto
@@ -299,12 +299,23 @@ body
     margin-inline-start: 0
     margin-inline-end: 0
 
+    video.zoot
+      border: .75rem solid #2D8CFF
+      border-radius: 1.5rem
+      max-width: 75%
+
+      &:before
+        color: white
+        content: "HELLO"
+
   figure figcaption
     margin-top: 1em
     font-size: 0.8em
     font-style: italic
     font-weight: 400
     text-align: center
+
+  
 
 .speakerdeck-embed-wrapper
   max-width: 100%
