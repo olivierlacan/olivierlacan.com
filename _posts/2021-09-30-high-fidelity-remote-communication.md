@@ -6,7 +6,7 @@ location: "Montréal, Québec, Canada"
 categories: development
 summary: Remote work requires high fidelity communication and it's still not easy to achieve.
 draft: true
-image: remote-a6000-setup.jpg
+image: remote-720p-loop-preview.jpg
 ---
 
 {% include video.html
@@ -246,19 +246,19 @@ about more megapixels, so did webcams. Focusing on raw output size over
 output quality, especially in low light. 
 
 Compared to camera sensors now commpon in mobile phones, webcams are a
-decade behind. My friend Justin Searls found a way to use an old iPhone
-as a webcam and I completely get it. It’s far more practical than the
-solution I arrived at just before the pandemic: using a Sony A6000
-mirrorless camera with an expensive 50mm lens and an Elgato Cam Link 4K
-acquisition card so I can use a sensor and lens combo no webcam maker
-can compete with. The strange video you see at the top of this post was
-filmed with this setup. One that I actively recommended against to any
-fellow remoter. Particularly folks who aren't into photography or
-videography. It’s cumbersome, complex, and requires constant fidgeting
-to keep the camera on, obtain a consistent color temperature, or prevent 
-automatic focus hunting due to shallow depth of field. Plus you often 
-have to replace the camera's battery with an adapter so you don't run 
-out of juice in the middle of a meeting. 
+decade behind. My friend Justin Searls found [a way][22] to use an old
+iPhone as a webcam and I completely get it. It’s far more practical
+than the solution I arrived at just before the pandemic: using a Sony
+A6000 mirrorless camera with an expensive 50mm lens and an Elgato Cam
+Link 4K acquisition card so I can use a sensor and lens combo no webcam
+maker can compete with. The strange video you see at the top of this
+post was filmed with this setup. One that I actively recommended
+against to any fellow remoter. Particularly folks who aren't into
+photography or videography. It’s cumbersome, complex, and requires
+constant fidgeting to keep the camera on, obtain a consistent color
+temperature, or prevent automatic focus hunting due to shallow depth of
+field. Plus you often have to replace the camera's battery with an
+adapter so you don't run out of juice in the middle of a meeting. 
 
 Two long years into this pandemic, the only company that seems to have
 grasped the importance of a quality sensor and lens combo is Elgato,
@@ -393,3 +393,4 @@ communicating remotely still has to be a pain.
 [19]: https://en.wikipedia.org/wiki/Contre-jour
 [20]: https://focusrite.com/en/usb-audio-interface/scarlett/scarlett-2i2
 [21]: https://mobile.twitter.com/JFest/status/1445382349257064448
+[22]: https://reincubate.com/camo/
