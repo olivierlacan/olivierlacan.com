@@ -4,7 +4,7 @@ title: "High Fidelity Remote Communication"
 date: 2021-09-30 20:16
 location: "Montréal, Québec, Canada"
 categories: development
-summary: Remote work requires high fidelity communication and it's still not easy to achieve.
+summary: Remote is hard but it can work if you focus on what matters.
 draft: true
 image: remote-720p-loop-preview.jpg
 ---
