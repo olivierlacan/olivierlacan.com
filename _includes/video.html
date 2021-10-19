@@ -2,7 +2,7 @@
   <video src="{{ site.url }}/assets/{{ include.name }}"
   {% if include.poster %} poster="{{ site.url }}/assets/{{ include.poster }}" {% endif %}
   {% if include.controls %} controls {% endif %}  
-  {% if include.autoplay %} autoplay {% endif %} 
+  {% if include.autoplay %} autoplay playsinline {% endif %} 
   {% if include.loop %} loop {% endif %} 
   {% if include.muted %} muted {% endif %} 
   {% if include.class %} class="{{include.class}}" {% endif %}
