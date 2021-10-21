@@ -2,6 +2,7 @@
 layout: post
 title: "High Fidelity Remote Communication"
 date: 2021-09-30 20:16
+date: 2021-10-18 14:16
 location: "Montréal, Québec, Canada"
 categories: development
 summary: Remote is hard but it can work if you focus on what matters.
@@ -15,7 +16,7 @@ poster="remote-720p-loop.jpg"
 alt="Looping 720p video of my weird face pretending to react at things you say to me on a Zoom call." 
 autoplay=true
 loop=true
-controls=false
+no_controls=true
 muted=true
 class="zoot"
 %}
@@ -260,19 +261,27 @@ temperature, or prevent automatic focus hunting due to shallow depth of
 field. Plus you often have to replace the camera's battery with an
 adapter so you don't run out of juice in the middle of a meeting. 
 
-Two long years into this pandemic, the only company that seems to have
-grasped the importance of a quality sensor and lens combo is Elgato,
-with their (mic-less) Facecam. But its output is too wide by default
-and according to [Elgato's own GM it's best to tweak exposure manually (at least for now)][21].
-Logitech has been on top of the webcam business for years, and their
-best offering is the Logitech Brio. A decent camera sensor attached to
-a overly wide lens better suited for YouTubers than remote workers
-whose face should be the sole focus, not their fancy backdrops.
-You *can* force the 4K Logitech Brio to crop most of the background it
-defaults to showing so you can display what truly matters — your face —
-but it takes some futzing with settings which should be unnecessary.
+Two long years into this pandemic, one of the few companies that seems
+to have grasped the importance of a quality sensor and lens combo is
+Elgato, with their (thankfully mic-less) Facecam. But its output is too
+wide by default and according to [Elgato's own GM it's best to tweak
+exposure manually (at least for now)][21]. Logitech has been on top of
+the webcam business for years, and their best offering is the Logitech
+Brio. A decent camera sensor attached to a overly wide lens better
+suited for YouTubers than remote workers whose face should be the sole
+focus, not their fancy backdrops. You *can* force the 4K Logitech Brio
+to crop most of the background it defaults to showing so you can
+display what truly matters — your face — but it takes some futzing with
+settings which should be unnecessary.
 
 <iframe width="675" height="381" src="https://www.youtube-nocookie.com/embed/uzXcK0hHvUM?controls=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+If you watch the above demo I wonder if you'll wonder like me why 
+multi-lens setups are so common in modern phones but don't exist in 
+any webcam. The wide angle default is only appropriate to a minority of 
+webcam users (streamers) while most people would benefit from a narrow 
+35mm to 50mm lens equivalent that would focus on their face instead of 
+their surroundings. 
 
 Here's a list of gear I recently recommended as an alternative to my own
 unwieldy custom setup. The minimum budget is more than double the
@@ -349,7 +358,6 @@ name="remote-720p-demo.mp4"
 poster="remote-720p-demo.jpg"
 alt="Screen capture of the output of my custom Sony A6000 camera with a 50mm f/1.8 OSS lens attached and Elgato Key Light Air lighting." 
 caption="Why can't most webcams convey your presence this well? Your phone does." 
-controls=true
 %} 
 
 An easily overlooked issue when discussing putting your face on camera

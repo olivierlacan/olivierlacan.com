@@ -1,10 +1,10 @@
 <figure>
   <video 
-  {% if include.muted %} muted {% endif %} 
+  {% if include.poster %} poster="{{ site.url }}/assets/{{ include.poster }}" {% endif %}
+  {% if include.no_controls %} {% else %} controls {% endif %}  
   {% if include.autoplay %} autoplay playsinline {% endif %} 
   {% if include.loop %} loop {% endif %} 
-  {% if include.poster %} poster="{{ site.url }}/assets/{{ include.poster }}" {% endif %}
-  {% if include.controls %} controls {% endif %}  
+  {% if include.muted %} muted {% endif %} 
   {% if include.class %} class="{{include.class}}" {% endif %}
   src="{{ site.url }}/assets/{{ include.name }}"></video>
   <figcaption>{{ include.caption }}</figcaption>
