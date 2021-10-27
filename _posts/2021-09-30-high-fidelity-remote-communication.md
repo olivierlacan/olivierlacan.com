@@ -283,6 +283,19 @@ webcam users (streamers) while most people would benefit from a narrow
 35mm to 50mm lens equivalent that would focus on their face instead of 
 their surroundings. 
 
+Generally I think the Logitech Brio is the best solution for most people 
+given adequate lighting and restricting yourself to the standard 
+non-widescreen mode (I believe is the default but you can adjust it 
+with the [Camera Settings app][23] Logitech provides). 
+
+{% include compare.html
+first="remote-macbook-pro-2019-key-light.jpg"
+second="remote-brio-key-light.jpg"
+first_alt="2019 MacBook Pro webcam output"
+second_alt="Logitech Brio webcam output" 
+caption="Comparing the output of a 2019 MacBook Pro webcam to a Logitech Brio" 
+%}
+
 Here's a list of gear I recently recommended as an alternative to my own
 unwieldy custom setup. The minimum budget is more than double the
 common "remote stipend" reluctantly relinquished by most companies,
@@ -402,3 +415,4 @@ communicating remotely still has to be a pain.
 [20]: https://focusrite.com/en/usb-audio-interface/scarlett/scarlett-2i2
 [21]: https://mobile.twitter.com/JFest/status/1445382349257064448
 [22]: https://reincubate.com/camo/
+[23]: https://support.logi.com/hc/en-my/articles/360025132114-Camera-Settings
