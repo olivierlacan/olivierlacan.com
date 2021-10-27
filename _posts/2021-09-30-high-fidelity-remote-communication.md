@@ -283,10 +283,10 @@ webcam users (streamers) while most people would benefit from a narrow
 35mm to 50mm lens equivalent that would focus on their face instead of 
 their surroundings. 
 
-Generally I think the Logitech Brio is the best solution for most people 
-given adequate lighting and restricting yourself to the standard 
-non-widescreen mode (I believe is the default but you can adjust it 
-with the [Camera Settings app][23] Logitech provides). 
+Generally speaking, I think the Logitech Brio is the best solution for
+most people given adequate lighting and restricting yourself to the
+standard non-widescreen mode (I believe is the default but you can
+adjust it with the [Camera Settings app][23] Logitech provides). 
 
 {% include compare.html
 first="remote-macbook-pro-2019-key-light.jpg"
@@ -298,10 +298,10 @@ caption="2019 MacBook Pro vs. Logitech Brio w/ Elgato Key Light Air (click for f
 
 Here's a list of gear I recently recommended as an alternative to my own
 unwieldy custom setup. The minimum budget is more than double the
-common "remote stipend" reluctantly relinquished by most companies,
+common "$300 remote stipend" reluctantly relinquished by most companies,
 while they happily purchase snacks, ergonomic chairs, networking
 equipment, as well as the typical utility and office leasing costs
-required for in-office workers. 
+required for in-office workers. This should give you pause. 
 
 This kit is one of the simplest to use and most reliable you'll likely 
 deal with. Yes, you can get find cheaper microphones and cameras if you 
