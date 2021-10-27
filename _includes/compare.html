@@ -1,9 +1,13 @@
 <figure class="compare">
   <div class="first">
-    <img src="{{ site.url }}/assets/{{ include.first }}" alt="{{ include.first_alt }}">  
+    <a href="{{ site.url }}/assets/{{ include.first }}">
+      <img src="{{ site.url }}/assets/{{ include.first }}" alt="{{ include.first_alt }}">  
+    </a>
   </div>
   <div class="second">
-    <img src="{{ site.url }}/assets/{{ include.second }}" alt="{{ include.second_alt }}">
+    <a href="{{ site.url }}/assets/{{ include.second }}">
+      <img src="{{ site.url }}/assets/{{ include.second }}" alt="{{ include.second_alt }}">
+    </a>
   </div>
   <figcaption>{{ include.caption }}</figcaption>
 </figure>

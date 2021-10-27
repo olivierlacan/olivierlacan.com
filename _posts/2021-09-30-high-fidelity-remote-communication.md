@@ -293,7 +293,7 @@ first="remote-macbook-pro-2019-key-light.jpg"
 second="remote-brio-key-light.jpg"
 first_alt="2019 MacBook Pro webcam output"
 second_alt="Logitech Brio webcam output" 
-caption="Comparing the output of a 2019 MacBook Pro webcam to a Logitech Brio" 
+caption="2019 MacBook Pro webcam vs. Logitech Brio using the same Elgato Key Light Air lighting (click for full-width)" 
 %}
 
 Here's a list of gear I recently recommended as an alternative to my own
