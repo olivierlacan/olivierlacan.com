@@ -312,17 +312,17 @@ sacrifice what I believe are essential features:
 - narrow pickup microphones with live headphone monitoring
 - headphones to hear yourself and avoid noise feedback loops
 
-| Focus             | Brand         | Model              | Price   |
-| ----------------- | ------------- | ------------------ | ------- |
-| Lighting          | Elgato        | [Key Light Air][9] | $180    |
-| Face — Option 1   | Logitech      | [Brio][15]         | $200    |
-| Face — Option 2   | Elgato        | [Facecam][16]      | $200    | 
-| Voice — Option 1  | RODE          | [NT-USB][13]       | $170    | 
-| Voice — Option 2  | AudioTechnica | [AT2005USB][14]    | $80     | 
-| Mic Distance      | RODE          | [PSA1][5]          | $100    |      
-| Ears              | Sony          | [MDR 7506][12]     | $100    |
-| ----------------- | ------------- | ------------------ | -----   |
-| **Minimum Total** |               |                    | **$750**|
+| Focus             | Brand         | Model               | Price   |
+| ----------------- | ------------- | ------------------- | ------- |
+| Lighting          | Elgato        | [Key Light Air][9]  | $180    |
+| Face — Option 1   | Logitech      | [Brio][15]          | $200    |
+| Face — Option 2   | Elgato        | [Facecam][16]       | $200    | 
+| Voice — Option 1  | RODE          | [NT-USB][13]        | $170    | 
+| Voice — Option 2  | AudioTechnica | [AT2005USB][14][^1] | $80     | 
+| Mic Distance      | RODE          | [PSA1][5]           | $100    |      
+| Ears              | Sony          | [MDR 7506][12]      | $100    |
+| ----------------- | ------------- | ------------------  | -----   |
+| **Minimum Total** |               |                     | **$660**|
 
 
 This list is by no means exhaustive, and yes it's very different than 
@@ -392,6 +392,10 @@ It has become quite absurd to argue that remoteness has to mean becoming
 a less visible and valued contributor to your organization. I hope this 
 post can help you convince anyone who might still doubt that 
 communicating remotely still has to be a pain.   
+
+[^1]: Although cheaper, the Audio-Technica microphone doesn't come with 
+a pop filter unlike the RODE NT-USB, but you can thankfully pick one of 
+those up for fairly cheap and mount it on the microphone boom arm.
  
 [1]: /posts/in-sight/#point-the-light-toward-you
 [2]: /posts/loud-and-clear/#dynamic-cardioid-microphones
