@@ -363,7 +363,7 @@ any way other than to make the file smaller and more compressed for
 easier playback on the web. Granted your Internet bandwidth is 
 sufficient (and that's a big **if**) and your conferencing software of 
 choice doesn't overly compress audio and video you'd likely experience
-something similar on the other end. 
+something similar on the other end of a call. 
 
 {% include video.html
 name="remote-720p-demo.mp4"
@@ -376,7 +376,7 @@ An easily overlooked issue when discussing putting your face on camera
 is that some folks may not be comfortable or even willing to be seen
 inside their remote working location (home or otherwise). Especially in
 larger meetings where they don't expect to intervene. I don't think
-it's anyone's duty to always have a high quality camera always on. That
+it's anyone's duty to always have a high quality camera on. That
 kind of visibility is clearly not comfortable for everyone but I think 
 within reason — when not using chat or asynchronous messaging — it's 
 extremely valuable for all parties.
