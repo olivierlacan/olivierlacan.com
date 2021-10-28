@@ -171,7 +171,7 @@ input albeit at different distances from my voice:
 </figure>
 
 Here's a different a slightly longer demo of the RODE NT-USB microphone
-where I tried to demonstrated the usefulness of an articulated boom arm: 
+where I tried to demonstrate the usefulness of an articulated boom arm: 
 
 <figure class="audio">
     <figcaption>RODE NT-USB (10 cm from face)</figcaption>
