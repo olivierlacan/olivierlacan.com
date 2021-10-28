@@ -317,7 +317,7 @@ sacrifice what I believe are essential features:
 | Face — Option 1   | Logitech      | [Brio][14]          | $200    |
 | Face — Option 2   | Elgato        | [Facecam][16]       | $200    | 
 | Voice — Option 1  | RODE          | [NT-USB][13]        | $170    | 
-| Voice — Option 2  | AudioTechnica | [AT2005USB][14][^1] | $80     | 
+| Voice — Option 2  | AudioTechnica | [AT2005USB][15][^1] | $80     | 
 | Mic Distance      | RODE          | [PSA1][5]           | $100    |      
 | Ears              | Sony          | [MDR 7506][12]      | $100    |
 | ----------------- | ------------- | ------------------  | -----   |
