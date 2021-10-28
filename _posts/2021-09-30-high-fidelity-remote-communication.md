@@ -6,7 +6,6 @@ update: 2021-10-28 14:16
 location: "Montréal, Québec"
 categories: development
 summary: Remote is hard but it can work if you focus on what matters.
-draft: true
 image: remote-720p-loop-preview.jpg
 ---
 
