@@ -275,7 +275,7 @@ settings which should be unnecessary.
 
 <iframe width="675" height="381" src="https://www.youtube-nocookie.com/embed/uzXcK0hHvUM?controls=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-If you watch the above demo I wonder if you'll wonder like me why 
+If you watch the above demo I'm curious if you'll wonder like me why 
 multi-lens setups are so common in modern phones but don't exist in 
 any webcam. The wide angle default is only appropriate to a minority of 
 webcam users (streamers) while most people would benefit from a narrow 
@@ -284,7 +284,7 @@ their surroundings.
 
 Generally speaking, I think the Logitech Brio is the best solution for
 most people given adequate lighting and restricting yourself to the
-standard non-widescreen mode (I believe is the default but you can
+standard non-widescreen mode (I think it's the default but you can
 adjust it with the [Camera Settings app][23] Logitech provides). 
 
 {% include compare.html
