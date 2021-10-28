@@ -3,11 +3,7 @@ layout: post
 title: "High Fidelity Remote Communication"
 date: 2021-09-30 20:16
 update: 2021-10-28 14:16
-locations: 
-  - "Montréal, Québec"
-  - "Orlando, Florida"
-  - "Seattle, Washington"
-  - "Los Angeles, California"
+location: "Montréal, Québec"
 categories: development
 summary: Remote is hard but it can work if you focus on what matters.
 draft: true

@@ -4,7 +4,7 @@ layout: default
 {% if page.draft %}<div class='draft'>This post has not been published yet.</div>{% endif %}
 
 <h2>{{ page.title }}</h2>
-<p class="meta" data-location={{ page.location | escape }} data-location={{ page.locations && page.locations | array_to_sentence_string }}>
+<p class="meta" data-location={{ page.location | escape }}>
   Written on {{ page.date | date: "%B %d, %Y" }}
   {% if page.update %}
     &amp; updated on <span class='update'>{{ page.update | date: "%B %d, %Y" }}</span>.
