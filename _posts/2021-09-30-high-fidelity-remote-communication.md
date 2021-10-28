@@ -245,7 +245,7 @@ for just showing a small face on a screen. As photo cameras became all
 about more megapixels, so did webcams. Focusing on raw output size over 
 output quality, especially in low light. 
 
-Compared to camera sensors now commpon in mobile phones, webcams are a
+Compared to camera sensors now common in mobile phones, webcams are a
 decade behind. My friend Justin Searls found [a way][22] to use an old
 iPhone as a webcam and I completely get it. It’s far more practical
 than the solution I arrived at just before the pandemic: using a Sony
@@ -314,7 +314,7 @@ sacrifice what I believe are essential features:
 | Focus             | Brand         | Model               | Price   |
 | ----------------- | ------------- | ------------------- | ------- |
 | Lighting          | Elgato        | [Key Light Air][9]  | $180    |
-| Face — Option 1   | Logitech      | [Brio][15]          | $200    |
+| Face — Option 1   | Logitech      | [Brio][14]          | $200    |
 | Face — Option 2   | Elgato        | [Facecam][16]       | $200    | 
 | Voice — Option 1  | RODE          | [NT-USB][13]        | $170    | 
 | Voice — Option 2  | AudioTechnica | [AT2005USB][14][^1] | $80     | 
