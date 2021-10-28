@@ -392,9 +392,7 @@ a less visible and valued contributor to your organization. I hope this
 post can help you convince anyone who might still doubt that 
 communicating remotely still has to be a pain.   
 
-[^1]: Although cheaper, the Audio-Technica microphone doesn't come with 
-a pop filter unlike the RODE NT-USB, but you can thankfully pick one of 
-those up for fairly cheap and mount it on the microphone boom arm.
+[^1]: Although cheaper, the Audio-Technica microphone doesn't come with a pop filter unlike the RODE NT-USB, but you can thankfully pick one of those up for fairly cheap and mount it on the microphone boom arm.
  
 [1]: /posts/in-sight/#point-the-light-toward-you
 [2]: /posts/loud-and-clear/#dynamic-cardioid-microphones
