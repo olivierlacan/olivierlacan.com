@@ -2,7 +2,7 @@
 layout: post
 title: "High Fidelity Remote Communication"
 date: 2021-09-30 20:16
-update: 2021-10-28 14:16
+update: 2021-11-10 19:49
 location: "Montréal, Québec"
 categories: development
 summary: Remote is hard but it can work if you focus on what matters.
@@ -170,14 +170,35 @@ input albeit at different distances from my voice:
     </audio>
 </figure>
 
-Here's a different a slightly longer demo of the RODE NT-USB microphone
-where I tried to demonstrate the usefulness of an articulated boom arm: 
+Here is a longer demo of the RODE NT-USB microphone where I to demonstrate how useful an articulated boom arm is: 
 
 <figure class="audio">
     <figcaption>RODE NT-USB (10 cm from face)</figcaption>
     <audio
         controls
         src="{{ site.url }}/assets/rode-nt-usb.mp3">
+    </audio>
+</figure>
+
+And the cheapest microphone I've tested, the Samson Q2U is impressive 
+and like the Rode can work with USB alone. But it can also support an 
+analog XLR to USB interface which can allow you to push the gain 
+(received input volume of the mic) higher and likely get cleaner output 
+as well depending on your audio interface.
+
+<figure class="audio">
+    <figcaption>Samson Q2U (10 cm from face over USB)</figcaption>
+    <audio
+        controls
+        src="{{ site.url }}/assets/samson-q2u-usb.mp3">
+    </audio>
+</figure>
+
+<figure class="audio">
+    <figcaption>Samson Q2U (10 cm from face over XLR via Scarlett 2i2 interface)</figcaption>
+    <audio
+        controls
+        src="{{ site.url }}/assets/samson-q2u-xlr-mono.mp3">
     </audio>
 </figure>
 
@@ -295,6 +316,8 @@ second_alt="Logitech Brio webcam output"
 caption="2019 MacBook Pro vs. Logitech Brio w/ Elgato Key Light Air (click for full-res)" 
 %}
 
+## Hardware Recommendations
+
 Here's a list of gear I recently recommended as an alternative to my own
 unwieldy custom setup. The minimum budget is more than double the
 common "$300 remote stipend" reluctantly relinquished by most companies,
@@ -316,12 +339,13 @@ sacrifice what I believe are essential features:
 | Lighting          | Elgato        | [Key Light Air][9]  | $180    |
 | Face — Option 1   | Logitech      | [Brio][14]          | $200    |
 | Face — Option 2   | Elgato        | [Facecam][16]       | $200    | 
-| Voice — Option 1  | RODE          | [NT-USB][13]        | $170    | 
-| Voice — Option 2  | AudioTechnica | [AT2005USB][15][^1] | $80     | 
+| Voice — Option 1  | Samson        | [Q2U][24]           | $70     | 
+| Voice — Option 2  | RODE          | [NT-USB][13]        | $170    | 
+| Voice — Option 3  | AudioTechnica | [AT2005USB][15][^1] | $80     | 
 | Mic Distance      | RODE          | [PSA1][5]           | $100    |      
 | Ears              | Sony          | [MDR 7506][12]      | $100    |
 | ----------------- | ------------- | ------------------  | -----   |
-| **Minimum Total** |               |                     | **$660**|
+| **Minimum Total** |               |                     | **$650**|
 
 
 This list is by no means exhaustive, and yes it's very different than 
@@ -329,14 +353,21 @@ what I've recommended [in the past][1] because the world of remote gear
 is evolving at last. I'd warn you against integrated 
 solutions (all-in-one lighting, camera, microphone) but it's possible a 
 company like Elgato will come out a solution that does it all pretty 
-well in the future. 
+well in the future. The most expensive single component is lighting 
+which might surprise you, and you may find cheaper alternatives using 
+LED work lamps with color temperature control but I haven't tried those 
+out and would only encourage you to get a precise maximum lumen 
+brightness output number before you settle for one. The most powerful 
+LED work lamp I found on Amazon maxed out at 600 lumen, while the Key 
+Light Air goes up to 1400. You won't need all that brightness but in 
+my experience 800 to 1000 lumen is the sweet spot in most environments.
 
-The one-stop-shop doesn't exist quite yet, but I can tell you from 
-experience that you can already communicate remotely with higher 
-fidelity than the majority of office workers through the world did even
-before the pandemic. While your three-dimensional presence will never 
-be replaceable, it's possible for two-way communication to have an 
-unprecendented amount of subtlety.
+The one-stop-shop for remote communication gear doesn't exist quite yet,
+but even if *some* of the items listed here you'd communicate remotely
+with higher fidelity than the large majority of office workers
+worldwide did before the pandemic. While your three-dimensional
+presence will never be replaceable, it's possible for two-way
+communication to have an unprecendented amount of subtlety.
 
 ## Remote Presence 
 
@@ -392,7 +423,7 @@ a less visible and valued contributor to your organization. I hope this
 post can help you convince anyone who might still believe that 
 communicating remotely still has to be a pain.   
 
-[^1]: Although cheaper, the Audio-Technica microphone doesn't come with a pop filter unlike the RODE NT-USB, but you can thankfully pick one of those up for fairly cheap and mount it on the microphone boom arm.
+[^1]: Although cheaper than the Rode, the Audio-Technica microphone doesn't come with a pop filter unlike the RODE NT-USB, but you can thankfully pick one of those up for fairly cheap and mount it on the microphone boom arm. The Samson does come with a windscreen which will reduce popping sounds but not quite as much as a pop filter might although I found it sufficient.
  
 [1]: /posts/in-sight/#point-the-light-toward-you
 [2]: /posts/loud-and-clear/#dynamic-cardioid-microphones
@@ -417,3 +448,4 @@ communicating remotely still has to be a pain.
 [21]: https://mobile.twitter.com/JFest/status/1445382349257064448
 [22]: https://reincubate.com/camo/
 [23]: https://support.logi.com/hc/en-my/articles/360025132114-Camera-Settings
+[24]: http://www.samsontech.com/samson/products/microphones/usb-microphones/q2u/
