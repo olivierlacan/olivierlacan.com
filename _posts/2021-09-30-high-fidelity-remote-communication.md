@@ -143,6 +143,8 @@ voice's volume. Even if *your* voice is a the appropriate level in your
 environment, you'd be surprised how differently you sound depending on 
 what microphone you're using and how far away it is from your face.
 
+### Comparing Microphone Outputs
+
 Here are three radically different microphones recording the exact same
 input albeit at different distances from my voice:
 
