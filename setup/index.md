@@ -12,10 +12,11 @@ alt="Panoramic photograph of my entire desk setup including lights, monitor, mic
 caption="Yes that's too many webcams and far too much money spent on gear. I know..." 
 %}
 
-I strongly recommend against going this route for 99% of people but here
-is my setup for the nerdiest among you, I recorded a demo when I
-first set it up although some of the setup has changed since and I'll
-likely update this with a more succinct video soon.
+**This setup is very likely not for you unless you want a new hobby**. 
+
+If you're dreaming of an unfussy remote communication setup, it isn't 
+here yet, but the best tips I can offer are documented in High Fidelity 
+Remote Communication's [Hardware Recommendation section][hfrc].
 
 ### Lights
 
@@ -93,3 +94,4 @@ below.
 - Audio Interface: Scarlett 2i2
 
 [kac]: https://keepachangelog.com/
+[hfrc]: https://olivierlacan.com/posts/high-fidelity-remote-communication/#hardware-recommendations
