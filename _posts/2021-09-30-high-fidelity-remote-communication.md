@@ -2,7 +2,7 @@
 layout: post
 title: "High Fidelity Remote Communication"
 date: 2021-09-30 20:16
-update: 2021-11-10 19:49
+update: 2022-02-14 15:40
 location: "Montréal, Québec"
 categories: development
 summary: Remote is hard but it can work if you focus on what matters.
@@ -320,6 +320,10 @@ caption="2019 MacBook Pro vs. Logitech Brio w/ Elgato Key Light Air (click for f
 
 ## Hardware Recommendations
 
+**Update**: The $99 [Key Light Mini][mini] was recently released. I'll review
+it soon. Since I only use the Key Light Air at 50/70% of its peak 1600 
+lument brightness the $80 cheaper is likely to replace it.
+
 Here's a list of gear I recently recommended as an alternative to my own
 unwieldy custom setup. The minimum budget is more than double the
 common "$300 remote stipend" reluctantly relinquished by most companies,
@@ -451,3 +455,4 @@ communicating remotely still has to be a pain.
 [22]: https://reincubate.com/camo/
 [23]: https://support.logi.com/hc/en-my/articles/360025132114-Camera-Settings
 [24]: http://www.samsontech.com/samson/products/microphones/usb-microphones/q2u/
+[25]: https://www.elgato.com/en/key-light-mini
