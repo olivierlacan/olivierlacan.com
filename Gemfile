@@ -1,7 +1,7 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-ruby File.read(File.expand_path(".ruby-version", __dir__)).chomp
+ruby File.read(".ruby-version").strip
 
 gem 'rake'
 gem 'redcarpet'
