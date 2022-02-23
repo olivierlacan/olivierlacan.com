@@ -15,24 +15,24 @@ name="rails-on-ipad.jpg"
 alt="Look at that iPad running a Rails app" %}
 
 The day I first held an iPad in my hands on April 3rd, 2010 I dreamed of
-being able to do what I'm doing right now. It was been possible to have
+being able to do what I'm doing right now. It has been possible to have
 a partial development environment in the browser for many years. A huge
 part of Heroku's appeal when it launched... [14 YEARS AGO][heroku] was
 to allow Ruby effortless Ruby development in "the cloud".
 
-And yet here I am on a weekend, [giddily tweeting][tweet] about how I
+This weekend I [giddily tweeted][tweet] that I
 managed to get [GitHub Codespaces][codespaces] to run a *full* Ruby on
-Rails development environment on my iPad... in the Safari web browser...
-inside Codespaces. And then realizing it can't talk to Postgres until
-basically starting a friendly Twitter mob to figure out how to fix it,
-[until I did][fixed]. With the help of excellent folks like [Alyss
-Noland][alyss], [Avdi Grimm][avdi], [Benjamin Wood][wood], [Justin
-Bowen][bowen], and more kind and patient folks who understand Docker
-networking much better than I do.
+Rails development environment on my iPad. 
 
-Yes yes, enough preamble, let's space some code. 
+Truly it wasn't until I started a friendly Twitter mob to figure out how
+to properly [talk to Postgres][fixed], but with the help of kind Internet 
+folks like [Alyss Noland][alyss], [Avdi Grimm][avdi], 
+[Benjamin Wood][wood], and [Justin Bowen][bowen] it all worked out
 
-## How to develop a Rails app in the comfort of your browser
+So maybe you'd like to develop a Rails app on your iPad too? Or maybe 
+an Elixir, Python, .NET, or even a Swift one? 
+
+## Developing an app in the comfort of your iPad browser
 
 First, since Codespaces is a GitHub feature. You're going to need a 
 [GitHub account]. Yes, I'm not going to make any assumptions here. Skip
@@ -53,8 +53,8 @@ of the GitHub VSCode web editor.
 1. Create all of the files [listed here][config] inside of a `.devcontainer` 
 directory. You can use GitHub's nifty (but hard to discover) code copy 
 button. You will likely be very annoyed that Safari[^1] keeps starting 
-each filename with an uppercase letter, which can be avoided by type `Ffilename` and deleting 
-the first letter afterwards.
+each filename with an uppercase letter, which can be avoided by type 
+`Ffilename` and deleting the first letter afterwards.
 {% include image.html
 name="rails-on-ipad-code-copy.png"
 alt="Screenshot of the GitHub file content copy button" %}
@@ -84,7 +84,6 @@ to connect as the `vscode` user instead of `root`.
 - `create-db-user.sql`: referenced the `docker-compose.yml` section that 
 defines the `db` container for Postgres, it creates a non-admin Postgres
 user which can be used instead of the `postgres` default user. 
-
 
 ## Is this exclusive to GitHub?
 
