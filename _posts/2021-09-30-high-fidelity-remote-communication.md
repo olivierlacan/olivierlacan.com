@@ -2,7 +2,7 @@
 layout: post
 title: "High Fidelity Remote Communication"
 date: 2021-09-30 20:16
-update: 2022-02-14 15:40
+update: 2022-02-24 16:40
 location: "Montréal, Québec"
 categories: development
 summary: Remote is hard but it can work if you focus on what matters.
@@ -320,9 +320,12 @@ caption="2019 MacBook Pro vs. Logitech Brio w/ Elgato Key Light Air (click for f
 
 ## Hardware Recommendations
 
-**Update**: The $99 [Key Light Mini][mini] was recently released. I'll review
-it soon. Since I only use the Key Light Air at 50/70% of its peak 1600 
-lument brightness the $80 cheaper is likely to replace it.
+**Updated (2022-02-24)**: The $99 [Key Light Mini][25] was released in
+February 2022. I've had it for only a few days. Its peak brightness
+is 800 lumen instead of the Key Light Air's 1600 lumen but I very
+rarely used the Air at more than 50/70% brightness, so it's a great
+way to save $80. It is now my recommendation for lighting. This brings 
+the minimum total cost of my recommended hardware down to $570 from $650.
 
 Here's a list of gear I recently recommended as an alternative to my own
 unwieldy custom setup. The minimum budget is more than double the
@@ -340,18 +343,19 @@ sacrifice what I believe are essential features:
 - narrow pickup microphones with live headphone monitoring
 - headphones to hear yourself and avoid noise feedback loops
 
-| Focus             | Brand         | Model               | Price   |
-| ----------------- | ------------- | ------------------- | ------- |
-| Lighting          | Elgato        | [Key Light Air][9]  | $180    |
-| Face — Option 1   | Logitech      | [Brio][14]          | $200    |
-| Face — Option 2   | Elgato        | [Facecam][16]       | $200    | 
-| Voice — Option 1  | Samson        | [Q2U][24]           | $70     | 
-| Voice — Option 2  | RODE          | [NT-USB][13]        | $170    | 
-| Voice — Option 3  | AudioTechnica | [AT2005USB][15][^1] | $80     | 
-| Mic Distance      | RODE          | [PSA1][5]           | $100    |      
-| Ears              | Sony          | [MDR 7506][12]      | $100    |
-| ----------------- | ------------- | ------------------  | -----   |
-| **Minimum Total** |               |                     | **$650**|
+| Focus               | Brand         | Model               | Price   |
+| -----------------   | ------------- | ------------------- | ------- |
+| Lighting — Option 1 | Elgato        | [Key Light Mini][25]| $100    |
+| Lighting — Option 2 | Elgato        | [Key Light Air][9]  | $180    |
+| Face — Option 1     | Logitech      | [Brio][14]          | $200    |
+| Face — Option 2     | Elgato        | [Facecam][16]       | $200    | 
+| Voice — Option 1    | Samson        | [Q2U][24]           | $70     | 
+| Voice — Option 2    | RODE          | [NT-USB][13]        | $170    | 
+| Voice — Option 3    | AudioTechnica | [AT2005USB][15][^1] | $80     | 
+| Mic Distance        | RODE          | [PSA1][5]           | $100    |      
+| Ears                | Sony          | [MDR 7506][12]      | $100    |
+| -----------------   | ------------- | ------------------  | -----   |
+| **Minimum Total**   |               |                     | **$570**|
 
 
 This list is by no means exhaustive, and yes it's very different than 
