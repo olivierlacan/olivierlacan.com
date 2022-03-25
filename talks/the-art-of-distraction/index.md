@@ -4,6 +4,7 @@ date: 2022-03-15 0:00
 title: The Art of Distraction
 categories: talk
 venue: None (yet)
+summary: A diggressive tale of a career weighed and bolstered by executive dysfunction.  
 ---
 
 ### Abstract
