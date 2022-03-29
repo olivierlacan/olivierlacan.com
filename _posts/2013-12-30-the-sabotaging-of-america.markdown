@@ -15,6 +15,8 @@ communities in this [Daily Dot piece][dot]
 
 [dot]: https://www.dailydot.com/debug/tor-project-jacob-appelbaum-sexual-assault-rape-investigation/ 
 
+---
+
 If you're technologically savvy, there's no doubt you've been watching the information being released about the myriad of NSA intelligence collection programs.
 
 I don't think I'm qualified to comment on their extent, legality, or even if I know what to think of them.
