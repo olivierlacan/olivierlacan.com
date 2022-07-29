@@ -30,7 +30,7 @@ Now allow me to turn the tables on you.
 
 Do you know why I came across Liza’s article? I was browsing Kickstarter for some of the comments left on the [Try iOS campaign](http://www.kickstarter.com/projects/eallam/try-ios-iphone-app-development-course/comments) we recently launched. While doing so I noticed some positive comments, one of which attracted my attention more than the others.
 
-![liza’s comment]({{ site.url }}/assets/gender-gravity-lizas-comment.png)
+![liza’s comment]({{ site.url }}/assets/gender-gravity-lizas_comment.png)
 
 Why? Because:
 
