@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "The Cover Matter"
-original: 2014-12-17 21:20
-date: 2020-01-01 21:20
+title: "The Cover Matters"
+date: 2014-12-17 21:20
+update: 2023-02-05 20:19
 location: "Over the Atlantic"
 categories: life
-draft: true
+draft: false
 ---
 
 > You can't judge a book by its cover
@@ -123,3 +123,11 @@ music, restaurants, programming language communities, and even people.
 It's true that I've discovered bad books with great covers, but unless
 I'm letting confirmation bias get the best of me, I've had more lucky
 strikes than bad apples.
+
+PS: Skeptics of this conclusion may delight in the fact that for whatever 
+reason, a few after I started working with the CPA I mention in this post, 
+they entirely ghosted me. I'm not sure if they went under, had an influx 
+of much more profitable clients, a huge technical issue, or if something 
+else happened. So my little anecdote took a hit. While I know some beautiful 
+covers might hide nastiness, that doesn't completely change my point of 
+view on the signal that a well-crafted one sends.
