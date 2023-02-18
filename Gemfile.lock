@@ -10,7 +10,7 @@ GEM
     coffee-script (2.4.1)
       coffee-script-source
       execjs
-    coffee-script-source (1.9.1.1)
+    coffee-script-source (1.12.2)
     colorator (1.1.0)
     concurrent-ruby (1.2.0)
     em-websocket (0.5.3)
