@@ -42,37 +42,6 @@ infrastructure in conjunction with our Authorization and Product Catalog teams t
 our system from only being able to handle one content type (video courses) to multiple content
 types (labs, projects, guides, etc).
 
-### Volunteering
-
-In 2020, I volunteered with the [COVID Tracking Project](https://covidtracking.com/) to
-gather data about the COVID-19 outbreak in Florida and [developed tools][ovid] to help
-track the outbreak in Florida and other U.S. states but also to [gather news reports][paperboi]
-early on in the pandemic.
-
-I co-wrote a [small white paper on Florida data issues][c19blog] with Rebecca Glassman and
-talked about my experience as a programmer in RubyConf talk called [Tracking COVID-19 with Ruby][c19talk].
-
-In the process I worked with many local Florida journalists to try and help them understand
-the counter-intuitive complexities of
-
-[c19blog]: https://covidtracking.com/analysis-updates/florida-covid-19-data
-[c19talk]: /talks/tracking-covid-19-with-ruby/
-[ovid]: https://github.com/olivierlacan/ovid
-[paperboi]: https://github.com/olivierlacan/paperboi
-
-### Open Source
-
-I've created the Shields metadata [badges](http://shields.io) that
-you can now find in [open source repositories][gh-shields] all over to
-succinctly display whether tests are passing or failing, if dependencies
-are out of date, or if code is well-documented or not.
-
-[gh-shields]: https://github.com/search?utf8=✓&q=https%3A%2F%2Fimg.shields.io%2F&type=Code
-
-I wrote [Keep a Changelog](http://keepachangelog.com) to give fellow
-software developers clearer guidelines on how to provide
-human-friendly release notes for their software.
-
 ### Public Speaking
 
 I've spoken at multiple conferences around the world on topics like

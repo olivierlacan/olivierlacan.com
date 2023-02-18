@@ -68,7 +68,7 @@ manifest:
 collections: 
   talks:
     output: true
-  works:
+  work:
     output: true
   orlando:
     output: true
