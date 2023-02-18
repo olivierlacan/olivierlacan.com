@@ -11,7 +11,6 @@ gem "pry" # weirdly required by jekyll, guess they don't know about gemspecs...
 gem "rubypants"
 gem "coffee-script"
 gem "sassc"
-gem "html-proofer"
 gem "pygments.rb"
 gem "kramdown-parser-gfm" # apparently required now
 
