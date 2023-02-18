@@ -56,7 +56,7 @@ plugins:
   - jekyll-gist
   - jekyll-redirect-from
   - pry
-  - jekyll-haml
+  - jekyll-haml-markup
 
 manifest:
   name: Olivier Lacan

@@ -18,7 +18,7 @@ group :jekyll_plugins do
   # gem 'jekyll-admin'
   gem "jekyll-gist"
   gem "jekyll-redirect-from"
-  gem "jekyll-haml"
+  gem "jekyll-haml-markup"
 end
 
 group :development do

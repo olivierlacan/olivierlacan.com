@@ -24,7 +24,7 @@ GEM
     faraday-net_http (3.0.2)
     ffi (1.15.5)
     forwardable-extended (2.6.0)
-    haml (5.0.4)
+    haml (5.2.2)
       temple (>= 0.8.0)
       tilt
     http_parser.rb (0.8.0)
@@ -45,9 +45,9 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
-    jekyll-haml (0.1.6)
-      haml (>= 3.0.0)
-      jekyll (>= 3.3.0)
+    jekyll-haml-markup (0.1.6)
+      haml (~> 5.0, >= 5.0.0)
+      jekyll (>= 3.0, < 5.0)
     jekyll-redirect-from (0.13.0)
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
@@ -143,7 +143,7 @@ DEPENDENCIES
   coffee-script
   jekyll (~> 3.9.0)
   jekyll-gist
-  jekyll-haml
+  jekyll-haml-markup
   jekyll-redirect-from
   kramdown-parser-gfm
   pry
@@ -160,4 +160,4 @@ RUBY VERSION
    ruby 3.2.1p31
 
 BUNDLED WITH
-   2.1.4
+   2.4.7
