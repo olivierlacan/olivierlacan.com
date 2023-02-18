@@ -64,3 +64,13 @@ manifest:
   lang: en
   background_color: #ffffff
   display: standalone
+
+collections: 
+  talks:
+    output: true
+  works:
+    output: true
+  orlando:
+    output: true
+  tools:
+    output: true
