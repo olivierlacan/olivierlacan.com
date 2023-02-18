@@ -1,4 +1,4 @@
-_site
+_site*
 _cache
 .bundle
 .DS_Store
