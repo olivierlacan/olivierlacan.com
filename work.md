@@ -34,8 +34,9 @@ early on in the pandemic.
 I co-wrote a [small white paper on Florida data issues][c19blog] with Rebecca Glassman and
 talked about my experience as a programmer in RubyConf talk called [Tracking COVID-19 with Ruby][c19talk].
 
-In the process I worked with many local Florida journalists to try and help them understand
-the counter-intuitive complexities of
+In the process I worked with several Florida journalists to help them 
+understand the complexities of COVID-19 data released by the Florida 
+Department of Health.
 
 [c19blog]: https://covidtracking.com/analysis-updates/florida-covid-19-data
 [c19talk]: /talks/tracking-covid-19-with-ruby/
