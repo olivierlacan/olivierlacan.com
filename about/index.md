@@ -29,15 +29,24 @@ large and small web applications as a {{ currentTitle }}.
 
 ### Work
 
-I've built and maintained [Code School](https://www.codeschool.com) between 2012 and 2018.
-Code School was acquired by [Pluralsight](https://pluralsight.com) in 2015 and I led a large
+I've built and maintained [Code School][cs] between 2012 and 2018.
+Code School was acquired by [Pluralsight][ps] in 2015 and I led a large
 migration of Code School customers to Pluralsight in 2018.
 
-I've written and developed several interactive [Code School courses](/work#code-school). Recently, I
-authored a high-level Ruby on Rails course for Pluralsight.
+I've written and developed several interactive 
+[Code School courses][csc]. I authored a high-level 
+Ruby on Rails course for Pluralsight called 
+[Ruby on Rails: The Big Picture][rorbp].
 
-I've worked on bringing interactive hands-on content at Pluralsight with [Projects](/work#projects):
-a task-focused way to learn how to bridge the gap between theoretical technology knowledge and practical usage.
+I've also worked on bringing interactive hands-on content at Pluralsight with 
+[Projects](/work#projects): a task-focused way to learn how to bridge 
+the gap between theoretical technology knowledge and practical usage.
+
+[cs]: /work/code-school/
+[ps]: https://pluralsight.com
+[pj]: /work/pluralsight/#projects
+[csc]: /work/code-school/
+[rorbp]: /work/ruby-on-rails-the-big-picture
 
 At Pluralsight, I worked as a tech lead on a team which developed a new multi-content-type
 infrastructure in conjunction with our Authorization and Product Catalog teams to migrate
@@ -50,7 +59,9 @@ I've spoken at multiple conferences around the world on topics like
 Science-driven Development, contributing to open source, Ruby on Rails,
 and information security. You can find my published talks [here](/talks).
 
-I also used to co-host the Ruby5 podcast and [other podcasts](/work#podcasting).
+In the past, I co-hosted the Ruby5 podcast for several years, created 
+and hosted Ruby Facets and appeared as a guest and panelist in several 
+podcasts.
 
 ## Get in touch
 
