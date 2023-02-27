@@ -8,10 +8,12 @@ title: About me
 {% assign nowYear = 'now' | date: '%Y' %}
 {% assign websitesYears = nowYear | minus: startWebsites %}
 {% assign programmingYears = nowYear | minus: startProgramming %}
+{% assign avatar = "https://en.gravatar.com/userimage/4041830/23a43fd150e4f6d6b16a5781bc2532ca.jpg" %}
+{% assign currentTitle = "Principal Software Engineer" %}
 
 <figure id="mug">
-  <a href="https://en.gravatar.com/userimage/4041830/af45b0fc14ad6281b6878cb3d6ee64f6.jpeg?size=2048" title="Download a huge version of my face to see if you can figure out where I took this brazen selfie just by looking at the reflection in my eyeballs.">
-    <img src ="https://en.gravatar.com/userimage/4041830/af45b0fc14ad6281b6878cb3d6ee64f6.jpg?size=300" alt="Portrait of Olivier Lacan"/>
+  <a href="{{ avatar }}?size=1760" title="Download large version of this portrait photo">
+    <img src ="{{ avatar }}?size=300" alt="Portrait of Olivier Lacan"/>
   </a>
   <figcaption>Yep, that's me. &#10548;</figcaption>
 </figure>
@@ -23,7 +25,7 @@ Frenchness (Paris-born & raised), my favorite languages are English and
 [Ruby](http://tryruby.org).
 
 I spend most of my time building and maintaining
-large and small web applications.
+large and small web applications as a {{ currentTitle }}.
 
 ### Work
 
