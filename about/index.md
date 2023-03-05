@@ -53,6 +53,8 @@ infrastructure in conjunction with our Authorization and Product Catalog teams t
 our system from only being able to handle one content type (video courses) to multiple content
 types (labs, projects, guides, etc).
 
+You can find [more about my work here](/work).
+
 ### Public Speaking
 
 I've spoken at multiple conferences around the world on topics like
