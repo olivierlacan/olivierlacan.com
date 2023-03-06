@@ -69,10 +69,23 @@ Keep a Changelog is used by [over 50,000 projects on GitHub alone][kac].
 
 [kac]: https://github.com/search?q=%22format+is+based+on+%5BKeep+a+Changelog%5D%28https%3A%2F%2Fkeepachangelog.com%2Fen%22&type=code&ref=advsearch
 
+#### Ruby
+
+I [proposed a new system][hash] to check whether Ruby hashes (dictionaries or 
+hash maps) contain other hashes or subsets of those hashes. 
+
+This [official proposal][rop] was eventually converted as a new set of 
+comparison operators (`Hash#<=`, `Hash#<`, `Hash#>=`, `Hash#>`) in [Ruby 2.3][ruby2-3].
+
+[hash]: https://olivierlacan.com/posts/proposal-for-a-better-ruby-hash-include/
+[rop]: https://bugs.ruby-lang.org/issues/10984
+[ruby-2-3]: https://github.com/ruby/ruby/blob/v2_3_0/NEWS
+
+
 #### Ruby on Rails
 
 As a regular contributor, I've made small but impactful improvements 
-to Rails [database logging][vql], [error feedback mechanisms], and 
+to Rails [database logging][vql], [error feedback mechanisms][errors], and 
 [implicit model linking logic][ltm].
 
 [errors]: https://github.com/rails/rails/pull/46342
