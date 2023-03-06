@@ -18,42 +18,61 @@ title: About me
   <figcaption>Yep, that's me. &#10548;</figcaption>
 </figure>
 
-I've been creating websites for over {{ websitesYears }} years
-and I've evolved into a more backend focused software developer during
-the last {{ programmingYears }} years. Despite my unescapable
+I've been building web sites and applications for over {{ websitesYears }} years. 
+Over the past {{ programmingYears }} years, I've evolved into a 
+backend-focused software engineer. I care deeply about creating 
+sustainable software: in the way it's designed and built, but crucially 
+in the possibilities the software itself enables. I build software for 
+people, most crucially for people who seek to improve our 
+anthropogenically-endangered ecosystem and address climate change today, 
+not tomorrow.  
+
+Despite my unescapable
 Frenchness (Paris-born & raised), my favorite languages are English and
-[Ruby](http://tryruby.org).
+[Ruby](https://try.ruby-lang.org).
 
 I spend most of my time building and maintaining
 large and small web applications as a {{ currentTitle }}.
 
 ### Work
 
-I've built and maintained [Code School][cs] between 2012 and 2018.
-Code School was acquired by [Pluralsight][ps] in 2015 and I led a large
-migration of Code School customers to Pluralsight in 2018.
+I was an early member of the platform team that built and maintained 
+[Code School][cs] between 2012 and 2018. I Code School's migration into 
+[Pluralsight][ps] in 2018 after it was acquired. Since then, I've developed 
+new [hands-on learning experiences][pj] (for learners & authors) at 
+Pluralsight, overhauled its [content pipeline to make it support 
+unlimited content types][cl], and worked on next-generation multi-modal 
+immersive technology education.
 
-I've written and developed several interactive 
-[Code School courses][csc]. I authored a high-level 
-Ruby on Rails course for Pluralsight called 
-[Ruby on Rails: The Big Picture][rorbp].
-
-I've also worked on bringing interactive hands-on content at Pluralsight with 
-[Projects](/work#projects): a task-focused way to learn how to bridge 
-the gap between theoretical technology knowledge and practical usage.
+As a technology educator, I've written and developed several interactive 
+[Code School courses][csc]. Most notably, I authored a free 
+[Try Git course][trygit] in collaboration with GitHub to teach the basics 
+of git in 15 minutes. Recently I released a high-level Ruby on Rails 
+course on Pluralsight called [Ruby on Rails: The Big Picture][rorbp].
 
 [cs]: /work/code-school/
 [ps]: https://pluralsight.com
 [pj]: /work/pluralsight/#projects
 [csc]: /work/code-school/
 [rorbp]: /work/ruby-on-rails-the-big-picture
-
-At Pluralsight, I worked as a tech lead on a team which developed a new multi-content-type
-infrastructure in conjunction with our Authorization and Product Catalog teams to migrate
-our system from only being able to handle one content type (video courses) to multiple content
-types (labs, projects, guides, etc).
+[cl]: /work/pluralsight/#content-libraries
 
 You can find [more about my work here](/work).
+
+### Open Source
+
+I've contributed to both the Ruby programming language and the Ruby 
+on Rails web development framework.
+
+I also created the Shields metadata badge project which is used by 
+countless open source projects around the world.
+
+In order to provide better guidance to software maintainers on how to 
+communicate about releases, I wrote a set of helpful guidelines and 
+examples in [Keep a Changelog][kac] which has been translated in over 
+26 languages by contributors since it was first released in 2015. 
+
+[kac]: https://keepachangelog.com/
 
 ### Public Speaking
 
