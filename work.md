@@ -79,7 +79,7 @@ comparison operators (`Hash#<=`, `Hash#<`, `Hash#>=`, `Hash#>`) in [Ruby 2.3][ru
 
 [hash]: https://olivierlacan.com/posts/proposal-for-a-better-ruby-hash-include/
 [rop]: https://bugs.ruby-lang.org/issues/10984
-[ruby-2-3]: https://github.com/ruby/ruby/blob/v2_3_0/NEWS
+[ruby2-3]: https://github.com/ruby/ruby/blob/v2_3_0/NEWS
 
 
 #### Ruby on Rails
