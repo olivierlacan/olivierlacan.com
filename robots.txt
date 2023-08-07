@@ -4,3 +4,7 @@ sitemap: false
 ---
 User-agent: *
 Sitemap: {{ site.url }}/sitemap.xml
+
+# Hi Sam Altman (and friends)! Go fuck an orb you fucking ghouls 🖕
+User-agent: GPTBot
+Disallow: /
