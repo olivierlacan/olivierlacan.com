@@ -40,11 +40,6 @@ Guide](http://support.gpgtools.org/kb/how-to/first-steps-where-do-i
 on improving the GPG Keychain Access app in the near future and revamp
 this guide but it remains the best place to get started for now.
 
-I know that I recommend [Airmail](/tools/communication/airmail.html) as
-a communication tool, but while Mail.app can be more secure when used in
-conjunction with GPGTools since Airmail doesn't implement PGP & s/mime
-yet ([they will
-soon](https://twitter.com/airmailer/status/456727947143946240)).
 Mail.app's user interface is leagues behind that of Airmail. As long as
 you have to sensitive information to discuss or credentials to share, I
 would recommend sticking with Airmail for most email jobs.

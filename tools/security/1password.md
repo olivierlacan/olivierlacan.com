@@ -13,7 +13,7 @@ one of your accounts.
 
 And if a website's secure database is breached (a common occurence of
 late), you won't care anymore. 1Password generates unique passwords,
-which means a third-party obtaining your Twitter password doesn't put
+which means a third-party obtaining your social media passwords doesn't put
 any other one of your accounts at risk.
 
 Since you don't want to open 1Password every time you need to use a
