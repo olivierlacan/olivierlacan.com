@@ -2,16 +2,21 @@
 layout: post
 title: "The $PATH to Enlightenment"
 original: 2014-04-17 13:23
-date: 2020-01-01 13:23
 date: 2025-02-15 01:28
 categories: development
-draft: true
+summary: It's easier to work when you understand how computers find things.
 ---
 
-*Chers francophones, l'aimable Pierre Choffé a 
-[traduit cet article en français sur son blog La Cascade][cascade].*
+**This post is reproduced from an original I authored in 
+[A List Apart on November 4th, 2014][ala]. A decade later it's still so 
+relevant to my daily work on a computer.**
 
+*Pierre Choffé was kind enough to translate it [en français sur son blog La Cascade][cascade].*
+
+[ala]: https://alistapart.com/article/the-path-to-enlightenment/
 [cascade]: https://la-cascade.io/articles/le-path-vers-la-lumiere
+
+---
 
 Contributing to open source software always involves a bit of tedious
 setup. While it often distracts from the end goal (solving problems), the setup
