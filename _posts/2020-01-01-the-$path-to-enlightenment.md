@@ -2,8 +2,9 @@
 layout: post
 title: "The $PATH to Enlightenment"
 original: 2014-04-17 13:23
-date: 2025-02-15 01:28
+date: 2024-12-25 07:00
 categories: development
+location: "Seattle, Washington"
 summary: It's easier to work when you understand how computers find things.
 ---
 
