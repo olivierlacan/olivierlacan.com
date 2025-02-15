@@ -3,9 +3,15 @@ layout: post
 title: "The $PATH to Enlightenment"
 original: 2014-04-17 13:23
 date: 2020-01-01 13:23
+date: 2025-02-15 01:28
 categories: development
 draft: true
 ---
+
+*Chers francophones, l'aimable Pierre Choffé a 
+[traduit cet article en français sur son blog La Cascade][cascade].*
+
+[cascade]: https://la-cascade.io/articles/le-path-vers-la-lumiere
 
 Contributing to open source software always involves a bit of tedious
 setup. While it often distracts from the end goal (solving problems), the setup
