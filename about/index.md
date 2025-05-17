@@ -37,7 +37,7 @@ large and small web applications as a {{ currentTitle }}.
 ### Work
 
 I was an early member of the platform team that built and maintained 
-[Code School][cs] between 2012 and 2018. I Code School's migration into 
+[Code School][cs] between 2012 and 2018. I led Code School's migration into 
 [Pluralsight][ps] in 2018 after it was acquired. Since then, I've developed 
 new [hands-on learning experiences][pj] (for learners & authors) at 
 Pluralsight, overhauled its [content pipeline to make it support 
