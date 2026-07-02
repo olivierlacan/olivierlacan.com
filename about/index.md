@@ -54,7 +54,7 @@ course on Pluralsight called [Ruby on Rails: The Big Picture][rorbp].
 [ps]: https://pluralsight.com
 [pj]: /work/pluralsight/#projects
 [csc]: /work/code-school/
-[rorbp]: /work/ruby-on-rails-the-big-picture
+[rorbp]: https://www.pluralsight.com/courses/ruby-rails-big-picture
 [cl]: /work/pluralsight/#content-libraries
 
 You can find [more about my work here](/work).
@@ -69,8 +69,8 @@ countless open source projects around the world.
 
 In order to provide better guidance to software maintainers on how to 
 communicate about releases, I wrote a set of helpful guidelines and 
-examples in [Keep a Changelog][kac] which has been translated in over 
-26 languages by contributors since it was first released in 2015. 
+examples in [Keep a Changelog][kac] which has been translated into 
+nearly 30 languages by contributors since it was first released in 2015. 
 
 [kac]: https://keepachangelog.com/
 
@@ -86,8 +86,5 @@ podcasts.
 
 ## Get in touch
 
-If you'd like to email me securely you can use my [PGP Key][pgp] (see
-[GPGTools][gpg]) but email and twitter are fine for most cases.
-
-[gpg]: /tools/security/gpgtools
-[pgp]: http://hkps.pool.sks-keyservers.net/pks/lookup?search=hi%40olivierlacan.com&fingerprint=on&op=index
+The best ways to reach me are by [email](mailto:hi@olivierlacan.com) or
+on [Mastodon](https://ruby.social/@olivierlacan).

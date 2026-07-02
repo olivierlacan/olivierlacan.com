@@ -2,19 +2,21 @@
 <html lang="en">
   {% include head.html %}
   <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
     <div class="container">
       <div class="site">
-        <div class="header">
+        <header class="header">
           <h1 class="site-title">
             <a href="/">{{ site.title }}</a>
-            <!-- <span class="site-subtitle">{{ site.subtitle }}</span> -->
           </h1>
           {% include navigation.html %}
-        </div>
+        </header>
+        <main id="main">
             {{ content }}
-        <div class="footer">
-          <p>You can reach me by <a href="mailto:hi@olivierlacan.com">email</a> or on <a href="https://ruby.social/@olivierlacan">Mastodon</a>.</p>
-        </div>
+        </main>
+        <footer class="footer">
+          <p>You can reach me by <a href="mailto:hi@olivierlacan.com">email</a> or on <a rel="me" href="https://ruby.social/@olivierlacan">Mastodon</a>.</p>
+        </footer>
       </div>
     </div> <!-- /container -->
 

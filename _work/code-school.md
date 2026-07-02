@@ -13,7 +13,7 @@ categories: work
 <figure>
   <img src="{{ site.url }}/assets/codeschool-account-page.png" alt="Screenshot of the Code School account dashboard">
   <figcaption>
-    The Code School account dashbord allowed you to track the course you were currently playing, recently earned activity
+    The Code School account dashboard allowed you to track the course you were currently playing, recently earned activity
     or course completion badges, progress on given learning paths, but also find your team dashboard, and other settings.
   </figcaption>
 </figure>

@@ -7,8 +7,8 @@ title: Open Source Software
 #### Hash Comparison Operators (Ruby 2.3)
 I contributed to the improvement of the interface for the [`Hash`][1]
 core Ruby class. This resulted in the creation of new methods to compare
-Ruby hash instances with one another. These new classes were [released
-in Ruby 2.3 on December 25th, 2015][5] and are also also available in more
+Ruby hash instances with one another. These new methods were [released
+in Ruby 2.3 on December 25th, 2015][5] and are also available in more
 recent versions of Ruby.
 
 In [Proposal for a better Ruby Hash#include?][2] I made the case for
@@ -16,7 +16,7 @@ this potential improvement. I later submitted a [proper feature request][3]
 after gathering feedback from fellow Ruby programmers on the idea.
 
 After lengthy discussions and consideration from the Ruby Core Team
-which overseas the development of CRuby (the reference implementation of
+which oversees the development of CRuby (the reference implementation of
 Ruby in the C programming language) the Hash Comparison Operators were
 [merged into Ruby's trunk on November 20th, 2015][4].
 
@@ -30,7 +30,7 @@ Ruby in the C programming language) the Hash Comparison Operators were
 
 As demonstrated in [Better Feedback on Ruby 2.2 Keyword Argument Errors][6]
 the handling of argument errors involving keyword arguments used to be
-inadequate and confusing. I [proposed an improvement][7] to the the
+inadequate and confusing. I [proposed an improvement][7] to the
 Ruby Core Team and implemented a fix which was [applied to Ruby's trunk on
 July 4th, 2017][9] and eventually [released in Ruby 2.5][8] on December 25th, 2017.
 
@@ -48,9 +48,8 @@ queries logged in the Rails console I [contributed][10] a new configuration opti
 enabled by default in the Rails development environment that displays the
 source code file and line that triggered each specific SQL query.
 
-This contribution was accepted and merged into Rails' master branch and will
-be part of the stable release of Rails 5.2. Meanwhile it's available as in
-[Rails 5.2 RC1][11] which was released on January 30th, 2018.
+This contribution was accepted and merged into Rails' master branch and
+shipped in the stable release of [Rails 5.2][11] in April 2018.
 
 [10]: https://github.com/rails/rails/pull/26815
 [11]: http://weblog.rubyonrails.org/2018/1/30/Rails-5-2-RC1-Active-Storage-Redis-Cache-Store-HTTP2-Early-Hints-Credentials/
@@ -71,17 +70,17 @@ with it), we now have an [awesome API](http://shields.io/) that can
 
 #### [Keep a Changelog](http://keepachangelog.com)
 
-One fatelul day in May 2014 I decided I'd had enough trying to decipher
+One fateful day in May 2014 I decided I'd had enough trying to decipher
 the Git commits from one of my application's dependencies. The
 dependency in question wasn't some obscure repository. It was something
 likely used by thousands of people, and yet it didn't have a proper
-CHANGELOG to speak off. Instead the maintainers did a git log diff
+CHANGELOG to speak of. Instead the maintainers did a git log diff
 between two version tags and dropped that into something they called a
 "CHANGELOG".
 
 That wasn't a CHANGELOG. A CHANGELOG is a thing for humans who already
 know how to make a git log diff if they need to. But they don't want to
-because git log diff are utterly useless to understand what has changed
+because git log diffs are utterly useless to understand what has changed
 in a release at a high level. This frustration led me to write down what
 I believe are guidelines for a human-friendly CHANGELOG.
 
@@ -94,7 +93,7 @@ Company traditions, vacation policies, customer support practices, etc.
 
 Orientation was born out of the desire to concentrate as much knowledge
 as possible in a single point of entry that did not create interruptions
-for our small team, allowing us to remain as focus as possible;
+for our small team, allowing us to remain as focused as possible;
 collaborating when it's necessary and not to answer a single question.
 
 People can start with Orientation — as developers do with Stack Overflow
@@ -103,7 +102,7 @@ easy enough for anyone to participate in: creating a new article to ask
 a question to be answered should be the easiest thing in the world — and
 become a URL anyone can later benefit from.
 
-This busts information sillos, avoids interruptions, and reduces the
+This busts information silos, avoids interruptions, and reduces the
 likelihood that questions will go unanswered because one person is in a
 meeting, on vacation, or left the company with the answer.
 

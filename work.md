@@ -51,11 +51,14 @@ I started the [Shields metadata badge](http://shields.io) project that
 you can now find in [open source repositories][gh-shields] all over. 
 Shields badges are dynamically generated and display at-a-glance 
 information about a project. For example whether tests are passing or 
-failing, if dependencies are out of date, or how what percentage of the 
+failing, if dependencies are out of date, or what percentage of the 
 source code is documented.
 
-Shields is now maintained without my involvment and has been wildly 
-successful, [reaching millions of users][gh-shields].
+Shields is now maintained without my involvement and has been wildly 
+successful: it [serves over 1.6 billion badge images per month][shields-repo] 
+and is used by [millions of open source projects][gh-shields].
+
+[shields-repo]: https://github.com/badges/shields
 
 [gh-shields]: https://github.com/search?q=%22img.shields.io%2Fbadge%22&type=code
 

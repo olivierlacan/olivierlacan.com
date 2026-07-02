@@ -14,7 +14,7 @@ Throughout my tenure at Pluralsight, I've focused on three major areas:
 
 <summary>Multi-modal content packaging and platform-wide automation</summary>
 
-After Pluralsight acquired and developed several new experience which offered
+After Pluralsight acquired and developed several new experiences which offered
 learners different types of content to consume beyond video courses, the team
 where I served as tech lead was tasked with developing a new system in
 conjunction with our Authorization and Product Catalog teams to migrate our
@@ -28,7 +28,7 @@ specific customers from one week to a few minutes.
 This effort was particularly challenging due to the distributed nature of
 systems at Pluralsight but also due to the different needs of stakeholders
 who curate and maintain libraries of content at Pluralsight. We spent several
-weeksk with engineers, our product manager, and product designer carefully
+weeks with engineers, our product manager, and product designer carefully
 documenting the legacy system we were bound to replace, interviewing all
 current and potential future stakeholders.
 
