@@ -7,6 +7,7 @@
                 anchor.setAttribute("href", '#' + id);
                 anchor.classList.add("anchor");
                 anchor.setAttribute("aria-hidden", "true");
+                anchor.setAttribute("tabindex", "-1");
 
                 if (id) {
                     element.appendChild(anchor);

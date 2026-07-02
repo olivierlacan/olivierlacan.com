@@ -58,7 +58,7 @@
         border: 1px solid $anthracite
       @media(prefers-color-scheme: light)
         background-color: $inline-code-color-light
-        color: $grey
+        color: $anthracite
         border: 1px solid $lightgrey
 
     [rel=explanation]
@@ -106,9 +106,9 @@ span.reading-time
 
   @media(prefers-color-scheme: dark)
     background-color: $darkgrey
-    color: $slate
+    color: #999
   @media(prefers-color-scheme: light)
-    background-color: $slate
+    background-color: #595959
     color: $white
 
   @media #{$iphone-breakpoint}
@@ -119,15 +119,21 @@ span.reading-time
     font-weight: 700
 
 .meta
-  color: $slate
   float: left
   font-size: 1em
   line-height: 1.3
   margin-top: 0
+  @media(prefers-color-scheme: dark)
+    color: #999
+  @media(prefers-color-scheme: light)
+    color: #595959
   a
     &:link, &:visited, &:hover, &:active
       border: none
-      color: #666
+      @media(prefers-color-scheme: dark)
+        color: #aaa
+      @media(prefers-color-scheme: light)
+        color: #595959
   @media #{$iphone-breakpoint}, #{$ipad-breakpoint}
     font-size: 2em
     font-weight: 700
@@ -172,7 +178,7 @@ figure.audio figcaption
   display: block
   clear: both
 
-  &:afer
+  &:after
     width: 100%
     display: block
     clear: both

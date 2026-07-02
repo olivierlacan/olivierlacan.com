@@ -19,7 +19,7 @@ title: Work
   {% for work in site.work reversed %}
   <li>
     <a href="{{ work.url }}">{{ work.title }}</a>
-    <time>{{ work.date | date: '%B %Y' }} - {{ work.end | date: '%B %Y' | default: "Today" }}</time>
+    <time datetime="{{ work.date | date: '%Y-%m' }}">{{ work.date | date: '%B %Y' }}</time> - {% if work.end %}<time datetime="{{ work.end | date: '%Y-%m' }}">{{ work.end | date: '%B %Y' }}</time>{% else %}Today{% endif %}
   </li>
   {% endfor %}
 </ul>

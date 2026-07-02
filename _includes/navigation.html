@@ -1,9 +1,9 @@
 <nav aria-label="Site">
     <ul>
-      <li><a href="/">posts</a></li>
-      <li><a href="/work">work</a></li>
-      <li><a href="/talks">talks</a></li>
+      <li><a {% if page.url == "/" %}aria-current="page"{% endif %} href="/">posts</a></li>
+      <li><a {% if page.url contains "/work" %}aria-current="page"{% endif %} href="/work">work</a></li>
+      <li><a {% if page.url contains "/talks" %}aria-current="page"{% endif %} href="/talks">talks</a></li>
       <!-- <li><a href="/tools">tools</a></li> -->
-      <li><a class="extra" href="/about/"><span>about</span></a></li>
+      <li><a class="extra" {% if page.url contains "/about" %}aria-current="page"{% endif %} href="/about/"><span>about</span></a></li>
     </ul>
   </nav>

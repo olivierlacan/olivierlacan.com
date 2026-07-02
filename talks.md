@@ -14,7 +14,7 @@ title: Talks
   {% for talk in site.talks reversed %}
   <li>
     <a href="{{ talk.url }}">{{ talk.title }}</a> - {{ talk.venue }}
-     <time>{{ talk.date | date_to_string }}</time>
+     <time datetime="{{ talk.date | date: '%Y-%m-%d' }}">{{ talk.date | date_to_string }}</time>
   </li>
   {% endfor %}
 </ul>

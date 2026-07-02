@@ -62,8 +62,10 @@ body
   font-size: 115%
   font-weight: 300
   text-align: left
-  width: 44em
+  width: auto
+  max-width: 44em
   margin: 3em auto 2em
+  padding: 0 1.5em
   line-height: 1.5em
 
   @media #{$iphone-breakpoint}
@@ -98,7 +100,7 @@ body
         font-style: italic
         font-weight: 300
 
-        &:hover:after
+        &:hover:after, &:focus-visible:after
           content: " ← home"
           font-size: 0.6em
 
@@ -106,7 +108,7 @@ body
             color: $lightgrey
 
           @media(prefers-color-scheme: light)
-            color: $grey
+            color: #595959
 
         @media #{$iphone-breakpoint}
           font-weight: 400
@@ -254,7 +256,7 @@ body
       color: $lightgrey
       border-top: 1px solid $anthracite
     @media(prefers-color-scheme: light)
-      color: $slate
+      color: #595959
       border-top: 1px solid $lightgrey
 
     @media #{$ipad-breakpoint}
@@ -267,19 +269,7 @@ body
       padding-bottom: 3em
       margin-bottom: 3em
 
-    .contact
-      float: left
-      margin-right: 3em
-      a
-        color: #8085C1
-    .rss
-      margin-top: 1.1em
-      margin-right: -0.2em
-      float: right
-      img
-        border: 0
-
-.header + div
+.header + main
   clear: both
   margin-top: .1em
 
@@ -288,7 +278,7 @@ body
   margin-top: .5em
   margin-bottom: .5em
 
-.site > div
+.site > main
   h2, h3, h4, h5
     margin-left: -0.5em
 
