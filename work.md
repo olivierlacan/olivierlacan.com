@@ -26,22 +26,39 @@ title: Work
 
 ### Volunteering
 
-In 2020, I volunteered with the [COVID Tracking Project](https://covidtracking.com/) to
-gather data about the COVID-19 outbreak in Florida and [developed tools][ovid] to help
-track the outbreak in Florida and other U.S. states but also to [gather news reports][paperboi]
-early on in the pandemic.
+#### COVID Tracking Project
 
-I co-wrote a [small white paper on Florida data issues][c19blog] with Rebecca Glassman and
-talked about my experience as a programmer in RubyConf talk called [Tracking COVID-19 with Ruby][c19talk].
-
-In the process I worked with several Florida journalists to help them 
-understand the complexities of COVID-19 data released by the Florida 
+Starting in March 2020, I was one of the many volunteers behind the
+[COVID Tracking Project](https://covidtracking.com/), where I focused on
+gathering and interpreting the COVID-19 data published by the Florida
 Department of Health.
+
+To support the project's data entry work, I built [ovid][ovid], a small
+web tool that turned the raw JSON feeds behind state health department
+dashboards — Florida's in particular — into the high-level aggregate
+counts volunteers recorded, rather than relying on error-prone
+screen-scraping. I also built [paperboi][paperboi], which collected
+recent COVID-19 news reports organized by U.S. state or territory, to
+help keep up with fast-moving local reporting early in the pandemic.
+
+In July 2020, I co-wrote [Florida's COVID-19 Data: What We Know, What's
+Wrong, and What's Missing][c19blog] with public health researcher
+Rebecca Glassman, documenting gaps in Florida's public reporting — most
+notably the state's failure at the time to publish how many people were
+currently hospitalized with COVID-19.
+
+Along the way I spoke with several Florida journalists to help them
+understand the complexities of the state's data, including an
+[interview with FOX 35 Orlando][fox35] about missing hospitalization
+data and the trust that comes from transparent public reporting. I later
+shared what I learned as a programmer in a RubyConf 2020 talk,
+[Tracking COVID-19 with Ruby][c19talk].
 
 [c19blog]: https://covidtracking.com/analysis-updates/florida-covid-19-data
 [c19talk]: /talks/tracking-covid-19-with-ruby/
 [ovid]: https://github.com/olivierlacan/ovid
 [paperboi]: https://github.com/olivierlacan/paperboi
+[fox35]: https://www.fox35orlando.com/news/covid-tracking-project-a-lot-of-florida-covid-19-data-is-still-missing
 
 ### Open Source
 

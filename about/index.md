@@ -57,7 +57,12 @@ course on Pluralsight called [Ruby on Rails: The Big Picture][rorbp].
 [rorbp]: https://www.pluralsight.com/courses/ruby-rails-big-picture
 [cl]: /work/pluralsight/#content-libraries
 
-You can find [more about my work here](/work).
+Outside of my day job, I volunteered with the
+[COVID Tracking Project](https://covidtracking.com/) in 2020, gathering
+and interpreting Florida's COVID-19 data and building small tools to
+support the project's data entry work.
+
+You can find [more about my work here](/work#volunteering).
 
 ### Open Source
 
